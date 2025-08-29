@@ -36,7 +36,7 @@ export async function addStay(req, res) {
 		price: body.price
 	}
 	try {
-		stay.owner = loggedinUser
+		stay.host = loggedinUser
 		const addedStay = await stayService.add(stay)
 		res.json(addedStay)
 	} catch (err) {
@@ -49,7 +49,7 @@ export async function updateStay(req, res) {
 	const { loggedinUser, body: stay } = req
     const { _id: userId, isAdmin } = loggedinUser
 
-    if(!isAdmin && stay.owner._id !== userId) {
+    if(!isAdmin && stay.host._id !== userId) {
         res.status(403).send('Not your stay...')
         return
     }
@@ -70,6 +70,8 @@ export async function removeStay(req, res) {
 
 		res.send(removedId)
 	} catch (err) {
+		console.log(req.params.id);
+		
 		logger.error('Failed to remove stay', err)
 		res.status(400).send({ err: 'Failed to remove stay' })
 	}

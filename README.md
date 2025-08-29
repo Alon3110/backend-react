@@ -62,7 +62,7 @@ middlewares/
 {
   name: String,
   price: Number,
-  owner: { type: ObjectId, ref: 'User' },
+  host: { type: ObjectId, ref: 'User' },
   msgs: [{
     id: String,
     txt: String,
@@ -77,7 +77,6 @@ middlewares/
   username: String,
   password: String,
   fullname: String,
-  score: Number,
   isAdmin: Boolean
 }
 ```

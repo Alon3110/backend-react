@@ -211,3 +211,143 @@
 29.8.2025, 15:43:04 - INFO - /api/stay | GET | {"fullname":"sos","username":"alon","password":"alon"} | {} | 68b1a04b78306dc5eb5a1f6f
 29.8.2025, 15:44:03 - INFO - /api/stay | POST | {"name":"sos","price":14} | {} | 68b1a04b78306dc5eb5a1f6f
 29.8.2025, 15:44:09 - INFO - /api/stay | GET | {"name":"sos","price":14} | {} | 68b1a04b78306dc5eb5a1f6f
+29.8.2025, 15:54:59 - INFO - Server is running on port: 3030
+29.8.2025, 15:55:08 - INFO - /api/stay | GET | {"vendor":"sos","speed":14} | {} | 68b1a04b78306dc5eb5a1f6f
+29.8.2025, 15:56:21 - INFO - /api/stay | POST | {"name":"barcelona","price":12} | {} | 68b1a04b78306dc5eb5a1f6f
+29.8.2025, 15:56:42 - INFO - Server is running on port: 3030
+29.8.2025, 15:56:47 - INFO - /api/stay | GET | {"name":"barcelona","price":12} | {} | 68b1a04b78306dc5eb5a1f6f
+29.8.2025, 15:57:04 - ERROR - cannot remove stay 68b1a37536e6fd8d96c18a68 | Not your stay | 68b1a04b78306dc5eb5a1f6f
+29.8.2025, 15:57:04 - ERROR - Failed to remove stay | Not your stay | 68b1a04b78306dc5eb5a1f6f
+29.8.2025, 15:58:03 - INFO - Server is running on port: 3030
+29.8.2025, 15:58:03 - INFO - Server is running on port: 3030
+29.8.2025, 15:58:06 - INFO - Server is running on port: 3030
+29.8.2025, 15:58:08 - INFO - Server is running on port: 3030
+29.8.2025, 15:58:10 - INFO - Server is running on port: 3030
+29.8.2025, 15:58:51 - INFO - Server is running on port: 3030
+29.8.2025, 15:58:55 - INFO - Server is running on port: 3030
+29.8.2025, 15:59:00 - ERROR - cannot remove stay 68b1a37536e6fd8d96c18a68 | Not your stay | 68b1a04b78306dc5eb5a1f6f
+29.8.2025, 15:59:00 - ERROR - Failed to remove stay | Not your stay | 68b1a04b78306dc5eb5a1f6f
+29.8.2025, 16:05:34 - INFO - Server is running on port: 3030
+29.8.2025, 16:05:40 - INFO - Server is running on port: 3030
+29.8.2025, 16:09:42 - DEBUG - auth.service - signup with username: admin, fullname: admin | 68b1a04b78306dc5eb5a1f6f
+29.8.2025, 16:09:42 - DEBUG - auth.route - new account created: {"username":"admin","password":"$2b$10$snOgyuWfD9TYrsFyzWUxdeQXIEBKPRzEUjnQK8WBuBxyJugkfGSA.","fullname":"admin","isAdmin":true,"score":100,"_id":"68b1a696af177aae560256d8"} | 68b1a04b78306dc5eb5a1f6f
+29.8.2025, 16:09:42 - DEBUG - auth.service - login with username: admin | 68b1a04b78306dc5eb5a1f6f
+29.8.2025, 16:09:42 - INFO - User signup: | {"_id":"68b1a696af177aae560256d8","username":"admin","fullname":"admin","imgUrl":null,"isAdmin":true,"score":100} | 68b1a04b78306dc5eb5a1f6f
+29.8.2025, 16:33:40 - ERROR - Failed to get user | TypeError: Cannot convert undefined or null to object | 68b1a696af177aae560256d8
+29.8.2025, 16:33:40 - ERROR - while finding user by id: 6741d259d9559d50478546a5 | TypeError: Cannot convert undefined or null to object | 68b1a696af177aae560256d8
+29.8.2025, 16:38:51 - DEBUG - auth.service - signup with username: test, fullname: test | 68b1a696af177aae560256d8
+29.8.2025, 16:38:51 - DEBUG - auth.route - new account created: {"username":"test","password":"$2b$10$4mpeFjiOT3DVl2QK2QH5X.6vuTXUzv6UcXpcU2xi5su3njmbl31Ba","fullname":"test","isAdmin":false,"score":100,"_id":"68b1ad6baf177aae560256d9"} | 68b1a696af177aae560256d8
+29.8.2025, 16:38:51 - DEBUG - auth.service - login with username: test | 68b1a696af177aae560256d8
+29.8.2025, 16:38:51 - INFO - User signup: | {"_id":"68b1ad6baf177aae560256d9","username":"test","fullname":"test","imgUrl":null,"isAdmin":false,"score":100} | 68b1a696af177aae560256d8
+29.8.2025, 16:42:08 - INFO - Server is running on port: 3030
+29.8.2025, 16:42:40 - INFO - Server is running on port: 3030
+29.8.2025, 16:46:21 - INFO - Server is running on port: 3030
+29.8.2025, 16:46:24 - INFO - Server is running on port: 3030
+29.8.2025, 16:46:28 - INFO - Server is running on port: 3030
+29.8.2025, 16:46:31 - INFO - Server is running on port: 3030
+29.8.2025, 16:50:05 - INFO - Server is running on port: 3030
+29.8.2025, 16:53:05 - INFO - Server is running on port: 3030
+29.8.2025, 16:54:00 - INFO - Server is running on port: 3030
+29.8.2025, 16:54:03 - INFO - Server is running on port: 3030
+29.8.2025, 16:54:07 - INFO - Server is running on port: 3030
+29.8.2025, 16:54:14 - INFO - Server is running on port: 3030
+29.8.2025, 17:05:26 - INFO - Server is running on port: 3030
+29.8.2025, 17:05:49 - INFO - Server is running on port: 3030
+29.8.2025, 17:06:11 - INFO - Server is running on port: 3030
+29.8.2025, 17:07:52 - INFO - Server is running on port: 3030
+29.8.2025, 17:07:54 - INFO - Server is running on port: 3030
+29.8.2025, 17:07:58 - INFO - Server is running on port: 3030
+29.8.2025, 17:08:02 - INFO - Server is running on port: 3030
+29.8.2025, 17:08:20 - INFO - Server is running on port: 3030
+29.8.2025, 17:08:34 - INFO - /api/stay | GET | {"username":"test","fullname":"test","isAdmin":false,"password":"test"} | {} | 68b1ad6baf177aae560256d9
+29.8.2025, 17:08:35 - ERROR - Failed to get Mongo collection | MongoParseError: Invalid scheme, expected connection string to start with "mongodb://" or "mongodb+srv://" | 68b1ad6baf177aae560256d9
+29.8.2025, 17:08:35 - ERROR - Cannot Connect to DB | MongoParseError: Invalid scheme, expected connection string to start with "mongodb://" or "mongodb+srv://" | 68b1ad6baf177aae560256d9
+29.8.2025, 17:08:35 - ERROR - Failed to get stays | MongoParseError: Invalid scheme, expected connection string to start with "mongodb://" or "mongodb+srv://" | 68b1ad6baf177aae560256d9
+29.8.2025, 17:08:35 - ERROR - cannot find stays | MongoParseError: Invalid scheme, expected connection string to start with "mongodb://" or "mongodb+srv://" | 68b1ad6baf177aae560256d9
+29.8.2025, 17:09:26 - ERROR - Cannot Connect to DB | MongoParseError: Invalid scheme, expected connection string to start with "mongodb://" or "mongodb+srv://" | 68b1ad6baf177aae560256d9
+29.8.2025, 17:09:26 - ERROR - Failed to get Mongo collection | MongoParseError: Invalid scheme, expected connection string to start with "mongodb://" or "mongodb+srv://" | 68b1ad6baf177aae560256d9
+29.8.2025, 17:09:26 - ERROR - Failed to get users | MongoParseError: Invalid scheme, expected connection string to start with "mongodb://" or "mongodb+srv://" | 68b1ad6baf177aae560256d9
+29.8.2025, 17:09:26 - ERROR - cannot find users | MongoParseError: Invalid scheme, expected connection string to start with "mongodb://" or "mongodb+srv://" | 68b1ad6baf177aae560256d9
+29.8.2025, 17:09:34 - INFO - Server is running on port: 3030
+29.8.2025, 17:09:45 - INFO - Server is running on port: 3030
+29.8.2025, 17:10:41 - DEBUG - auth.service - signup with username: sam, fullname: sam | 68b1ad6baf177aae560256d9
+29.8.2025, 17:10:41 - DEBUG - auth.route - new account created: {"username":"sam","password":"$2b$10$IsvRhgJGnFIuU3NTyC1NzeTWrcSmb0pR3RK5.cW5TJWVswcB2K/Ze","fullname":"sam","isAdmin":false,"score":100,"_id":"68b1b4e122aa2a3ae5777828"} | 68b1ad6baf177aae560256d9
+29.8.2025, 17:10:41 - DEBUG - auth.service - login with username: sam | 68b1ad6baf177aae560256d9
+29.8.2025, 17:10:41 - INFO - User signup: | {"_id":"68b1b4e122aa2a3ae5777828","username":"sam","fullname":"sam","imgUrl":null,"isAdmin":false,"score":100} | 68b1ad6baf177aae560256d9
+29.8.2025, 17:12:16 - INFO - /api/stay | GET | {"username":"sam","fullname":"sam","isAdmin":false,"password":"sam"} | {} | 68b1b4e122aa2a3ae5777828
+29.8.2025, 17:17:00 - DEBUG - auth.service - signup with username: now, fullname: now | 68b1b4e122aa2a3ae5777828
+29.8.2025, 17:17:00 - DEBUG - auth.route - new account created: {"username":"now","password":"$2b$10$aPcNoIz/mhUMMXelcTYZlelLjKz51z8CcmVTbm4lQYnZsgp1DYkmy","fullname":"now","isAdmin":false,"score":100,"_id":"68b1b65c22aa2a3ae5777829"} | 68b1b4e122aa2a3ae5777828
+29.8.2025, 17:17:00 - DEBUG - auth.service - login with username: now | 68b1b4e122aa2a3ae5777828
+29.8.2025, 17:17:00 - INFO - User signup: | {"_id":"68b1b65c22aa2a3ae5777829","username":"now","fullname":"now","imgUrl":null,"isAdmin":false,"score":100} | 68b1b4e122aa2a3ae5777828
+29.8.2025, 17:22:33 - DEBUG - auth.service - signup with username: whn, fullname: whn | 68b1b65c22aa2a3ae5777829
+29.8.2025, 17:22:33 - DEBUG - auth.route - new account created: {"username":"whn","password":"$2b$10$Iz07PI.6GZYpnN946wPw8em8rHop/dWepCc86S6JQMqjXZthiBHci","fullname":"whn","isAdmin":false,"score":100,"_id":"68b1b7a922aa2a3ae577782a"} | 68b1b65c22aa2a3ae5777829
+29.8.2025, 17:22:33 - DEBUG - auth.service - login with username: whn | 68b1b65c22aa2a3ae5777829
+29.8.2025, 17:22:33 - INFO - User signup: | {"_id":"68b1b7a922aa2a3ae577782a","username":"whn","fullname":"whn","imgUrl":null,"isAdmin":false,"score":100} | 68b1b65c22aa2a3ae5777829
+29.8.2025, 17:22:47 - ERROR - Failed to get users | TypeError: user._id.getTimestamp is not a function | 68b1b7a922aa2a3ae577782a
+29.8.2025, 17:22:47 - ERROR - cannot find users | TypeError: user._id.getTimestamp is not a function | 68b1b7a922aa2a3ae577782a
+29.8.2025, 17:23:21 - ERROR - cannot find users | TypeError: user._id.getTimestamp is not a function | 68b1b7a922aa2a3ae577782a
+29.8.2025, 17:23:21 - ERROR - Failed to get users | TypeError: user._id.getTimestamp is not a function | 68b1b7a922aa2a3ae577782a
+29.8.2025, 17:28:23 - INFO - Server is running on port: 3030
+29.8.2025, 17:28:26 - INFO - Server is running on port: 3030
+29.8.2025, 17:28:30 - INFO - Server is running on port: 3030
+29.8.2025, 17:28:39 - INFO - Server is running on port: 3030
+29.8.2025, 17:28:42 - INFO - Server is running on port: 3030
+29.8.2025, 17:28:47 - INFO - Server is running on port: 3030
+29.8.2025, 17:29:10 - INFO - Server is running on port: 3030
+29.8.2025, 17:29:13 - INFO - Server is running on port: 3030
+29.8.2025, 17:30:18 - DEBUG - auth.service - signup with username: ss, fullname: ss | 68b1b7a922aa2a3ae577782a
+29.8.2025, 17:30:18 - DEBUG - auth.route - new account created: {"username":"ss","password":"$2b$10$XPGit6dhiSKlUrmziPcB/uoDVosmUS36woPs.mcHF/h/i3p4DyCJC","fullname":"ss","isAdmin":false,"score":100,"_id":"68b1b97a216be993b9070564"} | 68b1b7a922aa2a3ae577782a
+29.8.2025, 17:30:18 - DEBUG - auth.service - login with username: ss | 68b1b7a922aa2a3ae577782a
+29.8.2025, 17:30:18 - INFO - User signup: | {"_id":"68b1b97a216be993b9070564","username":"ss","fullname":"ss","imgUrl":null,"isAdmin":false,"score":100} | 68b1b7a922aa2a3ae577782a
+29.8.2025, 17:33:53 - INFO - /api/stay | GET | {"username":"ss","fullname":"ss","isAdmin":false,"password":"ss"} | {} | 68b1b97a216be993b9070564
+29.8.2025, 17:37:28 - WARN - ssattempted to perform admin action | 68b1b97a216be993b9070564
+29.8.2025, 17:39:04 - DEBUG - auth.service - login with username: admin | 68b1b97a216be993b9070564
+29.8.2025, 17:39:04 - INFO - User login:  | {"_id":"68b1a696af177aae560256d8","username":"admin","fullname":"admin","imgUrl":null,"isAdmin":true,"score":100} | 68b1b97a216be993b9070564
+29.8.2025, 18:50:46 - INFO - Server is running on port: 3030
+29.8.2025, 18:50:50 - INFO - Server is running on port: 3030
+29.8.2025, 18:50:52 - INFO - Server is running on port: 3030
+29.8.2025, 18:50:56 - INFO - Server is running on port: 3030
+29.8.2025, 18:51:00 - INFO - Server is running on port: 3030
+29.8.2025, 18:58:59 - INFO - Server is running on port: 3030
+29.8.2025, 19:00:04 - INFO - Server is running on port: 3030
+29.8.2025, 19:00:05 - INFO - Server is running on port: 3030
+29.8.2025, 19:00:38 - INFO - Server is running on port: 3030
+29.8.2025, 19:00:42 - INFO - Server is running on port: 3030
+29.8.2025, 19:00:49 - INFO - Server is running on port: 3030
+29.8.2025, 19:00:50 - INFO - Server is running on port: 3030
+29.8.2025, 19:00:51 - INFO - Server is running on port: 3030
+29.8.2025, 19:00:54 - INFO - Server is running on port: 3030
+29.8.2025, 19:00:56 - INFO - Server is running on port: 3030
+29.8.2025, 19:01:00 - INFO - Server is running on port: 3030
+29.8.2025, 19:02:17 - INFO - Server is running on port: 3030
+29.8.2025, 19:02:20 - INFO - Server is running on port: 3030
+29.8.2025, 19:02:23 - INFO - Server is running on port: 3030
+29.8.2025, 19:02:24 - INFO - Server is running on port: 3030
+29.8.2025, 19:02:29 - INFO - Server is running on port: 3030
+29.8.2025, 19:03:37 - INFO - Server is running on port: 3030
+29.8.2025, 19:03:38 - INFO - Server is running on port: 3030
+29.8.2025, 19:06:54 - INFO - Server is running on port: 3030
+29.8.2025, 19:06:57 - INFO - Server is running on port: 3030
+29.8.2025, 19:07:05 - INFO - Server is running on port: 3030
+29.8.2025, 19:07:07 - INFO - Server is running on port: 3030
+29.8.2025, 19:09:26 - INFO - Server is running on port: 3030
+29.8.2025, 19:09:47 - INFO - Server is running on port: 3030
+29.8.2025, 19:12:02 - INFO - Server is running on port: 3030
+29.8.2025, 19:12:51 - INFO - Server is running on port: 3030
+29.8.2025, 19:12:57 - INFO - Server is running on port: 3030
+29.8.2025, 19:13:14 - INFO - Server is running on port: 3030
+29.8.2025, 19:13:19 - INFO - Server is running on port: 3030
+29.8.2025, 19:13:25 - INFO - Server is running on port: 3030
+29.8.2025, 19:13:28 - INFO - Server is running on port: 3030
+29.8.2025, 19:13:31 - INFO - Server is running on port: 3030
+29.8.2025, 19:13:33 - INFO - Server is running on port: 3030
+29.8.2025, 19:14:09 - INFO - Server is running on port: 3030
+29.8.2025, 19:14:15 - INFO - Server is running on port: 3030
+29.8.2025, 19:14:30 - INFO - Server is running on port: 3030
+29.8.2025, 19:14:32 - INFO - Server is running on port: 3030
+29.8.2025, 19:14:34 - INFO - Server is running on port: 3030
+29.8.2025, 19:14:41 - INFO - Server is running on port: 3030
+29.8.2025, 19:14:45 - INFO - Server is running on port: 3030
+29.8.2025, 19:14:52 - INFO - Server is running on port: 3030
+29.8.2025, 19:14:57 - INFO - Server is running on port: 3030
+29.8.2025, 19:14:57 - INFO - Server is running on port: 3030

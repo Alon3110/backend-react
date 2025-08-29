@@ -17,17 +17,14 @@ export const stayService = {
 	removeStayMsg,
 }
 
-async function query(filterBy = { txt: '' }) {
+async function query(filterBy = { address: '', maxPrice: 0 }) {
 	try {
 		const criteria = _buildCriteria(filterBy)
-		const sort = _buildSort(filterBy)
+		//if needed
+		// const sort = _buildSort(filterBy)
 
 		const collection = await dbService.getCollection('stay')
-		var stayCursor = await collection.find(criteria, { sort })
-
-		if (filterBy.pageIdx !== undefined) {
-			stayCursor.skip(filterBy.pageIdx * PAGE_SIZE).limit(PAGE_SIZE)
-		}
+		var stayCursor = await collection.find(criteria) // if needed ,{ sort }
 
 		const stays = stayCursor.toArray()
 		return stays
@@ -54,13 +51,13 @@ async function getById(stayId) {
 
 async function remove(stayId) {
 	const { loggedinUser } = asyncLocalStorage.getStore()
-	const { _id: ownerId, isAdmin } = loggedinUser
+	const { _id: hostId, isAdmin } = loggedinUser
 
 	try {
 		const criteria = {
 			_id: ObjectId.createFromHexString(stayId),
 		}
-		if (!isAdmin) criteria['owner._id'] = ownerId
+		if (!isAdmin) criteria['host._id'] = hostId
 
 		const collection = await dbService.getCollection('stay')
 		const res = await collection.deleteOne(criteria)
@@ -104,7 +101,11 @@ async function update(stay) {
 async function addStayMsg(stayId, msg) {
 	try {
 		const criteria = { _id: ObjectId.createFromHexString(stayId) }
-		msg.id = makeId()
+		msg.id = {
+			_id: makeId(),
+			by: userService.getLoggedinUser(),
+			txt
+		}
 
 		const collection = await dbService.getCollection('stay')
 		await collection.updateOne(criteria, { $push: { msgs: msg } })
@@ -132,14 +133,14 @@ async function removeStayMsg(stayId, msgId) {
 
 function _buildCriteria(filterBy) {
 	const criteria = {
-		name: { $regex: filterBy.txt, $options: 'i' },
-		price: { $gte: filterBy.minPrice },
+		name: { $regex: filterBy.address, $options: 'i' },
+		price: { $gte: filterBy.maxPrice },
 	}
 
 	return criteria
 }
 
-function _buildSort(filterBy) {
-	if (!filterBy.sortField) return {}
-	return { [filterBy.sortField]: filterBy.sortDir }
-}
+// function _buildSort(filterBy) {
+// 	if (!filterBy.sortField) return {}
+// 	return { [filterBy.sortField]: filterBy.sortDir }
+// }

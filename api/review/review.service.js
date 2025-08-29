@@ -61,7 +61,7 @@ async function remove(reviewId) {
 
 		const criteria = { _id: ObjectId.createFromHexString(reviewId) }
 
-        // remove only if user is owner/admin
+        // remove only if user is host/admin
 		if (!loggedinUser.isAdmin) {
             criteria.byUserId = ObjectId.createFromHexString(loggedinUser._id)
         }
