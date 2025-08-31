@@ -4,11 +4,10 @@ import { stayService } from './stay.service.js'
 export async function getStays(req, res) {
 	try {
 		const filterBy = {
-			txt: req.query.txt || '',
-			minPrice: +req.query.minPrice || 0,
-            sortField: req.query.sortField || '',
-            sortDir: req.query.sortDir || 1,
-			pageIdx: req.query.pageIdx,
+			address: req.query.address || '',
+			maxPrice: +req.query.maxPrice || 0,
+            // sortField: req.query.sortField || '',
+            // sortDir: req.query.sortDir || 1,
 		}
 		const stays = await stayService.query(filterBy)
 		res.json(stays)
@@ -31,10 +30,7 @@ export async function getStayById(req, res) {
 
 export async function addStay(req, res) {
 	const { loggedinUser, body } = req
-	const stay = {
-		name: body.name,
-		price: body.price
-	}
+	const stay = req.body
 	try {
 		stay.host = loggedinUser
 		const addedStay = await stayService.add(stay)

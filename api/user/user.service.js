@@ -84,7 +84,8 @@ async function update(user) {
         // peek only updatable properties
         const userToSave = {
             _id: ObjectId.createFromHexString(user._id), // needed for the returnd obj
-            fullname: user.fullname
+            fullname: user.fullname,
+            username: user.username
         }
         const collection = await dbService.getCollection('user')
         await collection.updateOne({ _id: userToSave._id }, { $set: userToSave })
@@ -127,6 +128,8 @@ function _buildCriteria(filterBy) {
 			},
 		]
 	}
-	
+	if (filterBy.minBalance) {
+		criteria.score = { $gte: filterBy.minBalance }
+	}
 	return criteria
 }

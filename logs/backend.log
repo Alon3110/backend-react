@@ -351,3 +351,305 @@
 29.8.2025, 19:14:52 - INFO - Server is running on port: 3030
 29.8.2025, 19:14:57 - INFO - Server is running on port: 3030
 29.8.2025, 19:14:57 - INFO - Server is running on port: 3030
+29.8.2025, 19:16:10 - INFO - /api/stay | GET | {"username":"admin","password":"admin"} | {} | 68b1a696af177aae560256d8
+29.8.2025, 19:16:10 - ERROR - Failed to get stays | MongoServerError: $regex has to be a string | 68b1a696af177aae560256d8
+29.8.2025, 19:16:52 - INFO - Server is running on port: 3030
+29.8.2025, 19:16:56 - INFO - /api/stay | GET | {"username":"admin","password":"admin"} | {} | 68b1a696af177aae560256d8
+29.8.2025, 19:16:56 - ERROR - Failed to get stays | MongoServerError: $regex has to be a string | 68b1a696af177aae560256d8
+29.8.2025, 19:16:57 - INFO - Server is running on port: 3030
+29.8.2025, 19:17:04 - INFO - /api/stay | GET | {"username":"admin","password":"admin"} | {} | 68b1a696af177aae560256d8
+29.8.2025, 19:17:04 - ERROR - Failed to get stays | MongoServerError: $regex has to be a string | 68b1a696af177aae560256d8
+29.8.2025, 19:22:30 - INFO - Server is running on port: 3030
+29.8.2025, 19:23:01 - INFO - /api/stay | GET | {"username":"admin","password":"admin"} | {} | 68b1a696af177aae560256d8
+29.8.2025, 19:23:01 - ERROR - Failed to get stays | MongoServerError: $regex has to be a string | 68b1a696af177aae560256d8
+29.8.2025, 19:27:52 - INFO - Server is running on port: 3030
+29.8.2025, 19:28:00 - INFO - Server is running on port: 3030
+29.8.2025, 19:28:04 - INFO - Server is running on port: 3030
+29.8.2025, 19:28:20 - INFO - Server is running on port: 3030
+29.8.2025, 19:28:24 - INFO - Server is running on port: 3030
+29.8.2025, 19:28:30 - INFO - Server is running on port: 3030
+29.8.2025, 19:28:40 - INFO - Server is running on port: 3030
+29.8.2025, 19:29:03 - INFO - Server is running on port: 3030
+29.8.2025, 19:29:15 - INFO - Server is running on port: 3030
+29.8.2025, 19:29:27 - INFO - Server is running on port: 3030
+29.8.2025, 19:29:40 - INFO - Server is running on port: 3030
+29.8.2025, 19:29:49 - INFO - Server is running on port: 3030
+29.8.2025, 19:29:55 - INFO - Server is running on port: 3030
+29.8.2025, 19:30:04 - INFO - Server is running on port: 3030
+29.8.2025, 19:30:26 - INFO - /api/stay | GET | {"username":"admin","password":"admin"} | {} | 68b1a696af177aae560256d8
+29.8.2025, 19:30:26 - DEBUG - Filter parameters: | {"txt":"","maxPrice":0,"sortField":"","sortDir":1} | 68b1a696af177aae560256d8
+29.8.2025, 19:30:26 - DEBUG - Building criteria with filterBy: | {"txt":"","maxPrice":0,"sortField":"","sortDir":1} | 68b1a696af177aae560256d8
+29.8.2025, 19:30:26 - DEBUG - Added maxPrice criteria: | {"$gte":0} | 68b1a696af177aae560256d8
+29.8.2025, 19:30:26 - DEBUG - Final criteria: | {"price":{"$gte":0}} | 68b1a696af177aae560256d8
+29.8.2025, 19:31:10 - INFO - Server is running on port: 3030
+29.8.2025, 19:31:12 - INFO - Server is running on port: 3030
+29.8.2025, 19:31:15 - INFO - Server is running on port: 3030
+29.8.2025, 19:31:19 - INFO - Server is running on port: 3030
+29.8.2025, 19:31:20 - INFO - Server is running on port: 3030
+29.8.2025, 19:31:25 - INFO - Server is running on port: 3030
+29.8.2025, 19:31:28 - INFO - Server is running on port: 3030
+29.8.2025, 19:31:58 - INFO - Server is running on port: 3030
+29.8.2025, 19:32:27 - INFO - Server is running on port: 3030
+29.8.2025, 19:32:39 - INFO - Server is running on port: 3030
+29.8.2025, 19:32:40 - INFO - Server is running on port: 3030
+29.8.2025, 19:32:42 - INFO - Server is running on port: 3030
+29.8.2025, 19:32:57 - INFO - /api/stay | GET | {"username":"admin","password":"admin"} | {} | 68b1a696af177aae560256d8
+29.8.2025, 19:32:57 - DEBUG - Building criteria with filterBy: | {"txt":"","maxPrice":0} | 68b1a696af177aae560256d8
+29.8.2025, 19:32:57 - DEBUG - Updated price criteria with maxPrice: | {"$gte":0,"$lte":0} | 68b1a696af177aae560256d8
+29.8.2025, 19:32:57 - DEBUG - Final criteria: | {"price":{"$gte":0,"$lte":0}} | 68b1a696af177aae560256d8
+29.8.2025, 19:32:57 - DEBUG - Added maxPrice criteria: | {"$gte":0} | 68b1a696af177aae560256d8
+29.8.2025, 19:32:57 - DEBUG - Filter parameters: | {"txt":"","maxPrice":0} | 68b1a696af177aae560256d8
+29.8.2025, 19:33:07 - DEBUG - User filter parameters: | {"txt":"","minBalance":0} | 68b1a696af177aae560256d8
+29.8.2025, 19:33:47 - DEBUG - auth.service - login with username: admin | 68b1a696af177aae560256d8
+29.8.2025, 19:33:47 - INFO - User login:  | {"_id":"68b1a696af177aae560256d8","username":"admin","fullname":"admin","imgUrl":null,"isAdmin":true,"score":100} | 68b1a696af177aae560256d8
+29.8.2025, 19:34:02 - DEBUG - User filter parameters: | {"txt":"","minBalance":0} | 68b1a696af177aae560256d8
+29.8.2025, 19:37:34 - INFO - Server is running on port: 3030
+29.8.2025, 19:37:43 - INFO - Server is running on port: 3030
+29.8.2025, 19:37:51 - INFO - Server is running on port: 3030
+29.8.2025, 19:37:55 - INFO - Server is running on port: 3030
+29.8.2025, 19:37:59 - INFO - Server is running on port: 3030
+29.8.2025, 19:38:07 - INFO - Server is running on port: 3030
+29.8.2025, 19:40:35 - INFO - Server is running on port: 3030
+29.8.2025, 19:40:50 - INFO - Server is running on port: 3030
+29.8.2025, 19:41:01 - INFO - Server is running on port: 3030
+29.8.2025, 19:41:05 - INFO - Server is running on port: 3030
+29.8.2025, 19:41:21 - INFO - Server is running on port: 3030
+29.8.2025, 19:41:25 - INFO - Server is running on port: 3030
+29.8.2025, 19:41:38 - INFO - Server is running on port: 3030
+29.8.2025, 19:41:41 - INFO - Server is running on port: 3030
+29.8.2025, 19:42:14 - INFO - Server is running on port: 3030
+29.8.2025, 19:42:19 - INFO - Server is running on port: 3030
+29.8.2025, 19:42:23 - INFO - Server is running on port: 3030
+29.8.2025, 19:42:24 - INFO - Server is running on port: 3030
+29.8.2025, 19:42:30 - INFO - Server is running on port: 3030
+29.8.2025, 19:42:33 - INFO - Server is running on port: 3030
+29.8.2025, 19:44:51 - INFO - Server is running on port: 3030
+29.8.2025, 19:44:57 - INFO - Server is running on port: 3030
+29.8.2025, 19:45:34 - INFO - Server is running on port: 3030
+29.8.2025, 19:45:59 - INFO - /api/stay | GET | {"username":"admin","password":"admin"} | {} | 68b1a696af177aae560256d8
+29.8.2025, 19:46:33 - INFO - /api/stay | GET | {"username":"admin","password":"admin"} | {"id":"68b1a37536e6fd8d96c18a68"} | 68b1a696af177aae560256d8
+29.8.2025, 19:46:43 - INFO - /api/stay | GET | {"username":"admin","password":"admin"} | {} | 68b1a696af177aae560256d8
+29.8.2025, 19:47:12 - INFO - /api/stay | GET | {"username":"admin","password":"admin"} | {"id":"68b1a37536e6fd8d96c18a68"} | 68b1a696af177aae560256d8
+29.8.2025, 19:48:22 - INFO - /api/stay | POST | {"name":"updated","price":13} | {} | 68b1a696af177aae560256d8
+29.8.2025, 19:48:48 - INFO - /api/stay | GET | {"name":"updated","price":13} | {"id":"68b1a37536e6fd8d96c18a68"} | 68b1a696af177aae560256d8
+29.8.2025, 19:49:06 - INFO - /api/stay | GET | {"name":"updated","price":13} | {} | 68b1a696af177aae560256d8
+29.8.2025, 19:49:23 - INFO - /api/stay | GET | {"name":"updated","price":13} | {"id":"68b1d9d62b8f814a57d721e1"} | 68b1a696af177aae560256d8
+29.8.2025, 19:49:28 - INFO - /api/stay | GET | {"name":"updated","price":13} | {} | 68b1a696af177aae560256d8
+29.8.2025, 19:51:30 - INFO - /api/stay | POST | {"address":"updated","price":13} | {} | 68b1a696af177aae560256d8
+29.8.2025, 19:52:05 - INFO - Server is running on port: 3030
+29.8.2025, 19:52:09 - INFO - Server is running on port: 3030
+29.8.2025, 19:52:47 - INFO - /api/stay | POST | {"address":"updated","price":13} | {} | 68b1a696af177aae560256d8
+29.8.2025, 20:16:57 - INFO - Server is running on port: 3030
+29.8.2025, 20:17:21 - INFO - Server is running on port: 3030
+29.8.2025, 20:17:27 - INFO - Server is running on port: 3030
+29.8.2025, 20:25:57 - INFO - Server is running on port: 3030
+29.8.2025, 20:26:08 - INFO - Server is running on port: 3030
+29.8.2025, 20:26:11 - INFO - Server is running on port: 3030
+29.8.2025, 20:26:12 - INFO - Server is running on port: 3030
+29.8.2025, 20:26:29 - INFO - /api/stay | GET | {"_id":"68b1dfdf51f91750b757cc35","username":"oliviadavison","fullname":"Olivia Davison","isAdmin":false,"createdAt":1756228477653} | {} | 68b1a696af177aae560256d8
+29.8.2025, 20:27:33 - INFO - /api/stay | POST | {"address":"brazil","price":13,"host":{"fullname":"admin","isAdmin":true}} | {} | 68b1a696af177aae560256d8
+29.8.2025, 20:27:44 - INFO - /api/stay | GET | {"address":"brazil","price":13,"host":{"fullname":"admin","isAdmin":true}} | {} | 68b1a696af177aae560256d8
+29.8.2025, 20:27:58 - INFO - Server is running on port: 3030
+29.8.2025, 21:48:42 - INFO - Server is running on port: 3030
+29.8.2025, 21:48:42 - INFO - Server is running on port: 3030
+29.8.2025, 21:49:48 - INFO - Server is running on port: 3030
+29.8.2025, 21:49:53 - INFO - Server is running on port: 3030
+29.8.2025, 21:49:57 - INFO - Server is running on port: 3030
+29.8.2025, 21:51:36 - INFO - Server is running on port: 3030
+29.8.2025, 21:54:01 - INFO - /api/stay | GET | {"address":"brazil","price":13,"host":{"fullname":"admin","isAdmin":true}} | {}
+29.8.2025, 21:54:43 - INFO - /api/stay | GET | {"address":"brazil","price":13,"host":{"fullname":"admin","isAdmin":true}} | {}
+29.8.2025, 21:55:50 - INFO - Server is running on port: 3030
+29.8.2025, 21:55:57 - INFO - Server is running on port: 3030
+29.8.2025, 21:56:03 - INFO - /api/stay | GET | {"address":"brazil","price":13,"host":{"fullname":"admin","isAdmin":true}} | {}
+29.8.2025, 21:56:03 - ERROR - Failed to get stays | TypeError: Cannot read properties of undefined (reading 'address')
+29.8.2025, 21:56:39 - INFO - Server is running on port: 3030
+29.8.2025, 21:56:40 - INFO - Server is running on port: 3030
+29.8.2025, 21:56:41 - INFO - Server is running on port: 3030
+29.8.2025, 21:56:58 - INFO - Server is running on port: 3030
+29.8.2025, 21:57:04 - INFO - /api/stay | GET | {"address":"brazil","price":13,"host":{"fullname":"admin","isAdmin":true}} | {}
+29.8.2025, 21:57:04 - ERROR - Failed to get stays | TypeError: Cannot read properties of undefined (reading 'address')
+29.8.2025, 21:58:11 - INFO - Server is running on port: 3030
+29.8.2025, 21:58:30 - INFO - /api/stay | GET | {"address":"brazil","price":13,"host":{"fullname":"admin","isAdmin":true}} | {}
+29.8.2025, 21:59:39 - INFO - Server is running on port: 3030
+29.8.2025, 21:59:43 - INFO - Server is running on port: 3030
+29.8.2025, 21:59:47 - INFO - Server is running on port: 3030
+29.8.2025, 21:59:48 - INFO - Server is running on port: 3030
+29.8.2025, 21:59:55 - INFO - Server is running on port: 3030
+29.8.2025, 21:59:57 - INFO - Server is running on port: 3030
+29.8.2025, 21:59:59 - INFO - Server is running on port: 3030
+29.8.2025, 22:00:02 - INFO - /api/stay | GET | {"address":"brazil","price":13,"host":{"fullname":"admin","isAdmin":true}} | {}
+29.8.2025, 22:00:36 - INFO - Server is running on port: 3030
+29.8.2025, 22:00:41 - INFO - Server is running on port: 3030
+29.8.2025, 22:00:43 - INFO - /api/stay | GET | {"address":"brazil","price":13,"host":{"fullname":"admin","isAdmin":true}} | {}
+29.8.2025, 22:00:43 - ERROR - Failed to get stays | TypeError: Cannot read properties of undefined (reading 'address')
+29.8.2025, 22:01:05 - INFO - Server is running on port: 3030
+29.8.2025, 22:01:06 - INFO - Server is running on port: 3030
+29.8.2025, 22:01:08 - INFO - /api/stay | GET | {"address":"brazil","price":13,"host":{"fullname":"admin","isAdmin":true}} | {}
+29.8.2025, 22:01:08 - ERROR - Failed to get stays | TypeError: Cannot read properties of undefined (reading 'address')
+29.8.2025, 22:02:11 - INFO - Server is running on port: 3030
+29.8.2025, 22:02:14 - ERROR - cannot find stays | TypeError: Cannot read properties of undefined (reading 'address')
+29.8.2025, 22:02:14 - INFO - /api/stay | GET | {"address":"brazil","price":13,"host":{"fullname":"admin","isAdmin":true}} | {}
+29.8.2025, 22:02:14 - ERROR - Failed to get stays | TypeError: Cannot read properties of undefined (reading 'address')
+29.8.2025, 22:02:34 - INFO - Server is running on port: 3030
+29.8.2025, 22:02:35 - INFO - /api/stay | GET | {"address":"brazil","price":13,"host":{"fullname":"admin","isAdmin":true}} | {}
+29.8.2025, 22:03:33 - INFO - Server is running on port: 3030
+29.8.2025, 22:07:31 - INFO - Server is running on port: 3030
+29.8.2025, 22:08:11 - INFO - Server is running on port: 3030
+29.8.2025, 22:09:04 - INFO - Server is running on port: 3030
+29.8.2025, 22:09:41 - INFO - /api/stay | GET | {"address":"brazil","price":13,"host":{"fullname":"admin","isAdmin":true}} | {}
+29.8.2025, 22:09:58 - INFO - Server is running on port: 3030
+29.8.2025, 22:09:59 - INFO - /api/stay | GET | {"address":"brazil","price":13,"host":{"fullname":"admin","isAdmin":true}} | {}
+29.8.2025, 22:10:03 - INFO - Server is running on port: 3030
+29.8.2025, 22:10:44 - INFO - Server is running on port: 3030
+29.8.2025, 22:10:46 - INFO - /api/stay | GET | {"address":"brazil","price":13,"host":{"fullname":"admin","isAdmin":true}} | {}
+29.8.2025, 22:10:57 - INFO - Server is running on port: 3030
+29.8.2025, 22:10:59 - INFO - /api/stay | GET | {"address":"brazil","price":13,"host":{"fullname":"admin","isAdmin":true}} | {}
+29.8.2025, 22:11:08 - INFO - Server is running on port: 3030
+29.8.2025, 22:11:10 - INFO - Server is running on port: 3030
+29.8.2025, 22:11:13 - INFO - Server is running on port: 3030
+29.8.2025, 22:11:15 - INFO - Server is running on port: 3030
+29.8.2025, 22:11:24 - INFO - Server is running on port: 3030
+29.8.2025, 22:14:01 - INFO - Server is running on port: 3030
+29.8.2025, 22:14:24 - INFO - /api/stay | GET | {"address":"brazil","price":13,"host":{"fullname":"admin","isAdmin":true}} | {}
+29.8.2025, 22:16:22 - INFO - /api/stay | GET | {"address":"brazil","price":13,"host":{"fullname":"admin","isAdmin":true}} | {}
+29.8.2025, 22:16:44 - INFO - /api/stay | GET | {"address":"brazil","price":13,"host":{"fullname":"admin","isAdmin":true}} | {}
+29.8.2025, 22:17:05 - INFO - /api/stay | GET | {"address":"brazil","price":13,"host":{"fullname":"admin","isAdmin":true}} | {"id":"6738ca4cae769d402b653c7c"}
+29.8.2025, 22:22:48 - INFO - Server is running on port: 3030
+29.8.2025, 22:22:50 - INFO - Server is running on port: 3030
+29.8.2025, 22:22:53 - INFO - Server is running on port: 3030
+29.8.2025, 22:22:55 - INFO - Server is running on port: 3030
+29.8.2025, 22:22:59 - INFO - Server is running on port: 3030
+29.8.2025, 22:23:01 - INFO - /api/stay | GET | {"address":"brazil","price":13,"host":{"fullname":"admin","isAdmin":true}} | {}
+31.8.2025, 3:28:34 - INFO - /api/stay | GET | {"address":"brazil","price":13,"host":{"fullname":"admin","isAdmin":true}} | {}
+31.8.2025, 3:40:18 - INFO - Server is running on port: 3030
+31.8.2025, 3:43:25 - INFO - Server is running on port: 3030
+31.8.2025, 3:43:33 - INFO - Server is running on port: 3030
+31.8.2025, 3:43:36 - INFO - Server is running on port: 3030
+31.8.2025, 3:44:28 - INFO - Server is running on port: 3030
+31.8.2025, 3:44:46 - INFO - Server is running on port: 3030
+31.8.2025, 3:45:01 - INFO - Server is running on port: 3030
+31.8.2025, 3:46:56 - INFO - New connected socket [id: XwJgGoJD_1-LCEdVAAAB]
+31.8.2025, 3:50:06 - INFO - Socket disconnected [id: undefined]
+31.8.2025, 3:50:06 - INFO - New connected socket [id: oAAbZh0wUlnd4H5LAAAD]
+31.8.2025, 3:50:31 - INFO - Socket disconnected [id: undefined]
+31.8.2025, 3:50:31 - INFO - New connected socket [id: t7cgbAmVQWe3noXlAAAF]
+31.8.2025, 3:50:35 - INFO - Socket disconnected [id: undefined]
+31.8.2025, 3:50:35 - INFO - New connected socket [id: 5IGuJ62mt6KtMU9zAAAH]
+31.8.2025, 3:52:01 - INFO - Socket disconnected [id: undefined]
+31.8.2025, 4:03:40 - INFO - New connected socket [id: 0p4xpd4O4CYb6g5RAAAJ]
+31.8.2025, 4:03:53 - INFO - Socket disconnected [id: undefined]
+31.8.2025, 4:03:53 - INFO - New connected socket [id: XHBq0jgKOsdAPVc-AAAL]
+31.8.2025, 4:05:37 - INFO - Socket disconnected [id: undefined]
+31.8.2025, 4:05:37 - INFO - New connected socket [id: WyveGnbTHeBTH2mPAAAN]
+31.8.2025, 4:06:07 - INFO - Socket disconnected [id: undefined]
+31.8.2025, 4:06:07 - INFO - New connected socket [id: 33hONRNDNax2-YzrAAAP]
+31.8.2025, 4:06:07 - INFO - /api/stay | GET |  | {"id":"s103"}
+31.8.2025, 4:06:07 - ERROR - while finding stay s103 | BSONError: hex string must be 24 characters
+31.8.2025, 4:06:07 - ERROR - Failed to get stay | BSONError: hex string must be 24 characters
+31.8.2025, 4:06:19 - INFO - Server is running on port: 3030
+31.8.2025, 4:06:20 - INFO - Server is running on port: 3030
+31.8.2025, 4:06:21 - INFO - New connected socket [id: yxFUmzu2XarRjOsaAAAB]
+31.8.2025, 4:06:30 - INFO - Server is running on port: 3030
+31.8.2025, 4:06:31 - INFO - Server is running on port: 3030
+31.8.2025, 4:06:31 - INFO - New connected socket [id: B5KSnaOtLeeIBLCWAAAB]
+31.8.2025, 4:06:37 - INFO - Server is running on port: 3030
+31.8.2025, 4:06:38 - INFO - Server is running on port: 3030
+31.8.2025, 4:06:39 - INFO - New connected socket [id: lmJYkGWfS-HH_b3AAAAB]
+31.8.2025, 4:06:46 - INFO - Server is running on port: 3030
+31.8.2025, 4:06:47 - INFO - New connected socket [id: NTDIu7GaGAffOw_CAAAB]
+31.8.2025, 4:06:54 - INFO - Server is running on port: 3030
+31.8.2025, 4:06:55 - INFO - New connected socket [id: y5siq72KJIA5cN-oAAAB]
+31.8.2025, 4:06:58 - INFO - Server is running on port: 3030
+31.8.2025, 4:06:59 - INFO - New connected socket [id: huGLfwBFdbvGGf4UAAAB]
+31.8.2025, 4:07:37 - INFO - Socket disconnected [id: undefined]
+31.8.2025, 4:07:37 - INFO - New connected socket [id: 2luWLFweo87CBXKQAAAD]
+31.8.2025, 4:07:37 - INFO - /api/stay | GET |  | {"id":"s103"}
+31.8.2025, 4:07:37 - ERROR - while finding stay s103 | BSONError: hex string must be 24 characters
+31.8.2025, 4:07:37 - ERROR - Failed to get stay | BSONError: hex string must be 24 characters
+31.8.2025, 4:08:01 - INFO - Server is running on port: 3030
+31.8.2025, 4:08:02 - INFO - /api/stay | GET |  | {"id":"s103"}
+31.8.2025, 4:08:02 - ERROR - while finding stay s103 | BSONError: hex string must be 24 characters
+31.8.2025, 4:08:02 - ERROR - Failed to get stay | BSONError: hex string must be 24 characters
+31.8.2025, 4:08:02 - INFO - New connected socket [id: Y-9Z6zontioADMpuAAAC]
+31.8.2025, 4:10:32 - INFO - Socket disconnected [id: undefined]
+31.8.2025, 4:10:32 - INFO - New connected socket [id: _DLnNLwRQ4SfeunnAAAE]
+31.8.2025, 4:10:32 - ERROR - while finding stay s103 | BSONError: hex string must be 24 characters
+31.8.2025, 4:10:32 - INFO - /api/stay | GET |  | {"id":"s103"}
+31.8.2025, 4:10:32 - ERROR - Failed to get stay | BSONError: hex string must be 24 characters
+31.8.2025, 4:10:34 - INFO - /api/stay | GET |  | {}
+31.8.2025, 4:10:38 - INFO - Socket disconnected [id: undefined]
+31.8.2025, 4:10:39 - INFO - New connected socket [id: jajrDve1E2XgO8guAAAG]
+31.8.2025, 4:10:39 - INFO - /api/stay | GET |  | {}
+31.8.2025, 4:10:42 - INFO - Socket disconnected [id: undefined]
+31.8.2025, 4:10:43 - INFO - /api/stay | GET |  | {}
+31.8.2025, 4:10:43 - INFO - New connected socket [id: pWNUQO8U5cWQdZuJAAAI]
+31.8.2025, 4:10:52 - INFO - /api/stay | GET |  | {"id":"6738ca4cae769d402b653c7e"}
+31.8.2025, 4:12:24 - INFO - /api/stay | GET |  | {"id":"6738ca4cae769d402b653c7e"}
+31.8.2025, 4:15:03 - INFO - Socket disconnected [id: undefined]
+31.8.2025, 4:15:03 - INFO - New connected socket [id: zGpiTtZh3PgSeIn0AAAK]
+31.8.2025, 4:15:03 - INFO - /api/stay | GET |  | {"id":"6738ca4cae769d402b653c7e"}
+31.8.2025, 4:15:13 - INFO - Socket disconnected [id: undefined]
+31.8.2025, 4:15:14 - INFO - New connected socket [id: fxP_8HwENRnvWwOFAAAM]
+31.8.2025, 4:15:14 - INFO - /api/stay | GET |  | {"id":"6738ca4cae769d402b653c7e"}
+31.8.2025, 4:15:18 - INFO - /api/stay | GET |  | {}
+31.8.2025, 4:15:49 - INFO - Socket disconnected [id: undefined]
+31.8.2025, 4:15:49 - INFO - New connected socket [id: iR6YovD-QczPC_BiAAAO]
+31.8.2025, 4:15:49 - INFO - /api/stay | GET |  | {}
+31.8.2025, 4:16:07 - INFO - /api/stay | POST | {"name":"Baby Block","type":"Villa","city":"Rishon lezion","price":71,"imgUrls":[]} | {}
+31.8.2025, 4:16:07 - INFO - Socket disconnected [id: undefined]
+31.8.2025, 4:16:08 - INFO - New connected socket [id: g9nvqS69YDIM2SUyAAAQ]
+31.8.2025, 4:16:08 - INFO - /api/stay | GET |  | {}
+31.8.2025, 4:16:29 - INFO - Socket disconnected [id: undefined]
+31.8.2025, 4:16:29 - INFO - New connected socket [id: 2j-6XTDjtgCiiwtGAAAS]
+31.8.2025, 4:16:29 - INFO - /api/stay | GET |  | {}
+31.8.2025, 4:16:40 - INFO - /api/stay | POST | {"name":"Baby Block2","type":"Villa","city":"Rishon lezion","price":12,"imgUrls":[]} | {}
+31.8.2025, 4:16:40 - INFO - Socket disconnected [id: undefined]
+31.8.2025, 4:16:40 - INFO - New connected socket [id: vzDTJoqDIL-GQgCcAAAU]
+31.8.2025, 4:16:40 - INFO - /api/stay | GET |  | {}
+31.8.2025, 4:16:43 - INFO - Socket disconnected [id: undefined]
+31.8.2025, 4:16:43 - INFO - New connected socket [id: sJDrBYEEA3oAdvLGAAAW]
+31.8.2025, 4:16:43 - INFO - /api/stay | GET |  | {}
+31.8.2025, 4:19:00 - INFO - Socket disconnected [id: undefined]
+31.8.2025, 4:19:00 - INFO - New connected socket [id: nYmYah8V5-do-v7TAAAY]
+31.8.2025, 4:19:00 - INFO - /api/stay | GET |  | {}
+31.8.2025, 4:19:15 - INFO - /api/stay | GET |  | {}
+31.8.2025, 4:19:53 - INFO - Server is running on port: 3030
+31.8.2025, 4:19:54 - INFO - New connected socket [id: DiYr6BO2D-znZoiIAAAB]
+31.8.2025, 4:19:59 - INFO - Server is running on port: 3030
+31.8.2025, 4:20:00 - INFO - New connected socket [id: 7Ye_df64dP0On71zAAAB]
+31.8.2025, 4:20:20 - INFO - Server is running on port: 3030
+31.8.2025, 4:20:21 - INFO - New connected socket [id: qlY-Vef8bClnjsrjAAAB]
+31.8.2025, 4:20:21 - INFO - /api/stay | GET |  | {}
+31.8.2025, 4:20:35 - INFO - Socket disconnected [id: undefined]
+31.8.2025, 4:20:35 - INFO - New connected socket [id: 7VQ-y0mkUl6sI7WuAAAD]
+31.8.2025, 4:20:35 - INFO - /api/stay | GET |  | {}
+31.8.2025, 4:20:47 - INFO - Socket disconnected [id: undefined]
+31.8.2025, 4:20:48 - INFO - New connected socket [id: 4mJwlQYrp6zwsSC5AAAF]
+31.8.2025, 4:20:48 - INFO - /api/stay | GET |  | {}
+31.8.2025, 4:21:04 - INFO - /api/stay | POST | {"name":"alon ben ari","type":"Villa","city":"Rishon lezion","price":61,"imgUrls":["https://res.cloudinary.com/vanilla-test-images/image/upload/v1756603254/hejpmujqznmzsmxzvmx8.png"]} | {}
+31.8.2025, 4:21:04 - INFO - Socket disconnected [id: undefined]
+31.8.2025, 4:21:04 - INFO - New connected socket [id: -QyOBis8-EDaDTa-AAAH]
+31.8.2025, 4:21:04 - INFO - /api/stay | GET |  | {}
+31.8.2025, 4:21:27 - INFO - Socket disconnected [id: undefined]
+31.8.2025, 4:21:29 - INFO - New connected socket [id: -ahNRlJCFcGp7SmtAAAJ]
+31.8.2025, 5:06:09 - INFO - Socket disconnected [id: undefined]
+31.8.2025, 5:06:10 - INFO - New connected socket [id: v_0v7_4YWmdyI238AAAL]
+31.8.2025, 10:03:22 - INFO - Socket disconnected [id: undefined]
+31.8.2025, 10:03:23 - INFO - New connected socket [id: _DnYTmY2AW6q5aJbAAAN]
+31.8.2025, 10:18:55 - INFO - Socket disconnected [id: undefined]
+31.8.2025, 10:18:57 - INFO - New connected socket [id: b6TpDd16ce1M20vKAAAP]
+31.8.2025, 11:15:35 - INFO - /api/stay | GET |  | {"id":"6738ca4cae769d402b653c7f"}
+31.8.2025, 11:15:42 - INFO - /api/stay | GET |  | {"id":"6738ca4cae769d402b653c7f"}
+31.8.2025, 11:15:53 - INFO - /api/stay | GET |  | {}
+31.8.2025, 11:16:31 - INFO - /api/stay | GET |  | {"id":"6738ca4cae769d402b653c7e"}
+31.8.2025, 11:16:33 - INFO - /api/stay | GET |  | {}
+31.8.2025, 11:16:39 - INFO - /api/stay | GET |  | {"id":"6738ca4cae769d402b653c7e"}
+31.8.2025, 11:51:58 - INFO - Socket disconnected [id: undefined]
+31.8.2025, 11:51:59 - INFO - New connected socket [id: TXZsiam5T32K1KrkAAAR]
+31.8.2025, 14:45:05 - INFO - Socket disconnected [id: undefined]
+31.8.2025, 14:45:08 - INFO - New connected socket [id: YaoNucIN5-ZsI9RLAAAT]
+31.8.2025, 14:49:15 - INFO - Socket disconnected [id: undefined]
+31.8.2025, 14:53:09 - INFO - Server is running on port: 3030
+31.8.2025, 14:53:19 - INFO - Server is running on port: 3030
+31.8.2025, 14:53:56 - INFO - Server is running on port: 3030
+31.8.2025, 15:02:43 - INFO - Server is running on port: 3030

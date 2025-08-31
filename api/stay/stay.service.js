@@ -24,9 +24,10 @@ async function query(filterBy = { address: '', maxPrice: 0 }) {
 		// const sort = _buildSort(filterBy)
 
 		const collection = await dbService.getCollection('stay')
+		console.log('criteria =>', criteria)
 		var stayCursor = await collection.find(criteria) // if needed ,{ sort }
 
-		const stays = stayCursor.toArray()
+		const stays = await stayCursor.toArray()
 		return stays
 	} catch (err) {
 		logger.error('cannot find stays', err)
@@ -73,9 +74,10 @@ async function remove(stayId) {
 async function add(stay) {
 	try {
 		const collection = await dbService.getCollection('stay')
-		await collection.insertOne(stay)
-
-		return stay
+		const result = await collection.insertOne(stay)
+		
+		// Return the stay with the generated _id
+		return { ...stay, _id: result.insertedId }
 	} catch (err) {
 		logger.error('cannot insert stay', err)
 		throw err
@@ -101,11 +103,7 @@ async function update(stay) {
 async function addStayMsg(stayId, msg) {
 	try {
 		const criteria = { _id: ObjectId.createFromHexString(stayId) }
-		msg.id = {
-			_id: makeId(),
-			by: userService.getLoggedinUser(),
-			txt
-		}
+		msg.id = makeId()
 
 		const collection = await dbService.getCollection('stay')
 		await collection.updateOne(criteria, { $push: { msgs: msg } })
@@ -132,10 +130,21 @@ async function removeStayMsg(stayId, msgId) {
 }
 
 function _buildCriteria(filterBy) {
-	const criteria = {
-		name: { $regex: filterBy.address, $options: 'i' },
-		price: { $gte: filterBy.maxPrice },
-	}
+	// const criteria = {
+	// 	address: { $regex: filterBy.address || '', $options: 'i' },
+	// 	price: { $gte: filterBy.maxPrice || 0 },
+	// }
+	const criteria = {}
+
+  if (filterBy.address && filterBy.address.trim()) {
+    criteria.address = { $regex: filterBy.address.trim(), $options: 'i' }
+  }
+
+  if (typeof filterBy.maxPrice === 'number' && filterBy.maxPrice > 0) {
+    criteria.price = { $gte: filterBy.maxPrice }
+  }
+
+  return criteria
 
 	return criteria
 }
