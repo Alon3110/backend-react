@@ -30,7 +30,7 @@ export function requireAuth(req, res, next) {
     const token = req.cookies?.loginToken
     const user = token ? authService.validateToken(token) : null
 
-    if (!user) return res.status(401).send('Not Authenticated')
+    if (!user || !user._id) return res.status(401).send('Not Authenticated')
 
     req.loggedinUser = user
     next()

@@ -33,8 +33,9 @@ export async function getStayById(req, res) {
 
 export async function addStay(req, res) {
 	const { loggedinUser, body } = req
-	const stay = req.body
+	const stay = body
 	try {
+		
 		stay.host = loggedinUser
 		const addedStay = await stayService.add(stay)
 		res.json(addedStay)

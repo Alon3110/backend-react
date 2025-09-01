@@ -1778,3 +1778,158 @@
 1.9.2025, 17:22:15 - INFO - /api/stay | GET | {} | {"id":"6738ca4cae769d402b653c85"}
 1.9.2025, 17:22:17 - INFO - /api/stay | GET | {} | {"id":"6738ca4cae769d402b653c85"}
 1.9.2025, 17:22:25 - INFO - /api/stay | GET | {} | {"id":"6738ca4cae769d402b653c85"}
+1.9.2025, 17:26:17 - INFO - /api/stay | GET | {} | {"id":"6738ca4cae769d402b653c85"}
+1.9.2025, 17:26:36 - INFO - /api/stay | GET | {} | {"id":"6738ca4cae769d402b653c85"}
+1.9.2025, 17:27:33 - INFO - /api/stay | GET | {} | {"id":"6738ca4cae769d402b653c85"}
+1.9.2025, 17:28:09 - INFO - /api/stay | GET | {} | {"id":"6738ca4cae769d402b653c85"}
+1.9.2025, 17:28:11 - INFO - /api/stay | GET | {} | {"id":"6738ca4cae769d402b653c85"}
+1.9.2025, 17:30:19 - INFO - Server is running on port: 3030
+1.9.2025, 17:30:21 - INFO - Server is running on port: 3030
+1.9.2025, 17:31:00 - INFO - Server is running on port: 3030
+1.9.2025, 17:31:02 - INFO - Server is running on port: 3030
+1.9.2025, 17:31:11 - INFO - Server is running on port: 3030
+1.9.2025, 17:31:35 - INFO - Server is running on port: 3030
+1.9.2025, 17:31:47 - INFO - Server is running on port: 3030
+1.9.2025, 17:32:00 - INFO - Server is running on port: 3030
+1.9.2025, 17:33:23 - INFO - Server is running on port: 3030
+1.9.2025, 17:33:36 - INFO - Server is running on port: 3030
+1.9.2025, 17:33:41 - INFO - Server is running on port: 3030
+1.9.2025, 17:36:26 - DEBUG - auth.service - login with username: admin
+1.9.2025, 17:36:26 - INFO - User login:  | {"_id":"68b1a696af177aae560256d8","username":"admin","fullname":"admin","imgUrl":null,"isAdmin":true}
+1.9.2025, 17:36:26 - INFO - /api/stay | GET | {} | {}
+1.9.2025, 17:36:41 - INFO - /api/stay | GET | {} | {}
+1.9.2025, 17:36:43 - INFO - /api/stay | GET | {} | {"id":"6738ca4cae769d402b653c7e"}
+1.9.2025, 17:36:51 - INFO - /api/stay | GET | {} | {"id":"6738ca4cae769d402b653c7e"}
+1.9.2025, 17:40:46 - INFO - /api/stay | GET | {} | {}
+1.9.2025, 17:41:04 - INFO - /api/stay | GET | {} | {}
+1.9.2025, 17:41:05 - INFO - /api/stay | GET | {} | {"id":"6738ca4cae769d402b653c88"}
+1.9.2025, 17:41:08 - INFO - /api/stay | GET | {} | {"id":"6738ca4cae769d402b653c88"}
+1.9.2025, 18:08:32 - INFO - /api/stay | GET | {} | {}
+1.9.2025, 18:09:07 - INFO - /api/stay | GET | {} | {}
+1.9.2025, 18:09:12 - INFO - /api/stay | GET | {} | {}
+1.9.2025, 18:09:16 - INFO - /api/stay | GET | {} | {"id":"6738ca4cae769d402b653c88"}
+1.9.2025, 18:09:33 - INFO - /api/stay | GET | {} | {"id":"6738ca4cae769d402b653c88"}
+1.9.2025, 18:10:20 - INFO - /api/stay | GET | {} | {}
+1.9.2025, 18:10:26 - DEBUG - auth.service - login with username: admin
+1.9.2025, 18:10:26 - INFO - User login:  | {"_id":"68b1a696af177aae560256d8","username":"admin","fullname":"admin","imgUrl":null,"isAdmin":true}
+1.9.2025, 18:10:26 - INFO - /api/stay | GET | {} | {}
+1.9.2025, 18:10:47 - INFO - /api/stay | GET | {} | {"id":"6738ca4cae769d402b653c83"}
+1.9.2025, 18:11:12 - DEBUG - auth.service - login with username: aa
+1.9.2025, 18:11:12 - INFO - User login:  | {"_id":"68b46419f2a68a36db5b6f1f","username":"aa","fullname":"aa","imgUrl":"https://cdn.pixabay.com/photo/2020/07/01/12/58/icon-5359553_1280.png","isAdmin":false}
+1.9.2025, 18:11:12 - INFO - /api/stay | GET | {} | {}
+1.9.2025, 18:11:25 - INFO - /api/stay | GET | {} | {}
+1.9.2025, 18:12:29 - INFO - /api/stay | POST | {"name":"Paint Set Deluxe","type":"Loft","price":3670,"loc":{"address":"האגס 11, חצור הגלילית, ישראל","city":"חצור הגלילית","country":"ישראל","countryCode":"IL","street":"11 האגס","lat":32.990239,"lng":35.545068},"imgUrls":["https://res.cloudinary.com/vanilla-test-images/image/upload/v1756739532/vwtqadjck67cmdbxtfkt.png"],"capacity":13,"rooms":2,"bedrooms":3,"bathrooms":2,"labels":[],"amenities":["Kitchen","Air conditioning","Heating","Parking","Pool","Elevator"],"description":"tttt","host":{"_id":"68b46419f2a68a36db5b6f1f","fullname":"aa","imgUrl":"https://cdn.pixabay.com/photo/2020/07/01/12/58/icon-5359553_1280.png"}} | {}
+1.9.2025, 18:12:29 - INFO - /api/stay | GET | {} | {"id":"68b5b7ddb396712e39286a13"}
+1.9.2025, 18:12:36 - INFO - /api/stay | GET | {} | {}
+1.9.2025, 18:12:50 - INFO - /api/stay | GET | {} | {}
+1.9.2025, 18:13:11 - INFO - /api/stay | GET | {} | {"id":"68b5b7ddb396712e39286a13"}
+1.9.2025, 18:13:19 - INFO - /api/stay | GET | {} | {"id":"68b5b7ddb396712e39286a13"}
+1.9.2025, 18:13:19 - ERROR - ERROR: cannot add order
+1.9.2025, 18:13:19 - ERROR - Failed to add order | BSONError: input must be a 24 character hex string, 12 byte Uint8Array, or an integer
+1.9.2025, 18:13:31 - INFO - /api/stay | GET | {} | {"id":"68b5b7ddb396712e39286a13"}
+1.9.2025, 18:13:31 - ERROR - ERROR: cannot add order
+1.9.2025, 18:13:31 - ERROR - Failed to add order | BSONError: input must be a 24 character hex string, 12 byte Uint8Array, or an integer
+1.9.2025, 18:14:29 - INFO - Server is running on port: 3030
+1.9.2025, 18:14:35 - ERROR - ERROR: cannot add order
+1.9.2025, 18:14:35 - ERROR - Failed to add order | BSONError: input must be a 24 character hex string, 12 byte Uint8Array, or an integer
+1.9.2025, 18:14:38 - ERROR - ERROR: cannot add order
+1.9.2025, 18:14:38 - ERROR - Failed to add order | BSONError: input must be a 24 character hex string, 12 byte Uint8Array, or an integer
+1.9.2025, 18:20:15 - INFO - Server is running on port: 3030
+1.9.2025, 18:20:38 - INFO - Server is running on port: 3030
+1.9.2025, 18:20:46 - INFO - Server is running on port: 3030
+1.9.2025, 18:21:43 - INFO - Server is running on port: 3030
+1.9.2025, 18:21:46 - INFO - Server is running on port: 3030
+1.9.2025, 18:22:57 - INFO - Server is running on port: 3030
+1.9.2025, 18:22:58 - INFO - Server is running on port: 3030
+1.9.2025, 18:23:00 - INFO - Server is running on port: 3030
+1.9.2025, 18:23:02 - INFO - Server is running on port: 3030
+1.9.2025, 18:23:03 - INFO - Server is running on port: 3030
+1.9.2025, 18:23:10 - INFO - Server is running on port: 3030
+1.9.2025, 18:23:14 - INFO - Server is running on port: 3030
+1.9.2025, 18:23:58 - INFO - /api/stay | GET | {} | {"id":"68b5b7ddb396712e39286a13"}
+1.9.2025, 18:23:58 - ERROR - ERROR: cannot add order
+1.9.2025, 18:23:58 - ERROR - Failed to add order | Error: hostId is required
+1.9.2025, 18:24:02 - INFO - /api/stay | GET | {} | {"id":"68b5b7ddb396712e39286a13"}
+1.9.2025, 18:24:02 - ERROR - ERROR: cannot add order
+1.9.2025, 18:24:02 - ERROR - Failed to add order | BSONError: input must be a 24 character hex string, 12 byte Uint8Array, or an integer
+1.9.2025, 18:25:10 - INFO - /api/stay | GET | {} | {"id":"68b5b7ddb396712e39286a13"}
+1.9.2025, 18:25:10 - ERROR - ERROR: cannot add order
+1.9.2025, 18:25:10 - ERROR - Failed to add order | BSONError: Argument passed in does not match the accepted types
+1.9.2025, 18:25:16 - INFO - /api/stay | GET | {} | {"id":"68b5b7ddb396712e39286a13"}
+1.9.2025, 18:25:16 - ERROR - ERROR: cannot add order
+1.9.2025, 18:25:16 - ERROR - Failed to add order | BSONError: input must be a 24 character hex string, 12 byte Uint8Array, or an integer
+1.9.2025, 18:25:22 - INFO - /api/stay | GET | {} | {"id":"68b5b7ddb396712e39286a13"}
+1.9.2025, 18:25:22 - ERROR - ERROR: cannot add order
+1.9.2025, 18:25:22 - ERROR - Failed to add order | Error: hostId is required
+1.9.2025, 18:28:00 - INFO - /api/stay | GET | {} | {"id":"68b5b7ddb396712e39286a13"}
+1.9.2025, 18:28:00 - ERROR - while finding stay 68b5b7ddb396712e39286a13 | TypeError: Cannot read properties of null (reading '_id')
+1.9.2025, 18:28:00 - ERROR - Failed to get stay | TypeError: Cannot read properties of null (reading '_id')
+1.9.2025, 18:28:05 - INFO - /api/stay | GET | {} | {}
+1.9.2025, 18:28:09 - INFO - /api/stay | GET | {} | {"id":"68b4f8c303164ed75e123db8"}
+1.9.2025, 18:28:20 - INFO - /api/stay | GET | {} | {"id":"68b4f8c303164ed75e123db8"}
+1.9.2025, 18:29:19 - INFO - /api/stay | POST | {"name":"Baby Block2","type":"Unique Stay","price":61,"loc":{"address":"האגס 11, אילת, ישראל","city":"אילת","country":"ישראל","countryCode":"IL","street":"11 האגס","lat":29.544714,"lng":34.939692},"imgUrls":["https://res.cloudinary.com/vanilla-test-images/image/upload/v1756740538/cfibwvhw6k3bgh8eet6l.jpg"],"capacity":3,"rooms":3,"bedrooms":3,"bathrooms":3,"labels":[],"amenities":["Pool","Parking","Heating","Air conditioning","Kitchen"],"description":"gfgfgf","host":{"_id":"68b46419f2a68a36db5b6f1f","fullname":"aa","imgUrl":"https://cdn.pixabay.com/photo/2020/07/01/12/58/icon-5359553_1280.png"}} | {}
+1.9.2025, 18:29:19 - INFO - /api/stay | GET | {} | {"id":"68b5bbcf8d7ca8118a3b6a73"}
+1.9.2025, 18:29:32 - INFO - /api/stay | GET | {} | {"id":"68b5bbcf8d7ca8118a3b6a73"}
+1.9.2025, 18:29:32 - ERROR - ERROR: cannot add order
+1.9.2025, 18:29:32 - ERROR - Failed to add order | Error: hostId is required
+1.9.2025, 18:42:18 - INFO - /api/stay | GET | {} | {"id":"68b5bbcf8d7ca8118a3b6a73"}
+1.9.2025, 18:42:18 - ERROR - ERROR: cannot add order
+1.9.2025, 18:42:18 - ERROR - Failed to add order | Error: hostId is required
+1.9.2025, 18:54:55 - INFO - /api/stay | GET | {} | {"id":"68b5bbcf8d7ca8118a3b6a73"}
+1.9.2025, 18:54:55 - ERROR - ERROR: cannot add order
+1.9.2025, 18:54:55 - ERROR - Failed to add order | Error: hostId is required
+1.9.2025, 19:49:33 - INFO - /api/stay | GET | {} | {"id":"68b5bbcf8d7ca8118a3b6a73"}
+1.9.2025, 19:49:33 - ERROR - Failed to add order | Error: hostId is required
+1.9.2025, 19:49:33 - ERROR - ERROR: cannot add order
+1.9.2025, 19:49:33 - ERROR - ERROR: cannot add order
+1.9.2025, 19:49:33 - ERROR - Failed to add order | Error: hostId is required
+1.9.2025, 19:51:30 - INFO - /api/stay | GET | {} | {"id":"68b5bbcf8d7ca8118a3b6a73"}
+1.9.2025, 19:51:30 - ERROR - ERROR: cannot add order
+1.9.2025, 19:51:30 - ERROR - Failed to add order | Error: hostId is required
+1.9.2025, 19:51:32 - ERROR - ERROR: cannot add order
+1.9.2025, 19:51:32 - ERROR - Failed to add order | Error: hostId is required
+1.9.2025, 19:51:32 - INFO - /api/stay | GET | {} | {"id":"68b5bbcf8d7ca8118a3b6a73"}
+1.9.2025, 19:51:32 - ERROR - ERROR: cannot add order
+1.9.2025, 19:51:32 - ERROR - Failed to add order | Error: hostId is required
+1.9.2025, 19:51:40 - INFO - /api/stay | GET | {} | {"id":"68b5bbcf8d7ca8118a3b6a73"}
+1.9.2025, 19:51:40 - ERROR - ERROR: cannot add order
+1.9.2025, 19:51:40 - ERROR - Failed to add order | Error: hostId is required
+1.9.2025, 19:51:50 - INFO - /api/stay | GET | {} | {"id":"68b5bbcf8d7ca8118a3b6a73"}
+1.9.2025, 19:51:50 - ERROR - ERROR: cannot add order
+1.9.2025, 19:51:50 - ERROR - Failed to add order | Error: hostId is required
+1.9.2025, 19:51:50 - ERROR - ERROR: cannot add order
+1.9.2025, 19:51:50 - ERROR - Failed to add order | Error: hostId is required
+1.9.2025, 19:51:53 - INFO - /api/stay | GET | {} | {"id":"68b5bbcf8d7ca8118a3b6a73"}
+1.9.2025, 19:51:53 - ERROR - ERROR: cannot add order
+1.9.2025, 19:51:53 - ERROR - Failed to add order | Error: hostId is required
+1.9.2025, 19:51:53 - ERROR - ERROR: cannot add order
+1.9.2025, 19:51:53 - ERROR - Failed to add order | Error: hostId is required
+1.9.2025, 19:51:57 - INFO - /api/stay | GET | {} | {"id":"68b5bbcf8d7ca8118a3b6a73"}
+1.9.2025, 19:51:57 - ERROR - ERROR: cannot add order
+1.9.2025, 19:51:57 - ERROR - Failed to add order | Error: hostId is required
+1.9.2025, 19:51:57 - ERROR - ERROR: cannot add order
+1.9.2025, 19:51:57 - ERROR - Failed to add order | Error: hostId is required
+1.9.2025, 19:52:02 - INFO - /api/stay | GET | {} | {"id":"68b5bbcf8d7ca8118a3b6a73"}
+1.9.2025, 19:52:18 - INFO - /api/stay | GET | {} | {"id":"68b5bbcf8d7ca8118a3b6a73"}
+1.9.2025, 19:52:18 - ERROR - ERROR: cannot add order
+1.9.2025, 19:52:18 - ERROR - Failed to add order | Error: hostId is required
+1.9.2025, 19:52:48 - INFO - /api/stay | GET | {} | {"id":"68b5bbcf8d7ca8118a3b6a73"}
+1.9.2025, 19:52:48 - ERROR - Failed to add order | Error: hostId is required
+1.9.2025, 19:52:48 - ERROR - ERROR: cannot add order
+1.9.2025, 19:52:52 - ERROR - ERROR: cannot add order
+1.9.2025, 19:52:52 - ERROR - Failed to add order | Error: hostId is required
+1.9.2025, 19:53:11 - INFO - /api/stay | GET | {} | {"id":"68b5bbcf8d7ca8118a3b6a73"}
+1.9.2025, 19:53:11 - ERROR - ERROR: cannot add order
+1.9.2025, 19:53:11 - ERROR - Failed to add order | Error: hostId is required
+1.9.2025, 19:53:11 - ERROR - ERROR: cannot add order
+1.9.2025, 19:53:11 - ERROR - Failed to add order | Error: hostId is required
+1.9.2025, 19:53:19 - INFO - /api/stay | GET | {} | {"id":"68b5bbcf8d7ca8118a3b6a73"}
+1.9.2025, 19:53:19 - ERROR - ERROR: cannot add order
+1.9.2025, 19:53:19 - ERROR - Failed to add order | Error: hostId is required
+1.9.2025, 19:53:19 - ERROR - ERROR: cannot add order
+1.9.2025, 19:53:19 - ERROR - Failed to add order | Error: hostId is required
+1.9.2025, 19:55:11 - INFO - /api/stay | GET | {} | {}
+1.9.2025, 19:55:17 - INFO - /api/stay | GET | {} | {"id":"6738ca4cae769d402b653c7e"}
+1.9.2025, 19:55:24 - INFO - /api/stay | GET | {} | {"id":"6738ca4cae769d402b653c7e"}
+1.9.2025, 19:56:15 - INFO - /api/stay | GET | {} | {"id":"6738ca4cae769d402b653c7e"}
+1.9.2025, 19:56:33 - INFO - /api/stay | GET | {} | {}
