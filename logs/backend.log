@@ -1546,3 +1546,235 @@
 1.9.2025, 4:53:24 - INFO - /api/stay | GET | {} | {"id":"6738ca4cae769d402b653c7f"}
 1.9.2025, 4:53:29 - INFO - /api/stay | GET | {} | {}
 1.9.2025, 4:53:47 - INFO - /api/stay | GET | {} | {}
+1.9.2025, 5:11:19 - INFO - Server is running on port: 3030
+1.9.2025, 5:11:42 - INFO - Server is running on port: 3030
+1.9.2025, 5:11:48 - INFO - Server is running on port: 3030
+1.9.2025, 5:20:39 - INFO - /api/stay | GET | {} | {}
+1.9.2025, 5:21:06 - INFO - /api/stay | GET | {} | {}
+1.9.2025, 5:21:09 - INFO - /api/stay | GET | {} | {"id":"6738ca4cae769d402b653c88"}
+1.9.2025, 5:21:17 - INFO - /api/stay | GET | {} | {"id":"6738ca4cae769d402b653c88"}
+1.9.2025, 5:21:26 - DEBUG - auth.service - login with username: aa
+1.9.2025, 5:21:26 - INFO - User login:  | {"_id":"68b46419f2a68a36db5b6f1f","username":"aa","fullname":"aa","imgUrl":"https://cdn.pixabay.com/photo/2020/07/01/12/58/icon-5359553_1280.png","isAdmin":false}
+1.9.2025, 5:21:26 - INFO - /api/stay | GET | {} | {}
+1.9.2025, 5:21:29 - INFO - /api/stay | GET | {} | {}
+1.9.2025, 5:21:32 - INFO - /api/stay | GET | {} | {"id":"6738ca4cae769d402b653c7f"}
+1.9.2025, 5:21:34 - INFO - /api/stay | GET | {} | {}
+1.9.2025, 5:21:47 - INFO - /api/stay | GET | {} | {}
+1.9.2025, 5:21:48 - INFO - /api/stay | GET | {} | {"id":"6738ca4cae769d402b653c88"}
+1.9.2025, 5:21:49 - INFO - /api/stay | GET | {} | {"id":"6738ca4cae769d402b653c88"}
+1.9.2025, 5:23:43 - INFO - Server is running on port: 3030
+1.9.2025, 5:25:25 - INFO - /api/stay | GET | {} | {"id":"6738ca4cae769d402b653c88"}
+1.9.2025, 5:27:18 - DEBUG - auth.service - login with username: admin
+1.9.2025, 5:27:18 - INFO - User login:  | {"_id":"68b1a696af177aae560256d8","username":"admin","fullname":"admin","imgUrl":null,"isAdmin":true}
+1.9.2025, 5:28:28 - INFO - Server is running on port: 3030
+1.9.2025, 5:28:53 - INFO - Server is running on port: 3030
+1.9.2025, 5:29:12 - ERROR - ERROR: cannot add order
+1.9.2025, 5:29:12 - ERROR - Failed to add order | BSONError: input must be a 24 character hex string, 12 byte Uint8Array, or an integer
+1.9.2025, 5:32:38 - INFO - Server is running on port: 3030
+1.9.2025, 5:33:04 - INFO - Server is running on port: 3030
+1.9.2025, 5:35:09 - INFO - Server is running on port: 3030
+1.9.2025, 5:35:15 - INFO - Server is running on port: 3030
+1.9.2025, 5:35:32 - INFO - Server is running on port: 3030
+1.9.2025, 5:37:04 - INFO - Server is running on port: 3030
+1.9.2025, 5:38:08 - INFO - /api/stay | GET | {} | {"id":"6738ca4cae769d402b653c88"}
+1.9.2025, 5:38:55 - INFO - Server is running on port: 3030
+1.9.2025, 5:39:14 - INFO - /api/stay | GET | {} | {}
+1.9.2025, 5:39:36 - INFO - /api/stay | GET | {} | {}
+1.9.2025, 5:39:46 - INFO - /api/stay | GET | {} | {"id":"6738ca4cae769d402b653c88"}
+1.9.2025, 5:39:50 - INFO - /api/stay | GET | {} | {"id":"6738ca4cae769d402b653c88"}
+1.9.2025, 5:40:17 - DEBUG - auth.service - login with username: admin
+1.9.2025, 5:40:17 - INFO - User login:  | {"_id":"68b1a696af177aae560256d8","username":"admin","fullname":"admin","imgUrl":null,"isAdmin":true}
+1.9.2025, 5:40:17 - INFO - /api/stay | GET | {} | {}
+1.9.2025, 5:40:20 - INFO - /api/stay | GET | {} | {"id":"6738ca4cae769d402b653c88"}
+1.9.2025, 5:40:22 - INFO - /api/stay | GET | {} | {"id":"6738ca4cae769d402b653c88"}
+1.9.2025, 5:42:07 - INFO - /api/stay | GET | {} | {}
+1.9.2025, 5:44:12 - INFO - /api/stay | GET | {} | {"id":"6738ca4cae769d402b653c88"}
+1.9.2025, 5:44:21 - INFO - /api/stay | GET | {} | {"id":"6738ca4cae769d402b653c88"}
+1.9.2025, 5:45:09 - INFO - Server is running on port: 3030
+1.9.2025, 5:45:25 - INFO - /api/stay | GET | {} | {"id":"6738ca4cae769d402b653c88"}
+1.9.2025, 5:45:42 - INFO - /api/stay | GET | {} | {"id":"6738ca4cae769d402b653c88"}
+1.9.2025, 5:45:43 - INFO - /api/stay | GET | {} | {"id":"6738ca4cae769d402b653c88"}
+1.9.2025, 5:45:48 - INFO - /api/stay | GET | {} | {"id":"6738ca4cae769d402b653c88"}
+1.9.2025, 5:45:52 - INFO - /api/stay | GET | {} | {"id":"6738ca4cae769d402b653c88"}
+1.9.2025, 5:45:55 - INFO - Server is running on port: 3030
+1.9.2025, 5:45:55 - INFO - /api/stay | GET | {} | {"id":"6738ca4cae769d402b653c88"}
+1.9.2025, 5:46:30 - INFO - /api/stay | GET | {} | {"id":"6738ca4cae769d402b653c88"}
+1.9.2025, 5:48:06 - INFO - /api/stay | POST | {"name":"Baby Block","type":"Apartment","price":12,"loc":{"address":"האגס 11, חצור הגלילית, ישראל","city":"חצור הגלילית","country":"ישראל","countryCode":"IL","street":"11 האגס","lat":32.990239,"lng":35.545068},"imgUrls":["https://res.cloudinary.com/vanilla-test-images/image/upload/v1756694824/nrrngpvfbxa2rymmudlx.png","https://res.cloudinary.com/vanilla-test-images/image/upload/v1756694848/feevaqkful5ckjxes9ge.png"],"capacity":7,"rooms":6,"bedrooms":3,"bathrooms":3,"labels":[],"amenities":["Wifi","Kitchen","Air conditioning","Heating","Parking","Elevator","Pool"],"description":"test the new added stay","host":{"_id":"68b1a696af177aae560256d8","fullname":"admin","imgUrl":null}} | {}
+1.9.2025, 5:48:06 - INFO - /api/stay | GET | {} | {"id":"68b509663f790dcad1ef9e91"}
+1.9.2025, 5:48:15 - INFO - /api/stay | GET | {} | {"id":"68b509663f790dcad1ef9e91"}
+1.9.2025, 5:48:57 - INFO - /api/stay | GET | {} | {}
+1.9.2025, 5:49:17 - INFO - /api/stay | GET | {} | {"id":"68b509663f790dcad1ef9e91"}
+1.9.2025, 5:49:41 - INFO - /api/stay | GET | {} | {"id":"6738ca4cae769d402b653c88"}
+1.9.2025, 5:50:19 - INFO - /api/stay | GET | {} | {"id":"6738ca4cae769d402b653c88"}
+1.9.2025, 5:51:13 - INFO - /api/stay | GET | {} | {}
+1.9.2025, 5:51:14 - INFO - /api/stay | GET | {} | {"id":"68b509663f790dcad1ef9e91"}
+1.9.2025, 5:52:00 - DEBUG - auth.service - login with username: aa
+1.9.2025, 5:52:00 - INFO - User login:  | {"_id":"68b46419f2a68a36db5b6f1f","username":"aa","fullname":"aa","imgUrl":"https://cdn.pixabay.com/photo/2020/07/01/12/58/icon-5359553_1280.png","isAdmin":false}
+1.9.2025, 5:52:00 - INFO - /api/stay | GET | {} | {}
+1.9.2025, 5:52:03 - INFO - /api/stay | GET | {} | {"id":"68b4f8c303164ed75e123db8"}
+1.9.2025, 5:52:27 - DEBUG - auth.service - login with username: admin
+1.9.2025, 5:52:27 - INFO - User login:  | {"_id":"68b1a696af177aae560256d8","username":"admin","fullname":"admin","imgUrl":null,"isAdmin":true}
+1.9.2025, 5:52:27 - INFO - /api/stay | GET | {} | {}
+1.9.2025, 5:52:31 - INFO - /api/stay | GET | {} | {"id":"68b4f8c303164ed75e123db8"}
+1.9.2025, 5:52:38 - INFO - /api/stay | GET | {} | {"id":"68b4f8c303164ed75e123db8"}
+1.9.2025, 5:52:56 - INFO - /api/stay | GET | {} | {"id":"6738ca4cae769d402b653c88"}
+1.9.2025, 5:53:00 - INFO - /api/stay | GET | {} | {"id":"6738ca4cae769d402b653c88"}
+1.9.2025, 5:53:04 - INFO - /api/stay | GET | {} | {"id":"6738ca4cae769d402b653c88"}
+1.9.2025, 5:53:24 - DEBUG - auth.service - login with username: aa
+1.9.2025, 5:53:24 - INFO - User login:  | {"_id":"68b46419f2a68a36db5b6f1f","username":"aa","fullname":"aa","imgUrl":"https://cdn.pixabay.com/photo/2020/07/01/12/58/icon-5359553_1280.png","isAdmin":false}
+1.9.2025, 5:53:24 - INFO - /api/stay | GET | {} | {}
+1.9.2025, 5:58:54 - INFO - /api/stay | GET | {} | {}
+1.9.2025, 5:58:58 - INFO - /api/stay | GET | {} | {"id":"6738ca4cae769d402b653c7e"}
+1.9.2025, 5:59:05 - INFO - /api/stay | GET | {} | {"id":"6738ca4cae769d402b653c7e"}
+1.9.2025, 6:02:41 - INFO - Server is running on port: 3030
+1.9.2025, 6:02:46 - INFO - Server is running on port: 3030
+1.9.2025, 6:02:50 - INFO - Server is running on port: 3030
+1.9.2025, 6:02:54 - ERROR - ERROR: cannot find orders
+1.9.2025, 6:02:54 - ERROR - Failed to get orders | BSONError: input must be a 24 character hex string, 12 byte Uint8Array, or an integer
+1.9.2025, 6:02:54 - ERROR - ERROR: cannot find orders
+1.9.2025, 6:02:54 - ERROR - Failed to get orders | BSONError: input must be a 24 character hex string, 12 byte Uint8Array, or an integer
+1.9.2025, 6:03:34 - ERROR - ERROR: cannot find orders
+1.9.2025, 6:03:34 - ERROR - Failed to get orders | BSONError: input must be a 24 character hex string, 12 byte Uint8Array, or an integer
+1.9.2025, 6:03:34 - ERROR - ERROR: cannot find orders
+1.9.2025, 6:03:34 - ERROR - Failed to get orders | BSONError: input must be a 24 character hex string, 12 byte Uint8Array, or an integer
+1.9.2025, 6:03:44 - ERROR - ERROR: cannot find orders
+1.9.2025, 6:03:44 - ERROR - Failed to get orders | BSONError: input must be a 24 character hex string, 12 byte Uint8Array, or an integer
+1.9.2025, 6:03:44 - ERROR - ERROR: cannot find orders
+1.9.2025, 6:03:44 - ERROR - Failed to get orders | BSONError: input must be a 24 character hex string, 12 byte Uint8Array, or an integer
+1.9.2025, 6:03:47 - ERROR - Failed to get orders | BSONError: input must be a 24 character hex string, 12 byte Uint8Array, or an integer
+1.9.2025, 6:03:47 - ERROR - ERROR: cannot find orders
+1.9.2025, 6:03:47 - ERROR - Failed to get orders | BSONError: input must be a 24 character hex string, 12 byte Uint8Array, or an integer
+1.9.2025, 6:03:47 - ERROR - ERROR: cannot find orders
+1.9.2025, 6:04:02 - INFO - Server is running on port: 3030
+1.9.2025, 6:04:03 - ERROR - ERROR: cannot find orders
+1.9.2025, 6:04:03 - ERROR - Failed to get orders | BSONError: input must be a 24 character hex string, 12 byte Uint8Array, or an integer
+1.9.2025, 6:04:03 - ERROR - ERROR: cannot find orders
+1.9.2025, 6:04:03 - ERROR - Failed to get orders | BSONError: input must be a 24 character hex string, 12 byte Uint8Array, or an integer
+1.9.2025, 6:04:34 - ERROR - ERROR: cannot find orders
+1.9.2025, 6:04:34 - ERROR - Failed to get orders | BSONError: input must be a 24 character hex string, 12 byte Uint8Array, or an integer
+1.9.2025, 6:04:34 - ERROR - ERROR: cannot find orders
+1.9.2025, 6:04:34 - ERROR - Failed to get orders | BSONError: input must be a 24 character hex string, 12 byte Uint8Array, or an integer
+1.9.2025, 6:04:39 - INFO - /api/stay | GET | {} | {}
+1.9.2025, 6:04:55 - INFO - /api/stay | GET | {} | {}
+1.9.2025, 6:04:56 - INFO - /api/stay | GET | {} | {"id":"6738ca4cae769d402b653c88"}
+1.9.2025, 6:04:59 - INFO - /api/stay | GET | {} | {"id":"6738ca4cae769d402b653c88"}
+1.9.2025, 6:05:11 - ERROR - ERROR: cannot find orders
+1.9.2025, 6:05:11 - ERROR - Failed to get orders | BSONError: input must be a 24 character hex string, 12 byte Uint8Array, or an integer
+1.9.2025, 6:05:11 - ERROR - ERROR: cannot find orders
+1.9.2025, 6:05:11 - ERROR - Failed to get orders | BSONError: input must be a 24 character hex string, 12 byte Uint8Array, or an integer
+1.9.2025, 6:08:22 - INFO - Server is running on port: 3030
+1.9.2025, 6:08:58 - INFO - Server is running on port: 3030
+1.9.2025, 6:09:19 - INFO - /api/stay | GET | {} | {}
+1.9.2025, 6:10:13 - INFO - /api/stay | GET | {} | {}
+1.9.2025, 8:39:32 - INFO - /api/stay | GET | {} | {}
+1.9.2025, 8:55:52 - INFO - /api/stay | GET | {} | {}
+1.9.2025, 9:40:29 - INFO - /api/stay | GET | {} | {}
+1.9.2025, 9:41:34 - INFO - /api/stay | GET | {} | {}
+1.9.2025, 9:41:48 - INFO - /api/stay | GET | {} | {"id":"6738ca4cae769d402b653c88"}
+1.9.2025, 9:41:52 - INFO - /api/stay | GET | {} | {}
+1.9.2025, 9:42:48 - INFO - /api/stay | GET | {} | {"id":"6738ca4cae769d402b653c73"}
+1.9.2025, 9:48:04 - INFO - /api/stay | GET | {} | {"id":"6738ca4cae769d402b653c73"}
+1.9.2025, 13:39:41 - INFO - /api/stay | GET | {} | {"id":"6738ca4cae769d402b653c73"}
+1.9.2025, 14:14:45 - INFO - /api/stay | GET | {} | {"id":"6738ca4cae769d402b653c73"}
+1.9.2025, 14:49:59 - INFO - /api/stay | GET | {} | {"id":"6738ca4cae769d402b653c73"}
+1.9.2025, 14:50:01 - INFO - /api/stay | GET | {} | {}
+1.9.2025, 14:52:31 - INFO - /api/stay | GET | {} | {}
+1.9.2025, 14:54:53 - INFO - /api/stay | POST | {"name":"Paint Set Deluxe","type":"B&B","price":3670,"loc":{"address":"39/1, GP Nagar, Periyakurichi, Neyveli, Tamil Nadu 607802, הודו","city":"Neyveli","country":"הודו","countryCode":"IN","street":"","lat":11.539353,"lng":79.49244379999999},"imgUrls":["https://res.cloudinary.com/vanilla-test-images/image/upload/v1756727629/bxftcg2wq77hn2ebimyw.png","https://res.cloudinary.com/vanilla-test-images/image/upload/v1756727652/iudfdqebrwteq5xw3ctu.png"],"capacity":6,"rooms":2,"bedrooms":2,"bathrooms":2,"labels":[],"amenities":["Wifi","Kitchen","Air conditioning","Heating","Parking","Pool","Elevator"],"description":"test at 1/9/2025","host":{"_id":"68b46419f2a68a36db5b6f1f","fullname":"aa","imgUrl":"https://cdn.pixabay.com/photo/2020/07/01/12/58/icon-5359553_1280.png"}} | {}
+1.9.2025, 14:54:53 - INFO - /api/stay | GET | {} | {"id":"68b5898dd2b67e314e5045c2"}
+1.9.2025, 14:55:13 - INFO - /api/stay | GET | {} | {"id":"68b5898dd2b67e314e5045c2"}
+1.9.2025, 15:11:31 - INFO - Server is running on port: 3030
+1.9.2025, 15:11:35 - ERROR - ERROR: cannot find orders
+1.9.2025, 15:11:35 - ERROR - Failed to get orders | TypeError: Class constructor ObjectId cannot be invoked without 'new'
+1.9.2025, 15:11:54 - INFO - Server is running on port: 3030
+1.9.2025, 15:21:56 - INFO - Server is running on port: 3030
+1.9.2025, 15:21:59 - INFO - Server is running on port: 3030
+1.9.2025, 15:22:01 - INFO - Server is running on port: 3030
+1.9.2025, 15:22:05 - INFO - Server is running on port: 3030
+1.9.2025, 15:22:11 - INFO - Server is running on port: 3030
+1.9.2025, 15:22:16 - INFO - Server is running on port: 3030
+1.9.2025, 15:23:03 - INFO - Server is running on port: 3030
+1.9.2025, 15:23:25 - INFO - Server is running on port: 3030
+1.9.2025, 15:33:35 - INFO - Server is running on port: 3030
+1.9.2025, 15:33:36 - INFO - Server is running on port: 3030
+1.9.2025, 15:33:38 - INFO - Server is running on port: 3030
+1.9.2025, 15:33:41 - INFO - Server is running on port: 3030
+1.9.2025, 15:33:42 - INFO - Server is running on port: 3030
+1.9.2025, 15:33:44 - INFO - Server is running on port: 3030
+1.9.2025, 15:39:10 - INFO - Server is running on port: 3030
+1.9.2025, 15:39:15 - INFO - Server is running on port: 3030
+1.9.2025, 15:39:17 - INFO - Server is running on port: 3030
+1.9.2025, 15:39:52 - INFO - Server is running on port: 3030
+1.9.2025, 15:39:57 - INFO - Server is running on port: 3030
+1.9.2025, 15:39:58 - INFO - Server is running on port: 3030
+1.9.2025, 15:40:16 - INFO - Server is running on port: 3030
+1.9.2025, 15:40:34 - INFO - Server is running on port: 3030
+1.9.2025, 15:40:40 - INFO - Server is running on port: 3030
+1.9.2025, 15:40:42 - INFO - Server is running on port: 3030
+1.9.2025, 15:40:49 - INFO - Server is running on port: 3030
+1.9.2025, 15:40:50 - INFO - Server is running on port: 3030
+1.9.2025, 15:40:59 - INFO - Server is running on port: 3030
+1.9.2025, 15:42:55 - INFO - /api/stay | GET | {} | {}
+1.9.2025, 15:43:06 - DEBUG - auth.service - login with username: aa
+1.9.2025, 15:43:06 - INFO - User login:  | {"_id":"68b46419f2a68a36db5b6f1f","username":"aa","fullname":"aa","imgUrl":"https://cdn.pixabay.com/photo/2020/07/01/12/58/icon-5359553_1280.png","isAdmin":false}
+1.9.2025, 15:43:07 - INFO - /api/stay | GET | {} | {}
+1.9.2025, 15:43:14 - INFO - /api/stay | GET | {} | {}
+1.9.2025, 15:43:21 - INFO - /api/stay | GET | {} | {}
+1.9.2025, 15:43:27 - INFO - /api/stay | GET | {} | {}
+1.9.2025, 15:43:35 - INFO - /api/stay | GET | {} | {}
+1.9.2025, 15:43:41 - INFO - /api/stay | GET | {} | {"id":"68b5898dd2b67e314e5045c2"}
+1.9.2025, 15:44:52 - INFO - /api/stay | GET | {} | {"id":"68b5898dd2b67e314e5045c2"}
+1.9.2025, 15:45:19 - INFO - /api/stay | GET | {} | {"id":"68b5898dd2b67e314e5045c2"}
+1.9.2025, 15:45:23 - INFO - /api/stay | GET | {} | {"id":"68b5898dd2b67e314e5045c2"}
+1.9.2025, 15:45:35 - INFO - /api/stay | GET | {} | {"id":"68b5898dd2b67e314e5045c2"}
+1.9.2025, 15:50:26 - INFO - Server is running on port: 3030
+1.9.2025, 15:50:28 - INFO - /api/stay | GET | {} | {"id":"68b5898dd2b67e314e5045c2"}
+1.9.2025, 15:50:41 - INFO - Server is running on port: 3030
+1.9.2025, 15:50:45 - INFO - Server is running on port: 3030
+1.9.2025, 15:57:41 - INFO - /api/stay | GET | {} | {"id":"68b5898dd2b67e314e5045c2"}
+1.9.2025, 15:57:42 - INFO - /api/stay | GET | {} | {"id":"68b5898dd2b67e314e5045c2"}
+1.9.2025, 15:58:10 - INFO - /api/stay | GET | {} | {"id":"68b5898dd2b67e314e5045c2"}
+1.9.2025, 15:58:12 - INFO - /api/stay | GET | {} | {"id":"68b5898dd2b67e314e5045c2"}
+1.9.2025, 15:58:16 - INFO - /api/stay | GET | {} | {"id":"68b5898dd2b67e314e5045c2"}
+1.9.2025, 15:59:07 - INFO - /api/stay | GET | {} | {"id":"68b5898dd2b67e314e5045c2"}
+1.9.2025, 15:59:09 - INFO - /api/stay | GET | {} | {"id":"68b5898dd2b67e314e5045c2"}
+1.9.2025, 15:59:27 - INFO - Server is running on port: 3030
+1.9.2025, 15:59:32 - INFO - Server is running on port: 3030
+1.9.2025, 15:59:42 - INFO - Server is running on port: 3030
+1.9.2025, 15:59:44 - INFO - Server is running on port: 3030
+1.9.2025, 15:59:48 - INFO - Server is running on port: 3030
+1.9.2025, 15:59:49 - INFO - Server is running on port: 3030
+1.9.2025, 15:59:52 - INFO - Server is running on port: 3030
+1.9.2025, 15:59:55 - INFO - Server is running on port: 3030
+1.9.2025, 16:00:00 - INFO - Server is running on port: 3030
+1.9.2025, 16:00:37 - INFO - Server is running on port: 3030
+1.9.2025, 16:00:39 - INFO - Server is running on port: 3030
+1.9.2025, 16:00:44 - INFO - Server is running on port: 3030
+1.9.2025, 16:00:46 - INFO - Server is running on port: 3030
+1.9.2025, 16:00:56 - INFO - /api/stay | GET | {} | {"id":"68b5898dd2b67e314e5045c2"}
+1.9.2025, 16:00:59 - INFO - /api/stay | GET | {} | {"id":"68b5898dd2b67e314e5045c2"}
+1.9.2025, 16:01:01 - INFO - /api/stay | GET | {} | {"id":"68b5898dd2b67e314e5045c2"}
+1.9.2025, 16:01:04 - INFO - /api/stay | GET | {} | {"id":"68b5898dd2b67e314e5045c2"}
+1.9.2025, 16:01:06 - INFO - /api/stay | GET | {} | {"id":"68b5898dd2b67e314e5045c2"}
+1.9.2025, 16:01:13 - INFO - /api/stay | GET | {} | {"id":"68b5898dd2b67e314e5045c2"}
+1.9.2025, 16:02:13 - INFO - /api/stay | GET | {} | {"id":"68b5898dd2b67e314e5045c2"}
+1.9.2025, 16:02:25 - INFO - /api/stay | GET | {} | {}
+1.9.2025, 16:02:26 - INFO - /api/stay | GET | {} | {"id":"6738ca4cae769d402b653c7e"}
+1.9.2025, 16:02:28 - INFO - /api/stay | GET | {} | {"id":"6738ca4cae769d402b653c7e"}
+1.9.2025, 16:02:56 - INFO - /api/stay | GET | {} | {"id":"6738ca4cae769d402b653c7e"}
+1.9.2025, 16:03:11 - INFO - /api/stay | GET | {} | {"id":"6738ca4cae769d402b653c7e"}
+1.9.2025, 16:04:12 - INFO - /api/stay | GET | {} | {}
+1.9.2025, 16:04:13 - INFO - /api/stay | GET | {} | {"id":"6738ca4cae769d402b653c85"}
+1.9.2025, 16:04:15 - INFO - /api/stay | GET | {} | {"id":"6738ca4cae769d402b653c85"}
+1.9.2025, 16:04:44 - INFO - /api/stay | GET | {} | {"id":"6738ca4cae769d402b653c85"}
+1.9.2025, 16:06:00 - DEBUG - auth.service - login with username: admin
+1.9.2025, 16:06:00 - INFO - User login:  | {"_id":"68b1a696af177aae560256d8","username":"admin","fullname":"admin","imgUrl":null,"isAdmin":true}
+1.9.2025, 16:06:00 - INFO - /api/stay | GET | {} | {}
+1.9.2025, 16:06:02 - INFO - /api/stay | GET | {} | {"id":"6738ca4cae769d402b653c85"}
+1.9.2025, 16:06:04 - INFO - /api/stay | GET | {} | {"id":"6738ca4cae769d402b653c85"}
+1.9.2025, 16:07:43 - INFO - /api/stay | GET | {} | {"id":"6738ca4cae769d402b653c85"}
+1.9.2025, 16:07:44 - INFO - /api/stay | GET | {} | {"id":"6738ca4cae769d402b653c85"}
+1.9.2025, 16:09:40 - INFO - /api/stay | GET | {} | {"id":"6738ca4cae769d402b653c85"}
+1.9.2025, 16:09:42 - INFO - /api/stay | GET | {} | {"id":"6738ca4cae769d402b653c85"}
+1.9.2025, 17:22:15 - INFO - /api/stay | GET | {} | {"id":"6738ca4cae769d402b653c85"}
+1.9.2025, 17:22:17 - INFO - /api/stay | GET | {} | {"id":"6738ca4cae769d402b653c85"}
+1.9.2025, 17:22:25 - INFO - /api/stay | GET | {} | {"id":"6738ca4cae769d402b653c85"}

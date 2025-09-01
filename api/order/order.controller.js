@@ -5,6 +5,7 @@ export async function getOrders(req, res) {
 	try {
 		const filterBy = {
 			hostId: req.query.hostId || '',
+			userId: req.query.userId || '',
 			guestId: req.query.guestId || '',
 			status: req.query.status || '',
 		}
@@ -31,8 +32,19 @@ export async function addOrder(req, res) {
 	const { loggedinUser, body } = req
 	const order = req.body
 	try {
-		order.guest = loggedinUser
-		const addedOrder = await orderService.add(order)
+		// Ensure the order has the correct structure matching MongoDB Compass format
+		const orderToAdd = {
+			userId: loggedinUser._id || order.userId, // Use logged in user ID or provided userId
+			stayId: order.stayId,
+			hostId: order.hostId,
+			totalPrice: order.totalPrice,
+			startDate: new Date(order.startDate),
+			endDate: new Date(order.endDate),
+			guests: order.guests,
+			status: order.status || 'pending'
+		}
+		
+		const addedOrder = await orderService.add(orderToAdd)
 		res.json(addedOrder)
 	} catch (err) {
 		logger.error('Failed to add order', err)
@@ -44,7 +56,10 @@ export async function updateOrder(req, res) {
 	const { loggedinUser, body: order } = req
     const { _id: userId, isAdmin } = loggedinUser
 
-    if(!isAdmin && order.guest._id !== userId) {
+    // In guest mode, allow updates if no specific user is logged in
+    if (!loggedinUser || !loggedinUser._id) {
+        // Guest mode - allow the update
+    } else if (!isAdmin && order.userId && order.userId !== userId) {
         res.status(403).send('Not your order...')
         return
     }
