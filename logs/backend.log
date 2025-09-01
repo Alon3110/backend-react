@@ -1961,3 +1961,28 @@
 1.9.2025, 20:25:50 - INFO - /api/stay | GET | {} | {"id":"68b5d70fdebcc1978f62400f"}
 1.9.2025, 20:25:58 - INFO - /api/stay | GET | {} | {}
 1.9.2025, 20:26:01 - INFO - /api/stay | GET | {} | {}
+1.9.2025, 21:16:59 - INFO - New connected socket [id: stnaKAOwpruCn53KAAAB]
+1.9.2025, 21:16:59 - INFO - Setting socket.userId = 68b46419f2a68a36db5b6f1f for socket [id: stnaKAOwpruCn53KAAAB]
+1.9.2025, 21:16:59 - INFO - Socket disconnected [id: undefined]
+1.9.2025, 21:17:00 - INFO - New connected socket [id: ohx45T5CaghOOfckAAAD]
+1.9.2025, 21:17:00 - INFO - Setting socket.userId = 68b46419f2a68a36db5b6f1f for socket [id: ohx45T5CaghOOfckAAAD]
+1.9.2025, 21:17:15 - INFO - Socket disconnected [id: undefined]
+1.9.2025, 21:17:15 - INFO - New connected socket [id: fbGkiuZzWUIJvbCeAAAF]
+1.9.2025, 21:17:15 - INFO - Setting socket.userId = 68b46419f2a68a36db5b6f1f for socket [id: fbGkiuZzWUIJvbCeAAAF]
+1.9.2025, 21:17:24 - INFO - Socket disconnected [id: undefined]
+1.9.2025, 21:17:24 - INFO - /api/stay | GET | {} | {}
+1.9.2025, 21:17:32 - INFO - /api/stay | GET | {} | {}
+1.9.2025, 21:17:33 - INFO - /api/stay | GET | {} | {}
+1.9.2025, 21:17:36 - INFO - /api/stay | GET | {} | {}
+1.9.2025, 21:17:40 - INFO - /api/stay | GET | {} | {}
+1.9.2025, 21:17:40 - INFO - /api/stay | GET | {} | {}
+1.9.2025, 21:23:09 - INFO - /api/stay | GET | {} | {}
+1.9.2025, 21:23:35 - INFO - /api/stay | GET | {} | {}
+1.9.2025, 21:24:12 - INFO - /api/stay | GET | {} | {}
+1.9.2025, 21:26:50 - INFO - New connected socket [id: 4XOAoS-l1pO4fv_qAAAH]
+1.9.2025, 21:26:50 - INFO - Setting socket.userId = 68b46419f2a68a36db5b6f1f for socket [id: 4XOAoS-l1pO4fv_qAAAH]
+1.9.2025, 21:27:01 - INFO - Socket disconnected [id: undefined]
+1.9.2025, 21:27:01 - INFO - New connected socket [id: DBf8kLJWs2gbDoEbAAAJ]
+1.9.2025, 21:27:01 - INFO - Setting socket.userId = 68b46419f2a68a36db5b6f1f for socket [id: DBf8kLJWs2gbDoEbAAAJ]
+1.9.2025, 21:27:31 - INFO - Socket disconnected [id: undefined]
+1.9.2025, 21:27:31 - INFO - /api/stay | GET | {} | {}
