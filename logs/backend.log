@@ -1933,3 +1933,31 @@
 1.9.2025, 19:55:24 - INFO - /api/stay | GET | {} | {"id":"6738ca4cae769d402b653c7e"}
 1.9.2025, 19:56:15 - INFO - /api/stay | GET | {} | {"id":"6738ca4cae769d402b653c7e"}
 1.9.2025, 19:56:33 - INFO - /api/stay | GET | {} | {}
+1.9.2025, 20:00:08 - INFO - /api/stay | GET | {} | {"id":"6738ca4cae769d402b653c7f"}
+1.9.2025, 20:00:21 - INFO - /api/stay | GET | {} | {"id":"6738ca4cae769d402b653c7f"}
+1.9.2025, 20:00:28 - INFO - /api/stay | GET | {} | {}
+1.9.2025, 20:00:39 - INFO - /api/stay | GET | {} | {"id":"68b5bbcf8d7ca8118a3b6a73"}
+1.9.2025, 20:00:52 - INFO - /api/stay | GET | {} | {"id":"68b5bbcf8d7ca8118a3b6a73"}
+1.9.2025, 20:00:52 - ERROR - ERROR: cannot add order
+1.9.2025, 20:00:52 - ERROR - Failed to add order | Error: hostId is required
+1.9.2025, 20:05:25 - INFO - /api/stay | GET | {} | {"id":"68b5bbcf8d7ca8118a3b6a73"}
+1.9.2025, 20:05:32 - INFO - /api/stay | GET | {} | {"id":"68b5bbcf8d7ca8118a3b6a73"}
+1.9.2025, 20:05:38 - INFO - /api/stay | GET | {} | {"id":"68b5bbcf8d7ca8118a3b6a73"}
+1.9.2025, 20:05:53 - INFO - /api/stay | GET | {} | {"id":"68b5bbcf8d7ca8118a3b6a73"}
+1.9.2025, 20:06:20 - INFO - Server is running on port: 3030
+1.9.2025, 20:06:28 - INFO - Server is running on port: 3030
+1.9.2025, 20:06:29 - INFO - /api/stay | GET | {} | {"id":"68b5bbcf8d7ca8118a3b6a73"}
+1.9.2025, 20:06:29 - INFO - /api/stay | GET | {} | {"id":"68b5bbcf8d7ca8118a3b6a73"}
+1.9.2025, 20:08:03 - INFO - /api/stay | GET | {} | {}
+1.9.2025, 20:12:36 - INFO - /api/stay | GET | {} | {}
+1.9.2025, 20:20:35 - INFO - /api/stay | GET | {} | {}
+1.9.2025, 20:20:48 - INFO - /api/stay | GET | {} | {"id":"6738ca4cae769d402b653c76"}
+1.9.2025, 20:20:50 - INFO - /api/stay | GET | {} | {}
+1.9.2025, 20:21:25 - INFO - /api/stay | GET | {} | {}
+1.9.2025, 20:21:36 - INFO - /api/stay | GET | {} | {"id":"6738ca4cae769d402b653c88"}
+1.9.2025, 20:22:55 - INFO - /api/stay | GET | {} | {"id":"6738ca4cae769d402b653c88"}
+1.9.2025, 20:25:35 - INFO - /api/stay | POST | {"name":"Magic Puzzle","type":"House","price":3670,"loc":{"address":"האגס 11, אילת, ישראל","city":"אילת","country":"ישראל","countryCode":"IL","street":"11 האגס","lat":29.544714,"lng":34.939692},"imgUrls":["https://res.cloudinary.com/vanilla-test-images/image/upload/v1756747511/e6ezykart6azmghkock8.png"],"capacity":3,"rooms":1,"bedrooms":2,"bathrooms":1,"labels":[],"amenities":["Wifi","Kitchen","Air conditioning","Heating"],"description":"wow ","host":{"_id":"68b46419f2a68a36db5b6f1f","fullname":"aa","imgUrl":"https://cdn.pixabay.com/photo/2020/07/01/12/58/icon-5359553_1280.png"}} | {}
+1.9.2025, 20:25:35 - INFO - /api/stay | GET | {} | {"id":"68b5d70fdebcc1978f62400f"}
+1.9.2025, 20:25:50 - INFO - /api/stay | GET | {} | {"id":"68b5d70fdebcc1978f62400f"}
+1.9.2025, 20:25:58 - INFO - /api/stay | GET | {} | {}
+1.9.2025, 20:26:01 - INFO - /api/stay | GET | {} | {}

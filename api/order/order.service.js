@@ -65,7 +65,7 @@ async function add(order) {
             throw new Error('stayId is required')
         }
         if (!order.hostId) {
-            throw new Error('hostId is required')
+            throw new Error('hostId is required - order.hostId is undefined')
         }
         if (!order.totalPrice) {
             throw new Error('totalPrice is required')
@@ -79,6 +79,8 @@ async function add(order) {
         if (!order.guests) {
             throw new Error('guests is required')
         }
+        
+        console.log('Order validation passed, hostId:', order.hostId, 'type:', typeof order.hostId)
         
         // Create order with exact structure specified
         const orderToAdd = {
