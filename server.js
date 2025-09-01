@@ -35,13 +35,13 @@ if (process.env.NODE_ENV === 'production') {
     }
     app.use(cors(corsOptions))
 }
-app.all('*', setupAsyncLocalStorage)
+app.all('*all', setupAsyncLocalStorage)
 
 app.use('/api/auth', authRoutes)
 app.use('/api/user', userRoutes)
 app.use('/api/review', reviewRoutes)
 app.use('/api/stay', stayRoutes)
-app.use('/api/order', orderRoutes.router)
+app.use('/api/order', orderRoutes)
 
 setupSocketAPI(server)
 

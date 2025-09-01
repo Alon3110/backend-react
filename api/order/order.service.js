@@ -1,5 +1,6 @@
 import { dbService } from '../../services/db.service.js'
 import { logger } from '../../services/logger.service.js'
+import { ObjectId } from 'mongodb'
 
 const COLLECTION_NAME = 'order'
 
@@ -15,7 +16,7 @@ async function query(filterBy = {}) {
     try {
         const collection = await dbService.getCollection(COLLECTION_NAME)
         let orders = await collection.find().toArray()
-        
+
         // Apply filters if needed
         if (filterBy.hostId) {
             orders = orders.filter(order => order.hostId._id === filterBy.hostId)
@@ -26,7 +27,7 @@ async function query(filterBy = {}) {
         if (filterBy.status) {
             orders = orders.filter(order => order.status === filterBy.status)
         }
-        
+
         return orders
     } catch (err) {
         logger.error('ERROR: cannot find orders')
@@ -36,8 +37,10 @@ async function query(filterBy = {}) {
 
 async function getById(orderId) {
     try {
+        const criteria = { _id: new ObjectId(orderId) }
+
         const collection = await dbService.getCollection(COLLECTION_NAME)
-        const order = await collection.findOne({ _id: orderId })
+        const order = await collection.findOne(criteria)
         return order
     } catch (err) {
         logger.error(`ERROR: cannot find order ${orderId}`)
@@ -61,7 +64,7 @@ async function update(order) {
         const orderToSave = { ...order }
         delete orderToSave._id
         const collection = await dbService.getCollection(COLLECTION_NAME)
-        await collection.updateOne({ _id: order._id }, { $set: orderToSave })
+        await collection.updateOne({ _id: new ObjectId(order._id) }, { $set: orderToSave })
         return order
     } catch (err) {
         logger.error(`ERROR: cannot update order ${order._id}`)
@@ -72,10 +75,16 @@ async function update(order) {
 async function remove(orderId) {
     try {
         const collection = await dbService.getCollection(COLLECTION_NAME)
-        await collection.deleteOne({ _id: orderId })
+        await collection.deleteOne({ _id: new ObjectId(orderId) })
     } catch (err) {
         logger.error(`ERROR: cannot remove order ${orderId}`)
         throw err
     }
 }
+
+
+
+
+
+
 

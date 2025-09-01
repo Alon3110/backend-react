@@ -14,7 +14,7 @@ export async function getReviews(req, res) {
 	}
 }
 
-export async function deleteReview(req, res) {
+export async function removeReview(req, res) {
 	var { loggedinUser } = req
     const { id: reviewId } = req.params
     

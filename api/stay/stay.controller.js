@@ -5,9 +5,12 @@ export async function getStays(req, res) {
 	try {
 		const filterBy = {
 			address: req.query.address || '',
+			guests: +req.query.guests || 0,
 			maxPrice: +req.query.maxPrice || 0,
-            // sortField: req.query.sortField || '',
-            // sortDir: req.query.sortDir || 1,
+			checkIn: +req.query.checkIn || '',
+			checkOut: +req.query.checkOut || '',
+            sortField: req.query.sortField || '',
+            sortDir: req.query.sortDir || 1,
 		}
 		const stays = await stayService.query(filterBy)
 		res.json(stays)
