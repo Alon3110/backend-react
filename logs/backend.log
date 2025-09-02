@@ -1986,3 +1986,6 @@
 1.9.2025, 21:27:01 - INFO - Setting socket.userId = 68b46419f2a68a36db5b6f1f for socket [id: DBf8kLJWs2gbDoEbAAAJ]
 1.9.2025, 21:27:31 - INFO - Socket disconnected [id: undefined]
 1.9.2025, 21:27:31 - INFO - /api/stay | GET | {} | {}
+1.9.2025, 21:50:27 - INFO - /api/stay | GET | {} | {}
+2.9.2025, 9:02:35 - INFO - /api/stay | GET | {} | {}
+2.9.2025, 9:08:32 - INFO - /api/stay | GET | {} | {}
