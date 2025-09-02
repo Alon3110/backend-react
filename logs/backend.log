@@ -1989,3 +1989,4 @@
 1.9.2025, 21:50:27 - INFO - /api/stay | GET | {} | {}
 2.9.2025, 9:02:35 - INFO - /api/stay | GET | {} | {}
 2.9.2025, 9:08:32 - INFO - /api/stay | GET | {} | {}
+2.9.2025, 9:53:08 - INFO - Server is running on port: 3030
