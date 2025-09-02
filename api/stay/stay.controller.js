@@ -1,3 +1,4 @@
+// import { log } from '../../middlewares/logger.middleware.js'
 import { logger } from '../../services/logger.service.js'
 import { stayService } from './stay.service.js'
 
@@ -12,6 +13,7 @@ export async function getStays(req, res) {
             sortField: req.query.sortField || '',
             sortDir: req.query.sortDir || 1,
 		}
+		
 		const stays = await stayService.query(filterBy)
 		res.json(stays)
 	} catch (err) {

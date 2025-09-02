@@ -6,7 +6,7 @@
     "type": "module",
     "scripts": {
         "start": "PORT=3030 nodemon server.js",
-        "dev": "nodemon server.js",
+        "dev": "node server.js",
         "server:dev": "nodemon server.js",
         "server:prod": "set NODE_ENV=production&node server.js",
         "server:prod:mac": "export NODE_ENV=production && node server.js"
@@ -19,6 +19,7 @@
         "cookie-parser": "^1.4.7",
         "cors": "^2.8.5",
         "cryptr": "^6.3.0",
+        "dotenv": "^17.2.1",
         "express": "^4.21.2",
         "mongodb": "^6.15.0",
         "socket-io": "^1.0.0",
