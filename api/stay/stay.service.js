@@ -17,16 +17,17 @@ export const stayService = {
 	removeStayMsg,
 }
 
-async function query(filterBy = { address: '', maxPrice: 0 }) {
+async function query(filterBy) {
 	try {
 		const criteria = _buildCriteria(filterBy)
 		//if needed
 		// const sort = _buildSort(filterBy)
 
 		const collection = await dbService.getCollection('stay')
+		console.log('criteria =>', criteria)
 		var stayCursor = await collection.find(criteria) // if needed ,{ sort }
 
-		const stays = stayCursor.toArray()
+		const stays = await stayCursor.toArray()
 		return stays
 	} catch (err) {
 		logger.error('cannot find stays', err)
@@ -72,10 +73,15 @@ async function remove(stayId) {
 
 async function add(stay) {
 	try {
+		if (stay.loc) {
+			stay.loc.lat = Number(stay.loc.lat)
+			stay.loc.lng = Number(stay.loc.lng)
+		}
 		const collection = await dbService.getCollection('stay')
-		await collection.insertOne(stay)
+		const result = await collection.insertOne(stay)
 
-		return stay
+		// Return the stay with the generated _id
+		return { ...stay, _id: result.insertedId }
 	} catch (err) {
 		logger.error('cannot insert stay', err)
 		throw err
@@ -84,8 +90,14 @@ async function add(stay) {
 
 async function update(stay) {
 	const stayToSave = { name: stay.name, price: stay.price }
-
+	if (stay.loc) {
+		stayToSave.loc = {
+			lat: Number(stay.loc.lat),
+			lng: Number(stay.loc.lng),
+		}
+	}
 	try {
+
 		const criteria = { _id: ObjectId.createFromHexString(stay._id) }
 
 		const collection = await dbService.getCollection('stay')
@@ -101,11 +113,7 @@ async function update(stay) {
 async function addStayMsg(stayId, msg) {
 	try {
 		const criteria = { _id: ObjectId.createFromHexString(stayId) }
-		msg.id = {
-			_id: makeId(),
-			by: userService.getLoggedinUser(),
-			txt
-		}
+		msg.id = makeId()
 
 		const collection = await dbService.getCollection('stay')
 		await collection.updateOne(criteria, { $push: { msgs: msg } })
@@ -132,12 +140,47 @@ async function removeStayMsg(stayId, msgId) {
 }
 
 function _buildCriteria(filterBy) {
-	const criteria = {
-		name: { $regex: filterBy.address, $options: 'i' },
-		price: { $gte: filterBy.maxPrice },
+	// const criteria = {
+	// 	address: { $regex: filterBy.address || '', $options: 'i' },
+	// 	price: { $gte: filterBy.maxPrice || 0 },
+	// }
+	console.log(filterBy);
+
+	const criteria = {}
+
+	if (filterBy.address.trim()) {
+		criteria.$or = [
+			{ 'loc.city': { $regex: filterBy.address.trim(), $options: 'i' } },
+			{ 'loc.country': { $regex: filterBy.address.trim(), $options: 'i' } },
+			{ 'loc.address': { $regex: filterBy.address.trim(), $options: 'i' } }
+		]		// criteria.loc.address = { $regex: filterBy.address.trim(), $options: 'i' }
+	}
+
+	const { checkIn, checkOut } = filterBy
+	if (checkIn && checkOut) {
+		const reqStart = new Date(checkIn)
+		const reqEnd = new Date(checkOut)
+
+		criteria.availableFrom = { $lte: reqStart }
+		criteria.availableTo = { $gte: reqEnd }
+	}
+
+	// if (filterBy.checkIn) {
+	// 	const startDate = new Date(filterBy.checkIn)
+	// 	criteria['filterBy.checkIn'] = { $lte: checkIn }
+	// }
+	// if (filterBy.checkOut) {
+	// 	const endDate = new Date(filterBy.checkOut)
+	// 	criteria['filterBy.checkOut'] = { $gte: checkOut }
+	// }
+
+	if (filterBy.guests) {
+		console.log(filterBy.guests);
+		criteria.capacity = { $gte: filterBy.guests }
 	}
 
 	return criteria
+
 }
 
 // function _buildSort(filterBy) {
