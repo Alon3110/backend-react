@@ -77,6 +77,7 @@ async function add(stay) {
 			stay.loc.lat = Number(stay.loc.lat)
 			stay.loc.lng = Number(stay.loc.lng)
 		}
+		logger.info('stay.service.add -> final stay.host:', stay.host)
 		const collection = await dbService.getCollection('stay')
 		const result = await collection.insertOne(stay)
 

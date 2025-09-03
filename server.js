@@ -13,6 +13,7 @@ import { orderRoutes } from './api/order/order.routes.js'
 import { setupSocketAPI } from './services/socket.service.js'
 
 import { setupAsyncLocalStorage } from './middlewares/setupAls.middleware.js'
+import { attachLoggedinUser } from './middlewares/requireAuth.middleware.js'
 
 const app = express()
 const server = http.createServer(app)
@@ -20,6 +21,7 @@ const server = http.createServer(app)
 // Express App Config
 app.use(cookieParser())
 app.use(express.json())
+app.use(attachLoggedinUser)
 
 const corsOptions = {
     origin: [   'http://127.0.0.1:3030',
