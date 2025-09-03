@@ -1,17 +1,24 @@
+// api/order/order.controller.js
 import { logger } from '../../services/logger.service.js'
 import { orderService } from './order.service.js'
 import { stayService } from '../stay/stay.service.js'
+import { userService } from '../user/user.service.js'
 import { workflowClient } from '../../config/upstash.js'
 
+const HEX24 = /^[0-9a-fA-F]{24}$/ // NEW
 
 export async function getOrders(req, res) {
 	try {
+		// NEW: only pass valid ObjectIds (drop placeholders like "guest-user-id")
+		const safeId = (v) => (typeof v === 'string' && HEX24.test(v) ? v : '') // NEW
+
 		const filterBy = {
-			hostId: req.query.hostId || '',
-			userId: req.query.userId || '',
-			guestId: req.query.guestId || '',
+			hostId: safeId(req.query.hostId),   // NEW
+			userId: safeId(req.query.userId),   // NEW
+			guestId: safeId(req.query.guestId), // NEW
 			status: req.query.status || '',
 		}
+
 		const orders = await orderService.query(filterBy)
 		res.json(orders)
 	} catch (err) {
@@ -48,7 +55,7 @@ export async function addOrder(req, res) {
 			guests: order.guests,
 			status: order.status || 'pending',
 			emails: order.emails || {}, // optional container for email fields
-			contactEmail: order.contactEmail || loggedinUser?.email || null
+			contactEmail: order.contactEmail || loggedinUser?.email || null,
 		}
 
 		const addedOrder = await orderService.add(orderToAdd)
@@ -56,7 +63,17 @@ export async function addOrder(req, res) {
 
 		// build a lightweight snapshot for the email workflow
 		let stay = null
-		try { stay = await stayService.getById(addedOrder.stayId) } catch { }
+		try {
+			const stayIdForGet =
+				typeof addedOrder.stayId === 'string'
+					? addedOrder.stayId
+					: addedOrder.stayId?.toString?.()
+			if (stayIdForGet) {
+				stay = await stayService.getById(stayIdForGet)
+			}
+		} catch {
+			// swallow
+		}
 
 		const snapshot = {
 			order: {
@@ -100,7 +117,6 @@ export async function updateOrder(req, res) {
 
 	// In guest mode, allow updates if no specific user is logged in
 	if (!loggedinUser || !loggedinUser._id) {
-		// Guest mode - allow the update
 		console.log('Guest mode - allowing update')
 	} else if (!isAdmin && order.userId && order.userId !== userId) {
 		console.log('Access denied - not your order')

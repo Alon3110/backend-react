@@ -4,16 +4,19 @@ import { stayService } from './stay.service.js'
 
 export async function getStays(req, res) {
 	try {
+		// Pass through filters explicitly and KEEP types as strings.        // EDIT
 		const filterBy = {
 			address: req.query.address || '',
-			guests: +req.query.guests || 0,
-			maxPrice: +req.query.maxPrice || 0,
-			checkIn: +req.query.checkIn || '',
-			checkOut: +req.query.checkOut || '',
-            sortField: req.query.sortField || '',
-            sortDir: req.query.sortDir || 1,
+			guests: req.query.guests ? Number(req.query.guests) || 0 : 0,
+			maxPrice: req.query.maxPrice ? Number(req.query.maxPrice) || 0 : 0,
+			checkIn: req.query.checkIn || '',                                  // EDIT (no +)
+			checkOut: req.query.checkOut || '',                                 // EDIT (no +)
+			sortField: req.query.sortField || '',
+			sortDir: req.query.sortDir ? Number(req.query.sortDir) || 1 : 1,
+			hostId: req.query.hostId || req.query.ownerId || '',                // NEW
+			ownerId: req.query.ownerId || '',                                   // NEW (for completeness)
 		}
-		
+
 		const stays = await stayService.query(filterBy)
 		res.json(stays)
 	} catch (err) {
@@ -37,7 +40,6 @@ export async function addStay(req, res) {
 	const { loggedinUser, body } = req
 	const stay = body
 	try {
-		
 		stay.host = loggedinUser
 		const addedStay = await stayService.add(stay)
 		res.json(addedStay)
@@ -49,12 +51,12 @@ export async function addStay(req, res) {
 
 export async function updateStay(req, res) {
 	const { loggedinUser, body: stay } = req
-    const { _id: userId, isAdmin } = loggedinUser
+	const { _id: userId, isAdmin } = loggedinUser
 
-    if(!isAdmin && stay.host._id !== userId) {
-        res.status(403).send('Not your stay...')
-        return
-    }
+	if (!isAdmin && stay.host._id !== userId) {
+		res.status(403).send('Not your stay...')
+		return
+	}
 
 	try {
 		const updatedStay = await stayService.update(stay)
@@ -72,8 +74,6 @@ export async function removeStay(req, res) {
 
 		res.send(removedId)
 	} catch (err) {
-		console.log(req.params.id);
-		
 		logger.error('Failed to remove stay', err)
 		res.status(400).send({ err: 'Failed to remove stay' })
 	}
@@ -99,7 +99,6 @@ export async function addStayMsg(req, res) {
 export async function removeStayMsg(req, res) {
 	try {
 		const { id: stayId, msgId } = req.params
-
 		const removedId = await stayService.removeStayMsg(stayId, msgId)
 		res.send(removedId)
 	} catch (err) {

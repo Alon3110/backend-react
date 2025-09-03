@@ -11,6 +11,7 @@ import { stayService } from '../api/stay/stay.service.js'
 import { authService } from '../api/auth/auth.service.js'
 
 export const orderConfirmationWorkflow = serve(async (context) => {
+    console.log('[Workflow] payload:', context.requestPayload)
     const payload = context.requestPayload || {}
     const { orderId, snapshot } = payload
 

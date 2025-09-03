@@ -1,27 +1,28 @@
-import {dbService} from '../../services/db.service.js'
-import {logger} from '../../services/logger.service.js'
-import {reviewService} from '../review/review.service.js'
+// api/user/user.service.js
+
+import { dbService } from '../../services/db.service.js'
+import { logger } from '../../services/logger.service.js'
+import { reviewService } from '../review/review.service.js'
 import { ObjectId } from 'mongodb'
 
 export const userService = {
-	add, // Create (Signup)
-	getById, // Read (Profile page)
-	update, // Update (Edit profile)
-	remove, // Delete (remove user)
-	query, // List (of users)
-	getByUsername, // Used for Login
+    add,            // Create (Signup)
+    getById,        // Read (Profile page)
+    update,         // Update (Edit profile)
+    remove,         // Delete (remove user)
+    query,          // List (of users)
+    getByUsername,  // Used for Login
 }
 
 async function query(filterBy = {}) {
     const criteria = _buildCriteria(filterBy)
     try {
         const collection = await dbService.getCollection('user')
-        var users = await collection.find(criteria).toArray()
+        let users = await collection.find(criteria).toArray()
         users = users.map(user => {
             delete user.password
-            // user.createdAt = user._id.getTimestamp()
-            // Returning fake fresh data
-            user.createdAt = Date.now() - (1000 * 60 * 60 * 24 * 3) // 3 days ago
+            // Fake recent createdAt (kept from your code)
+            user.createdAt = Date.now() - (1000 * 60 * 60 * 24 * 3)
             return user
         })
         return users
@@ -33,21 +34,40 @@ async function query(filterBy = {}) {
 
 async function getById(userId) {
     try {
-        var criteria = { _id: ObjectId.createFromHexString(userId) }
+        // --- robust id handling ---
+        // EDIT: only convert valid hex strings to ObjectId
+        const _id =
+            typeof userId === 'string'
+                ? (ObjectId.isValid(userId) ? new ObjectId(userId) : null) // EDIT
+                : userId
+
+        if (!_id) {                            // NEW
+            throw new Error(`Invalid user id: ${userId}`) // NEW
+        }
 
         const collection = await dbService.getCollection('user')
-        const user = await collection.findOne(criteria)
-        delete user.password
+        // EDIT: project out password; keep email available
+        const user = await collection.findOne(
+            { _id },
+            { projection: { password: 0 } }     // EDIT
+        )
 
-        criteria = { byUserId: userId }
+        if (!user) {                           // NEW
+            throw new Error(`User not found: ${userId}`) // NEW
+        }
 
-        user.givenReviews = await reviewService.query(criteria)
-        console.log(user.givenReviews)
-        
-        user.givenReviews = user.givenReviews.map(review => {
-            delete review.byUser
-            return review
-        })
+        // Enrich with given reviews (best-effort)
+        const criteria = { byUserId: userId }
+        try {
+            const givenReviews = await reviewService.query(criteria)
+            user.givenReviews = (givenReviews || []).map(review => {
+                const { byUser, ...rest } = review
+                return rest
+            })
+        } catch (e) {
+            logger.warn('getById: failed loading givenReviews', e) // NEW
+            user.givenReviews = []                                  // NEW
+        }
 
         return user
     } catch (err) {
@@ -57,22 +77,31 @@ async function getById(userId) {
 }
 
 async function getByUsername(username) {
-	try {
-		const collection = await dbService.getCollection('user')
-		const user = await collection.findOne({ username })
-		return user
-	} catch (err) {
-		logger.error(`while finding user by username: ${username}`, err)
-		throw err
-	}
+    try {
+        const collection = await dbService.getCollection('user')
+        // EDIT: include email (+ password for auth)
+        const user = await collection.findOne(
+            { username },
+            { projection: { username: 1, fullname: 1, imgUrl: 1, isAdmin: 1, email: 1, password: 1 } } // EDIT
+        )
+        return user
+    } catch (err) {
+        logger.error(`while finding user by username: ${username}`, err)
+        throw err
+    }
 }
 
 async function remove(userId) {
     try {
-        const criteria = { _id: ObjectId.createFromHexString(userId) }
+        // EDIT: safe id handling
+        const _id =
+            typeof userId === 'string'
+                ? (ObjectId.isValid(userId) ? new ObjectId(userId) : null)
+                : userId
+        if (!_id) throw new Error(`Invalid user id: ${userId}`) // NEW
 
         const collection = await dbService.getCollection('user')
-        await collection.deleteOne(criteria)
+        await collection.deleteOne({ _id })
     } catch (err) {
         logger.error(`cannot remove user ${userId}`, err)
         throw err
@@ -81,15 +110,24 @@ async function remove(userId) {
 
 async function update(user) {
     try {
-        // peek only updatable properties
+        // EDIT: allow updating email/imgUrl too (optional)
+        const _id =
+            typeof user._id === 'string'
+                ? (ObjectId.isValid(user._id) ? new ObjectId(user._id) : null)
+                : user._id
+        if (!_id) throw new Error(`Invalid user id: ${user?._id}`) // NEW
+
         const userToSave = {
-            _id: ObjectId.createFromHexString(user._id), // needed for the returnd obj
             fullname: user.fullname,
-            username: user.username
+            username: user.username,
+            imgUrl: user.imgUrl ?? null, // NEW
+            email: user.email ?? null,   // NEW
         }
+
         const collection = await dbService.getCollection('user')
-        await collection.updateOne({ _id: userToSave._id }, { $set: userToSave })
-        return userToSave
+        await collection.updateOne({ _id }, { $set: userToSave })
+
+        return { _id, ...userToSave }
     } catch (err) {
         logger.error(`cannot update user ${user._id}`, err)
         throw err
@@ -97,39 +135,37 @@ async function update(user) {
 }
 
 async function add(user) {
-	try {
-		// peek only updatable fields!
-		const userToAdd = {
-			username: user.username,
-			password: user.password,
-			fullname: user.fullname,
-			imgUrl: user.imgUrl,
-			isAdmin: user.isAdmin
-		}
-		const collection = await dbService.getCollection('user')
-		await collection.insertOne(userToAdd)
-		return userToAdd
-	} catch (err) {
-		logger.error('cannot add user', err)
-		throw err
-	}
+    try {
+        // EDIT: include email on create
+        const userToAdd = {
+            username: user.username,
+            password: user.password,
+            fullname: user.fullname,
+            imgUrl: user.imgUrl || null,
+            isAdmin: !!user.isAdmin,
+            email: user.email || null, // EDIT
+        }
+
+        const collection = await dbService.getCollection('user')
+        const { insertedId } = await collection.insertOne(userToAdd) // EDIT
+        return { ...userToAdd, _id: insertedId }                     // EDIT
+    } catch (err) {
+        logger.error('cannot add user', err)
+        throw err
+    }
 }
 
 function _buildCriteria(filterBy) {
-	const criteria = {}
-	if (filterBy.txt) {
-		const txtCriteria = { $regex: filterBy.txt, $options: 'i' }
-		criteria.$or = [
-			{
-				username: txtCriteria,
-			},
-			{
-				fullname: txtCriteria,
-			},
-		]
-	}
-	if (filterBy.minBalance) {
-		criteria.score = { $gte: filterBy.minBalance }
-	}
-	return criteria
+    const criteria = {}
+    if (filterBy.txt) {
+        const txtCriteria = { $regex: filterBy.txt, $options: 'i' }
+        criteria.$or = [
+            { username: txtCriteria },
+            { fullname: txtCriteria },
+        ]
+    }
+    if (filterBy.minBalance) {
+        criteria.score = { $gte: filterBy.minBalance }
+    }
+    return criteria
 }

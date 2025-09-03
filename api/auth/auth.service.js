@@ -12,7 +12,7 @@ export const authService = {
 	login,
 	getLoginToken,
 	validateToken,
-	getById,
+	getById, // NEW
 }
 
 async function login(username, password) {
@@ -27,6 +27,17 @@ async function login(username, password) {
 
 	delete user.password
 	user._id = user._id.toString()
+
+	// Ensure we have email even if getByUsername didn’t project it
+	if (!('email' in user)) {                         // NEW
+		try {                                           // NEW
+			const fresh = await userService.getById(user._id) // NEW
+			user.email = fresh?.email || null             // NEW
+		} catch {                                       // NEW
+			user.email = null                              // NEW
+		}                                               // NEW
+	}
+
 	return user
 }
 
@@ -34,7 +45,7 @@ async function signup({ username, password, fullname, imgUrl, isAdmin, email }) 
 	const saltRounds = 10
 
 	logger.debug(`auth.service - signup with username: ${username}, fullname: ${fullname}`)
-	if (!username || !password || !fullname || !email) {
+	if (!username || !password || !fullname || !email) {   // EDIT (require email)
 		return Promise.reject('Missing required signup information')
 	}
 
@@ -43,7 +54,7 @@ async function signup({ username, password, fullname, imgUrl, isAdmin, email }) 
 
 	const hash = await bcrypt.hash(password, saltRounds)
 	// persist email
-	return userService.add({ username, password: hash, fullname, imgUrl, isAdmin, email })
+	return userService.add({ username, password: hash, fullname, imgUrl, isAdmin, email }) // EDIT
 }
 
 function getLoginToken(user) {
@@ -52,7 +63,7 @@ function getLoginToken(user) {
 		_id: user._id,
 		fullname: user.fullname,
 		isAdmin: user.isAdmin,
-		email: user.email || null,
+		email: user.email || null, // NEW
 	}
 	return cryptr.encrypt(JSON.stringify(userInfo))
 }
@@ -68,6 +79,6 @@ function validateToken(loginToken) {
 	return null
 }
 
-async function getById(userId) {
-	return userService.getById(userId)
+async function getById(userId) {          // NEW
+	return userService.getById(userId)      // NEW
 }
