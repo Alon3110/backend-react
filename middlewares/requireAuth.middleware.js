@@ -21,16 +21,18 @@ export function attachLoggedinUser(req, _res, next) {
 export function requireAuth(req, res, next) {
   try {
     // Guest mode support (same behavior as before)
-    if (config.isGuestMode && !req.loggedinUser) {
-      req.loggedinUser = { _id: '', fullname: 'Guest' }
-      return next()
-    }
+    
 
     // Validate cookie token every time (no ALS)
     const token = req.cookies?.loginToken
     const user = token ? authService.validateToken(token) : null
 
-    if (!user || !user._id) return res.status(401).send('Not Authenticated')
+    // if (!user || !user._id) return res.status(401).send('Not Authenticated')
+
+    if (!user) {
+      req.loggedinUser = { _id: '', fullname: 'Guest' }
+      return next()
+    }
 
     req.loggedinUser = user
     next()
