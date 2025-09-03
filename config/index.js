@@ -11,7 +11,7 @@ if (process.env.NODE_ENV === 'production') {
 } else {
   config = configDev
 }
-config.isGuestMode = false
+// config.isGuestMode = true
 console.log(config);
 
 
