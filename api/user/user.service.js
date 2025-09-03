@@ -135,24 +135,23 @@ async function update(user) {
 }
 
 async function add(user) {
-    try {
-        // EDIT: include email on create
-        const userToAdd = {
-            username: user.username,
-            password: user.password,
-            fullname: user.fullname,
-            imgUrl: user.imgUrl || null,
-            isAdmin: !!user.isAdmin,
-            email: user.email || null, // EDIT
-        }
-
-        const collection = await dbService.getCollection('user')
-        const { insertedId } = await collection.insertOne(userToAdd) // EDIT
-        return { ...userToAdd, _id: insertedId }                     // EDIT
-    } catch (err) {
-        logger.error('cannot add user', err)
-        throw err
-    }
+	try {
+		// peek only updatable fields!
+		const userToAdd = {
+			username: user.username,
+			password: user.password,
+			fullname: user.fullname,
+			imgUrl: user.imgUrl,
+			isAdmin: user.isAdmin,
+            email:user.email
+		}
+		const collection = await dbService.getCollection('user')
+		await collection.insertOne(userToAdd)
+		return userToAdd
+	} catch (err) {
+		logger.error('cannot add user', err)
+		throw err
+	}
 }
 
 function _buildCriteria(filterBy) {

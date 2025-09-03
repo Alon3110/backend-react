@@ -7,14 +7,13 @@ export async function getStays(req, res) {
 		// Pass through filters explicitly and KEEP types as strings.        // EDIT
 		const filterBy = {
 			address: req.query.address || '',
-			guests: req.query.guests ? Number(req.query.guests) || 0 : 0,
-			maxPrice: req.query.maxPrice ? Number(req.query.maxPrice) || 0 : 0,
-			checkIn: req.query.checkIn || '',                                  // EDIT (no +)
-			checkOut: req.query.checkOut || '',                                 // EDIT (no +)
-			sortField: req.query.sortField || '',
-			sortDir: req.query.sortDir ? Number(req.query.sortDir) || 1 : 1,
-			hostId: req.query.hostId || req.query.ownerId || '',                // NEW
-			ownerId: req.query.ownerId || '',                                   // NEW (for completeness)
+			guests: +req.query.guests || 0,
+			maxPrice: +req.query.maxPrice || 0,
+			checkIn: +req.query.checkIn || '',
+			checkOut: +req.query.checkOut || '',
+            sortField: req.query.sortField || '',
+            sortDir: req.query.sortDir || 1,
+			hostId: req.query.hostId || '',
 		}
 
 		const stays = await stayService.query(filterBy)
@@ -40,7 +39,16 @@ export async function addStay(req, res) {
 	const { loggedinUser, body } = req
 	const stay = body
 	try {
-		stay.host = loggedinUser
+		// Ensure host is always the logged-in user (subset of fields)
+		stay.host = loggedinUser ? {
+			_id: loggedinUser._id,
+			fullname: loggedinUser.fullname,
+			imgUrl: loggedinUser.imgUrl,
+		} : undefined
+
+		// Debug logs to verify host assignment
+		logger.info('addStay -> loggedinUser:', loggedinUser)
+		logger.info('addStay -> final stay payload host:', stay.host)
 		const addedStay = await stayService.add(stay)
 		res.json(addedStay)
 	} catch (err) {

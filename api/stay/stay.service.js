@@ -83,6 +83,7 @@ async function add(stay) {
 			stay.loc.lat = Number(stay.loc.lat)
 			stay.loc.lng = Number(stay.loc.lng)
 		}
+		logger.info('stay.service.add -> final stay.host:', stay.host)
 		const collection = await dbService.getCollection('stay')
 		const result = await collection.insertOne(stay)
 
@@ -147,60 +148,42 @@ async function removeStayMsg(stayId, msgId) {
 	}
 }
 
-function _buildCriteria(filterBy = {}) {
-	// Build criteria with AND of sub-clauses so filters can combine.   // NEW
-	const and = []
+function _buildCriteria(filterBy) {
+	// const criteria = {
+	// 	address: { $regex: filterBy.address || '', $options: 'i' },
+	// 	price: { $gte: filterBy.maxPrice || 0 },
+	// }
+	console.log(filterBy);
 
-	// --- HOST / OWNER filter (the key fix) --------------------------- // NEW
-	const hostId = filterBy.hostId || filterBy.ownerId
-	if (hostId) {
-		const oid = _asObjectId(hostId)
-		const hostOrs = [
-			{ 'host._id': hostId },          // embedded string id
-			{ hostId: hostId },
-			{ 'owner._id': hostId },
-			{ ownerId: hostId },
-		]
-		if (oid) {
-			hostOrs.push({ 'host._id': oid })
-			hostOrs.push({ hostId: oid })
-			hostOrs.push({ 'owner._id': oid })
-			hostOrs.push({ ownerId: oid })
+	const criteria = {}
+
+	if (filterBy.hostId) {
+		// Support both string and ObjectId host IDs
+		const hostIdOr = [{ 'host._id': filterBy.hostId }]
+		try {
+			hostIdOr.push({ 'host._id': ObjectId.createFromHexString(filterBy.hostId) })
+		} catch (e) { }
+
+		if (criteria.$or) {
+			// If address already created an $or, combine with $and
+			const existingOr = criteria.$or
+			delete criteria.$or
+			criteria.$and = [{ $or: existingOr }, { $or: hostIdOr }]
+		} else if (criteria.$and) {
+			criteria.$and.push({ $or: hostIdOr })
+		} else {
+			criteria.$or = hostIdOr
 		}
-		and.push({ $or: hostOrs })
 	}
 
-	// --- Address-like search ---------------------------------------- // EDIT
-	const address = (filterBy.address || '').trim()
-	if (address) {
-		const rx = new RegExp(address, 'i')
-		and.push({
-			$or: [
-				{ 'loc.city': rx },
-				{ 'loc.country': rx },
-				{ 'loc.address': rx },
-				{ address: rx },
-				{ city: rx },
-				{ name: rx },
-			]
-		})
+	if (filterBy.address.trim()) {
+		criteria.$or = [
+			{ 'loc.city': { $regex: filterBy.address.trim(), $options: 'i' } },
+			{ 'loc.country': { $regex: filterBy.address.trim(), $options: 'i' } },
+			{ 'loc.address': { $regex: filterBy.address.trim(), $options: 'i' } }
+		]		// criteria.loc.address = { $regex: filterBy.address.trim(), $options: 'i' }
 	}
 
-	// --- Max price --------------------------------------------------- // NEW
-	const maxPrice = Number(filterBy.maxPrice) || 0
-	if (maxPrice > 0) {
-		and.push({ price: { $lte: maxPrice } })
-	}
-
-	// --- Guests / capacity ------------------------------------------ // EDIT
-	const guestsNum = typeof filterBy.guests === 'number'
-		? filterBy.guests
-		: Number(filterBy.guests) || 0
-	if (guestsNum > 0) {
-		and.push({ capacity: { $gte: guestsNum } })
-	}
-
-	// --- Availability window (optional, keep your logic) ------------ // EDIT
 	const { checkIn, checkOut } = filterBy
 	if (checkIn && checkOut) {
 		const reqStart = new Date(checkIn)

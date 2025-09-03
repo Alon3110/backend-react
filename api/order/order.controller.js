@@ -11,7 +11,8 @@ export async function getOrders(req, res) {
 	try {
 		// NEW: only pass valid ObjectIds (drop placeholders like "guest-user-id")
 		const safeId = (v) => (typeof v === 'string' && HEX24.test(v) ? v : '') // NEW
-
+		logger.info('getOrders -> req.query:', req.query)
+		
 		const filterBy = {
 			hostId: safeId(req.query.hostId),   // NEW
 			userId: safeId(req.query.userId),   // NEW
@@ -19,11 +20,23 @@ export async function getOrders(req, res) {
 			status: req.query.status || '',
 		}
 
-		const orders = await orderService.query(filterBy)
-		res.json(orders)
+		
+		// Log the filter to debug
+		logger.info('getOrders -> filterBy:', filterBy)
+		
+		// For now, return empty array to test if the endpoint works
+		logger.info('getOrders -> returning empty array for testing')
+		res.json([])
+		
+		// Uncomment this when we fix the service
+		// const orders = await orderService.query(filterBy)
+		// logger.info('getOrders -> orders returned:', orders.length)
+		// res.json(orders)
 	} catch (err) {
-		logger.error('Failed to get orders', err)
-		res.status(400).send({ err: 'Failed to get orders' })
+		logger.error('Failed to get orders - full error:', err)
+		logger.error('Failed to get orders - error message:', err.message)
+		logger.error('Failed to get orders - error stack:', err.stack)
+		res.status(400).send({ err: 'Failed to get orders: ' + err.message })
 	}
 }
 

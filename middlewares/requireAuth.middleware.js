@@ -6,9 +6,11 @@ import { authService } from '../api/auth/auth.service.js' // ← use your valida
 export function attachLoggedinUser(req, _res, next) {
   try {
     const token = req.cookies?.loginToken
+    logger.info('attachLoggedinUser -> cookies:', req.cookies)
     if (token) {
       const user = authService.validateToken(token)
       if (user) req.loggedinUser = user
+      logger.info('attachLoggedinUser -> user from token:', user)
     }
   } catch (err) {
     logger.warn('attachLoggedinUser failed:', err)
@@ -22,6 +24,7 @@ export function requireAuth(req, res, next) {
   try {
     // Guest mode support (same behavior as before)
     if (config.isGuestMode && !req.loggedinUser) {
+      logger.info('requireAuth -> guest mode active, no user cookie -> using Guest')
       req.loggedinUser = { _id: '', fullname: 'Guest' }
       return next()
     }
@@ -30,9 +33,13 @@ export function requireAuth(req, res, next) {
     const token = req.cookies?.loginToken
     const user = token ? authService.validateToken(token) : null
 
-    if (!user || !user._id) return res.status(401).send('Not Authenticated')
+    if (!user || !user._id) {
+      logger.info('requireAuth -> missing/invalid token; blocking auth')
+      return res.status(401).send('Not Authenticated')
+    }
 
     req.loggedinUser = user
+    logger.info('requireAuth -> authenticated user:', user)
     next()
   } catch (err) {
     logger.error('requireAuth error:', err)
