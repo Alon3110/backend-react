@@ -1993,3 +1993,7 @@
 2.9.2025, 10:22:30 - INFO - Server is running on port: 3030
 3.9.2025, 8:12:30 - INFO - Server is running on port: 3030
 3.9.2025, 8:12:33 - INFO - /api/stay | GET | {} | {}
+3.9.2025, 8:13:03 - ERROR - Cannot Connect to DB | MongoServerSelectionError: connect ECONNREFUSED 127.0.0.1:27017
+3.9.2025, 8:13:03 - ERROR - Failed to get Mongo collection | MongoServerSelectionError: connect ECONNREFUSED 127.0.0.1:27017
+3.9.2025, 8:13:03 - ERROR - cannot find stays | MongoServerSelectionError: connect ECONNREFUSED 127.0.0.1:27017
+3.9.2025, 8:13:03 - ERROR - Failed to get stays | MongoServerSelectionError: connect ECONNREFUSED 127.0.0.1:27017
