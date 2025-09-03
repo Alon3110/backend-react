@@ -1990,3 +1990,6 @@
 2.9.2025, 9:02:35 - INFO - /api/stay | GET | {} | {}
 2.9.2025, 9:08:32 - INFO - /api/stay | GET | {} | {}
 2.9.2025, 9:53:08 - INFO - Server is running on port: 3030
+2.9.2025, 10:22:30 - INFO - Server is running on port: 3030
+3.9.2025, 8:12:30 - INFO - Server is running on port: 3030
+3.9.2025, 8:12:33 - INFO - /api/stay | GET | {} | {}
