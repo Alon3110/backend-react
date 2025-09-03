@@ -2018,267 +2018,159 @@
 2.9.2025, 17:49:45 - INFO - Server is running on port: 3030
 2.9.2025, 18:05:14 - INFO - Server is running on port: 3030
 2.9.2025, 18:05:37 - INFO - /api/stay | GET | {} | {}
-2.9.2025, 18:30:14 - DEBUG - auth.service - login with username: aa
-2.9.2025, 18:30:14 - INFO - User login:  | {"_id":"68b46419f2a68a36db5b6f1f","username":"aa","fullname":"aa","imgUrl":"https://cdn.pixabay.com/photo/2020/07/01/12/58/icon-5359553_1280.png","isAdmin":false}
-2.9.2025, 18:30:14 - INFO - /api/stay | GET | {} | {}
-2.9.2025, 18:44:01 - DEBUG - auth.service - login with username: aa
-2.9.2025, 18:44:02 - INFO - User login:  | {"_id":"68b46419f2a68a36db5b6f1f","username":"aa","fullname":"aa","imgUrl":"https://cdn.pixabay.com/photo/2020/07/01/12/58/icon-5359553_1280.png","isAdmin":false}
-2.9.2025, 18:44:02 - INFO - /api/stay | GET | {} | {}
-2.9.2025, 18:46:52 - INFO - /api/stay | GET | {} | {}
-2.9.2025, 18:47:15 - INFO - /api/stay | GET | {} | {}
-2.9.2025, 18:58:00 - INFO - Server is running on port: 3030
-2.9.2025, 18:58:14 - INFO - /api/stay | GET | {} | {}
-2.9.2025, 18:58:16 - INFO - /api/stay | GET | {} | {}
-2.9.2025, 18:58:25 - INFO - Server is running on port: 3030
-2.9.2025, 18:58:58 - INFO - /api/stay | GET | {} | {"id":"6738ca4cae769d402b653c83"}
-2.9.2025, 18:59:40 - INFO - /api/stay | GET | {} | {}
-2.9.2025, 18:59:55 - INFO - /api/stay | GET | {} | {}
-2.9.2025, 19:00:02 - INFO - /api/stay | GET | {} | {"id":"6738ca4cae769d402b653c7c"}
-2.9.2025, 19:00:20 - INFO - /api/stay | GET | {} | {"id":"6738ca4cae769d402b653c7c"}
-2.9.2025, 19:00:30 - INFO - /api/stay | GET | {} | {}
-2.9.2025, 19:00:33 - INFO - /api/stay | GET | {} | {}
-2.9.2025, 19:32:10 - INFO - Server is running on port: 3030
-2.9.2025, 19:32:37 - INFO - /api/stay | GET | {} | {}
-2.9.2025, 19:32:49 - DEBUG - auth.service - login with username: aa
-2.9.2025, 19:32:49 - INFO - User login:  | {"_id":"68b46419f2a68a36db5b6f1f","username":"aa","fullname":"aa","imgUrl":"https://cdn.pixabay.com/photo/2020/07/01/12/58/icon-5359553_1280.png","isAdmin":false}
-2.9.2025, 19:32:50 - INFO - /api/stay | GET | {} | {}
-2.9.2025, 19:32:59 - INFO - /api/stay | GET | {} | {"id":"6738ca4cae769d402b653c7f"}
-2.9.2025, 19:33:28 - INFO - /api/stay | GET | {} | {"id":"6738ca4cae769d402b653c7f"}
-2.9.2025, 19:33:45 - INFO - /api/stay | GET | {} | {}
-2.9.2025, 19:34:12 - INFO - /api/stay | GET | {} | {}
-2.9.2025, 19:52:10 - INFO - Server is running on port: 3030
-2.9.2025, 19:53:16 - INFO - /api/stay | GET | {} | {}
-2.9.2025, 19:54:21 - INFO - /api/stay | GET | {} | {}
-2.9.2025, 19:54:40 - INFO - Server is running on port: 3030
-2.9.2025, 19:55:02 - INFO - /api/stay | GET | {} | {}
-2.9.2025, 19:55:21 - DEBUG - auth.service - login with username: aa
-2.9.2025, 19:55:22 - INFO - User login:  | {"_id":"68b46419f2a68a36db5b6f1f","username":"aa","fullname":"aa","imgUrl":"https://cdn.pixabay.com/photo/2020/07/01/12/58/icon-5359553_1280.png","isAdmin":false}
-2.9.2025, 19:55:22 - INFO - /api/stay | GET | {} | {}
-2.9.2025, 19:56:05 - INFO - /api/stay | GET | {} | {}
-2.9.2025, 19:57:16 - INFO - /api/stay | GET | {} | {"id":"6738ca4cae769d402b653c73"}
-2.9.2025, 19:57:24 - INFO - /api/stay | GET | {} | {}
-2.9.2025, 19:57:34 - INFO - /api/stay | GET | {} | {}
-2.9.2025, 19:57:38 - INFO - /api/stay | GET | {} | {}
-2.9.2025, 19:57:46 - INFO - /api/stay | GET | {} | {}
-2.9.2025, 19:57:57 - INFO - /api/stay | GET | {} | {}
-2.9.2025, 19:58:13 - INFO - /api/stay | GET | {} | {}
-2.9.2025, 19:58:55 - INFO - /api/stay | GET | {} | {"id":"6738ca4cae769d402b653c83"}
-2.9.2025, 19:59:09 - INFO - /api/stay | GET | {} | {"id":"6738ca4cae769d402b653c83"}
-2.9.2025, 20:00:45 - INFO - /api/stay | GET | {} | {}
-2.9.2025, 20:00:57 - INFO - /api/stay | GET | {} | {"id":"6738ca4cae769d402b653c85"}
-2.9.2025, 20:01:06 - INFO - /api/stay | GET | {} | {"id":"6738ca4cae769d402b653c85"}
-2.9.2025, 20:58:08 - INFO - /api/stay | GET | {} | {"id":"6738ca4cae769d402b653c85"}
-2.9.2025, 20:58:09 - INFO - /api/stay | GET | {} | {"id":"6738ca4cae769d402b653c85"}
-2.9.2025, 20:58:14 - INFO - /api/stay | GET | {} | {"id":"6738ca4cae769d402b653c85"}
-2.9.2025, 20:58:25 - INFO - /api/stay | GET | {} | {"id":"6738ca4cae769d402b653c85"}
-2.9.2025, 20:58:32 - INFO - /api/stay | GET | {} | {"id":"6738ca4cae769d402b653c85"}
-2.9.2025, 20:58:32 - INFO - /api/stay | GET | {} | {"id":"6738ca4cae769d402b653c85"}
-2.9.2025, 20:59:03 - INFO - /api/stay | GET | {} | {"id":"6738ca4cae769d402b653c85"}
-2.9.2025, 20:59:07 - INFO - /api/stay | GET | {} | {"id":"6738ca4cae769d402b653c85"}
-2.9.2025, 21:04:39 - INFO - /api/stay | GET | {} | {"id":"6738ca4cae769d402b653c85"}
-2.9.2025, 21:04:42 - INFO - /api/stay | GET | {} | {"id":"6738ca4cae769d402b653c85"}
-2.9.2025, 21:04:47 - INFO - /api/stay | GET | {} | {"id":"6738ca4cae769d402b653c85"}
-2.9.2025, 21:04:49 - INFO - /api/stay | GET | {} | {"id":"6738ca4cae769d402b653c85"}
-2.9.2025, 21:04:51 - INFO - /api/stay | GET | {} | {"id":"6738ca4cae769d402b653c85"}
-2.9.2025, 21:07:44 - INFO - /api/stay | GET | {} | {"id":"6738ca4cae769d402b653c85"}
-2.9.2025, 21:07:46 - INFO - /api/stay | GET | {} | {"id":"6738ca4cae769d402b653c85"}
-2.9.2025, 21:36:05 - INFO - /api/stay | GET | {} | {"id":"6738ca4cae769d402b653c85"}
-2.9.2025, 22:02:03 - INFO - /api/stay | GET | {} | {"id":"6738ca4cae769d402b653c85"}
-2.9.2025, 22:03:18 - INFO - /api/stay | GET | {} | {"id":"6738ca4cae769d402b653c85"}
-2.9.2025, 22:03:20 - INFO - /api/stay | GET | {} | {"id":"6738ca4cae769d402b653c85"}
-2.9.2025, 22:03:46 - INFO - /api/stay | GET | {} | {"id":"6738ca4cae769d402b653c85"}
-2.9.2025, 22:03:51 - INFO - /api/stay | GET | {} | {"id":"6738ca4cae769d402b653c85"}
-2.9.2025, 22:03:52 - INFO - /api/stay | GET | {} | {"id":"6738ca4cae769d402b653c85"}
-2.9.2025, 22:03:53 - INFO - /api/stay | GET | {} | {"id":"6738ca4cae769d402b653c85"}
-2.9.2025, 22:03:56 - INFO - /api/stay | GET | {} | {"id":"6738ca4cae769d402b653c85"}
-2.9.2025, 22:04:11 - INFO - /api/stay | GET | {} | {"id":"6738ca4cae769d402b653c85"}
-2.9.2025, 22:04:15 - INFO - /api/stay | GET | {} | {"id":"6738ca4cae769d402b653c85"}
-2.9.2025, 22:04:19 - INFO - /api/stay | GET | {} | {"id":"6738ca4cae769d402b653c85"}
-2.9.2025, 22:16:10 - INFO - /api/stay | GET | {} | {"id":"6738ca4cae769d402b653c85"}
-2.9.2025, 22:16:13 - INFO - /api/stay | GET | {} | {"id":"6738ca4cae769d402b653c85"}
-2.9.2025, 22:16:14 - INFO - /api/stay | GET | {} | {"id":"6738ca4cae769d402b653c85"}
-2.9.2025, 22:16:18 - INFO - /api/stay | GET | {} | {"id":"6738ca4cae769d402b653c85"}
-2.9.2025, 22:16:21 - INFO - /api/stay | GET | {} | {"id":"6738ca4cae769d402b653c85"}
-2.9.2025, 22:16:27 - INFO - /api/stay | GET | {} | {"id":"6738ca4cae769d402b653c85"}
-2.9.2025, 22:16:29 - INFO - /api/stay | GET | {} | {"id":"6738ca4cae769d402b653c85"}
-2.9.2025, 22:16:31 - INFO - /api/stay | GET | {} | {"id":"6738ca4cae769d402b653c85"}
-2.9.2025, 22:17:46 - INFO - /api/stay | GET | {} | {"id":"6738ca4cae769d402b653c85"}
-2.9.2025, 22:17:53 - INFO - /api/stay | GET | {} | {"id":"6738ca4cae769d402b653c85"}
-2.9.2025, 22:17:55 - INFO - /api/stay | GET | {} | {"id":"6738ca4cae769d402b653c85"}
-2.9.2025, 22:18:04 - INFO - /api/stay | GET | {} | {"id":"6738ca4cae769d402b653c85"}
-2.9.2025, 22:18:42 - INFO - /api/stay | GET | {} | {"id":"6738ca4cae769d402b653c85"}
-2.9.2025, 22:18:46 - INFO - /api/stay | GET | {} | {"id":"6738ca4cae769d402b653c85"}
-2.9.2025, 22:39:46 - INFO - /api/stay | GET | {} | {"id":"6738ca4cae769d402b653c85"}
-2.9.2025, 23:04:27 - INFO - /api/stay | GET | {} | {"id":"6738ca4cae769d402b653c85"}
-3.9.2025, 10:27:34 - INFO - /api/stay | GET | {} | {}
-3.9.2025, 10:27:40 - INFO - /api/stay | GET | {} | {}
-3.9.2025, 10:27:50 - INFO - /api/stay | GET | {} | {}
-3.9.2025, 10:29:06 - INFO - /api/stay | GET | {} | {}
-3.9.2025, 10:29:12 - DEBUG - auth.service - login with username: aa
-3.9.2025, 10:29:12 - INFO - User login:  | {"_id":"68b46419f2a68a36db5b6f1f","username":"aa","fullname":"aa","imgUrl":"https://cdn.pixabay.com/photo/2020/07/01/12/58/icon-5359553_1280.png","isAdmin":false}
-3.9.2025, 10:29:12 - INFO - /api/stay | GET | {} | {}
-3.9.2025, 10:29:16 - INFO - /api/stay | GET | {} | {}
-3.9.2025, 10:29:24 - INFO - /api/stay | GET | {} | {"id":"68b73d0af5df9a74c9203e51"}
-3.9.2025, 10:29:27 - INFO - /api/stay | GET | {} | {}
-3.9.2025, 10:36:49 - INFO - /api/stay | GET | {} | {}
-3.9.2025, 10:37:02 - INFO - /api/stay | GET | {} | {}
-3.9.2025, 10:37:06 - INFO - /api/stay | GET | {} | {"id":"6738ca4cae769d402b653c7f"}
-3.9.2025, 10:37:11 - INFO - /api/stay | GET | {} | {}
-3.9.2025, 10:37:19 - INFO - /api/stay | GET | {} | {"id":"68b4f8c303164ed75e123db8"}
-3.9.2025, 10:37:22 - INFO - /api/stay | GET | {} | {}
-3.9.2025, 10:39:09 - INFO - /api/stay | GET | {} | {}
-3.9.2025, 10:40:24 - INFO - /api/stay | GET | {} | {}
-3.9.2025, 10:40:44 - INFO - /api/stay | GET | {} | {}
-3.9.2025, 10:40:46 - INFO - /api/stay | GET | {} | {}
-3.9.2025, 10:40:51 - INFO - /api/stay | GET | {} | {}
-3.9.2025, 10:40:59 - INFO - /api/stay | GET | {} | {}
-3.9.2025, 10:41:01 - INFO - /api/stay | GET | {} | {}
-3.9.2025, 10:41:07 - INFO - /api/stay | GET | {} | {}
-3.9.2025, 10:41:09 - INFO - /api/stay | GET | {} | {}
-3.9.2025, 10:43:05 - INFO - /api/stay | GET | {} | {}
-3.9.2025, 10:43:07 - INFO - /api/stay | GET | {} | {}
-3.9.2025, 10:47:56 - INFO - /api/stay | GET | {} | {}
-3.9.2025, 10:48:03 - INFO - /api/stay | GET | {} | {}
-3.9.2025, 10:48:08 - INFO - /api/stay | GET | {} | {}
-3.9.2025, 10:50:36 - INFO - /api/stay | GET | {} | {}
-3.9.2025, 10:50:55 - INFO - /api/stay | GET | {} | {}
-3.9.2025, 10:51:06 - INFO - /api/stay | GET | {} | {}
-3.9.2025, 10:51:16 - DEBUG - auth.service - login with username: admin
-3.9.2025, 10:51:17 - INFO - User login:  | {"_id":"68b1a696af177aae560256d8","username":"admin","fullname":"admin","imgUrl":null,"isAdmin":true}
-3.9.2025, 10:51:17 - INFO - /api/stay | GET | {} | {}
-3.9.2025, 10:51:22 - INFO - /api/stay | GET | {} | {}
-3.9.2025, 10:51:27 - INFO - /api/stay | GET | {} | {}
-3.9.2025, 10:51:55 - INFO - /api/stay | GET | {} | {"id":"68b5bbcf8d7ca8118a3b6a73"}
-3.9.2025, 10:51:58 - INFO - /api/stay | GET | {} | {}
-3.9.2025, 10:52:03 - INFO - /api/stay | GET | {} | {"id":"68b5d70fdebcc1978f62400f"}
-3.9.2025, 10:52:05 - INFO - /api/stay | GET | {} | {}
-3.9.2025, 11:00:06 - INFO - /api/stay | GET | {} | {}
-3.9.2025, 11:00:14 - DEBUG - auth.service - login with username: aa
-3.9.2025, 11:00:14 - INFO - User login:  | {"_id":"68b46419f2a68a36db5b6f1f","username":"aa","fullname":"aa","imgUrl":"https://cdn.pixabay.com/photo/2020/07/01/12/58/icon-5359553_1280.png","isAdmin":false}
-3.9.2025, 11:00:14 - INFO - /api/stay | GET | {} | {}
-3.9.2025, 11:00:21 - INFO - /api/stay | GET | {} | {}
-3.9.2025, 11:00:23 - INFO - /api/stay | GET | {} | {}
-3.9.2025, 11:00:26 - INFO - /api/stay | GET | {} | {}
-3.9.2025, 11:05:02 - INFO - /api/stay | GET | {} | {}
-3.9.2025, 11:05:35 - INFO - /api/stay | GET | {} | {"id":"6738ca4cae769d402b653c83"}
-3.9.2025, 11:05:44 - INFO - /api/stay | GET | {} | {"id":"6738ca4cae769d402b653c83"}
-3.9.2025, 11:17:21 - INFO - /api/stay | GET | {} | {}
-3.9.2025, 11:20:05 - INFO - /api/stay | GET | {} | {"id":"6738ca4cae769d402b653c85"}
-3.9.2025, 11:21:46 - INFO - /api/stay | GET | {} | {"id":"6738ca4cae769d402b653c85"}
-3.9.2025, 12:02:19 - INFO - /api/stay | GET | {} | {"id":"6738ca4cae769d402b653c85"}
-3.9.2025, 12:02:39 - INFO - /api/stay | GET | {} | {"id":"6738ca4cae769d402b653c85"}
-3.9.2025, 12:30:09 - INFO - /api/stay | GET | {} | {"id":"6738ca4cae769d402b653c85"}
-3.9.2025, 15:02:40 - INFO - /api/stay | GET | {} | {"id":"6738ca4cae769d402b653c85"}
-3.9.2025, 16:50:19 - INFO - /api/stay | GET | {} | {"id":"6738ca4cae769d402b653c85"}
-3.9.2025, 17:15:41 - INFO - /api/stay | GET | {} | {}
-3.9.2025, 17:15:56 - INFO - /api/stay | GET | {} | {"id":"68b84cc522fc4da86f7dfa8e"}
-3.9.2025, 17:15:59 - INFO - /api/stay | GET | {} | {}
-3.9.2025, 17:16:03 - INFO - /api/stay | GET | {} | {"id":"68b83c823b113d05302076fd"}
-3.9.2025, 17:16:06 - INFO - /api/stay | GET | {} | {}
-3.9.2025, 17:19:01 - INFO - /api/stay | GET | {} | {}
-3.9.2025, 17:19:04 - INFO - /api/stay | GET | {} | {}
-3.9.2025, 17:20:45 - INFO - /api/stay | POST | {"name":"Magic Puzzle","type":"Loft","price":158,"loc":{"address":"חכם עזרא כהן, ראשון לציון, ישראל","city":"ראשון לציון","country":"ישראל","countryCode":"IL","street":"חכם עזרא כהן","lat":31.9848437,"lng":34.8058033},"imgUrls":["https://res.cloudinary.com/vanilla-test-images/image/upload/v1756909226/zjvcns84hhxgffleat8z.avif"],"capacity":3,"rooms":3,"bedrooms":3,"bathrooms":3,"labels":[],"amenities":["Kitchen","Air conditioning","Heating"],"description":"fff","host":{"_id":"68b46419f2a68a36db5b6f1f","fullname":"aa","imgUrl":"https://cdn.pixabay.com/photo/2020/07/01/12/58/icon-5359553_1280.png"}} | {}
-3.9.2025, 17:20:45 - INFO - /api/stay | GET | {} | {"id":"68b84ebd8850d763cc01acaa"}
-3.9.2025, 17:20:54 - INFO - /api/stay | GET | {} | {}
-3.9.2025, 17:21:01 - DEBUG - auth.service - login with username: aa
-3.9.2025, 17:21:01 - INFO - User login:  | {"_id":"68b46419f2a68a36db5b6f1f","username":"aa","fullname":"aa","imgUrl":"https://cdn.pixabay.com/photo/2020/07/01/12/58/icon-5359553_1280.png","isAdmin":false}
-3.9.2025, 17:21:01 - INFO - /api/stay | GET | {} | {}
-3.9.2025, 17:21:05 - INFO - /api/stay | GET | {} | {"id":"68b84ebd8850d763cc01acaa"}
-3.9.2025, 17:21:06 - INFO - /api/stay | GET | {} | {}
-3.9.2025, 17:22:08 - INFO - /api/stay | POST | {"name":"Racing Car","type":"Cabin","price":12,"loc":{"address":"דאלית אל כרמל, דאלית אל-כרמל, ישראל","city":"דאלית אל-כרמל","country":"ישראל","countryCode":"IL","street":"","lat":32.692352,"lng":35.059263},"imgUrls":["https://res.cloudinary.com/vanilla-test-images/image/upload/v1756909310/mejskwlwkzrwgxgfr0oq.avif"],"capacity":2,"rooms":2,"bedrooms":1,"bathrooms":1,"labels":[],"amenities":["Heating","Parking"],"description":"יעיעעיעיעי","host":{"_id":"68b46419f2a68a36db5b6f1f","fullname":"aa","imgUrl":"https://cdn.pixabay.com/photo/2020/07/01/12/58/icon-5359553_1280.png"}} | {}
-3.9.2025, 17:22:08 - INFO - /api/stay | GET | {} | {"id":"68b84f108850d763cc01acab"}
-3.9.2025, 17:22:20 - INFO - /api/stay | GET | {} | {}
-3.9.2025, 17:22:22 - INFO - /api/stay | GET | {} | {}
-3.9.2025, 17:22:48 - INFO - /api/stay | GET | {} | {}
-3.9.2025, 17:22:49 - INFO - /api/stay | GET | {} | {}
-3.9.2025, 17:26:00 - INFO - /api/stay | GET | {} | {}
-3.9.2025, 17:26:01 - INFO - /api/stay | GET | {} | {"id":"6738ca4cae769d402b653c7f"}
-3.9.2025, 17:26:08 - INFO - /api/stay | GET | {} | {"id":"6738ca4cae769d402b653c7f"}
-3.9.2025, 17:26:55 - INFO - /api/stay | GET | {} | {}
-3.9.2025, 17:27:29 - INFO - /api/stay | GET | {} | {"id":"68b84f108850d763cc01acab"}
-3.9.2025, 17:34:06 - INFO - /api/stay | POST | {"name":"Paint Set Deluxe","type":"Farm stay","price":71,"loc":{"address":"אגס 11, אשדוד, ישראל","city":"אשדוד","country":"ישראל","countryCode":"IL","street":"11 אגס","lat":31.771187,"lng":34.636896},"imgUrls":["https://res.cloudinary.com/vanilla-test-images/image/upload/v1756910026/ejzl7ujluwulk68akkmu.avif"],"capacity":2,"rooms":2,"bedrooms":2,"bathrooms":2,"labels":[],"amenities":["Air conditioning","Kitchen","Breakfast included","Fireplace"],"description":"jjjjjjjj","host":{"_id":"68b46419f2a68a36db5b6f1f","fullname":"aa","imgUrl":"https://cdn.pixabay.com/photo/2020/07/01/12/58/icon-5359553_1280.png"}} | {}
-3.9.2025, 17:34:06 - INFO - /api/stay | GET | {} | {"id":"68b851de8850d763cc01acad"}
-3.9.2025, 17:35:22 - INFO - /api/stay | GET | {} | {"id":"68b851de8850d763cc01acad"}
-3.9.2025, 17:35:26 - INFO - /api/stay | GET | {} | {"id":"68b851de8850d763cc01acad"}
-3.9.2025, 17:35:29 - INFO - /api/stay | GET | {} | {"id":"68b851de8850d763cc01acad"}
-3.9.2025, 17:35:34 - INFO - /api/stay | GET | {} | {"id":"68b851de8850d763cc01acad"}
-3.9.2025, 17:35:38 - INFO - /api/stay | GET | {} | {"id":"68b851de8850d763cc01acad"}
-3.9.2025, 17:41:58 - INFO - /api/stay | POST | {"name":"alon ben ari","type":"Apartment","price":71,"loc":{"address":"חכם עזרא כהן, ראשון לציון, ישראל","city":"ראשון לציון","country":"ישראל","countryCode":"IL","street":"חכם עזרא כהן","lat":31.9848437,"lng":34.8058033},"imgUrls":["https://res.cloudinary.com/vanilla-test-images/image/upload/v1756910502/lpfdq32uxishc8pymnwz.avif"],"capacity":2,"rooms":2,"bedrooms":2,"bathrooms":2,"labels":["Central","Trendy"],"amenities":[],"description":"test","host":{"_id":"68b46419f2a68a36db5b6f1f","fullname":"aa","imgUrl":"https://cdn.pixabay.com/photo/2020/07/01/12/58/icon-5359553_1280.png"}} | {}
-3.9.2025, 17:41:58 - INFO - /api/stay | GET | {} | {"id":"68b853b68850d763cc01acae"}
-3.9.2025, 17:42:54 - INFO - /api/stay | GET | {} | {}
-3.9.2025, 17:45:58 - INFO - /api/stay | GET | {} | {}
-3.9.2025, 17:46:00 - INFO - /api/stay | GET | {} | {}
-3.9.2025, 17:46:12 - INFO - /api/stay | GET | {} | {"id":"68b853b68850d763cc01acae"}
-3.9.2025, 17:46:15 - INFO - /api/stay | GET | {} | {}
-3.9.2025, 17:46:18 - INFO - /api/stay | GET | {} | {}
-3.9.2025, 17:47:18 - INFO - /api/stay | POST | {"name":"Baby Block2","type":"House","price":12,"loc":{"address":"157-83, 157-33 Cross Bay Blvd, Howard Beach, NY 11414, ארצות הברית","city":"Queens County","country":"ארצות הברית","countryCode":"US","street":"157-33 Cross Bay Boulevard","lat":40.6617582,"lng":-73.8401931},"imgUrls":["https://res.cloudinary.com/vanilla-test-images/image/upload/v1756910822/yab48szipnl1xtllsisp.avif"],"capacity":3,"rooms":2,"bedrooms":2,"bathrooms":2,"labels":[],"amenities":["Air conditioning","Kitchen","Breakfast included"],"description":"weww","host":{"_id":"68b46419f2a68a36db5b6f1f","fullname":"aa","imgUrl":"https://cdn.pixabay.com/photo/2020/07/01/12/58/icon-5359553_1280.png"}} | {}
-3.9.2025, 17:47:18 - INFO - /api/stay | GET | {} | {"id":"68b854f68850d763cc01acaf"}
-3.9.2025, 17:50:36 - INFO - /api/stay | GET | {} | {"id":"68b854f68850d763cc01acaf"}
-3.9.2025, 17:51:21 - INFO - /api/stay | POST | {"name":"Racing Car","type":"Apartment","price":123,"loc":{"address":"חכם עזרא כהן, ראשון לציון, ישראל","city":"ראשון לציון","country":"ישראל","countryCode":"IL","street":"חכם עזרא כהן","lat":31.9848437,"lng":34.8058033},"imgUrls":["https://res.cloudinary.com/vanilla-test-images/image/upload/v1756911065/drz2nkdrafarrwiatla9.avif"],"capacity":2,"rooms":2,"bedrooms":2,"bathrooms":2,"labels":[],"amenities":["Parking","Heating"],"description":"dsdsd","host":{"_id":"68b46419f2a68a36db5b6f1f","fullname":"aa","imgUrl":"https://cdn.pixabay.com/photo/2020/07/01/12/58/icon-5359553_1280.png"}} | {}
-3.9.2025, 17:51:21 - INFO - /api/stay | GET | {} | {"id":"68b855e98850d763cc01acb0"}
-3.9.2025, 17:57:31 - INFO - /api/stay | GET | {} | {}
-3.9.2025, 17:58:10 - INFO - /api/stay | POST | {"name":"Baby Block","type":"Apartment","price":71,"loc":{"address":"האגס 11, חצור הגלילית, ישראל","city":"חצור הגלילית","country":"ישראל","countryCode":"IL","street":"11 האגס","lat":32.990239,"lng":35.545068},"imgUrls":["https://res.cloudinary.com/vanilla-test-images/image/upload/v1756911477/sunbqfncidvte22gpkjy.avif"],"capacity":2,"rooms":2,"bedrooms":2,"bathrooms":2,"labels":[],"amenities":["Garden","Fireplace"],"description":"jj","host":{"_id":"68b46419f2a68a36db5b6f1f","fullname":"aa","imgUrl":"https://cdn.pixabay.com/photo/2020/07/01/12/58/icon-5359553_1280.png"}} | {}
-3.9.2025, 17:58:10 - INFO - /api/stay | GET | {} | {"id":"68b857828850d763cc01acb1"}
-3.9.2025, 17:58:37 - INFO - /api/stay | GET | {} | {}
-3.9.2025, 17:58:40 - INFO - /api/stay | GET | {} | {}
-3.9.2025, 18:03:00 - INFO - /api/stay | GET | {} | {}
-3.9.2025, 18:03:37 - INFO - Server is running on port: 3030
-3.9.2025, 18:03:52 - INFO - attachLoggedinUser -> cookies: | {}
-3.9.2025, 18:03:52 - INFO - attachLoggedinUser -> cookies: | {"loginToken":"603e654158192eade6d5851e51acb36716f2ca1654ffdb815a246aa9df98ae121d5c694e45d5cb74429d48f6e531c61f7a0516a4c5c4adcdde49503390d8a8ddfa795e79ce04244fc1a8dfb6673db62ee28d08d70d67fd245fedb0d3740b86a72b89ea83d7aeb3c2bc73bce4686f3b72cd693a73084d0393f063610a0d41b055cb1a738d4c1f5d3f9818a9706896174b2606b9a82f6a5d75b06677c0e5372a729525"}
-3.9.2025, 18:03:52 - INFO - attachLoggedinUser -> user from token: | {"_id":"68b46419f2a68a36db5b6f1f","fullname":"aa","isAdmin":false}
-3.9.2025, 18:03:52 - INFO - /api/stay | GET | {} | {}
-3.9.2025, 18:04:03 - INFO - attachLoggedinUser -> cookies: | {"loginToken":"603e654158192eade6d5851e51acb36716f2ca1654ffdb815a246aa9df98ae121d5c694e45d5cb74429d48f6e531c61f7a0516a4c5c4adcdde49503390d8a8ddfa795e79ce04244fc1a8dfb6673db62ee28d08d70d67fd245fedb0d3740b86a72b89ea83d7aeb3c2bc73bce4686f3b72cd693a73084d0393f063610a0d41b055cb1a738d4c1f5d3f9818a9706896174b2606b9a82f6a5d75b06677c0e5372a729525"}
-3.9.2025, 18:04:03 - INFO - attachLoggedinUser -> user from token: | {"_id":"68b46419f2a68a36db5b6f1f","fullname":"aa","isAdmin":false}
-3.9.2025, 18:04:03 - INFO - /api/stay | GET | {} | {"id":"68b857828850d763cc01acb1"}
-3.9.2025, 18:04:04 - INFO - attachLoggedinUser -> cookies: | {}
-3.9.2025, 18:04:04 - INFO - attachLoggedinUser -> cookies: | {"loginToken":"603e654158192eade6d5851e51acb36716f2ca1654ffdb815a246aa9df98ae121d5c694e45d5cb74429d48f6e531c61f7a0516a4c5c4adcdde49503390d8a8ddfa795e79ce04244fc1a8dfb6673db62ee28d08d70d67fd245fedb0d3740b86a72b89ea83d7aeb3c2bc73bce4686f3b72cd693a73084d0393f063610a0d41b055cb1a738d4c1f5d3f9818a9706896174b2606b9a82f6a5d75b06677c0e5372a729525"}
-3.9.2025, 18:04:04 - INFO - attachLoggedinUser -> user from token: | {"_id":"68b46419f2a68a36db5b6f1f","fullname":"aa","isAdmin":false}
-3.9.2025, 18:04:04 - INFO - /api/stay | GET | {} | {}
-3.9.2025, 18:04:11 - INFO - attachLoggedinUser -> cookies: | {}
-3.9.2025, 18:04:11 - INFO - attachLoggedinUser -> cookies: | {"loginToken":"603e654158192eade6d5851e51acb36716f2ca1654ffdb815a246aa9df98ae121d5c694e45d5cb74429d48f6e531c61f7a0516a4c5c4adcdde49503390d8a8ddfa795e79ce04244fc1a8dfb6673db62ee28d08d70d67fd245fedb0d3740b86a72b89ea83d7aeb3c2bc73bce4686f3b72cd693a73084d0393f063610a0d41b055cb1a738d4c1f5d3f9818a9706896174b2606b9a82f6a5d75b06677c0e5372a729525"}
-3.9.2025, 18:04:11 - INFO - attachLoggedinUser -> user from token: | {"_id":"68b46419f2a68a36db5b6f1f","fullname":"aa","isAdmin":false}
-3.9.2025, 18:04:11 - DEBUG - auth.service - login with username: aa
-3.9.2025, 18:04:11 - INFO - User login:  | {"_id":"68b46419f2a68a36db5b6f1f","username":"aa","fullname":"aa","imgUrl":"https://cdn.pixabay.com/photo/2020/07/01/12/58/icon-5359553_1280.png","isAdmin":false}
-3.9.2025, 18:04:11 - INFO - attachLoggedinUser -> cookies: | {}
-3.9.2025, 18:04:26 - INFO - attachLoggedinUser -> cookies: | {"loginToken":"603e654158192eade6d5851e51acb36716f2ca1654ffdb815a246aa9df98ae121d5c694e45d5cb74429d48f6e531c61f7a0516a4c5c4adcdde49503390d8a8ddfa795e79ce04244fc1a8dfb6673db62ee28d08d70d67fd245fedb0d3740b86a72b89ea83d7aeb3c2bc73bce4686f3b72cd693a73084d0393f063610a0d41b055cb1a738d4c1f5d3f9818a9706896174b2606b9a82f6a5d75b06677c0e5372a729525"}
-3.9.2025, 18:04:26 - INFO - attachLoggedinUser -> user from token: | {"_id":"68b46419f2a68a36db5b6f1f","fullname":"aa","isAdmin":false}
-3.9.2025, 18:04:26 - INFO - /api/stay | GET | {} | {}
-3.9.2025, 18:04:45 - INFO - attachLoggedinUser -> cookies: | {}
-3.9.2025, 18:04:45 - INFO - attachLoggedinUser -> cookies: | {"loginToken":"603e654158192eade6d5851e51acb36716f2ca1654ffdb815a246aa9df98ae121d5c694e45d5cb74429d48f6e531c61f7a0516a4c5c4adcdde49503390d8a8ddfa795e79ce04244fc1a8dfb6673db62ee28d08d70d67fd245fedb0d3740b86a72b89ea83d7aeb3c2bc73bce4686f3b72cd693a73084d0393f063610a0d41b055cb1a738d4c1f5d3f9818a9706896174b2606b9a82f6a5d75b06677c0e5372a729525"}
-3.9.2025, 18:04:45 - INFO - attachLoggedinUser -> user from token: | {"_id":"68b46419f2a68a36db5b6f1f","fullname":"aa","isAdmin":false}
-3.9.2025, 18:04:45 - INFO - /api/stay | POST | {"name":"Paint Set Deluxe","type":"Apartment","price":4,"loc":{"address":"חכם עזרא כהן, ראשון לציון, ישראל","city":"ראשון לציון","country":"ישראל","countryCode":"IL","street":"חכם עזרא כהן","lat":31.9848437,"lng":34.8058033},"imgUrls":["https://res.cloudinary.com/vanilla-test-images/image/upload/v1756911871/tzjf2vopbinjlcsxpj9k.avif"],"capacity":1,"rooms":1,"bedrooms":1,"bathrooms":1,"labels":["Trendy","Business"],"amenities":[],"description":"kk","host":{"_id":"68b46419f2a68a36db5b6f1f","fullname":"aa","imgUrl":"https://cdn.pixabay.com/photo/2020/07/01/12/58/icon-5359553_1280.png"}} | {}
-3.9.2025, 18:04:45 - INFO - addStay -> final stay payload host: | {"_id":"68b46419f2a68a36db5b6f1f","fullname":"aa"}
-3.9.2025, 18:04:45 - INFO - requireAuth -> authenticated user: | {"_id":"68b46419f2a68a36db5b6f1f","fullname":"aa","isAdmin":false}
-3.9.2025, 18:04:45 - INFO - stay.service.add -> final stay.host: | {"_id":"68b46419f2a68a36db5b6f1f","fullname":"aa"}
-3.9.2025, 18:04:45 - INFO - addStay -> loggedinUser: | {"_id":"68b46419f2a68a36db5b6f1f","fullname":"aa","isAdmin":false}
-3.9.2025, 18:04:45 - INFO - attachLoggedinUser -> cookies: | {"loginToken":"603e654158192eade6d5851e51acb36716f2ca1654ffdb815a246aa9df98ae121d5c694e45d5cb74429d48f6e531c61f7a0516a4c5c4adcdde49503390d8a8ddfa795e79ce04244fc1a8dfb6673db62ee28d08d70d67fd245fedb0d3740b86a72b89ea83d7aeb3c2bc73bce4686f3b72cd693a73084d0393f063610a0d41b055cb1a738d4c1f5d3f9818a9706896174b2606b9a82f6a5d75b06677c0e5372a729525"}
-3.9.2025, 18:04:45 - INFO - attachLoggedinUser -> user from token: | {"_id":"68b46419f2a68a36db5b6f1f","fullname":"aa","isAdmin":false}
-3.9.2025, 18:04:45 - INFO - /api/stay | GET | {} | {"id":"68b8590daafa726accdd4be0"}
-3.9.2025, 18:04:53 - INFO - attachLoggedinUser -> cookies: | {}
-3.9.2025, 18:04:53 - INFO - attachLoggedinUser -> cookies: | {"loginToken":"603e654158192eade6d5851e51acb36716f2ca1654ffdb815a246aa9df98ae121d5c694e45d5cb74429d48f6e531c61f7a0516a4c5c4adcdde49503390d8a8ddfa795e79ce04244fc1a8dfb6673db62ee28d08d70d67fd245fedb0d3740b86a72b89ea83d7aeb3c2bc73bce4686f3b72cd693a73084d0393f063610a0d41b055cb1a738d4c1f5d3f9818a9706896174b2606b9a82f6a5d75b06677c0e5372a729525"}
-3.9.2025, 18:04:53 - INFO - attachLoggedinUser -> user from token: | {"_id":"68b46419f2a68a36db5b6f1f","fullname":"aa","isAdmin":false}
-3.9.2025, 18:04:54 - INFO - attachLoggedinUser -> cookies: | {}
-3.9.2025, 18:04:54 - INFO - attachLoggedinUser -> cookies: | {"loginToken":"603e654158192eade6d5851e51acb36716f2ca1654ffdb815a246aa9df98ae121d5c694e45d5cb74429d48f6e531c61f7a0516a4c5c4adcdde49503390d8a8ddfa795e79ce04244fc1a8dfb6673db62ee28d08d70d67fd245fedb0d3740b86a72b89ea83d7aeb3c2bc73bce4686f3b72cd693a73084d0393f063610a0d41b055cb1a738d4c1f5d3f9818a9706896174b2606b9a82f6a5d75b06677c0e5372a729525"}
-3.9.2025, 18:04:54 - INFO - attachLoggedinUser -> user from token: | {"_id":"68b46419f2a68a36db5b6f1f","fullname":"aa","isAdmin":false}
-3.9.2025, 18:04:54 - INFO - /api/stay | GET | {} | {}
-3.9.2025, 18:05:00 - INFO - attachLoggedinUser -> cookies: | {"loginToken":"603e654158192eade6d5851e51acb36716f2ca1654ffdb815a246aa9df98ae121d5c694e45d5cb74429d48f6e531c61f7a0516a4c5c4adcdde49503390d8a8ddfa795e79ce04244fc1a8dfb6673db62ee28d08d70d67fd245fedb0d3740b86a72b89ea83d7aeb3c2bc73bce4686f3b72cd693a73084d0393f063610a0d41b055cb1a738d4c1f5d3f9818a9706896174b2606b9a82f6a5d75b06677c0e5372a729525"}
-3.9.2025, 18:05:00 - INFO - attachLoggedinUser -> user from token: | {"_id":"68b46419f2a68a36db5b6f1f","fullname":"aa","isAdmin":false}
-3.9.2025, 18:05:00 - INFO - /api/stay | GET | {} | {"id":"68b8590daafa726accdd4be0"}
-3.9.2025, 18:05:08 - INFO - attachLoggedinUser -> cookies: | {"loginToken":"603e654158192eade6d5851e51acb36716f2ca1654ffdb815a246aa9df98ae121d5c694e45d5cb74429d48f6e531c61f7a0516a4c5c4adcdde49503390d8a8ddfa795e79ce04244fc1a8dfb6673db62ee28d08d70d67fd245fedb0d3740b86a72b89ea83d7aeb3c2bc73bce4686f3b72cd693a73084d0393f063610a0d41b055cb1a738d4c1f5d3f9818a9706896174b2606b9a82f6a5d75b06677c0e5372a729525"}
-3.9.2025, 18:05:08 - INFO - attachLoggedinUser -> user from token: | {"_id":"68b46419f2a68a36db5b6f1f","fullname":"aa","isAdmin":false}
-3.9.2025, 18:05:08 - INFO - /api/stay | GET | {} | {"id":"68b8590daafa726accdd4be0"}
-3.9.2025, 18:05:08 - INFO - attachLoggedinUser -> cookies: | {}
-3.9.2025, 18:05:08 - INFO - attachLoggedinUser -> cookies: | {"loginToken":"603e654158192eade6d5851e51acb36716f2ca1654ffdb815a246aa9df98ae121d5c694e45d5cb74429d48f6e531c61f7a0516a4c5c4adcdde49503390d8a8ddfa795e79ce04244fc1a8dfb6673db62ee28d08d70d67fd245fedb0d3740b86a72b89ea83d7aeb3c2bc73bce4686f3b72cd693a73084d0393f063610a0d41b055cb1a738d4c1f5d3f9818a9706896174b2606b9a82f6a5d75b06677c0e5372a729525"}
-3.9.2025, 18:05:08 - INFO - attachLoggedinUser -> user from token: | {"_id":"68b46419f2a68a36db5b6f1f","fullname":"aa","isAdmin":false}
-3.9.2025, 18:05:08 - INFO - requireAuth -> authenticated user: | {"_id":"68b46419f2a68a36db5b6f1f","fullname":"aa","isAdmin":false}
-3.9.2025, 18:05:12 - INFO - attachLoggedinUser -> cookies: | {}
-3.9.2025, 18:05:12 - INFO - attachLoggedinUser -> cookies: | {"loginToken":"603e654158192eade6d5851e51acb36716f2ca1654ffdb815a246aa9df98ae121d5c694e45d5cb74429d48f6e531c61f7a0516a4c5c4adcdde49503390d8a8ddfa795e79ce04244fc1a8dfb6673db62ee28d08d70d67fd245fedb0d3740b86a72b89ea83d7aeb3c2bc73bce4686f3b72cd693a73084d0393f063610a0d41b055cb1a738d4c1f5d3f9818a9706896174b2606b9a82f6a5d75b06677c0e5372a729525"}
-3.9.2025, 18:05:12 - INFO - attachLoggedinUser -> user from token: | {"_id":"68b46419f2a68a36db5b6f1f","fullname":"aa","isAdmin":false}
-3.9.2025, 18:05:12 - INFO - requireAuth -> authenticated user: | {"_id":"68b46419f2a68a36db5b6f1f","fullname":"aa","isAdmin":false}
-3.9.2025, 18:05:14 - INFO - attachLoggedinUser -> cookies: | {}
-3.9.2025, 18:05:14 - INFO - attachLoggedinUser -> cookies: | {"loginToken":"603e654158192eade6d5851e51acb36716f2ca1654ffdb815a246aa9df98ae121d5c694e45d5cb74429d48f6e531c61f7a0516a4c5c4adcdde49503390d8a8ddfa795e79ce04244fc1a8dfb6673db62ee28d08d70d67fd245fedb0d3740b86a72b89ea83d7aeb3c2bc73bce4686f3b72cd693a73084d0393f063610a0d41b055cb1a738d4c1f5d3f9818a9706896174b2606b9a82f6a5d75b06677c0e5372a729525"}
-3.9.2025, 18:05:14 - INFO - attachLoggedinUser -> user from token: | {"_id":"68b46419f2a68a36db5b6f1f","fullname":"aa","isAdmin":false}
-3.9.2025, 18:05:18 - INFO - attachLoggedinUser -> cookies: | {}
-3.9.2025, 18:05:18 - INFO - attachLoggedinUser -> cookies: | {"loginToken":"603e654158192eade6d5851e51acb36716f2ca1654ffdb815a246aa9df98ae121d5c694e45d5cb74429d48f6e531c61f7a0516a4c5c4adcdde49503390d8a8ddfa795e79ce04244fc1a8dfb6673db62ee28d08d70d67fd245fedb0d3740b86a72b89ea83d7aeb3c2bc73bce4686f3b72cd693a73084d0393f063610a0d41b055cb1a738d4c1f5d3f9818a9706896174b2606b9a82f6a5d75b06677c0e5372a729525"}
-3.9.2025, 18:05:18 - INFO - /api/stay | GET | {} | {}
-3.9.2025, 18:05:18 - INFO - attachLoggedinUser -> user from token: | {"_id":"68b46419f2a68a36db5b6f1f","fullname":"aa","isAdmin":false}
+2.9.2025, 18:23:35 - INFO - Server is running on port: 3030
+2.9.2025, 18:23:49 - INFO - /api/stay | GET | {} | {}
+2.9.2025, 18:23:52 - INFO - /api/stay | GET | {} | {}
+2.9.2025, 18:23:59 - INFO - /api/stay | GET | {} | {"id":"6738ca4cae769d402b653c82"}
+2.9.2025, 18:24:01 - INFO - /api/stay | GET | {} | {}
+2.9.2025, 18:27:53 - INFO - /api/stay | GET | {} | {"id":"6738ca4cae769d402b653c88"}
+2.9.2025, 18:28:18 - INFO - /api/stay | GET | {} | {"id":"6738ca4cae769d402b653c88"}
+2.9.2025, 18:28:21 - INFO - /api/stay | GET | {} | {}
+2.9.2025, 18:52:03 - INFO - /api/stay | GET | {} | {}
+2.9.2025, 18:52:05 - INFO - /api/stay | GET | {} | {}
+2.9.2025, 18:52:08 - INFO - /api/stay | GET | {} | {}
+2.9.2025, 18:52:44 - INFO - /api/stay | GET | {} | {}
+2.9.2025, 19:00:09 - INFO - /api/stay | GET | {} | {}
+2.9.2025, 19:00:26 - INFO - /api/stay | GET | {} | {}
+2.9.2025, 19:40:48 - INFO - /api/stay | GET | {} | {}
+2.9.2025, 19:40:50 - INFO - /api/stay | GET | {} | {}
+2.9.2025, 19:42:15 - INFO - /api/stay | GET | {} | {}
+2.9.2025, 19:42:17 - INFO - /api/stay | GET | {} | {"id":"6738ca4cae769d402b653c7c"}
+2.9.2025, 19:42:30 - INFO - /api/stay | GET | {} | {}
+2.9.2025, 19:46:47 - INFO - /api/stay | GET | {} | {"id":"6738ca4cae769d402b653c7c"}
+2.9.2025, 19:46:54 - INFO - /api/stay | GET | {} | {}
+2.9.2025, 20:15:42 - INFO - /api/stay | GET | {} | {}
+2.9.2025, 20:20:30 - INFO - /api/stay | GET | {} | {}
+2.9.2025, 20:27:59 - INFO - /api/stay | GET | {} | {}
+2.9.2025, 20:28:16 - INFO - /api/stay | GET | {} | {}
+2.9.2025, 20:28:20 - INFO - /api/stay | GET | {} | {}
+2.9.2025, 20:28:26 - INFO - /api/stay | GET | {} | {}
+2.9.2025, 20:29:30 - INFO - /api/stay | GET | {} | {"id":"6738ca4cae769d402b653c7c"}
+2.9.2025, 20:30:05 - INFO - /api/stay | GET | {} | {}
+2.9.2025, 20:30:14 - INFO - /api/stay | GET | {} | {}
+2.9.2025, 20:31:10 - INFO - /api/stay | GET | {} | {}
+2.9.2025, 20:37:29 - INFO - /api/stay | GET | {} | {}
+2.9.2025, 20:39:56 - INFO - /api/stay | GET | {} | {}
+2.9.2025, 20:41:02 - INFO - /api/stay | GET | {} | {"id":"6738ca4cae769d402b653c74"}
+2.9.2025, 20:41:04 - INFO - /api/stay | GET | {} | {}
+2.9.2025, 21:00:49 - INFO - /api/stay | GET | {} | {}
+2.9.2025, 21:01:05 - INFO - /api/stay | GET | {} | {}
+2.9.2025, 21:23:07 - INFO - /api/stay | GET | {} | {}
+2.9.2025, 21:24:48 - INFO - /api/stay | GET | {} | {}
+2.9.2025, 21:32:26 - ERROR - ERROR: cannot find orders
+2.9.2025, 21:32:26 - ERROR - Failed to get orders | BSONError: input must be a 24 character hex string, 12 byte Uint8Array, or an integer
+2.9.2025, 21:32:28 - INFO - /api/stay | GET | {} | {}
+2.9.2025, 21:32:30 - ERROR - while finding user by id: mK1dR | BSONError: hex string must be 24 characters
+2.9.2025, 21:32:30 - ERROR - Failed to get user | BSONError: hex string must be 24 characters
+2.9.2025, 21:32:33 - INFO - /api/stay | GET | {} | {}
+2.9.2025, 21:32:44 - INFO - /api/stay | GET | {} | {"id":"6738ca4cae769d402b653c7c"}
+2.9.2025, 21:33:15 - INFO - /api/stay | GET | {} | {}
+2.9.2025, 21:39:04 - INFO - /api/stay | GET | {} | {}
+2.9.2025, 21:39:06 - INFO - /api/stay | GET | {} | {}
+2.9.2025, 21:39:19 - DEBUG - auth.service - signup with username: frf, fullname: 3rff
+2.9.2025, 21:39:20 - DEBUG - auth.route - new account created: {"username":"frf","password":"$2b$10$/47nH1k8S3vzF7XlrTp/1OqNisAc.ns7JhMGU8nbzVgz.H5raEYJ2","fullname":"3rff","imgUrl":"https://cdn.pixabay.com/photo/2020/07/01/12/58/icon-5359553_1280.png","isAdmin":false,"_id":"68b739d8f5df9a74c9203e4f"}
+2.9.2025, 21:39:20 - DEBUG - auth.service - login with username: frf
+2.9.2025, 21:39:20 - INFO - User signup: | {"_id":"68b739d8f5df9a74c9203e4f","username":"frf","fullname":"3rff","imgUrl":"https://cdn.pixabay.com/photo/2020/07/01/12/58/icon-5359553_1280.png","isAdmin":false}
+2.9.2025, 21:39:20 - INFO - /api/stay | GET | {} | {}
+2.9.2025, 21:39:48 - INFO - /api/stay | GET | {} | {"id":"6738ca4cae769d402b653c7c"}
+2.9.2025, 21:40:05 - INFO - /api/stay | GET | {} | {}
+2.9.2025, 21:48:16 - INFO - /api/stay | GET | {} | {}
+2.9.2025, 21:48:47 - INFO - /api/stay | GET | {} | {}
+2.9.2025, 21:48:49 - INFO - /api/stay | GET | {} | {"id":"6738ca4cae769d402b653c88"}
+2.9.2025, 21:49:36 - INFO - /api/stay | GET | {} | {"id":"6738ca4cae769d402b653c88"}
+2.9.2025, 21:50:24 - INFO - /api/stay | GET | {} | {}
+2.9.2025, 21:52:58 - INFO - /api/stay | POST | {"name":"Bar's Portfolio","type":"Villa","price":7778,"loc":{"address":"Kumasi, Ghana","city":"Kumasi","country":"Ghana","countryCode":"GH","street":"","lat":6.6744692,"lng":-1.5568497},"imgUrls":["https://res.cloudinary.com/vanilla-test-images/image/upload/v1756839164/rw5fygoxakmkjlckbpnf.png"],"capacity":3,"rooms":0,"bedrooms":4,"bathrooms":5,"labels":[],"amenities":["Air conditioning","Kitchen","Wifi","Private bathroom","Heating"],"description":"sDSDSdsDSdsdaf","host":{"_id":"68b739d8f5df9a74c9203e4f","fullname":"3rff","imgUrl":"https://cdn.pixabay.com/photo/2020/07/01/12/58/icon-5359553_1280.png"}} | {}
+2.9.2025, 21:52:58 - INFO - /api/stay | GET | {} | {"id":"68b73d0af5df9a74c9203e51"}
+2.9.2025, 21:53:05 - INFO - /api/stay | GET | {} | {}
+2.9.2025, 21:53:09 - INFO - /api/stay | GET | {} | {}
+2.9.2025, 21:53:23 - INFO - /api/stay | GET | {} | {"id":"6738ca4cae769d402b653c89"}
+2.9.2025, 21:53:25 - INFO - /api/stay | GET | {} | {}
+2.9.2025, 21:53:27 - INFO - /api/stay | GET | {} | {"id":"68b73d0af5df9a74c9203e51"}
+2.9.2025, 21:53:42 - INFO - /api/stay | GET | {} | {}
+2.9.2025, 21:54:27 - INFO - /api/stay | GET | {} | {}
+2.9.2025, 21:55:19 - INFO - /api/stay | GET | {} | {}
+2.9.2025, 22:00:33 - INFO - /api/stay | GET | {} | {"id":"6738ca4cae769d402b653c74"}
+2.9.2025, 22:01:53 - INFO - /api/stay | GET | {} | {}
+2.9.2025, 22:02:24 - INFO - /api/stay | GET | {} | {}
+2.9.2025, 22:02:32 - INFO - /api/stay | GET | {} | {"id":"6738ca4cae769d402b653c74"}
+2.9.2025, 22:04:50 - INFO - /api/stay | GET | {} | {}
+2.9.2025, 22:56:45 - INFO - New connected socket [id: oA015iP1bzU6DSAFAAAB]
+2.9.2025, 22:56:45 - INFO - Setting socket.userId = 68b739d8f5df9a74c9203e4f for socket [id: oA015iP1bzU6DSAFAAAB]
+2.9.2025, 22:57:22 - INFO - Socket disconnected [id: undefined]
+2.9.2025, 22:57:22 - INFO - New connected socket [id: XYFq4nEMcNek98btAAAD]
+2.9.2025, 22:57:22 - INFO - Setting socket.userId = 68b739d8f5df9a74c9203e4f for socket [id: XYFq4nEMcNek98btAAAD]
+2.9.2025, 22:57:57 - INFO - Server is running on port: 3030
+2.9.2025, 22:57:57 - INFO - New connected socket [id: QkB9tX4iSO0WGEvCAAAB]
+2.9.2025, 22:58:03 - INFO - Socket disconnected [id: undefined]
+2.9.2025, 22:58:04 - INFO - New connected socket [id: zYCf0KA1FbfQ50tvAAAD]
+2.9.2025, 22:58:04 - INFO - Setting socket.userId = 68b739d8f5df9a74c9203e4f for socket [id: zYCf0KA1FbfQ50tvAAAD]
+2.9.2025, 22:58:27 - INFO - Socket disconnected [id: undefined]
+2.9.2025, 22:58:28 - INFO - /api/stay | GET | {} | {}
+2.9.2025, 22:58:36 - INFO - Server is running on port: 3030
+2.9.2025, 22:58:42 - INFO - /api/stay | GET | {} | {}
+2.9.2025, 22:59:06 - INFO - New connected socket [id: vpkIAOgCS4vDBDdNAAAB]
+2.9.2025, 22:59:06 - INFO - Setting socket.userId = 68b739d8f5df9a74c9203e4f for socket [id: vpkIAOgCS4vDBDdNAAAB]
+2.9.2025, 22:59:11 - INFO - Socket disconnected [id: undefined]
+2.9.2025, 22:59:12 - INFO - /api/stay | GET | {} | {}
+2.9.2025, 22:59:31 - INFO - Server is running on port: 3030
+2.9.2025, 22:59:33 - INFO - /api/stay | GET | {} | {}
+2.9.2025, 23:14:50 - INFO - /api/stay | GET | {} | {}
+3.9.2025, 0:21:37 - INFO - /api/stay | GET | {} | {}
+3.9.2025, 0:27:51 - INFO - /api/stay | GET | {} | {}
+3.9.2025, 0:41:22 - INFO - Server is running on port: 3030
+3.9.2025, 1:06:17 - INFO - /api/stay | GET | {} | {}
+3.9.2025, 1:14:19 - INFO - Server is running on port: 3030
+3.9.2025, 8:52:28 - INFO - /api/stay | GET | {} | {}
+3.9.2025, 8:55:21 - INFO - /api/stay | GET | {} | {}
+3.9.2025, 9:03:08 - INFO - /api/stay | GET | {} | {"id":"6738ca4cae769d402b653c7c"}
+3.9.2025, 9:03:09 - INFO - /api/stay | GET | {} | {}
+3.9.2025, 9:10:27 - DEBUG - auth.service - signup with username: ba, fullname: ab ba
+3.9.2025, 9:10:27 - DEBUG - auth.route - new account created: {"username":"ba","password":"$2b$10$gD8OjjSdrM/9w..Z2NdrvuEmnphZTikV8mcSkT46FY9lYCzavOtP.","fullname":"ab ba","imgUrl":"https://res.cloudinary.com/vanilla-test-images/image/upload/v1756879825/sckcng0qcrzplkxi7ldu.webp","isAdmin":false,"_id":"68b7dbd331f018c81733c482"}
+3.9.2025, 9:10:27 - DEBUG - auth.service - login with username: ba
+3.9.2025, 9:10:28 - INFO - User signup: | {"_id":"68b7dbd331f018c81733c482","username":"ba","fullname":"ab ba","imgUrl":"https://res.cloudinary.com/vanilla-test-images/image/upload/v1756879825/sckcng0qcrzplkxi7ldu.webp","isAdmin":false}
+3.9.2025, 9:10:28 - INFO - /api/stay | GET | {} | {}
+3.9.2025, 9:11:08 - INFO - /api/stay | GET | {} | {}
+3.9.2025, 9:12:33 - INFO - /api/stay | GET | {} | {"id":"6738ca4cae769d402b653c83"}
+3.9.2025, 9:12:34 - INFO - /api/stay | GET | {} | {}
+3.9.2025, 9:17:02 - INFO - /api/stay | GET | {} | {}
+3.9.2025, 9:17:10 - INFO - /api/stay | GET | {} | {}
+3.9.2025, 9:18:04 - ERROR - Failed to get orders | BSONError: input must be a 24 character hex string, 12 byte Uint8Array, or an integer
+3.9.2025, 9:18:07 - ERROR - Failed to get orders | BSONError: input must be a 24 character hex string, 12 byte Uint8Array, or an integer
+3.9.2025, 9:18:18 - DEBUG - auth.service - login with username: aa
+3.9.2025, 9:18:18 - INFO - User login:  | {"_id":"68b46419f2a68a36db5b6f1f","username":"aa","fullname":"aa","imgUrl":"https://cdn.pixabay.com/photo/2020/07/01/12/58/icon-5359553_1280.png","isAdmin":false}
+3.9.2025, 9:18:18 - INFO - /api/stay | GET | {} | {}
+3.9.2025, 9:18:51 - ERROR - Failed to get orders | BSONError: input must be a 24 character hex string, 12 byte Uint8Array, or an integer
+3.9.2025, 9:19:02 - DEBUG - auth.service - login with username: admin
+3.9.2025, 9:19:03 - INFO - User login:  | {"_id":"68b1a696af177aae560256d8","username":"admin","fullname":"admin","imgUrl":null,"isAdmin":true}
+3.9.2025, 9:19:03 - INFO - /api/stay | GET | {} | {}
+3.9.2025, 9:20:05 - INFO - /api/stay | GET | {} | {"id":"s104"}
+3.9.2025, 9:20:05 - ERROR - while finding stay s104 | BSONError: hex string must be 24 characters
+3.9.2025, 9:20:05 - ERROR - Failed to get stay | BSONError: hex string must be 24 characters
+3.9.2025, 9:20:13 - INFO - /api/stay | GET | {} | {"id":"s102"}
+3.9.2025, 9:20:13 - ERROR - while finding stay s102 | BSONError: hex string must be 24 characters
+3.9.2025, 9:20:13 - ERROR - Failed to get stay | BSONError: hex string must be 24 characters
+3.9.2025, 9:22:38 - INFO - /api/stay | GET | {} | {}
+3.9.2025, 9:22:48 - INFO - /api/stay | GET | {} | {}
+3.9.2025, 9:26:04 - INFO - /api/stay | GET | {} | {}
+3.9.2025, 9:26:52 - INFO - /api/stay | GET | {} | {}
+3.9.2025, 9:44:39 - INFO - /api/stay | GET | {} | {}
+3.9.2025, 11:16:57 - INFO - /api/stay | GET | {} | {}
+3.9.2025, 11:22:20 - INFO - /api/stay | GET | {} | {}
+3.9.2025, 11:22:42 - INFO - /api/stay | GET | {} | {}
+3.9.2025, 11:24:14 - INFO - /api/stay | GET | {} | {}
+3.9.2025, 11:24:24 - INFO - /api/stay | GET | {} | {}
+3.9.2025, 12:03:29 - INFO - /api/stay | GET | {} | {}
+3.9.2025, 13:20:57 - INFO - /api/stay | GET | {} | {}
+3.9.2025, 16:32:22 - INFO - Server is running on port: 3030
+3.9.2025, 16:36:27 - DEBUG - auth.service - signup with username: bar avizemer, fullname: בר אביזמר
+3.9.2025, 16:36:28 - DEBUG - auth.route - new account created: {"username":"bar avizemer","password":"$2b$10$WgeR3DuKyofnCpg5rL8ZWOCG2Dw3j/tEluQfAbJxJuYaeoOHtO4PC","fullname":"בר אביזמר","imgUrl":"https://res.cloudinary.com/vanilla-test-images/image/upload/v1756906584/nfmhw5fztgkfpdupwrdh.png","isAdmin":false,"_id":"68b8445ca45181aaf2e3c880"}
+3.9.2025, 16:36:28 - DEBUG - auth.service - login with username: bar avizemer
+3.9.2025, 16:36:28 - INFO - User signup: | {"_id":"68b8445ca45181aaf2e3c880","username":"bar avizemer","fullname":"בר אביזמר","imgUrl":"https://res.cloudinary.com/vanilla-test-images/image/upload/v1756906584/nfmhw5fztgkfpdupwrdh.png","isAdmin":false}
+3.9.2025, 16:36:28 - INFO - /api/stay | GET | {} | {}
+3.9.2025, 16:36:35 - INFO - /api/stay | GET | {} | {"id":"6738ca4cae769d402b653c7c"}
+3.9.2025, 16:36:45 - INFO - /api/stay | GET | {} | {"id":"6738ca4cae769d402b653c7c"}
+3.9.2025, 16:36:45 - ERROR - while finding stay 6738ca4cae769d402b653c7c | BSONError: hex string must be 24 characters
+3.9.2025, 16:37:03 - ERROR - Failed to get orders | BSONError: input must be a 24 character hex string, 12 byte Uint8Array, or an integer
+3.9.2025, 16:37:23 - INFO - /api/stay | GET | {} | {"id":"6738ca4cae769d402b653c7c"}
+3.9.2025, 16:54:21 - INFO - /api/stay | GET | {} | {"id":"6738ca4cae769d402b653c7c"}
+3.9.2025, 16:54:26 - INFO - /api/stay | GET | {} | {"id":"6738ca4cae769d402b653c7c"}

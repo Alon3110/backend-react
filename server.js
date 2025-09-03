@@ -11,6 +11,7 @@ import { reviewRoutes } from './api/review/review.routes.js'
 import { stayRoutes } from './api/stay/stay.routes.js'
 import { orderRoutes } from './api/order/order.routes.js'
 import { setupSocketAPI } from './services/socket.service.js'
+import workflowsRouter from "./api/workflow/workflows.routes.js"
 
 import { setupAsyncLocalStorage } from './middlewares/setupAls.middleware.js'
 import { attachLoggedinUser } from './middlewares/requireAuth.middleware.js'
@@ -48,6 +49,8 @@ app.use('/api/user', userRoutes)
 app.use('/api/review', reviewRoutes)
 app.use('/api/stay', stayRoutes)
 app.use('/api/order', orderRoutes)
+app.use("/api/workflows", workflowsRouter)
+
 
 setupSocketAPI(server)
 
