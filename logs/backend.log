@@ -2174,3 +2174,201 @@
 3.9.2025, 16:37:23 - INFO - /api/stay | GET | {} | {"id":"6738ca4cae769d402b653c7c"}
 3.9.2025, 16:54:21 - INFO - /api/stay | GET | {} | {"id":"6738ca4cae769d402b653c7c"}
 3.9.2025, 16:54:26 - INFO - /api/stay | GET | {} | {"id":"6738ca4cae769d402b653c7c"}
+3.9.2025, 18:12:34 - INFO - attachLoggedinUser -> cookies: | {}
+3.9.2025, 18:12:34 - INFO - attachLoggedinUser -> cookies: | {"loginToken":"603e654158192eade6d5851e51acb36716f2ca1654ffdb815a246aa9df98ae121d5c694e45d5cb74429d48f6e531c61f7a0516a4c5c4adcdde49503390d8a8ddfa795e79ce04244fc1a8dfb6673db62ee28d08d70d67fd245fedb0d3740b86a72b89ea83d7aeb3c2bc73bce4686f3b72cd693a73084d0393f063610a0d41b055cb1a738d4c1f5d3f9818a9706896174b2606b9a82f6a5d75b06677c0e5372a729525"}
+3.9.2025, 18:12:34 - INFO - attachLoggedinUser -> user from token: | {"_id":"68b46419f2a68a36db5b6f1f","fullname":"aa","isAdmin":false}
+3.9.2025, 18:12:34 - INFO - /api/stay | GET | {} | {}
+3.9.2025, 18:14:55 - INFO - attachLoggedinUser -> cookies: | {}
+3.9.2025, 18:14:55 - INFO - attachLoggedinUser -> cookies: | {"loginToken":"603e654158192eade6d5851e51acb36716f2ca1654ffdb815a246aa9df98ae121d5c694e45d5cb74429d48f6e531c61f7a0516a4c5c4adcdde49503390d8a8ddfa795e79ce04244fc1a8dfb6673db62ee28d08d70d67fd245fedb0d3740b86a72b89ea83d7aeb3c2bc73bce4686f3b72cd693a73084d0393f063610a0d41b055cb1a738d4c1f5d3f9818a9706896174b2606b9a82f6a5d75b06677c0e5372a729525"}
+3.9.2025, 18:14:55 - INFO - attachLoggedinUser -> user from token: | {"_id":"68b46419f2a68a36db5b6f1f","fullname":"aa","isAdmin":false}
+3.9.2025, 18:14:55 - INFO - /api/stay | GET | {} | {}
+3.9.2025, 18:19:42 - INFO - Server is running on port: 3030
+3.9.2025, 18:19:57 - INFO - attachLoggedinUser -> cookies: | {}
+3.9.2025, 18:19:57 - INFO - attachLoggedinUser -> cookies: | {"loginToken":"603e654158192eade6d5851e51acb36716f2ca1654ffdb815a246aa9df98ae121d5c694e45d5cb74429d48f6e531c61f7a0516a4c5c4adcdde49503390d8a8ddfa795e79ce04244fc1a8dfb6673db62ee28d08d70d67fd245fedb0d3740b86a72b89ea83d7aeb3c2bc73bce4686f3b72cd693a73084d0393f063610a0d41b055cb1a738d4c1f5d3f9818a9706896174b2606b9a82f6a5d75b06677c0e5372a729525"}
+3.9.2025, 18:19:57 - INFO - attachLoggedinUser -> user from token: | {"_id":"68b46419f2a68a36db5b6f1f","fullname":"aa","isAdmin":false}
+3.9.2025, 18:19:57 - INFO - /api/stay | GET | {} | {}
+3.9.2025, 18:20:11 - INFO - attachLoggedinUser -> cookies: | {}
+3.9.2025, 18:20:11 - INFO - attachLoggedinUser -> cookies: | {"loginToken":"603e654158192eade6d5851e51acb36716f2ca1654ffdb815a246aa9df98ae121d5c694e45d5cb74429d48f6e531c61f7a0516a4c5c4adcdde49503390d8a8ddfa795e79ce04244fc1a8dfb6673db62ee28d08d70d67fd245fedb0d3740b86a72b89ea83d7aeb3c2bc73bce4686f3b72cd693a73084d0393f063610a0d41b055cb1a738d4c1f5d3f9818a9706896174b2606b9a82f6a5d75b06677c0e5372a729525"}
+3.9.2025, 18:20:11 - INFO - attachLoggedinUser -> user from token: | {"_id":"68b46419f2a68a36db5b6f1f","fullname":"aa","isAdmin":false}
+3.9.2025, 18:20:11 - DEBUG - auth.service - login with username: aa
+3.9.2025, 18:20:11 - INFO - User login:  | {"_id":"68b46419f2a68a36db5b6f1f","username":"aa","fullname":"aa","imgUrl":"https://cdn.pixabay.com/photo/2020/07/01/12/58/icon-5359553_1280.png","isAdmin":false}
+3.9.2025, 18:20:11 - INFO - attachLoggedinUser -> cookies: | {}
+3.9.2025, 18:20:11 - INFO - attachLoggedinUser -> cookies: | {"loginToken":"603e654158192eade6d5851e51acb36716f2ca1654ffdb815a246aa9df98ae121d5c694e45d5cb74429d48f6e531c61f7a0516a4c5c4adcdde49503390d8a8ddfa795e79ce04244fc1a8dfb6673db62ee28d08d70d67fd245fedb0d3740b86a72b89ea83d7aeb3c2bc73bce4686f3b72cd693a73084d0393f063610a0d41b055cb1a738d4c1f5d3f9818a9706896174b2606b9a82f6a5d75b06677c0e5372a729525"}
+3.9.2025, 18:20:11 - INFO - attachLoggedinUser -> user from token: | {"_id":"68b46419f2a68a36db5b6f1f","fullname":"aa","isAdmin":false}
+3.9.2025, 18:20:11 - INFO - /api/stay | GET | {} | {}
+3.9.2025, 18:20:50 - INFO - attachLoggedinUser -> cookies: | {}
+3.9.2025, 18:20:50 - INFO - attachLoggedinUser -> cookies: | {"loginToken":"603e654158192eade6d5851e51acb36716f2ca1654ffdb815a246aa9df98ae121d5c694e45d5cb74429d48f6e531c61f7a0516a4c5c4adcdde49503390d8a8ddfa795e79ce04244fc1a8dfb6673db62ee28d08d70d67fd245fedb0d3740b86a72b89ea83d7aeb3c2bc73bce4686f3b72cd693a73084d0393f063610a0d41b055cb1a738d4c1f5d3f9818a9706896174b2606b9a82f6a5d75b06677c0e5372a729525"}
+3.9.2025, 18:20:50 - INFO - attachLoggedinUser -> user from token: | {"_id":"68b46419f2a68a36db5b6f1f","fullname":"aa","isAdmin":false}
+3.9.2025, 18:20:50 - INFO - /api/stay | GET | {} | {}
+3.9.2025, 18:21:37 - INFO - attachLoggedinUser -> cookies: | {}
+3.9.2025, 18:21:37 - INFO - attachLoggedinUser -> cookies: | {"loginToken":"603e654158192eade6d5851e51acb36716f2ca1654ffdb815a246aa9df98ae121d5c694e45d5cb74429d48f6e531c61f7a0516a4c5c4adcdde49503390d8a8ddfa795e79ce04244fc1a8dfb6673db62ee28d08d70d67fd245fedb0d3740b86a72b89ea83d7aeb3c2bc73bce4686f3b72cd693a73084d0393f063610a0d41b055cb1a738d4c1f5d3f9818a9706896174b2606b9a82f6a5d75b06677c0e5372a729525"}
+3.9.2025, 18:21:37 - INFO - attachLoggedinUser -> user from token: | {"_id":"68b46419f2a68a36db5b6f1f","fullname":"aa","isAdmin":false}
+3.9.2025, 18:21:37 - INFO - /api/stay | GET | {} | {}
+3.9.2025, 18:24:25 - INFO - attachLoggedinUser -> cookies: | {}
+3.9.2025, 18:24:25 - INFO - attachLoggedinUser -> cookies: | {"loginToken":"603e654158192eade6d5851e51acb36716f2ca1654ffdb815a246aa9df98ae121d5c694e45d5cb74429d48f6e531c61f7a0516a4c5c4adcdde49503390d8a8ddfa795e79ce04244fc1a8dfb6673db62ee28d08d70d67fd245fedb0d3740b86a72b89ea83d7aeb3c2bc73bce4686f3b72cd693a73084d0393f063610a0d41b055cb1a738d4c1f5d3f9818a9706896174b2606b9a82f6a5d75b06677c0e5372a729525"}
+3.9.2025, 18:24:25 - INFO - attachLoggedinUser -> user from token: | {"_id":"68b46419f2a68a36db5b6f1f","fullname":"aa","isAdmin":false}
+3.9.2025, 18:24:25 - ERROR - Failed to get orders | MongoServerError: PlanExecutor error during aggregation :: caused by :: Failed to parse objectId 'guest-user-id' in $convert with no onError value: Invalid string length for parsing to OID, expected 24 but found 13
+3.9.2025, 18:24:34 - INFO - attachLoggedinUser -> cookies: | {}
+3.9.2025, 18:24:34 - INFO - attachLoggedinUser -> cookies: | {"loginToken":"603e654158192eade6d5851e51acb36716f2ca1654ffdb815a246aa9df98ae121d5c694e45d5cb74429d48f6e531c61f7a0516a4c5c4adcdde49503390d8a8ddfa795e79ce04244fc1a8dfb6673db62ee28d08d70d67fd245fedb0d3740b86a72b89ea83d7aeb3c2bc73bce4686f3b72cd693a73084d0393f063610a0d41b055cb1a738d4c1f5d3f9818a9706896174b2606b9a82f6a5d75b06677c0e5372a729525"}
+3.9.2025, 18:24:34 - INFO - attachLoggedinUser -> user from token: | {"_id":"68b46419f2a68a36db5b6f1f","fullname":"aa","isAdmin":false}
+3.9.2025, 18:24:34 - ERROR - Failed to get orders | MongoServerError: PlanExecutor error during aggregation :: caused by :: Failed to parse objectId 'guest-user-id' in $convert with no onError value: Invalid string length for parsing to OID, expected 24 but found 13
+3.9.2025, 18:25:06 - INFO - attachLoggedinUser -> cookies: | {}
+3.9.2025, 18:25:06 - INFO - attachLoggedinUser -> cookies: | {"loginToken":"603e654158192eade6d5851e51acb36716f2ca1654ffdb815a246aa9df98ae121d5c694e45d5cb74429d48f6e531c61f7a0516a4c5c4adcdde49503390d8a8ddfa795e79ce04244fc1a8dfb6673db62ee28d08d70d67fd245fedb0d3740b86a72b89ea83d7aeb3c2bc73bce4686f3b72cd693a73084d0393f063610a0d41b055cb1a738d4c1f5d3f9818a9706896174b2606b9a82f6a5d75b06677c0e5372a729525"}
+3.9.2025, 18:25:06 - INFO - attachLoggedinUser -> user from token: | {"_id":"68b46419f2a68a36db5b6f1f","fullname":"aa","isAdmin":false}
+3.9.2025, 18:25:06 - INFO - /api/stay | GET | {} | {}
+3.9.2025, 18:25:14 - INFO - attachLoggedinUser -> cookies: | {}
+3.9.2025, 18:25:14 - INFO - attachLoggedinUser -> cookies: | {"loginToken":"603e654158192eade6d5851e51acb36716f2ca1654ffdb815a246aa9df98ae121d5c694e45d5cb74429d48f6e531c61f7a0516a4c5c4adcdde49503390d8a8ddfa795e79ce04244fc1a8dfb6673db62ee28d08d70d67fd245fedb0d3740b86a72b89ea83d7aeb3c2bc73bce4686f3b72cd693a73084d0393f063610a0d41b055cb1a738d4c1f5d3f9818a9706896174b2606b9a82f6a5d75b06677c0e5372a729525"}
+3.9.2025, 18:25:14 - INFO - attachLoggedinUser -> user from token: | {"_id":"68b46419f2a68a36db5b6f1f","fullname":"aa","isAdmin":false}
+3.9.2025, 18:25:14 - DEBUG - auth.service - login with username: aa
+3.9.2025, 18:25:14 - INFO - User login:  | {"_id":"68b46419f2a68a36db5b6f1f","username":"aa","fullname":"aa","imgUrl":"https://cdn.pixabay.com/photo/2020/07/01/12/58/icon-5359553_1280.png","isAdmin":false}
+3.9.2025, 18:25:14 - INFO - attachLoggedinUser -> cookies: | {}
+3.9.2025, 18:25:14 - INFO - attachLoggedinUser -> cookies: | {"loginToken":"603e654158192eade6d5851e51acb36716f2ca1654ffdb815a246aa9df98ae121d5c694e45d5cb74429d48f6e531c61f7a0516a4c5c4adcdde49503390d8a8ddfa795e79ce04244fc1a8dfb6673db62ee28d08d70d67fd245fedb0d3740b86a72b89ea83d7aeb3c2bc73bce4686f3b72cd693a73084d0393f063610a0d41b055cb1a738d4c1f5d3f9818a9706896174b2606b9a82f6a5d75b06677c0e5372a729525"}
+3.9.2025, 18:25:15 - INFO - attachLoggedinUser -> user from token: | {"_id":"68b46419f2a68a36db5b6f1f","fullname":"aa","isAdmin":false}
+3.9.2025, 18:25:15 - INFO - /api/stay | GET | {} | {}
+3.9.2025, 18:26:54 - INFO - attachLoggedinUser -> cookies: | {}
+3.9.2025, 18:26:54 - INFO - attachLoggedinUser -> cookies: | {"loginToken":"603e654158192eade6d5851e51acb36716f2ca1654ffdb815a246aa9df98ae121d5c694e45d5cb74429d48f6e531c61f7a0516a4c5c4adcdde49503390d8a8ddfa795e79ce04244fc1a8dfb6673db62ee28d08d70d67fd245fedb0d3740b86a72b89ea83d7aeb3c2bc73bce4686f3b72cd693a73084d0393f063610a0d41b055cb1a738d4c1f5d3f9818a9706896174b2606b9a82f6a5d75b06677c0e5372a729525"}
+3.9.2025, 18:26:54 - INFO - attachLoggedinUser -> user from token: | {"_id":"68b46419f2a68a36db5b6f1f","fullname":"aa","isAdmin":false}
+3.9.2025, 18:26:54 - INFO - /api/stay | GET | {} | {}
+3.9.2025, 18:26:59 - INFO - attachLoggedinUser -> cookies: | {}
+3.9.2025, 18:26:59 - INFO - attachLoggedinUser -> cookies: | {"loginToken":"603e654158192eade6d5851e51acb36716f2ca1654ffdb815a246aa9df98ae121d5c694e45d5cb74429d48f6e531c61f7a0516a4c5c4adcdde49503390d8a8ddfa795e79ce04244fc1a8dfb6673db62ee28d08d70d67fd245fedb0d3740b86a72b89ea83d7aeb3c2bc73bce4686f3b72cd693a73084d0393f063610a0d41b055cb1a738d4c1f5d3f9818a9706896174b2606b9a82f6a5d75b06677c0e5372a729525"}
+3.9.2025, 18:26:59 - INFO - attachLoggedinUser -> user from token: | {"_id":"68b46419f2a68a36db5b6f1f","fullname":"aa","isAdmin":false}
+3.9.2025, 18:26:59 - DEBUG - auth.service - login with username: aa
+3.9.2025, 18:26:59 - INFO - User login:  | {"_id":"68b46419f2a68a36db5b6f1f","username":"aa","fullname":"aa","imgUrl":"https://cdn.pixabay.com/photo/2020/07/01/12/58/icon-5359553_1280.png","isAdmin":false}
+3.9.2025, 18:26:59 - INFO - attachLoggedinUser -> cookies: | {"loginToken":"603e654158192eade6d5851e51acb36716f2ca1654ffdb815a246aa9df98ae121d5c694e45d5cb74429d48f6e531c61f7a0516a4c5c4adcdde49503390d8a8ddfa795e79ce04244fc1a8dfb6673db62ee28d08d70d67fd245fedb0d3740b86a72b89ea83d7aeb3c2bc73bce4686f3b72cd693a73084d0393f063610a0d41b055cb1a738d4c1f5d3f9818a9706896174b2606b9a82f6a5d75b06677c0e5372a729525"}
+3.9.2025, 18:26:59 - INFO - attachLoggedinUser -> user from token: | {"_id":"68b46419f2a68a36db5b6f1f","fullname":"aa","isAdmin":false}
+3.9.2025, 18:26:59 - INFO - /api/stay | GET | {} | {}
+3.9.2025, 18:28:31 - INFO - attachLoggedinUser -> cookies: | {}
+3.9.2025, 18:28:31 - INFO - attachLoggedinUser -> cookies: | {"loginToken":"603e654158192eade6d5851e51acb36716f2ca1654ffdb815a246aa9df98ae121d5c694e45d5cb74429d48f6e531c61f7a0516a4c5c4adcdde49503390d8a8ddfa795e79ce04244fc1a8dfb6673db62ee28d08d70d67fd245fedb0d3740b86a72b89ea83d7aeb3c2bc73bce4686f3b72cd693a73084d0393f063610a0d41b055cb1a738d4c1f5d3f9818a9706896174b2606b9a82f6a5d75b06677c0e5372a729525"}
+3.9.2025, 18:28:31 - INFO - attachLoggedinUser -> user from token: | {"_id":"68b46419f2a68a36db5b6f1f","fullname":"aa","isAdmin":false}
+3.9.2025, 18:28:31 - INFO - /api/stay | GET | {} | {}
+3.9.2025, 18:28:37 - INFO - attachLoggedinUser -> cookies: | {}
+3.9.2025, 18:28:37 - INFO - attachLoggedinUser -> cookies: | {"loginToken":"603e654158192eade6d5851e51acb36716f2ca1654ffdb815a246aa9df98ae121d5c694e45d5cb74429d48f6e531c61f7a0516a4c5c4adcdde49503390d8a8ddfa795e79ce04244fc1a8dfb6673db62ee28d08d70d67fd245fedb0d3740b86a72b89ea83d7aeb3c2bc73bce4686f3b72cd693a73084d0393f063610a0d41b055cb1a738d4c1f5d3f9818a9706896174b2606b9a82f6a5d75b06677c0e5372a729525"}
+3.9.2025, 18:28:37 - INFO - attachLoggedinUser -> user from token: | {"_id":"68b46419f2a68a36db5b6f1f","fullname":"aa","isAdmin":false}
+3.9.2025, 18:28:37 - DEBUG - auth.service - login with username: aa
+3.9.2025, 18:28:37 - INFO - User login:  | {"_id":"68b46419f2a68a36db5b6f1f","username":"aa","fullname":"aa","imgUrl":"https://cdn.pixabay.com/photo/2020/07/01/12/58/icon-5359553_1280.png","isAdmin":false}
+3.9.2025, 18:28:37 - INFO - attachLoggedinUser -> cookies: | {}
+3.9.2025, 18:28:37 - INFO - attachLoggedinUser -> cookies: | {"loginToken":"603e654158192eade6d5851e51acb36716f2ca1654ffdb815a246aa9df98ae121d5c694e45d5cb74429d48f6e531c61f7a0516a4c5c4adcdde49503390d8a8ddfa795e79ce04244fc1a8dfb6673db62ee28d08d70d67fd245fedb0d3740b86a72b89ea83d7aeb3c2bc73bce4686f3b72cd693a73084d0393f063610a0d41b055cb1a738d4c1f5d3f9818a9706896174b2606b9a82f6a5d75b06677c0e5372a729525"}
+3.9.2025, 18:28:37 - INFO - attachLoggedinUser -> user from token: | {"_id":"68b46419f2a68a36db5b6f1f","fullname":"aa","isAdmin":false}
+3.9.2025, 18:28:37 - INFO - /api/stay | GET | {} | {}
+3.9.2025, 18:29:04 - INFO - attachLoggedinUser -> cookies: | {}
+3.9.2025, 18:29:04 - INFO - attachLoggedinUser -> cookies: | {"loginToken":"603e654158192eade6d5851e51acb36716f2ca1654ffdb815a246aa9df98ae121d5c694e45d5cb74429d48f6e531c61f7a0516a4c5c4adcdde49503390d8a8ddfa795e79ce04244fc1a8dfb6673db62ee28d08d70d67fd245fedb0d3740b86a72b89ea83d7aeb3c2bc73bce4686f3b72cd693a73084d0393f063610a0d41b055cb1a738d4c1f5d3f9818a9706896174b2606b9a82f6a5d75b06677c0e5372a729525"}
+3.9.2025, 18:29:04 - INFO - attachLoggedinUser -> user from token: | {"_id":"68b46419f2a68a36db5b6f1f","fullname":"aa","isAdmin":false}
+3.9.2025, 18:29:04 - ERROR - Failed to get orders | MongoServerError: PlanExecutor error during aggregation :: caused by :: Failed to parse objectId 'guest-user-id' in $convert with no onError value: Invalid string length for parsing to OID, expected 24 but found 13
+3.9.2025, 18:29:09 - INFO - attachLoggedinUser -> cookies: | {}
+3.9.2025, 18:29:09 - INFO - attachLoggedinUser -> cookies: | {"loginToken":"603e654158192eade6d5851e51acb36716f2ca1654ffdb815a246aa9df98ae121d5c694e45d5cb74429d48f6e531c61f7a0516a4c5c4adcdde49503390d8a8ddfa795e79ce04244fc1a8dfb6673db62ee28d08d70d67fd245fedb0d3740b86a72b89ea83d7aeb3c2bc73bce4686f3b72cd693a73084d0393f063610a0d41b055cb1a738d4c1f5d3f9818a9706896174b2606b9a82f6a5d75b06677c0e5372a729525"}
+3.9.2025, 18:29:09 - INFO - attachLoggedinUser -> user from token: | {"_id":"68b46419f2a68a36db5b6f1f","fullname":"aa","isAdmin":false}
+3.9.2025, 18:29:09 - ERROR - Failed to get orders | MongoServerError: PlanExecutor error during aggregation :: caused by :: Failed to parse objectId 'guest-user-id' in $convert with no onError value: Invalid string length for parsing to OID, expected 24 but found 13
+3.9.2025, 18:29:10 - INFO - attachLoggedinUser -> user from token: | {"_id":"68b46419f2a68a36db5b6f1f","fullname":"aa","isAdmin":false}
+3.9.2025, 18:29:10 - INFO - attachLoggedinUser -> cookies: | {"loginToken":"603e654158192eade6d5851e51acb36716f2ca1654ffdb815a246aa9df98ae121d5c694e45d5cb74429d48f6e531c61f7a0516a4c5c4adcdde49503390d8a8ddfa795e79ce04244fc1a8dfb6673db62ee28d08d70d67fd245fedb0d3740b86a72b89ea83d7aeb3c2bc73bce4686f3b72cd693a73084d0393f063610a0d41b055cb1a738d4c1f5d3f9818a9706896174b2606b9a82f6a5d75b06677c0e5372a729525"}
+3.9.2025, 18:29:10 - ERROR - Failed to get orders | MongoServerError: PlanExecutor error during aggregation :: caused by :: Failed to parse objectId 'guest-user-id' in $convert with no onError value: Invalid string length for parsing to OID, expected 24 but found 13
+3.9.2025, 18:29:40 - INFO - Server is running on port: 3030
+3.9.2025, 18:29:51 - INFO - attachLoggedinUser -> cookies: | {}
+3.9.2025, 18:29:51 - INFO - /api/stay | GET | {} | {}
+3.9.2025, 18:29:51 - INFO - attachLoggedinUser -> cookies: | {"loginToken":"603e654158192eade6d5851e51acb36716f2ca1654ffdb815a246aa9df98ae121d5c694e45d5cb74429d48f6e531c61f7a0516a4c5c4adcdde49503390d8a8ddfa795e79ce04244fc1a8dfb6673db62ee28d08d70d67fd245fedb0d3740b86a72b89ea83d7aeb3c2bc73bce4686f3b72cd693a73084d0393f063610a0d41b055cb1a738d4c1f5d3f9818a9706896174b2606b9a82f6a5d75b06677c0e5372a729525"}
+3.9.2025, 18:29:51 - INFO - attachLoggedinUser -> user from token: | {"_id":"68b46419f2a68a36db5b6f1f","fullname":"aa","isAdmin":false}
+3.9.2025, 18:29:56 - INFO - attachLoggedinUser -> cookies: | {}
+3.9.2025, 18:29:56 - INFO - attachLoggedinUser -> cookies: | {"loginToken":"603e654158192eade6d5851e51acb36716f2ca1654ffdb815a246aa9df98ae121d5c694e45d5cb74429d48f6e531c61f7a0516a4c5c4adcdde49503390d8a8ddfa795e79ce04244fc1a8dfb6673db62ee28d08d70d67fd245fedb0d3740b86a72b89ea83d7aeb3c2bc73bce4686f3b72cd693a73084d0393f063610a0d41b055cb1a738d4c1f5d3f9818a9706896174b2606b9a82f6a5d75b06677c0e5372a729525"}
+3.9.2025, 18:29:56 - INFO - attachLoggedinUser -> user from token: | {"_id":"68b46419f2a68a36db5b6f1f","fullname":"aa","isAdmin":false}
+3.9.2025, 18:29:56 - ERROR - Failed to get orders | MongoServerError: PlanExecutor error during aggregation :: caused by :: Failed to parse objectId 'guest-user-id' in $convert with no onError value: Invalid string length for parsing to OID, expected 24 but found 13
+3.9.2025, 18:31:50 - INFO - attachLoggedinUser -> cookies: | {}
+3.9.2025, 18:31:50 - INFO - attachLoggedinUser -> cookies: | {"loginToken":"603e654158192eade6d5851e51acb36716f2ca1654ffdb815a246aa9df98ae121d5c694e45d5cb74429d48f6e531c61f7a0516a4c5c4adcdde49503390d8a8ddfa795e79ce04244fc1a8dfb6673db62ee28d08d70d67fd245fedb0d3740b86a72b89ea83d7aeb3c2bc73bce4686f3b72cd693a73084d0393f063610a0d41b055cb1a738d4c1f5d3f9818a9706896174b2606b9a82f6a5d75b06677c0e5372a729525"}
+3.9.2025, 18:31:50 - INFO - attachLoggedinUser -> user from token: | {"_id":"68b46419f2a68a36db5b6f1f","fullname":"aa","isAdmin":false}
+3.9.2025, 18:31:50 - ERROR - Failed to get orders | MongoServerError: PlanExecutor error during aggregation :: caused by :: Failed to parse objectId 'guest-user-id' in $convert with no onError value: Invalid string length for parsing to OID, expected 24 but found 13
+3.9.2025, 18:31:57 - INFO - attachLoggedinUser -> cookies: | {}
+3.9.2025, 18:31:57 - INFO - attachLoggedinUser -> cookies: | {"loginToken":"603e654158192eade6d5851e51acb36716f2ca1654ffdb815a246aa9df98ae121d5c694e45d5cb74429d48f6e531c61f7a0516a4c5c4adcdde49503390d8a8ddfa795e79ce04244fc1a8dfb6673db62ee28d08d70d67fd245fedb0d3740b86a72b89ea83d7aeb3c2bc73bce4686f3b72cd693a73084d0393f063610a0d41b055cb1a738d4c1f5d3f9818a9706896174b2606b9a82f6a5d75b06677c0e5372a729525"}
+3.9.2025, 18:31:57 - INFO - attachLoggedinUser -> user from token: | {"_id":"68b46419f2a68a36db5b6f1f","fullname":"aa","isAdmin":false}
+3.9.2025, 18:31:57 - ERROR - Failed to get orders | MongoServerError: PlanExecutor error during aggregation :: caused by :: Failed to parse objectId 'guest-user-id' in $convert with no onError value: Invalid string length for parsing to OID, expected 24 but found 13
+3.9.2025, 18:32:05 - INFO - attachLoggedinUser -> cookies: | {}
+3.9.2025, 18:32:05 - INFO - attachLoggedinUser -> cookies: | {"loginToken":"603e654158192eade6d5851e51acb36716f2ca1654ffdb815a246aa9df98ae121d5c694e45d5cb74429d48f6e531c61f7a0516a4c5c4adcdde49503390d8a8ddfa795e79ce04244fc1a8dfb6673db62ee28d08d70d67fd245fedb0d3740b86a72b89ea83d7aeb3c2bc73bce4686f3b72cd693a73084d0393f063610a0d41b055cb1a738d4c1f5d3f9818a9706896174b2606b9a82f6a5d75b06677c0e5372a729525"}
+3.9.2025, 18:32:05 - INFO - attachLoggedinUser -> user from token: | {"_id":"68b46419f2a68a36db5b6f1f","fullname":"aa","isAdmin":false}
+3.9.2025, 18:32:05 - ERROR - Failed to get orders | MongoServerError: PlanExecutor error during aggregation :: caused by :: Failed to parse objectId 'guest-user-id' in $convert with no onError value: Invalid string length for parsing to OID, expected 24 but found 13
+3.9.2025, 18:35:05 - INFO - attachLoggedinUser -> cookies: | {}
+3.9.2025, 18:35:05 - INFO - attachLoggedinUser -> cookies: | {"loginToken":"603e654158192eade6d5851e51acb36716f2ca1654ffdb815a246aa9df98ae121d5c694e45d5cb74429d48f6e531c61f7a0516a4c5c4adcdde49503390d8a8ddfa795e79ce04244fc1a8dfb6673db62ee28d08d70d67fd245fedb0d3740b86a72b89ea83d7aeb3c2bc73bce4686f3b72cd693a73084d0393f063610a0d41b055cb1a738d4c1f5d3f9818a9706896174b2606b9a82f6a5d75b06677c0e5372a729525"}
+3.9.2025, 18:35:05 - INFO - attachLoggedinUser -> user from token: | {"_id":"68b46419f2a68a36db5b6f1f","fullname":"aa","isAdmin":false}
+3.9.2025, 18:35:05 - ERROR - Failed to get orders | MongoServerError: PlanExecutor error during aggregation :: caused by :: Failed to parse objectId 'guest-user-id' in $convert with no onError value: Invalid string length for parsing to OID, expected 24 but found 13
+3.9.2025, 18:35:28 - INFO - attachLoggedinUser -> cookies: | {}
+3.9.2025, 18:35:28 - INFO - attachLoggedinUser -> cookies: | {"loginToken":"603e654158192eade6d5851e51acb36716f2ca1654ffdb815a246aa9df98ae121d5c694e45d5cb74429d48f6e531c61f7a0516a4c5c4adcdde49503390d8a8ddfa795e79ce04244fc1a8dfb6673db62ee28d08d70d67fd245fedb0d3740b86a72b89ea83d7aeb3c2bc73bce4686f3b72cd693a73084d0393f063610a0d41b055cb1a738d4c1f5d3f9818a9706896174b2606b9a82f6a5d75b06677c0e5372a729525"}
+3.9.2025, 18:35:28 - INFO - attachLoggedinUser -> user from token: | {"_id":"68b46419f2a68a36db5b6f1f","fullname":"aa","isAdmin":false}
+3.9.2025, 18:35:28 - ERROR - Failed to get orders | MongoServerError: PlanExecutor error during aggregation :: caused by :: Failed to parse objectId 'guest-user-id' in $convert with no onError value: Invalid string length for parsing to OID, expected 24 but found 13
+3.9.2025, 18:40:19 - INFO - attachLoggedinUser -> cookies: | {}
+3.9.2025, 18:40:19 - INFO - attachLoggedinUser -> cookies: | {"loginToken":"603e654158192eade6d5851e51acb36716f2ca1654ffdb815a246aa9df98ae121d5c694e45d5cb74429d48f6e531c61f7a0516a4c5c4adcdde49503390d8a8ddfa795e79ce04244fc1a8dfb6673db62ee28d08d70d67fd245fedb0d3740b86a72b89ea83d7aeb3c2bc73bce4686f3b72cd693a73084d0393f063610a0d41b055cb1a738d4c1f5d3f9818a9706896174b2606b9a82f6a5d75b06677c0e5372a729525"}
+3.9.2025, 18:40:19 - INFO - attachLoggedinUser -> user from token: | {"_id":"68b46419f2a68a36db5b6f1f","fullname":"aa","isAdmin":false}
+3.9.2025, 18:40:19 - ERROR - Failed to get orders | MongoServerError: PlanExecutor error during aggregation :: caused by :: Failed to parse objectId 'guest-user-id' in $convert with no onError value: Invalid string length for parsing to OID, expected 24 but found 13
+3.9.2025, 18:40:26 - INFO - attachLoggedinUser -> cookies: | {}
+3.9.2025, 18:40:26 - INFO - attachLoggedinUser -> cookies: | {"loginToken":"603e654158192eade6d5851e51acb36716f2ca1654ffdb815a246aa9df98ae121d5c694e45d5cb74429d48f6e531c61f7a0516a4c5c4adcdde49503390d8a8ddfa795e79ce04244fc1a8dfb6673db62ee28d08d70d67fd245fedb0d3740b86a72b89ea83d7aeb3c2bc73bce4686f3b72cd693a73084d0393f063610a0d41b055cb1a738d4c1f5d3f9818a9706896174b2606b9a82f6a5d75b06677c0e5372a729525"}
+3.9.2025, 18:40:26 - INFO - attachLoggedinUser -> user from token: | {"_id":"68b46419f2a68a36db5b6f1f","fullname":"aa","isAdmin":false}
+3.9.2025, 18:40:26 - DEBUG - auth.service - login with username: aa
+3.9.2025, 18:40:26 - INFO - User login:  | {"_id":"68b46419f2a68a36db5b6f1f","username":"aa","fullname":"aa","imgUrl":"https://cdn.pixabay.com/photo/2020/07/01/12/58/icon-5359553_1280.png","isAdmin":false}
+3.9.2025, 18:40:26 - INFO - attachLoggedinUser -> cookies: | {}
+3.9.2025, 18:40:26 - INFO - attachLoggedinUser -> cookies: | {"loginToken":"603e654158192eade6d5851e51acb36716f2ca1654ffdb815a246aa9df98ae121d5c694e45d5cb74429d48f6e531c61f7a0516a4c5c4adcdde49503390d8a8ddfa795e79ce04244fc1a8dfb6673db62ee28d08d70d67fd245fedb0d3740b86a72b89ea83d7aeb3c2bc73bce4686f3b72cd693a73084d0393f063610a0d41b055cb1a738d4c1f5d3f9818a9706896174b2606b9a82f6a5d75b06677c0e5372a729525"}
+3.9.2025, 18:40:26 - INFO - attachLoggedinUser -> user from token: | {"_id":"68b46419f2a68a36db5b6f1f","fullname":"aa","isAdmin":false}
+3.9.2025, 18:40:26 - INFO - /api/stay | GET | {} | {}
+3.9.2025, 18:40:31 - INFO - attachLoggedinUser -> cookies: | {}
+3.9.2025, 18:40:31 - INFO - attachLoggedinUser -> cookies: | {"loginToken":"603e654158192eade6d5851e51acb36716f2ca1654ffdb815a246aa9df98ae121d5c694e45d5cb74429d48f6e531c61f7a0516a4c5c4adcdde49503390d8a8ddfa795e79ce04244fc1a8dfb6673db62ee28d08d70d67fd245fedb0d3740b86a72b89ea83d7aeb3c2bc73bce4686f3b72cd693a73084d0393f063610a0d41b055cb1a738d4c1f5d3f9818a9706896174b2606b9a82f6a5d75b06677c0e5372a729525"}
+3.9.2025, 18:40:31 - INFO - attachLoggedinUser -> user from token: | {"_id":"68b46419f2a68a36db5b6f1f","fullname":"aa","isAdmin":false}
+3.9.2025, 18:40:31 - ERROR - Failed to get orders | MongoServerError: PlanExecutor error during aggregation :: caused by :: Failed to parse objectId 'guest-user-id' in $convert with no onError value: Invalid string length for parsing to OID, expected 24 but found 13
+3.9.2025, 18:40:36 - INFO - attachLoggedinUser -> cookies: | {}
+3.9.2025, 18:40:36 - INFO - attachLoggedinUser -> cookies: | {"loginToken":"603e654158192eade6d5851e51acb36716f2ca1654ffdb815a246aa9df98ae121d5c694e45d5cb74429d48f6e531c61f7a0516a4c5c4adcdde49503390d8a8ddfa795e79ce04244fc1a8dfb6673db62ee28d08d70d67fd245fedb0d3740b86a72b89ea83d7aeb3c2bc73bce4686f3b72cd693a73084d0393f063610a0d41b055cb1a738d4c1f5d3f9818a9706896174b2606b9a82f6a5d75b06677c0e5372a729525"}
+3.9.2025, 18:40:37 - INFO - attachLoggedinUser -> user from token: | {"_id":"68b46419f2a68a36db5b6f1f","fullname":"aa","isAdmin":false}
+3.9.2025, 18:40:37 - INFO - /api/stay | GET | {} | {}
+3.9.2025, 18:40:43 - INFO - attachLoggedinUser -> cookies: | {}
+3.9.2025, 18:40:43 - INFO - attachLoggedinUser -> cookies: | {"loginToken":"603e654158192eade6d5851e51acb36716f2ca1654ffdb815a246aa9df98ae121d5c694e45d5cb74429d48f6e531c61f7a0516a4c5c4adcdde49503390d8a8ddfa795e79ce04244fc1a8dfb6673db62ee28d08d70d67fd245fedb0d3740b86a72b89ea83d7aeb3c2bc73bce4686f3b72cd693a73084d0393f063610a0d41b055cb1a738d4c1f5d3f9818a9706896174b2606b9a82f6a5d75b06677c0e5372a729525"}
+3.9.2025, 18:40:43 - INFO - attachLoggedinUser -> user from token: | {"_id":"68b46419f2a68a36db5b6f1f","fullname":"aa","isAdmin":false}
+3.9.2025, 18:40:46 - INFO - attachLoggedinUser -> cookies: | {}
+3.9.2025, 18:40:46 - INFO - attachLoggedinUser -> cookies: | {"loginToken":"603e654158192eade6d5851e51acb36716f2ca1654ffdb815a246aa9df98ae121d5c694e45d5cb74429d48f6e531c61f7a0516a4c5c4adcdde49503390d8a8ddfa795e79ce04244fc1a8dfb6673db62ee28d08d70d67fd245fedb0d3740b86a72b89ea83d7aeb3c2bc73bce4686f3b72cd693a73084d0393f063610a0d41b055cb1a738d4c1f5d3f9818a9706896174b2606b9a82f6a5d75b06677c0e5372a729525"}
+3.9.2025, 18:40:46 - INFO - attachLoggedinUser -> user from token: | {"_id":"68b46419f2a68a36db5b6f1f","fullname":"aa","isAdmin":false}
+3.9.2025, 18:40:46 - INFO - /api/stay | GET | {} | {}
+3.9.2025, 18:40:47 - INFO - attachLoggedinUser -> cookies: | {"loginToken":"603e654158192eade6d5851e51acb36716f2ca1654ffdb815a246aa9df98ae121d5c694e45d5cb74429d48f6e531c61f7a0516a4c5c4adcdde49503390d8a8ddfa795e79ce04244fc1a8dfb6673db62ee28d08d70d67fd245fedb0d3740b86a72b89ea83d7aeb3c2bc73bce4686f3b72cd693a73084d0393f063610a0d41b055cb1a738d4c1f5d3f9818a9706896174b2606b9a82f6a5d75b06677c0e5372a729525"}
+3.9.2025, 18:40:47 - INFO - attachLoggedinUser -> user from token: | {"_id":"68b46419f2a68a36db5b6f1f","fullname":"aa","isAdmin":false}
+3.9.2025, 18:41:31 - INFO - attachLoggedinUser -> cookies: | {}
+3.9.2025, 18:41:31 - INFO - attachLoggedinUser -> cookies: | {"loginToken":"603e654158192eade6d5851e51acb36716f2ca1654ffdb815a246aa9df98ae121d5c694e45d5cb74429d48f6e531c61f7a0516a4c5c4adcdde49503390d8a8ddfa795e79ce04244fc1a8dfb6673db62ee28d08d70d67fd245fedb0d3740b86a72b89ea83d7aeb3c2bc73bce4686f3b72cd693a73084d0393f063610a0d41b055cb1a738d4c1f5d3f9818a9706896174b2606b9a82f6a5d75b06677c0e5372a729525"}
+3.9.2025, 18:41:31 - INFO - attachLoggedinUser -> user from token: | {"_id":"68b46419f2a68a36db5b6f1f","fullname":"aa","isAdmin":false}
+3.9.2025, 18:41:31 - INFO - requireAuth -> authenticated user: | {"_id":"68b46419f2a68a36db5b6f1f","fullname":"aa","isAdmin":false}
+3.9.2025, 18:41:31 - INFO - addStay -> loggedinUser: | {"_id":"68b46419f2a68a36db5b6f1f","fullname":"aa","isAdmin":false}
+3.9.2025, 18:41:31 - INFO - stay.service.add -> final stay.host: | {"_id":"68b46419f2a68a36db5b6f1f","fullname":"aa"}
+3.9.2025, 18:41:31 - INFO - addStay -> final stay payload host: | {"_id":"68b46419f2a68a36db5b6f1f","fullname":"aa"}
+3.9.2025, 18:41:31 - INFO - /api/stay | POST | {"name":"Paint Set Deluxe","type":"Apartment","price":71,"loc":{"address":"חכם עזרא כהן, ראשון לציון, ישראל","city":"ראשון לציון","country":"ישראל","countryCode":"IL","street":"חכם עזרא כהן","lat":31.9848437,"lng":34.8058033},"imgUrls":["https://res.cloudinary.com/vanilla-test-images/image/upload/v1756914074/xftyvslzovi9zqbobwg6.avif"],"capacity":2,"rooms":2,"bedrooms":2,"bathrooms":2,"labels":["Romantic","Hiking"],"amenities":[],"description":"wew","host":{"_id":"68b46419f2a68a36db5b6f1f","fullname":"aa","imgUrl":"https://cdn.pixabay.com/photo/2020/07/01/12/58/icon-5359553_1280.png"}} | {}
+3.9.2025, 18:41:31 - INFO - attachLoggedinUser -> cookies: | {"loginToken":"603e654158192eade6d5851e51acb36716f2ca1654ffdb815a246aa9df98ae121d5c694e45d5cb74429d48f6e531c61f7a0516a4c5c4adcdde49503390d8a8ddfa795e79ce04244fc1a8dfb6673db62ee28d08d70d67fd245fedb0d3740b86a72b89ea83d7aeb3c2bc73bce4686f3b72cd693a73084d0393f063610a0d41b055cb1a738d4c1f5d3f9818a9706896174b2606b9a82f6a5d75b06677c0e5372a729525"}
+3.9.2025, 18:41:31 - INFO - attachLoggedinUser -> user from token: | {"_id":"68b46419f2a68a36db5b6f1f","fullname":"aa","isAdmin":false}
+3.9.2025, 18:41:31 - INFO - /api/stay | GET | {} | {"id":"68b861ab4f3d7759cb8c9453"}
+3.9.2025, 18:41:48 - INFO - attachLoggedinUser -> cookies: | {"loginToken":"603e654158192eade6d5851e51acb36716f2ca1654ffdb815a246aa9df98ae121d5c694e45d5cb74429d48f6e531c61f7a0516a4c5c4adcdde49503390d8a8ddfa795e79ce04244fc1a8dfb6673db62ee28d08d70d67fd245fedb0d3740b86a72b89ea83d7aeb3c2bc73bce4686f3b72cd693a73084d0393f063610a0d41b055cb1a738d4c1f5d3f9818a9706896174b2606b9a82f6a5d75b06677c0e5372a729525"}
+3.9.2025, 18:41:48 - INFO - /api/stay | GET | {} | {"id":"68b861ab4f3d7759cb8c9453"}
+3.9.2025, 18:41:48 - INFO - attachLoggedinUser -> user from token: | {"_id":"68b46419f2a68a36db5b6f1f","fullname":"aa","isAdmin":false}
+3.9.2025, 18:41:48 - INFO - attachLoggedinUser -> cookies: | {}
+3.9.2025, 18:41:48 - INFO - attachLoggedinUser -> cookies: | {"loginToken":"603e654158192eade6d5851e51acb36716f2ca1654ffdb815a246aa9df98ae121d5c694e45d5cb74429d48f6e531c61f7a0516a4c5c4adcdde49503390d8a8ddfa795e79ce04244fc1a8dfb6673db62ee28d08d70d67fd245fedb0d3740b86a72b89ea83d7aeb3c2bc73bce4686f3b72cd693a73084d0393f063610a0d41b055cb1a738d4c1f5d3f9818a9706896174b2606b9a82f6a5d75b06677c0e5372a729525"}
+3.9.2025, 18:41:48 - INFO - attachLoggedinUser -> user from token: | {"_id":"68b46419f2a68a36db5b6f1f","fullname":"aa","isAdmin":false}
+3.9.2025, 18:41:48 - INFO - requireAuth -> authenticated user: | {"_id":"68b46419f2a68a36db5b6f1f","fullname":"aa","isAdmin":false}
+3.9.2025, 18:41:48 - ERROR - while finding stay 68b861ab4f3d7759cb8c9453 | BSONError: hex string must be 24 characters
+3.9.2025, 18:41:51 - INFO - attachLoggedinUser -> cookies: | {"loginToken":"603e654158192eade6d5851e51acb36716f2ca1654ffdb815a246aa9df98ae121d5c694e45d5cb74429d48f6e531c61f7a0516a4c5c4adcdde49503390d8a8ddfa795e79ce04244fc1a8dfb6673db62ee28d08d70d67fd245fedb0d3740b86a72b89ea83d7aeb3c2bc73bce4686f3b72cd693a73084d0393f063610a0d41b055cb1a738d4c1f5d3f9818a9706896174b2606b9a82f6a5d75b06677c0e5372a729525"}
+3.9.2025, 18:41:51 - INFO - requireAuth -> authenticated user: | {"_id":"68b46419f2a68a36db5b6f1f","fullname":"aa","isAdmin":false}
+3.9.2025, 18:41:51 - INFO - attachLoggedinUser -> user from token: | {"_id":"68b46419f2a68a36db5b6f1f","fullname":"aa","isAdmin":false}
+3.9.2025, 18:41:51 - ERROR - while finding stay 68b861ab4f3d7759cb8c9453 | BSONError: hex string must be 24 characters
+3.9.2025, 18:41:52 - ERROR - Failed to add order | TypeError: fetch failed
+3.9.2025, 18:41:55 - ERROR - Failed to add order | TypeError: fetch failed
+3.9.2025, 18:43:01 - INFO - attachLoggedinUser -> cookies: | {"loginToken":"603e654158192eade6d5851e51acb36716f2ca1654ffdb815a246aa9df98ae121d5c694e45d5cb74429d48f6e531c61f7a0516a4c5c4adcdde49503390d8a8ddfa795e79ce04244fc1a8dfb6673db62ee28d08d70d67fd245fedb0d3740b86a72b89ea83d7aeb3c2bc73bce4686f3b72cd693a73084d0393f063610a0d41b055cb1a738d4c1f5d3f9818a9706896174b2606b9a82f6a5d75b06677c0e5372a729525"}
+3.9.2025, 18:43:01 - INFO - attachLoggedinUser -> user from token: | {"_id":"68b46419f2a68a36db5b6f1f","fullname":"aa","isAdmin":false}
+3.9.2025, 18:43:01 - INFO - /api/stay | GET | {} | {"id":"68b861ab4f3d7759cb8c9453"}
+3.9.2025, 18:43:01 - INFO - attachLoggedinUser -> cookies: | {}
+3.9.2025, 18:43:01 - INFO - attachLoggedinUser -> cookies: | {"loginToken":"603e654158192eade6d5851e51acb36716f2ca1654ffdb815a246aa9df98ae121d5c694e45d5cb74429d48f6e531c61f7a0516a4c5c4adcdde49503390d8a8ddfa795e79ce04244fc1a8dfb6673db62ee28d08d70d67fd245fedb0d3740b86a72b89ea83d7aeb3c2bc73bce4686f3b72cd693a73084d0393f063610a0d41b055cb1a738d4c1f5d3f9818a9706896174b2606b9a82f6a5d75b06677c0e5372a729525"}
+3.9.2025, 18:43:01 - INFO - attachLoggedinUser -> user from token: | {"_id":"68b46419f2a68a36db5b6f1f","fullname":"aa","isAdmin":false}
+3.9.2025, 18:43:01 - INFO - requireAuth -> authenticated user: | {"_id":"68b46419f2a68a36db5b6f1f","fullname":"aa","isAdmin":false}
+3.9.2025, 18:43:01 - ERROR - while finding stay 68b861ab4f3d7759cb8c9453 | BSONError: hex string must be 24 characters
+3.9.2025, 18:43:02 - INFO - attachLoggedinUser -> cookies: | {}
+3.9.2025, 18:43:02 - INFO - attachLoggedinUser -> cookies: | {}
+3.9.2025, 18:43:03 - INFO - attachLoggedinUser -> cookies: | {}
+3.9.2025, 18:43:03 - INFO - attachLoggedinUser -> cookies: | {"loginToken":"603e654158192eade6d5851e51acb36716f2ca1654ffdb815a246aa9df98ae121d5c694e45d5cb74429d48f6e531c61f7a0516a4c5c4adcdde49503390d8a8ddfa795e79ce04244fc1a8dfb6673db62ee28d08d70d67fd245fedb0d3740b86a72b89ea83d7aeb3c2bc73bce4686f3b72cd693a73084d0393f063610a0d41b055cb1a738d4c1f5d3f9818a9706896174b2606b9a82f6a5d75b06677c0e5372a729525"}
+3.9.2025, 18:43:03 - INFO - attachLoggedinUser -> user from token: | {"_id":"68b46419f2a68a36db5b6f1f","fullname":"aa","isAdmin":false}
+3.9.2025, 18:43:03 - INFO - requireAuth -> authenticated user: | {"_id":"68b46419f2a68a36db5b6f1f","fullname":"aa","isAdmin":false}
+3.9.2025, 18:43:07 - INFO - attachLoggedinUser -> cookies: | {}
+3.9.2025, 18:43:07 - INFO - attachLoggedinUser -> cookies: | {"loginToken":"603e654158192eade6d5851e51acb36716f2ca1654ffdb815a246aa9df98ae121d5c694e45d5cb74429d48f6e531c61f7a0516a4c5c4adcdde49503390d8a8ddfa795e79ce04244fc1a8dfb6673db62ee28d08d70d67fd245fedb0d3740b86a72b89ea83d7aeb3c2bc73bce4686f3b72cd693a73084d0393f063610a0d41b055cb1a738d4c1f5d3f9818a9706896174b2606b9a82f6a5d75b06677c0e5372a729525"}
+3.9.2025, 18:43:07 - INFO - attachLoggedinUser -> user from token: | {"_id":"68b46419f2a68a36db5b6f1f","fullname":"aa","isAdmin":false}
+3.9.2025, 18:43:24 - INFO - attachLoggedinUser -> cookies: | {}
+3.9.2025, 18:43:24 - INFO - attachLoggedinUser -> cookies: | {"loginToken":"603e654158192eade6d5851e51acb36716f2ca1654ffdb815a246aa9df98ae121d5c694e45d5cb74429d48f6e531c61f7a0516a4c5c4adcdde49503390d8a8ddfa795e79ce04244fc1a8dfb6673db62ee28d08d70d67fd245fedb0d3740b86a72b89ea83d7aeb3c2bc73bce4686f3b72cd693a73084d0393f063610a0d41b055cb1a738d4c1f5d3f9818a9706896174b2606b9a82f6a5d75b06677c0e5372a729525"}
+3.9.2025, 18:43:24 - INFO - attachLoggedinUser -> user from token: | {"_id":"68b46419f2a68a36db5b6f1f","fullname":"aa","isAdmin":false}
+3.9.2025, 18:43:27 - INFO - attachLoggedinUser -> cookies: | {}
+3.9.2025, 18:43:27 - INFO - attachLoggedinUser -> cookies: | {"loginToken":"603e654158192eade6d5851e51acb36716f2ca1654ffdb815a246aa9df98ae121d5c694e45d5cb74429d48f6e531c61f7a0516a4c5c4adcdde49503390d8a8ddfa795e79ce04244fc1a8dfb6673db62ee28d08d70d67fd245fedb0d3740b86a72b89ea83d7aeb3c2bc73bce4686f3b72cd693a73084d0393f063610a0d41b055cb1a738d4c1f5d3f9818a9706896174b2606b9a82f6a5d75b06677c0e5372a729525"}
+3.9.2025, 18:43:27 - INFO - attachLoggedinUser -> user from token: | {"_id":"68b46419f2a68a36db5b6f1f","fullname":"aa","isAdmin":false}
+3.9.2025, 18:43:27 - INFO - /api/stay | GET | {} | {}
+3.9.2025, 18:43:30 - INFO - attachLoggedinUser -> cookies: | {}
+3.9.2025, 18:43:30 - INFO - attachLoggedinUser -> cookies: | {"loginToken":"603e654158192eade6d5851e51acb36716f2ca1654ffdb815a246aa9df98ae121d5c694e45d5cb74429d48f6e531c61f7a0516a4c5c4adcdde49503390d8a8ddfa795e79ce04244fc1a8dfb6673db62ee28d08d70d67fd245fedb0d3740b86a72b89ea83d7aeb3c2bc73bce4686f3b72cd693a73084d0393f063610a0d41b055cb1a738d4c1f5d3f9818a9706896174b2606b9a82f6a5d75b06677c0e5372a729525"}
+3.9.2025, 18:43:30 - INFO - attachLoggedinUser -> user from token: | {"_id":"68b46419f2a68a36db5b6f1f","fullname":"aa","isAdmin":false}

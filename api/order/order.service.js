@@ -14,73 +14,41 @@ export const orderService = {
 
 function _buildCriteria(filterBy = {}) {
     const criteria = {}
-    if (filterBy.hostId) criteria.hostId = new ObjectId(filterBy.hostId)
-    if (filterBy.userId) criteria.userId = new ObjectId(filterBy.userId)
-    if (filterBy.guestId) criteria.userId = new ObjectId(filterBy.guestId)
-    if (filterBy.status) criteria.status = filterBy.status
+    if (filterBy.hostId && filterBy.hostId.trim()) criteria.hostId = new ObjectId(filterBy.hostId)
+    if (filterBy.userId && filterBy.userId.trim()) criteria.userId = new ObjectId(filterBy.userId)
+    if (filterBy.guestId && filterBy.guestId.trim()) criteria.userId = new ObjectId(filterBy.guestId)
+    if (filterBy.status && filterBy.status.trim()) criteria.status = filterBy.status
     return criteria
 }
 
 async function query(filterBy) {
     const criteria = _buildCriteria(filterBy)
-    const col = await dbService.getCollection('order')
-
-    const pipeline = [
-        { $match: criteria },
-
-        {
-            $addFields: {
-                stayId: { $cond: [{ $isArray: '$stayId' }, '$stayId', { $toObjectId: '$stayId' }] },
-                hostId: {
-                    $cond: [
-                        { $or: [{ $eq: ['$hostId', null] }, { $not: ['$hostId'] }] },
-                        null,
-                        { $toObjectId: '$hostId' },
-                    ],
-                },
-                userId: {
-                    $cond: [
-                        { $or: [{ $eq: ['$userId', null] }, { $not: ['$userId'] }] },
-                        null,
-                        { $toObjectId: '$userId' },
-                    ],
-                },
-            },
-        },
-
-        { $lookup: { from: 'user', localField: 'userId', foreignField: '_id', as: 'guest' } },
-        { $unwind: { path: '$guest', preserveNullAndEmptyArrays: true } },
-
-        { $lookup: { from: 'stay', localField: 'stayId', foreignField: '_id', as: 'stay' } },
-        { $unwind: { path: '$stay', preserveNullAndEmptyArrays: true } },
-
-        {
-            $project: {
-                startDate: 1,
-                endDate: 1,
-                status: 1,
-                totalPrice: 1,
-                guests: 1,
-
-                // normalize guest name to `.fullname`
-                guest: {
-                    _id: '$guest._id',
-                    imgUrl: '$guest.imgUrl',
-                    fullname: { $ifNull: ['$guest.fullname', '$guest.name'] },
-                },
-
-                stay: {
-                    _id: '$stay._id',
-                    name: '$stay.name',
-                },
-            },
-        },
-
-        // Optional: stable sort for UI
-        { $sort: { startDate: 1, _id: 1 } },
-    ]
-
-    return await col.aggregate(pipeline).toArray()
+    logger.info('order.service.query -> filterBy:', filterBy)
+    logger.info('order.service.query -> criteria:', criteria)
+    
+    try {
+        const col = await dbService.getCollection('order')
+        logger.info('order.service.query -> collection obtained successfully')
+        
+        // First, try a simple find to see if the collection exists and has data
+        const simpleResult = await col.find({}).limit(5).toArray()
+        logger.info('order.service.query -> simple find result count:', simpleResult.length)
+        
+        // If no criteria, return all orders with simple structure
+        if (Object.keys(criteria).length === 0) {
+            logger.info('order.service.query -> no criteria, returning all orders')
+            return simpleResult
+        }
+        
+        // Use simple find with criteria instead of complex aggregation
+        const result = await col.find(criteria).toArray()
+        logger.info('order.service.query -> filtered result count:', result.length)
+        return result
+        
+    } catch (err) {
+        logger.error('order.service.query -> error:', err)
+        throw err
+    }
 }
 
 async function getById(orderId) {

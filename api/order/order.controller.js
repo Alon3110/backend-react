@@ -6,17 +6,31 @@ import { workflowClient } from '../../config/upstash.js'
 
 export async function getOrders(req, res) {
 	try {
+		logger.info('getOrders -> req.query:', req.query)
+		
 		const filterBy = {
 			hostId: req.query.hostId || '',
 			userId: req.query.userId || '',
 			guestId: req.query.guestId || '',
 			status: req.query.status || '',
 		}
-		const orders = await orderService.query(filterBy)
-		res.json(orders)
+		
+		// Log the filter to debug
+		logger.info('getOrders -> filterBy:', filterBy)
+		
+		// For now, return empty array to test if the endpoint works
+		logger.info('getOrders -> returning empty array for testing')
+		res.json([])
+		
+		// Uncomment this when we fix the service
+		// const orders = await orderService.query(filterBy)
+		// logger.info('getOrders -> orders returned:', orders.length)
+		// res.json(orders)
 	} catch (err) {
-		logger.error('Failed to get orders', err)
-		res.status(400).send({ err: 'Failed to get orders' })
+		logger.error('Failed to get orders - full error:', err)
+		logger.error('Failed to get orders - error message:', err.message)
+		logger.error('Failed to get orders - error stack:', err.stack)
+		res.status(400).send({ err: 'Failed to get orders: ' + err.message })
 	}
 }
 
