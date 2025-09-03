@@ -2018,3 +2018,137 @@
 2.9.2025, 17:49:45 - INFO - Server is running on port: 3030
 2.9.2025, 18:05:14 - INFO - Server is running on port: 3030
 2.9.2025, 18:05:37 - INFO - /api/stay | GET | {} | {}
+2.9.2025, 18:30:14 - DEBUG - auth.service - login with username: aa
+2.9.2025, 18:30:14 - INFO - User login:  | {"_id":"68b46419f2a68a36db5b6f1f","username":"aa","fullname":"aa","imgUrl":"https://cdn.pixabay.com/photo/2020/07/01/12/58/icon-5359553_1280.png","isAdmin":false}
+2.9.2025, 18:30:14 - INFO - /api/stay | GET | {} | {}
+2.9.2025, 18:44:01 - DEBUG - auth.service - login with username: aa
+2.9.2025, 18:44:02 - INFO - User login:  | {"_id":"68b46419f2a68a36db5b6f1f","username":"aa","fullname":"aa","imgUrl":"https://cdn.pixabay.com/photo/2020/07/01/12/58/icon-5359553_1280.png","isAdmin":false}
+2.9.2025, 18:44:02 - INFO - /api/stay | GET | {} | {}
+2.9.2025, 18:46:52 - INFO - /api/stay | GET | {} | {}
+2.9.2025, 18:47:15 - INFO - /api/stay | GET | {} | {}
+2.9.2025, 18:58:00 - INFO - Server is running on port: 3030
+2.9.2025, 18:58:14 - INFO - /api/stay | GET | {} | {}
+2.9.2025, 18:58:16 - INFO - /api/stay | GET | {} | {}
+2.9.2025, 18:58:25 - INFO - Server is running on port: 3030
+2.9.2025, 18:58:58 - INFO - /api/stay | GET | {} | {"id":"6738ca4cae769d402b653c83"}
+2.9.2025, 18:59:40 - INFO - /api/stay | GET | {} | {}
+2.9.2025, 18:59:55 - INFO - /api/stay | GET | {} | {}
+2.9.2025, 19:00:02 - INFO - /api/stay | GET | {} | {"id":"6738ca4cae769d402b653c7c"}
+2.9.2025, 19:00:20 - INFO - /api/stay | GET | {} | {"id":"6738ca4cae769d402b653c7c"}
+2.9.2025, 19:00:30 - INFO - /api/stay | GET | {} | {}
+2.9.2025, 19:00:33 - INFO - /api/stay | GET | {} | {}
+2.9.2025, 19:32:10 - INFO - Server is running on port: 3030
+2.9.2025, 19:32:37 - INFO - /api/stay | GET | {} | {}
+2.9.2025, 19:32:49 - DEBUG - auth.service - login with username: aa
+2.9.2025, 19:32:49 - INFO - User login:  | {"_id":"68b46419f2a68a36db5b6f1f","username":"aa","fullname":"aa","imgUrl":"https://cdn.pixabay.com/photo/2020/07/01/12/58/icon-5359553_1280.png","isAdmin":false}
+2.9.2025, 19:32:50 - INFO - /api/stay | GET | {} | {}
+2.9.2025, 19:32:59 - INFO - /api/stay | GET | {} | {"id":"6738ca4cae769d402b653c7f"}
+2.9.2025, 19:33:28 - INFO - /api/stay | GET | {} | {"id":"6738ca4cae769d402b653c7f"}
+2.9.2025, 19:33:45 - INFO - /api/stay | GET | {} | {}
+2.9.2025, 19:34:12 - INFO - /api/stay | GET | {} | {}
+2.9.2025, 19:52:10 - INFO - Server is running on port: 3030
+2.9.2025, 19:53:16 - INFO - /api/stay | GET | {} | {}
+2.9.2025, 19:54:21 - INFO - /api/stay | GET | {} | {}
+2.9.2025, 19:54:40 - INFO - Server is running on port: 3030
+2.9.2025, 19:55:02 - INFO - /api/stay | GET | {} | {}
+2.9.2025, 19:55:21 - DEBUG - auth.service - login with username: aa
+2.9.2025, 19:55:22 - INFO - User login:  | {"_id":"68b46419f2a68a36db5b6f1f","username":"aa","fullname":"aa","imgUrl":"https://cdn.pixabay.com/photo/2020/07/01/12/58/icon-5359553_1280.png","isAdmin":false}
+2.9.2025, 19:55:22 - INFO - /api/stay | GET | {} | {}
+2.9.2025, 19:56:05 - INFO - /api/stay | GET | {} | {}
+2.9.2025, 19:57:16 - INFO - /api/stay | GET | {} | {"id":"6738ca4cae769d402b653c73"}
+2.9.2025, 19:57:24 - INFO - /api/stay | GET | {} | {}
+2.9.2025, 19:57:34 - INFO - /api/stay | GET | {} | {}
+2.9.2025, 19:57:38 - INFO - /api/stay | GET | {} | {}
+2.9.2025, 19:57:46 - INFO - /api/stay | GET | {} | {}
+2.9.2025, 19:57:57 - INFO - /api/stay | GET | {} | {}
+2.9.2025, 19:58:13 - INFO - /api/stay | GET | {} | {}
+2.9.2025, 19:58:55 - INFO - /api/stay | GET | {} | {"id":"6738ca4cae769d402b653c83"}
+2.9.2025, 19:59:09 - INFO - /api/stay | GET | {} | {"id":"6738ca4cae769d402b653c83"}
+2.9.2025, 20:00:45 - INFO - /api/stay | GET | {} | {}
+2.9.2025, 20:00:57 - INFO - /api/stay | GET | {} | {"id":"6738ca4cae769d402b653c85"}
+2.9.2025, 20:01:06 - INFO - /api/stay | GET | {} | {"id":"6738ca4cae769d402b653c85"}
+2.9.2025, 20:58:08 - INFO - /api/stay | GET | {} | {"id":"6738ca4cae769d402b653c85"}
+2.9.2025, 20:58:09 - INFO - /api/stay | GET | {} | {"id":"6738ca4cae769d402b653c85"}
+2.9.2025, 20:58:14 - INFO - /api/stay | GET | {} | {"id":"6738ca4cae769d402b653c85"}
+2.9.2025, 20:58:25 - INFO - /api/stay | GET | {} | {"id":"6738ca4cae769d402b653c85"}
+2.9.2025, 20:58:32 - INFO - /api/stay | GET | {} | {"id":"6738ca4cae769d402b653c85"}
+2.9.2025, 20:58:32 - INFO - /api/stay | GET | {} | {"id":"6738ca4cae769d402b653c85"}
+2.9.2025, 20:59:03 - INFO - /api/stay | GET | {} | {"id":"6738ca4cae769d402b653c85"}
+2.9.2025, 20:59:07 - INFO - /api/stay | GET | {} | {"id":"6738ca4cae769d402b653c85"}
+2.9.2025, 21:04:39 - INFO - /api/stay | GET | {} | {"id":"6738ca4cae769d402b653c85"}
+2.9.2025, 21:04:42 - INFO - /api/stay | GET | {} | {"id":"6738ca4cae769d402b653c85"}
+2.9.2025, 21:04:47 - INFO - /api/stay | GET | {} | {"id":"6738ca4cae769d402b653c85"}
+2.9.2025, 21:04:49 - INFO - /api/stay | GET | {} | {"id":"6738ca4cae769d402b653c85"}
+2.9.2025, 21:04:51 - INFO - /api/stay | GET | {} | {"id":"6738ca4cae769d402b653c85"}
+2.9.2025, 21:07:44 - INFO - /api/stay | GET | {} | {"id":"6738ca4cae769d402b653c85"}
+2.9.2025, 21:07:46 - INFO - /api/stay | GET | {} | {"id":"6738ca4cae769d402b653c85"}
+2.9.2025, 21:36:05 - INFO - /api/stay | GET | {} | {"id":"6738ca4cae769d402b653c85"}
+2.9.2025, 22:02:03 - INFO - /api/stay | GET | {} | {"id":"6738ca4cae769d402b653c85"}
+2.9.2025, 22:03:18 - INFO - /api/stay | GET | {} | {"id":"6738ca4cae769d402b653c85"}
+2.9.2025, 22:03:20 - INFO - /api/stay | GET | {} | {"id":"6738ca4cae769d402b653c85"}
+2.9.2025, 22:03:46 - INFO - /api/stay | GET | {} | {"id":"6738ca4cae769d402b653c85"}
+2.9.2025, 22:03:51 - INFO - /api/stay | GET | {} | {"id":"6738ca4cae769d402b653c85"}
+2.9.2025, 22:03:52 - INFO - /api/stay | GET | {} | {"id":"6738ca4cae769d402b653c85"}
+2.9.2025, 22:03:53 - INFO - /api/stay | GET | {} | {"id":"6738ca4cae769d402b653c85"}
+2.9.2025, 22:03:56 - INFO - /api/stay | GET | {} | {"id":"6738ca4cae769d402b653c85"}
+2.9.2025, 22:04:11 - INFO - /api/stay | GET | {} | {"id":"6738ca4cae769d402b653c85"}
+2.9.2025, 22:04:15 - INFO - /api/stay | GET | {} | {"id":"6738ca4cae769d402b653c85"}
+2.9.2025, 22:04:19 - INFO - /api/stay | GET | {} | {"id":"6738ca4cae769d402b653c85"}
+2.9.2025, 22:16:10 - INFO - /api/stay | GET | {} | {"id":"6738ca4cae769d402b653c85"}
+2.9.2025, 22:16:13 - INFO - /api/stay | GET | {} | {"id":"6738ca4cae769d402b653c85"}
+2.9.2025, 22:16:14 - INFO - /api/stay | GET | {} | {"id":"6738ca4cae769d402b653c85"}
+2.9.2025, 22:16:18 - INFO - /api/stay | GET | {} | {"id":"6738ca4cae769d402b653c85"}
+2.9.2025, 22:16:21 - INFO - /api/stay | GET | {} | {"id":"6738ca4cae769d402b653c85"}
+2.9.2025, 22:16:27 - INFO - /api/stay | GET | {} | {"id":"6738ca4cae769d402b653c85"}
+2.9.2025, 22:16:29 - INFO - /api/stay | GET | {} | {"id":"6738ca4cae769d402b653c85"}
+2.9.2025, 22:16:31 - INFO - /api/stay | GET | {} | {"id":"6738ca4cae769d402b653c85"}
+2.9.2025, 22:17:46 - INFO - /api/stay | GET | {} | {"id":"6738ca4cae769d402b653c85"}
+2.9.2025, 22:17:53 - INFO - /api/stay | GET | {} | {"id":"6738ca4cae769d402b653c85"}
+2.9.2025, 22:17:55 - INFO - /api/stay | GET | {} | {"id":"6738ca4cae769d402b653c85"}
+2.9.2025, 22:18:04 - INFO - /api/stay | GET | {} | {"id":"6738ca4cae769d402b653c85"}
+2.9.2025, 22:18:42 - INFO - /api/stay | GET | {} | {"id":"6738ca4cae769d402b653c85"}
+2.9.2025, 22:18:46 - INFO - /api/stay | GET | {} | {"id":"6738ca4cae769d402b653c85"}
+2.9.2025, 22:39:46 - INFO - /api/stay | GET | {} | {"id":"6738ca4cae769d402b653c85"}
+2.9.2025, 23:04:27 - INFO - /api/stay | GET | {} | {"id":"6738ca4cae769d402b653c85"}
+3.9.2025, 10:27:34 - INFO - /api/stay | GET | {} | {}
+3.9.2025, 10:27:40 - INFO - /api/stay | GET | {} | {}
+3.9.2025, 10:27:50 - INFO - /api/stay | GET | {} | {}
+3.9.2025, 10:29:06 - INFO - /api/stay | GET | {} | {}
+3.9.2025, 10:29:12 - DEBUG - auth.service - login with username: aa
+3.9.2025, 10:29:12 - INFO - User login:  | {"_id":"68b46419f2a68a36db5b6f1f","username":"aa","fullname":"aa","imgUrl":"https://cdn.pixabay.com/photo/2020/07/01/12/58/icon-5359553_1280.png","isAdmin":false}
+3.9.2025, 10:29:12 - INFO - /api/stay | GET | {} | {}
+3.9.2025, 10:29:16 - INFO - /api/stay | GET | {} | {}
+3.9.2025, 10:29:24 - INFO - /api/stay | GET | {} | {"id":"68b73d0af5df9a74c9203e51"}
+3.9.2025, 10:29:27 - INFO - /api/stay | GET | {} | {}
+3.9.2025, 10:36:49 - INFO - /api/stay | GET | {} | {}
+3.9.2025, 10:37:02 - INFO - /api/stay | GET | {} | {}
+3.9.2025, 10:37:06 - INFO - /api/stay | GET | {} | {"id":"6738ca4cae769d402b653c7f"}
+3.9.2025, 10:37:11 - INFO - /api/stay | GET | {} | {}
+3.9.2025, 10:37:19 - INFO - /api/stay | GET | {} | {"id":"68b4f8c303164ed75e123db8"}
+3.9.2025, 10:37:22 - INFO - /api/stay | GET | {} | {}
+3.9.2025, 10:39:09 - INFO - /api/stay | GET | {} | {}
+3.9.2025, 10:40:24 - INFO - /api/stay | GET | {} | {}
+3.9.2025, 10:40:44 - INFO - /api/stay | GET | {} | {}
+3.9.2025, 10:40:46 - INFO - /api/stay | GET | {} | {}
+3.9.2025, 10:40:51 - INFO - /api/stay | GET | {} | {}
+3.9.2025, 10:40:59 - INFO - /api/stay | GET | {} | {}
+3.9.2025, 10:41:01 - INFO - /api/stay | GET | {} | {}
+3.9.2025, 10:41:07 - INFO - /api/stay | GET | {} | {}
+3.9.2025, 10:41:09 - INFO - /api/stay | GET | {} | {}
+3.9.2025, 10:43:05 - INFO - /api/stay | GET | {} | {}
+3.9.2025, 10:43:07 - INFO - /api/stay | GET | {} | {}
+3.9.2025, 10:47:56 - INFO - /api/stay | GET | {} | {}
+3.9.2025, 10:48:03 - INFO - /api/stay | GET | {} | {}
+3.9.2025, 10:48:08 - INFO - /api/stay | GET | {} | {}
+3.9.2025, 10:50:36 - INFO - /api/stay | GET | {} | {}
+3.9.2025, 10:50:55 - INFO - /api/stay | GET | {} | {}
+3.9.2025, 10:51:06 - INFO - /api/stay | GET | {} | {}
+3.9.2025, 10:51:16 - DEBUG - auth.service - login with username: admin
+3.9.2025, 10:51:17 - INFO - User login:  | {"_id":"68b1a696af177aae560256d8","username":"admin","fullname":"admin","imgUrl":null,"isAdmin":true}
+3.9.2025, 10:51:17 - INFO - /api/stay | GET | {} | {}
+3.9.2025, 10:51:22 - INFO - /api/stay | GET | {} | {}
+3.9.2025, 10:51:27 - INFO - /api/stay | GET | {} | {}
+3.9.2025, 10:51:55 - INFO - /api/stay | GET | {} | {"id":"68b5bbcf8d7ca8118a3b6a73"}
+3.9.2025, 10:51:58 - INFO - /api/stay | GET | {} | {}
+3.9.2025, 10:52:03 - INFO - /api/stay | GET | {} | {"id":"68b5d70fdebcc1978f62400f"}
+3.9.2025, 10:52:05 - INFO - /api/stay | GET | {} | {}

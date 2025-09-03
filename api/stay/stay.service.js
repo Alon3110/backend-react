@@ -148,6 +148,25 @@ function _buildCriteria(filterBy) {
 
 	const criteria = {}
 
+	if (filterBy.hostId) {
+		// Support both string and ObjectId host IDs
+		const hostIdOr = [{ 'host._id': filterBy.hostId }]
+		try {
+			hostIdOr.push({ 'host._id': ObjectId.createFromHexString(filterBy.hostId) })
+		} catch (e) { }
+
+		if (criteria.$or) {
+			// If address already created an $or, combine with $and
+			const existingOr = criteria.$or
+			delete criteria.$or
+			criteria.$and = [{ $or: existingOr }, { $or: hostIdOr }]
+		} else if (criteria.$and) {
+			criteria.$and.push({ $or: hostIdOr })
+		} else {
+			criteria.$or = hostIdOr
+		}
+	}
+
 	if (filterBy.address.trim()) {
 		criteria.$or = [
 			{ 'loc.city': { $regex: filterBy.address.trim(), $options: 'i' } },

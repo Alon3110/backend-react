@@ -12,6 +12,7 @@ export async function getStays(req, res) {
 			checkOut: +req.query.checkOut || '',
             sortField: req.query.sortField || '',
             sortDir: req.query.sortDir || 1,
+			hostId: req.query.hostId || '',
 		}
 		
 		const stays = await stayService.query(filterBy)
