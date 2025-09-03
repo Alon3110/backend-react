@@ -3,6 +3,7 @@ import path from 'path'
 import cors from 'cors'
 import express from 'express'
 import cookieParser from 'cookie-parser'
+import 'dotenv/config'
 
 import { authRoutes } from './api/auth/auth.routes.js'
 import { userRoutes } from './api/user/user.routes.js'
@@ -20,20 +21,21 @@ const server = http.createServer(app)
 app.use(cookieParser())
 app.use(express.json())
 
+const corsOptions = {
+    origin: [   'http://127.0.0.1:3030',
+                'http://localhost:3030',
+                'http://127.0.0.1:5173',
+                'http://localhost:5173',
+                'http://127.0.0.1:5178',
+                'http://localhost:5178'
+            ],
+    credentials: true
+}
+app.use(cors(corsOptions))
+app.options('*', cors(corsOptions))
+
 if (process.env.NODE_ENV === 'production') {
     app.use(express.static(path.resolve('public')))
-} else {
-    const corsOptions = {
-        origin: [   'http://127.0.0.1:3030',
-                    'http://localhost:3030',
-                    'http://127.0.0.1:5173',
-                    'http://localhost:5173',
-                    'http://127.0.0.1:5178',
-                    'http://localhost:5178'
-                ],
-        credentials: true
-    }
-    app.use(cors(corsOptions))
 }
 app.all('*all', setupAsyncLocalStorage)
 
