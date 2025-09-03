@@ -77,6 +77,7 @@ async function add(stay) {
 			stay.loc.lat = Number(stay.loc.lat)
 			stay.loc.lng = Number(stay.loc.lng)
 		}
+		logger.info('stay.service.add -> final stay.host:', stay.host)
 		const collection = await dbService.getCollection('stay')
 		const result = await collection.insertOne(stay)
 
@@ -147,6 +148,25 @@ function _buildCriteria(filterBy) {
 	console.log(filterBy);
 
 	const criteria = {}
+
+	if (filterBy.hostId) {
+		// Support both string and ObjectId host IDs
+		const hostIdOr = [{ 'host._id': filterBy.hostId }]
+		try {
+			hostIdOr.push({ 'host._id': ObjectId.createFromHexString(filterBy.hostId) })
+		} catch (e) { }
+
+		if (criteria.$or) {
+			// If address already created an $or, combine with $and
+			const existingOr = criteria.$or
+			delete criteria.$or
+			criteria.$and = [{ $or: existingOr }, { $or: hostIdOr }]
+		} else if (criteria.$and) {
+			criteria.$and.push({ $or: hostIdOr })
+		} else {
+			criteria.$or = hostIdOr
+		}
+	}
 
 	if (filterBy.address.trim()) {
 		criteria.$or = [

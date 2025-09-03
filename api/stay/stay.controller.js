@@ -12,6 +12,7 @@ export async function getStays(req, res) {
 			checkOut: +req.query.checkOut || '',
             sortField: req.query.sortField || '',
             sortDir: req.query.sortDir || 1,
+			hostId: req.query.hostId || '',
 		}
 		
 		const stays = await stayService.query(filterBy)
@@ -37,8 +38,16 @@ export async function addStay(req, res) {
 	const { loggedinUser, body } = req
 	const stay = body
 	try {
-		
-		stay.host = loggedinUser
+		// Ensure host is always the logged-in user (subset of fields)
+		stay.host = loggedinUser ? {
+			_id: loggedinUser._id,
+			fullname: loggedinUser.fullname,
+			imgUrl: loggedinUser.imgUrl,
+		} : undefined
+
+		// Debug logs to verify host assignment
+		logger.info('addStay -> loggedinUser:', loggedinUser)
+		logger.info('addStay -> final stay payload host:', stay.host)
 		const addedStay = await stayService.add(stay)
 		res.json(addedStay)
 	} catch (err) {

@@ -14,10 +14,12 @@ export async function login(req, res) {
 
     res.cookie('loginToken', loginToken, {
       httpOnly: true,
-      sameSite: isProd ? 'None' : 'Lax',
-      secure: isProd,             // false on http://localhost
+      // Use None in dev too so cross-site XHR includes cookie
+      sameSite: 'None',
+      // Keep secure only in prod; localhost stays false
+      secure: isProd,
       path: '/',
-      maxAge: 1000 * 60 * 60 * 24 * 7, // 7 days
+      maxAge: 1000 * 60 * 60 * 24 * 7,
     })
     res.json(user)
   } catch (err) {
@@ -38,7 +40,7 @@ export async function signup(req, res) {
     const loginToken = authService.getLoginToken(user)
     res.cookie('loginToken', loginToken, {
       httpOnly: true,
-      sameSite: isProd ? 'None' : 'Lax',
+      sameSite: 'None',
       secure: isProd,
       path: '/',
       maxAge: 1000 * 60 * 60 * 24 * 7,

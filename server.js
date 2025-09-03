@@ -14,6 +14,7 @@ import { setupSocketAPI } from './services/socket.service.js'
 import workflowsRouter from "./api/workflow/workflows.routes.js"
 
 import { setupAsyncLocalStorage } from './middlewares/setupAls.middleware.js'
+import { attachLoggedinUser } from './middlewares/requireAuth.middleware.js'
 
 const app = express()
 const server = http.createServer(app)
@@ -21,15 +22,18 @@ const server = http.createServer(app)
 // Express App Config
 app.use(cookieParser())
 app.use(express.json())
+app.use(attachLoggedinUser)
 
 const corsOptions = {
-    origin: ['http://127.0.0.1:3030',
-        'http://localhost:3030',
-        'http://127.0.0.1:5173',
-        'http://localhost:5173',
-        'http://127.0.0.1:5178',
-        'http://localhost:5178'
-    ],
+    origin: [   'http://127.0.0.1:3030',
+                'http://localhost:3030',
+                'http://127.0.0.1:5173',
+                'http://localhost:5173',
+                'http://127.0.0.1:5174',
+                'http://localhost:5174',
+                'http://127.0.0.1:5178',
+                'http://localhost:5178'
+            ],
     credentials: true
 }
 app.use(cors(corsOptions))
