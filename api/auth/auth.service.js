@@ -1,3 +1,4 @@
+// api/auth/auth.service.js
 import Cryptr from 'cryptr'
 import bcrypt from 'bcrypt'
 
@@ -11,6 +12,7 @@ export const authService = {
 	login,
 	getLoginToken,
 	validateToken,
+	getById,
 }
 
 async function login(username, password) {
@@ -19,7 +21,7 @@ async function login(username, password) {
 	const user = await userService.getByUsername(username)
 	if (!user) return Promise.reject('Invalid username or password')
 
-	// TODO: un-comment for real login
+	// TODO: enable for real login
 	// const match = await bcrypt.compare(password, user.password)
 	// if (!match) return Promise.reject('Invalid username or password')
 
@@ -28,25 +30,30 @@ async function login(username, password) {
 	return user
 }
 
-async function signup({ username, password, fullname, imgUrl, isAdmin }) {
+async function signup({ username, password, fullname, imgUrl, isAdmin, email }) {
 	const saltRounds = 10
 
 	logger.debug(`auth.service - signup with username: ${username}, fullname: ${fullname}`)
-	if (!username || !password || !fullname) return Promise.reject('Missing required signup information')
+	if (!username || !password || !fullname || !email) {
+		return Promise.reject('Missing required signup information')
+	}
 
 	const userExist = await userService.getByUsername(username)
 	if (userExist) return Promise.reject('Username already taken')
 
 	const hash = await bcrypt.hash(password, saltRounds)
-	return userService.add({ username, password: hash, fullname, imgUrl, isAdmin })
+	// persist email
+	return userService.add({ username, password: hash, fullname, imgUrl, isAdmin, email })
 }
 
 function getLoginToken(user) {
-	const userInfo = { 
-        _id: user._id, 
-        fullname: user.fullname, 
-        isAdmin: user.isAdmin,
-    }
+	// include email in token so req.loggedinUser has it
+	const userInfo = {
+		_id: user._id,
+		fullname: user.fullname,
+		isAdmin: user.isAdmin,
+		email: user.email || null,
+	}
 	return cryptr.encrypt(JSON.stringify(userInfo))
 }
 
@@ -59,4 +66,8 @@ function validateToken(loginToken) {
 		console.log('Invalid login token')
 	}
 	return null
+}
+
+async function getById(userId) {
+	return userService.getById(userId)
 }

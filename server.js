@@ -11,6 +11,7 @@ import { reviewRoutes } from './api/review/review.routes.js'
 import { stayRoutes } from './api/stay/stay.routes.js'
 import { orderRoutes } from './api/order/order.routes.js'
 import { setupSocketAPI } from './services/socket.service.js'
+import workflowsRouter from "./api/workflow/workflows.routes.js"
 
 import { setupAsyncLocalStorage } from './middlewares/setupAls.middleware.js'
 
@@ -22,13 +23,13 @@ app.use(cookieParser())
 app.use(express.json())
 
 const corsOptions = {
-    origin: [   'http://127.0.0.1:3030',
-                'http://localhost:3030',
-                'http://127.0.0.1:5173',
-                'http://localhost:5173',
-                'http://127.0.0.1:5178',
-                'http://localhost:5178'
-            ],
+    origin: ['http://127.0.0.1:3030',
+        'http://localhost:3030',
+        'http://127.0.0.1:5173',
+        'http://localhost:5173',
+        'http://127.0.0.1:5178',
+        'http://localhost:5178'
+    ],
     credentials: true
 }
 app.use(cors(corsOptions))
@@ -44,6 +45,8 @@ app.use('/api/user', userRoutes)
 app.use('/api/review', reviewRoutes)
 app.use('/api/stay', stayRoutes)
 app.use('/api/order', orderRoutes)
+app.use("/api/workflows", workflowsRouter)
+
 
 setupSocketAPI(server)
 
