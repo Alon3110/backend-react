@@ -23,6 +23,7 @@ export const orderService = {
 
 function _buildCriteria(filterBy = {}) {
     const criteria = {}
+    console.log(filterBy)
 
     // EDIT: only add filter if valid ObjectId (skip guest-user-id etc)
     if (filterBy.hostId) criteria.hostId = ObjectId.createFromHexString(filterBy.hostId) // EDIT
