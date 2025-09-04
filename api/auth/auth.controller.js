@@ -12,15 +12,16 @@ export async function login(req, res) {
 
     logger.info('User login: ', user)
 
-    res.cookie('loginToken', loginToken, {
-      httpOnly: true,
-      // Use None in dev too so cross-site XHR includes cookie
-      sameSite: 'None',
-      // Keep secure only in prod; localhost stays false
-      secure: isProd,
-      path: '/',
-      maxAge: 1000 * 60 * 60 * 24 * 7,
-    })
+    // res.cookie('loginToken', loginToken, {
+    //   httpOnly: true,
+    //   // Use None in dev too so cross-site XHR includes cookie
+    //   sameSite: 'None',
+    //   // Keep secure only in prod; localhost stays false
+    //   secure: isProd,
+    //   path: '/',
+    //   maxAge: 1000 * 60 * 60 * 24 * 7,
+    // })
+    res.cookie('loginToken', loginToken)
     res.json(user)
   } catch (err) {
     logger.error('Failed to Login ' + err)
@@ -38,13 +39,14 @@ export async function signup(req, res) {
     logger.info('User signup:', user)
 
     const loginToken = authService.getLoginToken(user)
-    res.cookie('loginToken', loginToken, {
-      httpOnly: true,
-      sameSite: 'None',
-      secure: isProd,
-      path: '/',
-      maxAge: 1000 * 60 * 60 * 24 * 7,
-    })
+    // res.cookie('loginToken', loginToken, {
+    //   httpOnly: true,
+    //   sameSite: 'None',
+    //   secure: isProd,
+    //   path: '/',
+    //   maxAge: 1000 * 60 * 60 * 24 * 7,
+    // })
+    res.cookie('loginToken', loginToken)
     res.json(user)
   } catch (err) {
     logger.error('Failed to signup ' + err)
@@ -54,7 +56,7 @@ export async function signup(req, res) {
 
 export async function logout(req, res) {
   try {
-    res.clearCookie('loginToken', { path: '/' })
+    res.clearCookie('loginToken')
     res.send({ msg: 'Logged out successfully' })
   } catch (err) {
     res.status(400).send({ err: 'Failed to logout' })

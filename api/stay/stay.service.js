@@ -26,7 +26,7 @@ async function query(filterBy = {}) {
 	try {
 		const criteria = _buildCriteria(filterBy)
 		const collection = await dbService.getCollection('stay')
-		console.log('criteria =>', JSON.stringify(criteria)) // EDIT (debug-friendly)
+		// console.log('criteria =>', JSON.stringify(criteria)) // EDIT (debug-friendly)
 
 		const stayCursor = await collection.find(criteria)   // if needed: add sort later
 		const stays = await stayCursor.toArray()
@@ -39,11 +39,11 @@ async function query(filterBy = {}) {
 
 async function getById(stayId) {
 	try {
-		const _id = _asObjectId(stayId)                     // NEW (robust)
-		if (!_id) throw new Error(`Invalid stay id: ${stayId}`) // NEW
+		// const _id = _asObjectId(stayId)                     // NEW (robust)
+		// if (!_id) throw new Error(`Invalid stay id: ${stayId}`) // NEW
 
 		const collection = await dbService.getCollection('stay')
-		const stay = await collection.findOne({ _id })
+		const stay = await collection.findOne({ _id: ObjectId.createFromHexString(stayId) })
 
 		if (!stay) throw new Error(`Stay not found: ${stayId}`) // NEW
 
@@ -153,7 +153,9 @@ function _buildCriteria(filterBy) {
 	// 	address: { $regex: filterBy.address || '', $options: 'i' },
 	// 	price: { $gte: filterBy.maxPrice || 0 },
 	// }
-	console.log(filterBy);
+	// console.log(filterBy);
+
+	const and = []
 
 	const criteria = {}
 

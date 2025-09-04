@@ -22,21 +22,21 @@ async function login(username, password) {
 	if (!user) return Promise.reject('Invalid username or password')
 
 	// TODO: enable for real login
-	// const match = await bcrypt.compare(password, user.password)
-	// if (!match) return Promise.reject('Invalid username or password')
+	const match = await bcrypt.compare(password, user.password)
+	if (!match) return Promise.reject('Invalid username or password')
 
 	delete user.password
-	user._id = user._id.toString()
+	// user._id = user._id.toString()
 
 	// Ensure we have email even if getByUsername didn’t project it
-	if (!('email' in user)) {                         // NEW
-		try {                                           // NEW
-			const fresh = await userService.getById(user._id) // NEW
-			user.email = fresh?.email || null             // NEW
-		} catch {                                       // NEW
-			user.email = null                              // NEW
-		}                                               // NEW
-	}
+	// if (!('email' in user)) {                         // NEW
+	// 	try {                                           // NEW
+	// 		const fresh = await userService.getById(user._id) // NEW
+	// 		user.email = fresh?.email || null             // NEW
+	// 	} catch {                                       // NEW
+	// 		user.email = null                              // NEW
+	// 	}                                               // NEW
+	// }
 
 	return user
 }

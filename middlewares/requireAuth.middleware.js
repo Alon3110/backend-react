@@ -23,15 +23,15 @@ export function attachLoggedinUser(req, _res, next) {
 export function requireAuth(req, res, next) {
   try {
     // Guest mode support (same behavior as before)
-    if (config.isGuestMode && !req.loggedinUser) {
-      logger.info('requireAuth -> guest mode active, no user cookie -> using Guest')
-      req.loggedinUser = { _id: '', fullname: 'Guest' }
-      return next()
-    }
+    // if (config.isGuestMode && !req.loggedinUser) {
+    //   logger.info('requireAuth -> guest mode active, no user cookie -> using Guest')
+    //   req.loggedinUser = { _id: '', fullname: 'Guest' }
+    //   return next()
+    // }
 
     // Validate cookie token every time (no ALS)
     const token = req.cookies?.loginToken
-    const user = token ? authService.validateToken(token) : null
+    const user = authService.validateToken(token)
 
     if (!user || !user._id) {
       logger.info('requireAuth -> missing/invalid token; blocking auth')
