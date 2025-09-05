@@ -28,7 +28,7 @@ function _buildCriteria(filterBy = {}) {
     // EDIT: only add filter if valid ObjectId (skip guest-user-id etc)
     if (filterBy.hostId) criteria.hostId = ObjectId.createFromHexString(filterBy.hostId) // EDIT
     if (filterBy.userId) criteria.userId = ObjectId.createFromHexString(filterBy.userId) // EDIT
-    if (filterBy.guestId) criteria.userId = ObjectId.createFromHexString(filterBy.guestId) // EDIT
+    // if (filterBy.guestId) criteria.userId = ObjectId.createFromHexString(filterBy.guestId) // EDIT
     if (filterBy.status) criteria.status = filterBy.status
 
     return criteria
