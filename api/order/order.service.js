@@ -23,14 +23,24 @@ export const orderService = {
 
 function _buildCriteria(filterBy = {}) {
     const criteria = {}
-    console.log(filterBy)
+    console.log('_buildCriteria -> filterBy:', filterBy)
 
     // EDIT: only add filter if valid ObjectId (skip guest-user-id etc)
-    if (filterBy.hostId) criteria.hostId = ObjectId.createFromHexString(filterBy.hostId) // EDIT
-    if (filterBy.userId) criteria.userId = ObjectId.createFromHexString(filterBy.userId) // EDIT
+    if (filterBy.hostId) {
+        console.log('Adding hostId filter:', filterBy.hostId)
+        criteria.hostId = ObjectId.createFromHexString(filterBy.hostId)
+    }
+    if (filterBy.userId) {
+        console.log('Adding userId filter:', filterBy.userId)
+        criteria.userId = ObjectId.createFromHexString(filterBy.userId)
+    }
     // if (filterBy.guestId) criteria.userId = ObjectId.createFromHexString(filterBy.guestId) // EDIT
-    if (filterBy.status) criteria.status = filterBy.status
+    if (filterBy.status) {
+        console.log('Adding status filter:', filterBy.status)
+        criteria.status = filterBy.status
+    }
 
+    console.log('_buildCriteria -> final criteria:', criteria)
     return criteria
 }
 

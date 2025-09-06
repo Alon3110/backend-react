@@ -133,7 +133,10 @@ export async function updateOrder(req, res) {
 	const { loggedinUser, body: order } = req
 	// const { _id: userId, isAdmin } = loggedinUser
 
-	// console.log('Updating order:', { loggedinUser, order })
+	console.log('Updating order:', { loggedinUser, order })
+	console.log('Order hostId:', order.hostId, 'Type:', typeof order.hostId)
+	console.log('Logged in user _id:', loggedinUser._id, 'Type:', typeof loggedinUser._id)
+	console.log('Comparison result:', order.hostId !== loggedinUser._id)
 
 	// In guest mode, allow updates if no specific user is logged in
 	if (order.hostId !== loggedinUser._id) {
