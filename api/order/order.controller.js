@@ -57,10 +57,14 @@ export async function addOrder(req, res) {
 	const order = req.body
 
 	console.log('Adding order:', { loggedinUser, order })
+	console.log('Order userId:', order.userId)
+	console.log('Order hostId:', order.hostId)
+	console.log('Logged in user _id:', loggedinUser?._id)
 
 	try {
 		const orderToAdd = {
-			userId: loggedinUser?._id || order.userId,
+			// userId: order.loggedinUser?._id || order.userId,
+			userId: order.userId, // Use the userId from the frontend (the guest making the booking)
 			stayId: order.stayId,
 			hostId: order.hostId,
 			totalPrice: order.totalPrice,
@@ -71,6 +75,8 @@ export async function addOrder(req, res) {
 			emails: order.emails || {}, // optional container for email fields
 			contactEmail: loggedinUser?.email || order.contactEmail || null,
 		}
+		
+		console.log('Order to add:', orderToAdd)
 
 		const addedOrder = await orderService.add(orderToAdd)
 		console.log('Order added successfully:', addedOrder)
