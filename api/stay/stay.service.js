@@ -149,54 +149,98 @@ async function removeStayMsg(stayId, msgId) {
 }
 
 function _buildCriteria(filterBy) {
-	// const criteria = {
-	// 	address: { $regex: filterBy.address || '', $options: 'i' },
-	// 	price: { $gte: filterBy.maxPrice || 0 },
-	// }
-	// console.log(filterBy);
-
-	const and = []
-
+	console.log('_buildCriteria -> filterBy:', filterBy)
+	
 	const criteria = {}
+	const andConditions = []
 
+	// Host ID filter
 	if (filterBy.hostId) {
-		// Support both string and ObjectId host IDs
 		const hostIdOr = [{ 'host._id': filterBy.hostId }]
 		try {
 			hostIdOr.push({ 'host._id': ObjectId.createFromHexString(filterBy.hostId) })
 		} catch (e) { }
+		andConditions.push({ $or: hostIdOr })
+	}
 
-		if (criteria.$or) {
-			// If address already created an $or, combine with $and
-			const existingOr = criteria.$or
-			delete criteria.$or
-			criteria.$and = [{ $or: existingOr }, { $or: hostIdOr }]
-		} else if (criteria.$and) {
-			criteria.$and.push({ $or: hostIdOr })
-		} else {
-			criteria.$or = hostIdOr
+	// Address filter - search in city, country, and address fields with flexible matching
+	if (filterBy.address && filterBy.address.trim()) {
+		const searchTerm = filterBy.address.trim().toLowerCase()
+		console.log('Searching for address term:', searchTerm)
+		
+		// Create flexible search patterns
+		const addressOr = []
+		
+		// Direct matches in location fields
+		addressOr.push(
+			{ 'loc.city': { $regex: searchTerm, $options: 'i' } },
+			{ 'loc.country': { $regex: searchTerm, $options: 'i' } },
+			{ 'loc.address': { $regex: searchTerm, $options: 'i' } },
+			{ 'name': { $regex: searchTerm, $options: 'i' } }
+		)
+		
+		// Handle specific location mappings for common search terms
+		if (searchTerm.includes('santorini') || searchTerm.includes('fira') || searchTerm.includes('greece')) {
+			// If searching for Santorini-related terms, also match stays with Santorini coordinates
+			// Santorini coordinates: lat: 36.4123, lng: 25.4321 (approximately)
+			addressOr.push({
+				$and: [
+					{ 'loc.lat': { $gte: 36.0, $lte: 37.0 } },
+					{ 'loc.lng': { $gte: 25.0, $lte: 26.0 } }
+				]
+			})
 		}
+		
+		// Handle partial matches for common location terms
+		if (searchTerm.includes('fira')) {
+			addressOr.push(
+				{ 'loc.city': { $regex: 'santorini', $options: 'i' } },
+				{ 'loc.address': { $regex: 'greece', $options: 'i' } }
+			)
+		}
+		
+		if (searchTerm.includes('greece')) {
+			addressOr.push(
+				{ 'loc.city': { $regex: 'santorini|athens|mykonos|crete', $options: 'i' } },
+				{ 'loc.address': { $regex: 'greece', $options: 'i' } }
+			)
+		}
+		
+		andConditions.push({ $or: addressOr })
+		console.log('Adding address filter with', addressOr.length, 'conditions')
 	}
 
-	if (filterBy.address.trim()) {
-		criteria.$or = [
-			{ 'loc.city': { $regex: filterBy.address.trim(), $options: 'i' } },
-			{ 'loc.country': { $regex: filterBy.address.trim(), $options: 'i' } },
-			{ 'loc.address': { $regex: filterBy.address.trim(), $options: 'i' } }
-		]		// criteria.loc.address = { $regex: filterBy.address.trim(), $options: 'i' }
-	}
-
+	// Date filters
 	const { checkIn, checkOut } = filterBy
 	if (checkIn && checkOut) {
 		const reqStart = new Date(checkIn)
 		const reqEnd = new Date(checkOut)
 		if (!isNaN(+reqStart) && !isNaN(+reqEnd)) {
-			and.push({ availableFrom: { $lte: reqStart } })
-			and.push({ availableTo: { $gte: reqEnd } })
+			andConditions.push({ availableFrom: { $lte: reqStart } })
+			andConditions.push({ availableTo: { $gte: reqEnd } })
 		}
 	}
 
-	if (and.length === 0) return {}     // no filters → return all (unchanged)
-	if (and.length === 1) return and[0]
-	return { $and: and }
+	// Price filter
+	if (filterBy.maxPrice && filterBy.maxPrice > 0) {
+		andConditions.push({ price: { $lte: filterBy.maxPrice } })
+	}
+
+	// Guests filter
+	if (filterBy.guests && filterBy.guests > 0) {
+		andConditions.push({ capacity: { $gte: filterBy.guests } })
+	}
+
+	// Combine all conditions
+	if (andConditions.length === 0) {
+		console.log('No filters applied, returning all stays')
+		return {}
+	} else if (andConditions.length === 1) {
+		console.log('Single filter applied:', andConditions[0])
+		return andConditions[0]
+	} else {
+		const finalCriteria = { $and: andConditions }
+		console.log('Multiple filters applied:', finalCriteria)
+		return finalCriteria
+	}
 }
