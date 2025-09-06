@@ -64,7 +64,7 @@ export async function addOrder(req, res) {
 	try {
 		const orderToAdd = {
 			// userId: order.loggedinUser?._id || order.userId,
-			userId: order.userId, // Use the userId from the frontend (the guest making the booking)
+			userId: order.userId, // using userId from the frontend (the guest making the booking)
 			stayId: order.stayId,
 			hostId: order.hostId,
 			totalPrice: order.totalPrice,

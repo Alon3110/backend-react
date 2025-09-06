@@ -14397,3 +14397,17 @@
 6.9.2025, 12:53:40 - INFO - db.service -> getting collection: | stay
 6.9.2025, 12:53:40 - INFO - db.service -> collection obtained successfully: | stay
 6.9.2025, 12:53:40 - INFO - db.service -> using existing connection
+6.9.2025, 12:54:49 - INFO - attachLoggedinUser -> cookies: | {}
+6.9.2025, 12:54:49 - INFO - attachLoggedinUser -> cookies: | {"loginToken":"dd9df4e5767cc5d8337ce33692294272737b943d793acb6d9d7c394dc91f701be19f17760aa50bba2a152a7ecae98abee5bb291487b28b6a7780ef409e6b6d2f4503d2a606a68f00fa02b6cc214902174d37971d462fd1ae4dd13529d2b9bfbdacb1ac95cd626bb9356990698c5095efe9f3c7ca0d58003f31a2db44662365f6ed0c801f2c5eea15d6d8c4b97c686b17daed4bad24f1f58e4de03c4bf9f4e3da20913e3a2fd3a0eee1a5768efe65cc7677c1b0db737daee3"}
+6.9.2025, 12:54:49 - INFO - attachLoggedinUser -> user from token: | {"_id":"68b84574dbf14012587e7d1b","fullname":"Alon Ben Ari","isAdmin":null,"email":null}
+6.9.2025, 12:54:49 - INFO - getOrders -> req.query: | {"hostId":"68b84574dbf14012587e7d1b","userId":"","guestId":"","status":""}
+6.9.2025, 12:54:49 - INFO - db.service -> getting collection: | order
+6.9.2025, 12:54:49 - INFO - db.service -> using existing connection
+6.9.2025, 12:54:49 - INFO - db.service -> collection obtained successfully: | order
+6.9.2025, 12:54:50 - INFO - attachLoggedinUser -> cookies: | {}
+6.9.2025, 12:54:50 - INFO - attachLoggedinUser -> cookies: | {"loginToken":"dd9df4e5767cc5d8337ce33692294272737b943d793acb6d9d7c394dc91f701be19f17760aa50bba2a152a7ecae98abee5bb291487b28b6a7780ef409e6b6d2f4503d2a606a68f00fa02b6cc214902174d37971d462fd1ae4dd13529d2b9bfbdacb1ac95cd626bb9356990698c5095efe9f3c7ca0d58003f31a2db44662365f6ed0c801f2c5eea15d6d8c4b97c686b17daed4bad24f1f58e4de03c4bf9f4e3da20913e3a2fd3a0eee1a5768efe65cc7677c1b0db737daee3"}
+6.9.2025, 12:54:50 - INFO - attachLoggedinUser -> user from token: | {"_id":"68b84574dbf14012587e7d1b","fullname":"Alon Ben Ari","isAdmin":null,"email":null}
+6.9.2025, 12:54:50 - INFO - /api/stay | GET | {} | {}
+6.9.2025, 12:54:50 - INFO - db.service -> getting collection: | stay
+6.9.2025, 12:54:50 - INFO - db.service -> using existing connection
+6.9.2025, 12:54:50 - INFO - db.service -> collection obtained successfully: | stay
