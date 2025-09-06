@@ -14411,3 +14411,372 @@
 6.9.2025, 12:54:50 - INFO - db.service -> getting collection: | stay
 6.9.2025, 12:54:50 - INFO - db.service -> using existing connection
 6.9.2025, 12:54:50 - INFO - db.service -> collection obtained successfully: | stay
+6.9.2025, 16:36:41 - INFO - Server is running on port: 3030
+6.9.2025, 16:36:51 - INFO - attachLoggedinUser -> cookies: | {}
+6.9.2025, 16:36:51 - INFO - attachLoggedinUser -> cookies: | {}
+6.9.2025, 16:36:51 - INFO - /api/stay | GET | {} | {}
+6.9.2025, 16:36:51 - INFO - db.service -> getting collection: | stay
+6.9.2025, 16:36:51 - INFO - db.service -> connecting to: | mongodb+srv://bar:1234@cluster0.ebdiizq.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0 | database: | tester_db
+6.9.2025, 16:36:52 - INFO - db.service -> connected successfully
+6.9.2025, 16:36:52 - INFO - db.service -> collection obtained successfully: | stay
+6.9.2025, 16:45:25 - INFO - attachLoggedinUser -> cookies: | {}
+6.9.2025, 16:45:25 - INFO - attachLoggedinUser -> cookies: | {}
+6.9.2025, 16:45:25 - INFO - /api/stay | GET | {} | {}
+6.9.2025, 16:45:25 - INFO - db.service -> getting collection: | stay
+6.9.2025, 16:45:25 - INFO - db.service -> using existing connection
+6.9.2025, 16:45:25 - INFO - db.service -> collection obtained successfully: | stay
+6.9.2025, 16:45:45 - INFO - attachLoggedinUser -> cookies: | {}
+6.9.2025, 16:45:45 - INFO - attachLoggedinUser -> cookies: | {}
+6.9.2025, 16:45:45 - DEBUG - auth.service - login with username: Ohad Fefer
+6.9.2025, 16:45:45 - INFO - db.service -> collection obtained successfully: | user
+6.9.2025, 16:45:45 - INFO - db.service -> getting collection: | user
+6.9.2025, 16:45:45 - INFO - db.service -> using existing connection
+6.9.2025, 16:45:46 - INFO - User login:  | {"_id":"68bbdca8691e8bee0d064169","username":"Ohad Fefer","fullname":"Ohad Fefer","imgUrl":"https://ca.slack-edge.com/T08T1AM7L02-U08T3626FNZ-2e93d1449198-512","isAdmin":false,"email":"ohadfefer16@gmail.com"}
+6.9.2025, 16:45:46 - INFO - attachLoggedinUser -> cookies: | {}
+6.9.2025, 16:45:46 - INFO - attachLoggedinUser -> cookies: | {"loginToken":"adaabe5bd3e89968d07e8552a783a9b6eaf1e0f3128335c9dbfbf8609c2c63ba629b32025aa1ff7b1b9ce362cfa3a680ba5be91a0911e1ce596f7ecf0de8601ff566e3fdb8beb19c2ca9a27069607a6cbeadf0834d95127bfb017c48d97caf7fc8edefe549ed4962434cd2c117316f612cbd96f86afa36fc8b505a5c9bb419a53f418b31c78740ccdb70001d9f70a60cec09bb443f56798c08ed1385888697b94a6fb65e8194041954f757a33aa4f4df65ab7b5f5d84d767c8488f22261594286972f88a2cca04335cda"}
+6.9.2025, 16:45:46 - INFO - attachLoggedinUser -> user from token: | {"_id":"68bbdca8691e8bee0d064169","fullname":"Ohad Fefer","isAdmin":false,"email":"ohadfefer16@gmail.com"}
+6.9.2025, 16:45:46 - INFO - /api/stay | GET | {} | {}
+6.9.2025, 16:45:46 - INFO - db.service -> getting collection: | stay
+6.9.2025, 16:45:46 - INFO - db.service -> using existing connection
+6.9.2025, 16:45:46 - INFO - db.service -> collection obtained successfully: | stay
+6.9.2025, 16:45:54 - INFO - attachLoggedinUser -> cookies: | {}
+6.9.2025, 16:45:54 - INFO - attachLoggedinUser -> user from token: | {"_id":"68bbdca8691e8bee0d064169","fullname":"Ohad Fefer","isAdmin":false,"email":"ohadfefer16@gmail.com"}
+6.9.2025, 16:45:54 - INFO - attachLoggedinUser -> cookies: | {"loginToken":"adaabe5bd3e89968d07e8552a783a9b6eaf1e0f3128335c9dbfbf8609c2c63ba629b32025aa1ff7b1b9ce362cfa3a680ba5be91a0911e1ce596f7ecf0de8601ff566e3fdb8beb19c2ca9a27069607a6cbeadf0834d95127bfb017c48d97caf7fc8edefe549ed4962434cd2c117316f612cbd96f86afa36fc8b505a5c9bb419a53f418b31c78740ccdb70001d9f70a60cec09bb443f56798c08ed1385888697b94a6fb65e8194041954f757a33aa4f4df65ab7b5f5d84d767c8488f22261594286972f88a2cca04335cda"}
+6.9.2025, 16:45:54 - DEBUG - auth.service - login with username: Alon Ben Ari
+6.9.2025, 16:45:54 - INFO - db.service -> getting collection: | user
+6.9.2025, 16:45:54 - INFO - db.service -> collection obtained successfully: | user
+6.9.2025, 16:45:54 - INFO - db.service -> using existing connection
+6.9.2025, 16:45:54 - INFO - User login:  | {"_id":"68b84574dbf14012587e7d1b","username":"Alon Ben Ari","fullname":"Alon Ben Ari","imgUrl":"https://ca.slack-edge.com/T08T1AM7L02-U08T35Z7745-79b18d468cce-512","isAdmin":null}
+6.9.2025, 16:45:54 - INFO - attachLoggedinUser -> cookies: | {}
+6.9.2025, 16:45:54 - INFO - attachLoggedinUser -> cookies: | {"loginToken":"7b41d784b7dc577093daf7db34fb83ebaf1ecddc44f4d993f6121639d8210d225f228999e8f79a86a13ee0189304d3991ec30bc391ee0be91787d2c0624952227c208d8f74bcbb15c2ba77c6a4090a1398df6ab4c893a7a9bda61bededbc389f9956c93259b59538630ea5b76c3dfe7ff93978278b2ee3e1012a51e7968f30631904c9633f518e1eed23e84e114aa14f2cf3560342ab133bf49d8944d38af514857bc928aae8a3e885d15f73007e69161185649f3581e745"}
+6.9.2025, 16:45:54 - INFO - attachLoggedinUser -> user from token: | {"_id":"68b84574dbf14012587e7d1b","fullname":"Alon Ben Ari","isAdmin":null,"email":null}
+6.9.2025, 16:45:54 - INFO - /api/stay | GET | {} | {}
+6.9.2025, 16:45:54 - INFO - db.service -> getting collection: | stay
+6.9.2025, 16:45:54 - INFO - db.service -> using existing connection
+6.9.2025, 16:45:54 - INFO - db.service -> collection obtained successfully: | stay
+6.9.2025, 16:46:03 - INFO - attachLoggedinUser -> cookies: | {}
+6.9.2025, 16:46:03 - INFO - attachLoggedinUser -> cookies: | {"loginToken":"7b41d784b7dc577093daf7db34fb83ebaf1ecddc44f4d993f6121639d8210d225f228999e8f79a86a13ee0189304d3991ec30bc391ee0be91787d2c0624952227c208d8f74bcbb15c2ba77c6a4090a1398df6ab4c893a7a9bda61bededbc389f9956c93259b59538630ea5b76c3dfe7ff93978278b2ee3e1012a51e7968f30631904c9633f518e1eed23e84e114aa14f2cf3560342ab133bf49d8944d38af514857bc928aae8a3e885d15f73007e69161185649f3581e745"}
+6.9.2025, 16:46:04 - INFO - attachLoggedinUser -> user from token: | {"_id":"68b84574dbf14012587e7d1b","fullname":"Alon Ben Ari","isAdmin":null,"email":null}
+6.9.2025, 16:46:04 - INFO - getOrders -> req.query: | {"hostId":"68b84574dbf14012587e7d1b","userId":"","guestId":"","status":""}
+6.9.2025, 16:46:04 - INFO - db.service -> using existing connection
+6.9.2025, 16:46:04 - INFO - db.service -> collection obtained successfully: | order
+6.9.2025, 16:46:04 - INFO - db.service -> getting collection: | order
+6.9.2025, 16:46:19 - INFO - attachLoggedinUser -> cookies: | {}
+6.9.2025, 16:46:19 - INFO - attachLoggedinUser -> cookies: | {"loginToken":"7b41d784b7dc577093daf7db34fb83ebaf1ecddc44f4d993f6121639d8210d225f228999e8f79a86a13ee0189304d3991ec30bc391ee0be91787d2c0624952227c208d8f74bcbb15c2ba77c6a4090a1398df6ab4c893a7a9bda61bededbc389f9956c93259b59538630ea5b76c3dfe7ff93978278b2ee3e1012a51e7968f30631904c9633f518e1eed23e84e114aa14f2cf3560342ab133bf49d8944d38af514857bc928aae8a3e885d15f73007e69161185649f3581e745"}
+6.9.2025, 16:46:19 - INFO - attachLoggedinUser -> user from token: | {"_id":"68b84574dbf14012587e7d1b","fullname":"Alon Ben Ari","isAdmin":null,"email":null}
+6.9.2025, 16:46:19 - INFO - db.service -> using existing connection
+6.9.2025, 16:46:19 - INFO - db.service -> getting collection: | stay
+6.9.2025, 16:46:19 - INFO - db.service -> collection obtained successfully: | stay
+6.9.2025, 16:46:19 - INFO - /api/stay | GET | {} | {}
+6.9.2025, 16:46:30 - INFO - attachLoggedinUser -> cookies: | {"loginToken":"7b41d784b7dc577093daf7db34fb83ebaf1ecddc44f4d993f6121639d8210d225f228999e8f79a86a13ee0189304d3991ec30bc391ee0be91787d2c0624952227c208d8f74bcbb15c2ba77c6a4090a1398df6ab4c893a7a9bda61bededbc389f9956c93259b59538630ea5b76c3dfe7ff93978278b2ee3e1012a51e7968f30631904c9633f518e1eed23e84e114aa14f2cf3560342ab133bf49d8944d38af514857bc928aae8a3e885d15f73007e69161185649f3581e745"}
+6.9.2025, 16:46:30 - INFO - attachLoggedinUser -> user from token: | {"_id":"68b84574dbf14012587e7d1b","fullname":"Alon Ben Ari","isAdmin":null,"email":null}
+6.9.2025, 16:46:30 - INFO - /api/stay | GET | {} | {"id":"6738ca4cae769d402b653c7c"}
+6.9.2025, 16:46:30 - INFO - db.service -> using existing connection
+6.9.2025, 16:46:30 - INFO - db.service -> getting collection: | stay
+6.9.2025, 16:46:30 - INFO - db.service -> collection obtained successfully: | stay
+6.9.2025, 16:46:42 - INFO - attachLoggedinUser -> cookies: | {"loginToken":"7b41d784b7dc577093daf7db34fb83ebaf1ecddc44f4d993f6121639d8210d225f228999e8f79a86a13ee0189304d3991ec30bc391ee0be91787d2c0624952227c208d8f74bcbb15c2ba77c6a4090a1398df6ab4c893a7a9bda61bededbc389f9956c93259b59538630ea5b76c3dfe7ff93978278b2ee3e1012a51e7968f30631904c9633f518e1eed23e84e114aa14f2cf3560342ab133bf49d8944d38af514857bc928aae8a3e885d15f73007e69161185649f3581e745"}
+6.9.2025, 16:46:42 - INFO - attachLoggedinUser -> user from token: | {"_id":"68b84574dbf14012587e7d1b","fullname":"Alon Ben Ari","isAdmin":null,"email":null}
+6.9.2025, 16:46:42 - INFO - db.service -> using existing connection
+6.9.2025, 16:46:42 - INFO - /api/stay | GET | {} | {"id":"6738ca4cae769d402b653c7c"}
+6.9.2025, 16:46:42 - INFO - db.service -> collection obtained successfully: | stay
+6.9.2025, 16:46:42 - INFO - db.service -> getting collection: | stay
+6.9.2025, 16:46:47 - INFO - attachLoggedinUser -> cookies: | {}
+6.9.2025, 16:46:47 - INFO - attachLoggedinUser -> cookies: | {"loginToken":"7b41d784b7dc577093daf7db34fb83ebaf1ecddc44f4d993f6121639d8210d225f228999e8f79a86a13ee0189304d3991ec30bc391ee0be91787d2c0624952227c208d8f74bcbb15c2ba77c6a4090a1398df6ab4c893a7a9bda61bededbc389f9956c93259b59538630ea5b76c3dfe7ff93978278b2ee3e1012a51e7968f30631904c9633f518e1eed23e84e114aa14f2cf3560342ab133bf49d8944d38af514857bc928aae8a3e885d15f73007e69161185649f3581e745"}
+6.9.2025, 16:46:47 - INFO - attachLoggedinUser -> user from token: | {"_id":"68b84574dbf14012587e7d1b","fullname":"Alon Ben Ari","isAdmin":null,"email":null}
+6.9.2025, 16:46:47 - INFO - requireAuth -> authenticated user: | {"_id":"68b84574dbf14012587e7d1b","fullname":"Alon Ben Ari","isAdmin":null,"email":null}
+6.9.2025, 16:46:47 - INFO - db.service -> getting collection: | order
+6.9.2025, 16:46:47 - INFO - db.service -> using existing connection
+6.9.2025, 16:46:47 - INFO - db.service -> collection obtained successfully: | order
+6.9.2025, 16:46:47 - INFO - attachLoggedinUser -> cookies: | {"loginToken":"7b41d784b7dc577093daf7db34fb83ebaf1ecddc44f4d993f6121639d8210d225f228999e8f79a86a13ee0189304d3991ec30bc391ee0be91787d2c0624952227c208d8f74bcbb15c2ba77c6a4090a1398df6ab4c893a7a9bda61bededbc389f9956c93259b59538630ea5b76c3dfe7ff93978278b2ee3e1012a51e7968f30631904c9633f518e1eed23e84e114aa14f2cf3560342ab133bf49d8944d38af514857bc928aae8a3e885d15f73007e69161185649f3581e745"}
+6.9.2025, 16:46:47 - INFO - attachLoggedinUser -> user from token: | {"_id":"68b84574dbf14012587e7d1b","fullname":"Alon Ben Ari","isAdmin":null,"email":null}
+6.9.2025, 16:46:47 - INFO - db.service -> collection obtained successfully: | order
+6.9.2025, 16:46:47 - INFO - db.service -> getting collection: | order
+6.9.2025, 16:46:47 - INFO - db.service -> using existing connection
+6.9.2025, 16:46:49 - INFO - attachLoggedinUser -> cookies: | {}
+6.9.2025, 16:46:49 - INFO - attachLoggedinUser -> cookies: | {"loginToken":"7b41d784b7dc577093daf7db34fb83ebaf1ecddc44f4d993f6121639d8210d225f228999e8f79a86a13ee0189304d3991ec30bc391ee0be91787d2c0624952227c208d8f74bcbb15c2ba77c6a4090a1398df6ab4c893a7a9bda61bededbc389f9956c93259b59538630ea5b76c3dfe7ff93978278b2ee3e1012a51e7968f30631904c9633f518e1eed23e84e114aa14f2cf3560342ab133bf49d8944d38af514857bc928aae8a3e885d15f73007e69161185649f3581e745"}
+6.9.2025, 16:46:50 - INFO - db.service -> using existing connection
+6.9.2025, 16:46:50 - INFO - db.service -> collection obtained successfully: | order
+6.9.2025, 16:46:50 - INFO - getOrders -> req.query: | {"hostId":"","userId":"68bbdca8691e8bee0d064169","guestId":"","status":""}
+6.9.2025, 16:46:50 - INFO - attachLoggedinUser -> user from token: | {"_id":"68b84574dbf14012587e7d1b","fullname":"Alon Ben Ari","isAdmin":null,"email":null}
+6.9.2025, 16:46:50 - INFO - db.service -> getting collection: | order
+6.9.2025, 16:46:57 - INFO - attachLoggedinUser -> cookies: | {}
+6.9.2025, 16:46:57 - INFO - attachLoggedinUser -> cookies: | {"loginToken":"7b41d784b7dc577093daf7db34fb83ebaf1ecddc44f4d993f6121639d8210d225f228999e8f79a86a13ee0189304d3991ec30bc391ee0be91787d2c0624952227c208d8f74bcbb15c2ba77c6a4090a1398df6ab4c893a7a9bda61bededbc389f9956c93259b59538630ea5b76c3dfe7ff93978278b2ee3e1012a51e7968f30631904c9633f518e1eed23e84e114aa14f2cf3560342ab133bf49d8944d38af514857bc928aae8a3e885d15f73007e69161185649f3581e745"}
+6.9.2025, 16:46:57 - INFO - attachLoggedinUser -> user from token: | {"_id":"68b84574dbf14012587e7d1b","fullname":"Alon Ben Ari","isAdmin":null,"email":null}
+6.9.2025, 16:46:57 - INFO - getOrders -> req.query: | {"hostId":"68b84574dbf14012587e7d1b","userId":"","guestId":"","status":""}
+6.9.2025, 16:46:57 - INFO - db.service -> getting collection: | order
+6.9.2025, 16:46:57 - INFO - db.service -> using existing connection
+6.9.2025, 16:46:57 - INFO - db.service -> collection obtained successfully: | order
+6.9.2025, 16:47:01 - INFO - attachLoggedinUser -> user from token: | {"_id":"68b84574dbf14012587e7d1b","fullname":"Alon Ben Ari","isAdmin":null,"email":null}
+6.9.2025, 16:47:00 - INFO - attachLoggedinUser -> cookies: | {"loginToken":"7b41d784b7dc577093daf7db34fb83ebaf1ecddc44f4d993f6121639d8210d225f228999e8f79a86a13ee0189304d3991ec30bc391ee0be91787d2c0624952227c208d8f74bcbb15c2ba77c6a4090a1398df6ab4c893a7a9bda61bededbc389f9956c93259b59538630ea5b76c3dfe7ff93978278b2ee3e1012a51e7968f30631904c9633f518e1eed23e84e114aa14f2cf3560342ab133bf49d8944d38af514857bc928aae8a3e885d15f73007e69161185649f3581e745"}
+6.9.2025, 16:47:01 - INFO - db.service -> using existing connection
+6.9.2025, 16:47:01 - INFO - db.service -> collection obtained successfully: | order
+6.9.2025, 16:47:01 - INFO - db.service -> getting collection: | order
+6.9.2025, 16:47:01 - INFO - attachLoggedinUser -> cookies: | {}
+6.9.2025, 16:47:01 - INFO - attachLoggedinUser -> cookies: | {"loginToken":"7b41d784b7dc577093daf7db34fb83ebaf1ecddc44f4d993f6121639d8210d225f228999e8f79a86a13ee0189304d3991ec30bc391ee0be91787d2c0624952227c208d8f74bcbb15c2ba77c6a4090a1398df6ab4c893a7a9bda61bededbc389f9956c93259b59538630ea5b76c3dfe7ff93978278b2ee3e1012a51e7968f30631904c9633f518e1eed23e84e114aa14f2cf3560342ab133bf49d8944d38af514857bc928aae8a3e885d15f73007e69161185649f3581e745"}
+6.9.2025, 16:47:01 - INFO - attachLoggedinUser -> user from token: | {"_id":"68b84574dbf14012587e7d1b","fullname":"Alon Ben Ari","isAdmin":null,"email":null}
+6.9.2025, 16:47:01 - INFO - requireAuth -> authenticated user: | {"_id":"68b84574dbf14012587e7d1b","fullname":"Alon Ben Ari","isAdmin":null,"email":null}
+6.9.2025, 16:47:01 - INFO - db.service -> getting collection: | order
+6.9.2025, 16:47:01 - INFO - db.service -> using existing connection
+6.9.2025, 16:47:01 - INFO - db.service -> collection obtained successfully: | order
+6.9.2025, 16:47:01 - INFO - attachLoggedinUser -> cookies: | {"loginToken":"7b41d784b7dc577093daf7db34fb83ebaf1ecddc44f4d993f6121639d8210d225f228999e8f79a86a13ee0189304d3991ec30bc391ee0be91787d2c0624952227c208d8f74bcbb15c2ba77c6a4090a1398df6ab4c893a7a9bda61bededbc389f9956c93259b59538630ea5b76c3dfe7ff93978278b2ee3e1012a51e7968f30631904c9633f518e1eed23e84e114aa14f2cf3560342ab133bf49d8944d38af514857bc928aae8a3e885d15f73007e69161185649f3581e745"}
+6.9.2025, 16:47:01 - INFO - attachLoggedinUser -> user from token: | {"_id":"68b84574dbf14012587e7d1b","fullname":"Alon Ben Ari","isAdmin":null,"email":null}
+6.9.2025, 16:47:01 - INFO - getOrders -> req.query: | {"hostId":"68b84574dbf14012587e7d1b","userId":"","guestId":"","status":""}
+6.9.2025, 16:47:01 - INFO - db.service -> getting collection: | order
+6.9.2025, 16:47:01 - INFO - db.service -> using existing connection
+6.9.2025, 16:47:01 - INFO - db.service -> collection obtained successfully: | order
+6.9.2025, 16:47:02 - INFO - attachLoggedinUser -> cookies: | {}
+6.9.2025, 16:47:02 - INFO - attachLoggedinUser -> cookies: | {"loginToken":"7b41d784b7dc577093daf7db34fb83ebaf1ecddc44f4d993f6121639d8210d225f228999e8f79a86a13ee0189304d3991ec30bc391ee0be91787d2c0624952227c208d8f74bcbb15c2ba77c6a4090a1398df6ab4c893a7a9bda61bededbc389f9956c93259b59538630ea5b76c3dfe7ff93978278b2ee3e1012a51e7968f30631904c9633f518e1eed23e84e114aa14f2cf3560342ab133bf49d8944d38af514857bc928aae8a3e885d15f73007e69161185649f3581e745"}
+6.9.2025, 16:47:02 - INFO - getOrders -> req.query: | {"hostId":"","userId":"68bbdca8691e8bee0d064169","guestId":"","status":""}
+6.9.2025, 16:47:02 - INFO - attachLoggedinUser -> user from token: | {"_id":"68b84574dbf14012587e7d1b","fullname":"Alon Ben Ari","isAdmin":null,"email":null}
+6.9.2025, 16:47:02 - INFO - db.service -> getting collection: | order
+6.9.2025, 16:47:02 - INFO - db.service -> using existing connection
+6.9.2025, 16:47:02 - INFO - db.service -> collection obtained successfully: | order
+6.9.2025, 16:49:47 - INFO - attachLoggedinUser -> cookies: | {}
+6.9.2025, 16:49:47 - INFO - attachLoggedinUser -> cookies: | {"loginToken":"7b41d784b7dc577093daf7db34fb83ebaf1ecddc44f4d993f6121639d8210d225f228999e8f79a86a13ee0189304d3991ec30bc391ee0be91787d2c0624952227c208d8f74bcbb15c2ba77c6a4090a1398df6ab4c893a7a9bda61bededbc389f9956c93259b59538630ea5b76c3dfe7ff93978278b2ee3e1012a51e7968f30631904c9633f518e1eed23e84e114aa14f2cf3560342ab133bf49d8944d38af514857bc928aae8a3e885d15f73007e69161185649f3581e745"}
+6.9.2025, 16:49:47 - INFO - db.service -> getting collection: | stay
+6.9.2025, 16:49:47 - INFO - attachLoggedinUser -> user from token: | {"_id":"68b84574dbf14012587e7d1b","fullname":"Alon Ben Ari","isAdmin":null,"email":null}
+6.9.2025, 16:49:47 - INFO - db.service -> collection obtained successfully: | stay
+6.9.2025, 16:49:47 - INFO - db.service -> using existing connection
+6.9.2025, 16:49:47 - INFO - /api/stay | GET | {} | {}
+6.9.2025, 16:50:13 - INFO - attachLoggedinUser -> cookies: | {}
+6.9.2025, 16:50:13 - INFO - attachLoggedinUser -> cookies: | {"loginToken":"7b41d784b7dc577093daf7db34fb83ebaf1ecddc44f4d993f6121639d8210d225f228999e8f79a86a13ee0189304d3991ec30bc391ee0be91787d2c0624952227c208d8f74bcbb15c2ba77c6a4090a1398df6ab4c893a7a9bda61bededbc389f9956c93259b59538630ea5b76c3dfe7ff93978278b2ee3e1012a51e7968f30631904c9633f518e1eed23e84e114aa14f2cf3560342ab133bf49d8944d38af514857bc928aae8a3e885d15f73007e69161185649f3581e745"}
+6.9.2025, 16:50:13 - INFO - attachLoggedinUser -> user from token: | {"_id":"68b84574dbf14012587e7d1b","fullname":"Alon Ben Ari","isAdmin":null,"email":null}
+6.9.2025, 16:50:13 - INFO - db.service -> using existing connection
+6.9.2025, 16:50:13 - INFO - getOrders -> req.query: | {"hostId":"68b84574dbf14012587e7d1b","userId":"","guestId":"","status":""}
+6.9.2025, 16:50:13 - INFO - db.service -> getting collection: | order
+6.9.2025, 16:50:13 - INFO - db.service -> collection obtained successfully: | order
+6.9.2025, 16:52:53 - INFO - attachLoggedinUser -> cookies: | {"loginToken":"7b41d784b7dc577093daf7db34fb83ebaf1ecddc44f4d993f6121639d8210d225f228999e8f79a86a13ee0189304d3991ec30bc391ee0be91787d2c0624952227c208d8f74bcbb15c2ba77c6a4090a1398df6ab4c893a7a9bda61bededbc389f9956c93259b59538630ea5b76c3dfe7ff93978278b2ee3e1012a51e7968f30631904c9633f518e1eed23e84e114aa14f2cf3560342ab133bf49d8944d38af514857bc928aae8a3e885d15f73007e69161185649f3581e745"}
+6.9.2025, 16:52:53 - INFO - attachLoggedinUser -> user from token: | {"_id":"68b84574dbf14012587e7d1b","fullname":"Alon Ben Ari","isAdmin":null,"email":null}
+6.9.2025, 16:52:53 - INFO - db.service -> collection obtained successfully: | order
+6.9.2025, 16:52:53 - INFO - db.service -> getting collection: | order
+6.9.2025, 16:52:53 - INFO - db.service -> using existing connection
+6.9.2025, 16:52:53 - INFO - attachLoggedinUser -> cookies: | {}
+6.9.2025, 16:52:53 - INFO - attachLoggedinUser -> cookies: | {"loginToken":"7b41d784b7dc577093daf7db34fb83ebaf1ecddc44f4d993f6121639d8210d225f228999e8f79a86a13ee0189304d3991ec30bc391ee0be91787d2c0624952227c208d8f74bcbb15c2ba77c6a4090a1398df6ab4c893a7a9bda61bededbc389f9956c93259b59538630ea5b76c3dfe7ff93978278b2ee3e1012a51e7968f30631904c9633f518e1eed23e84e114aa14f2cf3560342ab133bf49d8944d38af514857bc928aae8a3e885d15f73007e69161185649f3581e745"}
+6.9.2025, 16:52:53 - INFO - db.service -> getting collection: | order
+6.9.2025, 16:52:53 - INFO - requireAuth -> authenticated user: | {"_id":"68b84574dbf14012587e7d1b","fullname":"Alon Ben Ari","isAdmin":null,"email":null}
+6.9.2025, 16:52:53 - INFO - attachLoggedinUser -> user from token: | {"_id":"68b84574dbf14012587e7d1b","fullname":"Alon Ben Ari","isAdmin":null,"email":null}
+6.9.2025, 16:52:53 - INFO - db.service -> collection obtained successfully: | order
+6.9.2025, 16:52:53 - INFO - db.service -> using existing connection
+6.9.2025, 16:52:55 - INFO - attachLoggedinUser -> cookies: | {}
+6.9.2025, 16:52:55 - INFO - attachLoggedinUser -> cookies: | {"loginToken":"7b41d784b7dc577093daf7db34fb83ebaf1ecddc44f4d993f6121639d8210d225f228999e8f79a86a13ee0189304d3991ec30bc391ee0be91787d2c0624952227c208d8f74bcbb15c2ba77c6a4090a1398df6ab4c893a7a9bda61bededbc389f9956c93259b59538630ea5b76c3dfe7ff93978278b2ee3e1012a51e7968f30631904c9633f518e1eed23e84e114aa14f2cf3560342ab133bf49d8944d38af514857bc928aae8a3e885d15f73007e69161185649f3581e745"}
+6.9.2025, 16:52:55 - INFO - attachLoggedinUser -> user from token: | {"_id":"68b84574dbf14012587e7d1b","fullname":"Alon Ben Ari","isAdmin":null,"email":null}
+6.9.2025, 16:52:55 - INFO - getOrders -> req.query: | {"hostId":"68b84574dbf14012587e7d1b","userId":"","guestId":"","status":""}
+6.9.2025, 16:52:55 - INFO - db.service -> getting collection: | order
+6.9.2025, 16:52:55 - INFO - db.service -> using existing connection
+6.9.2025, 16:52:55 - INFO - db.service -> collection obtained successfully: | order
+6.9.2025, 16:52:58 - INFO - attachLoggedinUser -> cookies: | {}
+6.9.2025, 16:52:58 - INFO - attachLoggedinUser -> cookies: | {"loginToken":"7b41d784b7dc577093daf7db34fb83ebaf1ecddc44f4d993f6121639d8210d225f228999e8f79a86a13ee0189304d3991ec30bc391ee0be91787d2c0624952227c208d8f74bcbb15c2ba77c6a4090a1398df6ab4c893a7a9bda61bededbc389f9956c93259b59538630ea5b76c3dfe7ff93978278b2ee3e1012a51e7968f30631904c9633f518e1eed23e84e114aa14f2cf3560342ab133bf49d8944d38af514857bc928aae8a3e885d15f73007e69161185649f3581e745"}
+6.9.2025, 16:52:58 - INFO - getOrders -> req.query: | {"hostId":"","userId":"68bbdca8691e8bee0d064169","guestId":"","status":""}
+6.9.2025, 16:52:58 - INFO - attachLoggedinUser -> user from token: | {"_id":"68b84574dbf14012587e7d1b","fullname":"Alon Ben Ari","isAdmin":null,"email":null}
+6.9.2025, 16:52:58 - INFO - db.service -> getting collection: | order
+6.9.2025, 16:52:58 - INFO - db.service -> using existing connection
+6.9.2025, 16:52:58 - INFO - db.service -> collection obtained successfully: | order
+6.9.2025, 16:56:16 - INFO - attachLoggedinUser -> cookies: | {}
+6.9.2025, 16:56:16 - INFO - attachLoggedinUser -> cookies: | {"loginToken":"7b41d784b7dc577093daf7db34fb83ebaf1ecddc44f4d993f6121639d8210d225f228999e8f79a86a13ee0189304d3991ec30bc391ee0be91787d2c0624952227c208d8f74bcbb15c2ba77c6a4090a1398df6ab4c893a7a9bda61bededbc389f9956c93259b59538630ea5b76c3dfe7ff93978278b2ee3e1012a51e7968f30631904c9633f518e1eed23e84e114aa14f2cf3560342ab133bf49d8944d38af514857bc928aae8a3e885d15f73007e69161185649f3581e745"}
+6.9.2025, 16:56:16 - INFO - attachLoggedinUser -> user from token: | {"_id":"68b84574dbf14012587e7d1b","fullname":"Alon Ben Ari","isAdmin":null,"email":null}
+6.9.2025, 16:56:16 - INFO - /api/stay | GET | {} | {}
+6.9.2025, 16:56:16 - INFO - db.service -> getting collection: | stay
+6.9.2025, 16:56:16 - INFO - db.service -> using existing connection
+6.9.2025, 16:56:16 - INFO - db.service -> collection obtained successfully: | stay
+6.9.2025, 16:57:16 - INFO - attachLoggedinUser -> cookies: | {"loginToken":"7b41d784b7dc577093daf7db34fb83ebaf1ecddc44f4d993f6121639d8210d225f228999e8f79a86a13ee0189304d3991ec30bc391ee0be91787d2c0624952227c208d8f74bcbb15c2ba77c6a4090a1398df6ab4c893a7a9bda61bededbc389f9956c93259b59538630ea5b76c3dfe7ff93978278b2ee3e1012a51e7968f30631904c9633f518e1eed23e84e114aa14f2cf3560342ab133bf49d8944d38af514857bc928aae8a3e885d15f73007e69161185649f3581e745"}
+6.9.2025, 16:57:16 - INFO - attachLoggedinUser -> user from token: | {"_id":"68b84574dbf14012587e7d1b","fullname":"Alon Ben Ari","isAdmin":null,"email":null}
+6.9.2025, 16:58:16 - INFO - attachLoggedinUser -> cookies: | {}
+6.9.2025, 16:58:16 - INFO - attachLoggedinUser -> cookies: | {}
+6.9.2025, 16:58:17 - INFO - db.service -> getting collection: | stay
+6.9.2025, 16:58:17 - INFO - /api/stay | GET | {} | {}
+6.9.2025, 16:58:17 - INFO - db.service -> collection obtained successfully: | stay
+6.9.2025, 16:58:17 - INFO - db.service -> using existing connection
+6.9.2025, 17:07:28 - INFO - attachLoggedinUser -> cookies: | {}
+6.9.2025, 17:07:28 - INFO - attachLoggedinUser -> cookies: | {}
+6.9.2025, 17:07:28 - INFO - db.service -> getting collection: | stay
+6.9.2025, 17:07:28 - INFO - db.service -> collection obtained successfully: | stay
+6.9.2025, 17:07:28 - INFO - /api/stay | GET | {} | {}
+6.9.2025, 17:07:28 - INFO - db.service -> using existing connection
+6.9.2025, 17:07:41 - INFO - attachLoggedinUser -> cookies: | {}
+6.9.2025, 17:07:41 - INFO - /api/stay | GET | {} | {"id":"6738ca4cae769d402b653c88"}
+6.9.2025, 17:07:41 - INFO - db.service -> getting collection: | stay
+6.9.2025, 17:07:41 - INFO - db.service -> using existing connection
+6.9.2025, 17:07:41 - INFO - db.service -> collection obtained successfully: | stay
+6.9.2025, 17:07:42 - INFO - attachLoggedinUser -> cookies: | {}
+6.9.2025, 17:07:42 - INFO - attachLoggedinUser -> cookies: | {}
+6.9.2025, 17:07:42 - INFO - db.service -> getting collection: | stay
+6.9.2025, 17:07:42 - INFO - db.service -> collection obtained successfully: | stay
+6.9.2025, 17:07:42 - INFO - db.service -> using existing connection
+6.9.2025, 17:07:42 - INFO - /api/stay | GET | {} | {}
+6.9.2025, 17:16:03 - INFO - attachLoggedinUser -> cookies: | {}
+6.9.2025, 17:16:03 - INFO - attachLoggedinUser -> cookies: | {}
+6.9.2025, 17:16:03 - INFO - /api/stay | GET | {} | {}
+6.9.2025, 17:16:03 - INFO - db.service -> getting collection: | stay
+6.9.2025, 17:16:03 - INFO - db.service -> using existing connection
+6.9.2025, 17:16:03 - INFO - db.service -> collection obtained successfully: | stay
+6.9.2025, 17:22:04 - INFO - attachLoggedinUser -> cookies: | {}
+6.9.2025, 17:22:04 - INFO - attachLoggedinUser -> cookies: | {}
+6.9.2025, 17:22:04 - INFO - /api/stay | GET | {} | {}
+6.9.2025, 17:22:04 - INFO - db.service -> getting collection: | stay
+6.9.2025, 17:22:04 - INFO - db.service -> using existing connection
+6.9.2025, 17:22:04 - INFO - db.service -> collection obtained successfully: | stay
+6.9.2025, 17:22:27 - INFO - attachLoggedinUser -> cookies: | {}
+6.9.2025, 17:22:27 - INFO - /api/stay | GET | {} | {"id":"6738ca4cae769d402b653c79"}
+6.9.2025, 17:22:27 - INFO - db.service -> using existing connection
+6.9.2025, 17:22:27 - INFO - db.service -> getting collection: | stay
+6.9.2025, 17:22:27 - INFO - db.service -> collection obtained successfully: | stay
+6.9.2025, 17:22:28 - INFO - attachLoggedinUser -> cookies: | {}
+6.9.2025, 17:22:28 - INFO - attachLoggedinUser -> cookies: | {}
+6.9.2025, 17:22:28 - INFO - db.service -> getting collection: | stay
+6.9.2025, 17:22:28 - INFO - db.service -> collection obtained successfully: | stay
+6.9.2025, 17:22:28 - INFO - db.service -> using existing connection
+6.9.2025, 17:22:28 - INFO - /api/stay | GET | {} | {}
+6.9.2025, 17:22:54 - INFO - attachLoggedinUser -> cookies: | {}
+6.9.2025, 17:22:54 - INFO - /api/stay | GET | {} | {"id":"6738ca4cae769d402b653c74"}
+6.9.2025, 17:22:54 - INFO - db.service -> getting collection: | stay
+6.9.2025, 17:22:54 - INFO - db.service -> using existing connection
+6.9.2025, 17:22:54 - INFO - db.service -> collection obtained successfully: | stay
+6.9.2025, 17:22:57 - INFO - attachLoggedinUser -> cookies: | {}
+6.9.2025, 17:22:57 - INFO - attachLoggedinUser -> cookies: | {}
+6.9.2025, 17:22:57 - INFO - db.service -> using existing connection
+6.9.2025, 17:22:57 - INFO - db.service -> collection obtained successfully: | stay
+6.9.2025, 17:22:57 - INFO - db.service -> getting collection: | stay
+6.9.2025, 17:22:57 - INFO - /api/stay | GET | {} | {}
+6.9.2025, 17:23:21 - INFO - attachLoggedinUser -> cookies: | {}
+6.9.2025, 17:23:21 - INFO - /api/stay | GET | {} | {"id":"6738ca4cae769d402b653c7c"}
+6.9.2025, 17:23:21 - INFO - db.service -> getting collection: | stay
+6.9.2025, 17:23:21 - INFO - db.service -> using existing connection
+6.9.2025, 17:23:21 - INFO - db.service -> collection obtained successfully: | stay
+6.9.2025, 17:23:39 - INFO - attachLoggedinUser -> cookies: | {}
+6.9.2025, 17:23:39 - INFO - attachLoggedinUser -> cookies: | {}
+6.9.2025, 17:23:39 - INFO - db.service -> using existing connection
+6.9.2025, 17:23:39 - INFO - db.service -> collection obtained successfully: | stay
+6.9.2025, 17:23:39 - INFO - db.service -> getting collection: | stay
+6.9.2025, 17:23:39 - INFO - /api/stay | GET | {} | {}
+6.9.2025, 17:25:19 - INFO - attachLoggedinUser -> cookies: | {}
+6.9.2025, 17:25:19 - INFO - attachLoggedinUser -> cookies: | {}
+6.9.2025, 17:25:19 - INFO - db.service -> getting collection: | stay
+6.9.2025, 17:25:19 - INFO - db.service -> collection obtained successfully: | stay
+6.9.2025, 17:25:19 - INFO - db.service -> using existing connection
+6.9.2025, 17:25:19 - INFO - /api/stay | GET | {} | {}
+6.9.2025, 17:26:38 - INFO - attachLoggedinUser -> cookies: | {}
+6.9.2025, 17:26:38 - INFO - attachLoggedinUser -> cookies: | {}
+6.9.2025, 17:26:38 - INFO - /api/stay | GET | {} | {}
+6.9.2025, 17:26:38 - INFO - db.service -> getting collection: | stay
+6.9.2025, 17:26:38 - INFO - db.service -> using existing connection
+6.9.2025, 17:26:38 - INFO - db.service -> collection obtained successfully: | stay
+6.9.2025, 17:26:47 - INFO - attachLoggedinUser -> cookies: | {}
+6.9.2025, 17:26:47 - INFO - /api/stay | GET | {} | {"id":"6738ca4cae769d402b653c80"}
+6.9.2025, 17:26:47 - INFO - db.service -> using existing connection
+6.9.2025, 17:26:47 - INFO - db.service -> getting collection: | stay
+6.9.2025, 17:26:47 - INFO - db.service -> collection obtained successfully: | stay
+6.9.2025, 17:26:48 - INFO - attachLoggedinUser -> cookies: | {}
+6.9.2025, 17:26:48 - INFO - attachLoggedinUser -> cookies: | {}
+6.9.2025, 17:26:48 - INFO - /api/stay | GET | {} | {}
+6.9.2025, 17:26:48 - INFO - db.service -> getting collection: | stay
+6.9.2025, 17:26:48 - INFO - db.service -> using existing connection
+6.9.2025, 17:26:48 - INFO - db.service -> collection obtained successfully: | stay
+6.9.2025, 17:26:50 - INFO - attachLoggedinUser -> cookies: | {}
+6.9.2025, 17:26:50 - INFO - /api/stay | GET | {} | {"id":"6738ca4cae769d402b653c82"}
+6.9.2025, 17:26:50 - INFO - db.service -> getting collection: | stay
+6.9.2025, 17:26:50 - INFO - db.service -> collection obtained successfully: | stay
+6.9.2025, 17:26:50 - INFO - db.service -> using existing connection
+6.9.2025, 17:26:51 - INFO - attachLoggedinUser -> cookies: | {}
+6.9.2025, 17:26:51 - INFO - db.service -> using existing connection
+6.9.2025, 17:26:51 - INFO - db.service -> collection obtained successfully: | stay
+6.9.2025, 17:26:51 - INFO - db.service -> getting collection: | stay
+6.9.2025, 17:26:51 - INFO - /api/stay | GET | {} | {}
+6.9.2025, 17:27:53 - INFO - attachLoggedinUser -> cookies: | {}
+6.9.2025, 17:27:53 - INFO - attachLoggedinUser -> cookies: | {}
+6.9.2025, 17:27:53 - INFO - db.service -> getting collection: | stay
+6.9.2025, 17:27:53 - INFO - db.service -> collection obtained successfully: | stay
+6.9.2025, 17:27:53 - INFO - db.service -> using existing connection
+6.9.2025, 17:27:53 - INFO - /api/stay | GET | {} | {}
+6.9.2025, 17:44:58 - INFO - attachLoggedinUser -> cookies: | {}
+6.9.2025, 17:44:58 - INFO - attachLoggedinUser -> cookies: | {}
+6.9.2025, 17:44:58 - INFO - /api/stay | GET | {} | {}
+6.9.2025, 17:44:58 - INFO - db.service -> getting collection: | stay
+6.9.2025, 17:44:58 - INFO - db.service -> using existing connection
+6.9.2025, 17:44:58 - INFO - db.service -> collection obtained successfully: | stay
+6.9.2025, 17:45:25 - INFO - attachLoggedinUser -> cookies: | {}
+6.9.2025, 17:45:25 - INFO - attachLoggedinUser -> cookies: | {}
+6.9.2025, 17:45:25 - INFO - /api/stay | GET | {} | {}
+6.9.2025, 17:45:25 - INFO - db.service -> getting collection: | stay
+6.9.2025, 17:45:25 - INFO - db.service -> using existing connection
+6.9.2025, 17:45:25 - INFO - db.service -> collection obtained successfully: | stay
+6.9.2025, 17:45:44 - INFO - attachLoggedinUser -> cookies: | {}
+6.9.2025, 17:45:44 - INFO - attachLoggedinUser -> cookies: | {}
+6.9.2025, 17:45:44 - INFO - /api/stay | GET | {} | {}
+6.9.2025, 17:45:44 - INFO - db.service -> getting collection: | stay
+6.9.2025, 17:45:44 - INFO - db.service -> using existing connection
+6.9.2025, 17:45:44 - INFO - db.service -> collection obtained successfully: | stay
+6.9.2025, 17:50:48 - INFO - attachLoggedinUser -> cookies: | {}
+6.9.2025, 17:50:48 - INFO - attachLoggedinUser -> cookies: | {}
+6.9.2025, 17:50:48 - INFO - db.service -> getting collection: | stay
+6.9.2025, 17:50:48 - INFO - /api/stay | GET | {} | {}
+6.9.2025, 17:50:48 - INFO - db.service -> collection obtained successfully: | stay
+6.9.2025, 17:50:48 - INFO - db.service -> using existing connection
+6.9.2025, 17:52:43 - INFO - attachLoggedinUser -> cookies: | {}
+6.9.2025, 17:52:43 - INFO - attachLoggedinUser -> cookies: | {}
+6.9.2025, 17:52:43 - INFO - db.service -> getting collection: | stay
+6.9.2025, 17:52:43 - INFO - /api/stay | GET | {} | {}
+6.9.2025, 17:52:43 - INFO - db.service -> using existing connection
+6.9.2025, 17:52:43 - INFO - db.service -> collection obtained successfully: | stay
+6.9.2025, 17:53:18 - INFO - attachLoggedinUser -> cookies: | {}
+6.9.2025, 17:53:18 - INFO - attachLoggedinUser -> cookies: | {}
+6.9.2025, 17:53:18 - INFO - db.service -> getting collection: | stay
+6.9.2025, 17:53:18 - INFO - db.service -> collection obtained successfully: | stay
+6.9.2025, 17:53:18 - INFO - /api/stay | GET | {} | {}
+6.9.2025, 17:53:18 - INFO - db.service -> using existing connection
+6.9.2025, 17:53:23 - INFO - attachLoggedinUser -> cookies: | {}
+6.9.2025, 17:53:23 - INFO - /api/stay | GET | {} | {}
+6.9.2025, 17:53:23 - INFO - db.service -> collection obtained successfully: | stay
+6.9.2025, 17:53:23 - INFO - db.service -> getting collection: | stay
+6.9.2025, 17:53:23 - INFO - db.service -> using existing connection
+6.9.2025, 17:53:27 - INFO - attachLoggedinUser -> cookies: | {}
+6.9.2025, 17:53:27 - INFO - /api/stay | GET | {} | {}
+6.9.2025, 17:53:27 - INFO - db.service -> getting collection: | stay
+6.9.2025, 17:53:27 - INFO - db.service -> collection obtained successfully: | stay
+6.9.2025, 17:53:27 - INFO - db.service -> using existing connection
+6.9.2025, 17:53:27 - INFO - attachLoggedinUser -> cookies: | {}
+6.9.2025, 17:53:44 - INFO - attachLoggedinUser -> cookies: | {}
+6.9.2025, 17:53:44 - INFO - attachLoggedinUser -> cookies: | {}
+6.9.2025, 17:53:44 - INFO - /api/stay | GET | {} | {}
+6.9.2025, 17:53:44 - INFO - db.service -> getting collection: | stay
+6.9.2025, 17:53:44 - INFO - db.service -> using existing connection
+6.9.2025, 17:53:44 - INFO - db.service -> collection obtained successfully: | stay
+6.9.2025, 17:53:54 - INFO - attachLoggedinUser -> cookies: | {}
+6.9.2025, 17:53:54 - INFO - attachLoggedinUser -> cookies: | {}
+6.9.2025, 17:53:54 - INFO - db.service -> getting collection: | stay
+6.9.2025, 17:53:54 - INFO - db.service -> collection obtained successfully: | stay
+6.9.2025, 17:53:54 - INFO - /api/stay | GET | {} | {}
+6.9.2025, 17:53:54 - INFO - db.service -> using existing connection
+6.9.2025, 17:53:58 - INFO - attachLoggedinUser -> cookies: | {}
+6.9.2025, 17:53:58 - INFO - db.service -> getting collection: | stay
+6.9.2025, 17:53:58 - INFO - db.service -> collection obtained successfully: | stay
+6.9.2025, 17:53:58 - INFO - db.service -> using existing connection
+6.9.2025, 17:53:58 - INFO - /api/stay | GET | {} | {}
+6.9.2025, 17:54:00 - INFO - attachLoggedinUser -> cookies: | {}
+6.9.2025, 17:54:00 - INFO - attachLoggedinUser -> cookies: | {}
+6.9.2025, 17:54:00 - INFO - db.service -> getting collection: | stay
+6.9.2025, 17:54:00 - INFO - db.service -> using existing connection
+6.9.2025, 17:54:00 - INFO - /api/stay | GET | {} | {}
+6.9.2025, 17:54:00 - INFO - db.service -> collection obtained successfully: | stay
+6.9.2025, 17:54:12 - INFO - attachLoggedinUser -> cookies: | {}
+6.9.2025, 17:54:12 - INFO - attachLoggedinUser -> cookies: | {}
+6.9.2025, 17:54:12 - INFO - db.service -> getting collection: | stay
+6.9.2025, 17:54:12 - INFO - db.service -> using existing connection
+6.9.2025, 17:54:12 - INFO - db.service -> collection obtained successfully: | stay
+6.9.2025, 17:54:12 - INFO - /api/stay | GET | {} | {}
+6.9.2025, 18:05:55 - INFO - attachLoggedinUser -> cookies: | {}
+6.9.2025, 18:05:55 - INFO - attachLoggedinUser -> cookies: | {}
+6.9.2025, 18:05:55 - INFO - /api/stay | GET | {} | {}
+6.9.2025, 18:05:55 - INFO - db.service -> getting collection: | stay
+6.9.2025, 18:05:55 - INFO - db.service -> using existing connection
+6.9.2025, 18:05:55 - INFO - db.service -> collection obtained successfully: | stay
+6.9.2025, 18:05:58 - INFO - attachLoggedinUser -> cookies: | {}
+6.9.2025, 18:05:58 - INFO - db.service -> getting collection: | stay
+6.9.2025, 18:05:58 - INFO - db.service -> using existing connection
+6.9.2025, 18:05:58 - INFO - db.service -> collection obtained successfully: | stay
+6.9.2025, 18:05:58 - INFO - /api/stay | GET | {} | {}
+6.9.2025, 18:06:02 - INFO - attachLoggedinUser -> cookies: | {}
+6.9.2025, 18:06:02 - INFO - attachLoggedinUser -> cookies: | {}
+6.9.2025, 18:06:02 - INFO - db.service -> getting collection: | stay
+6.9.2025, 18:06:02 - INFO - /api/stay | GET | {} | {}
+6.9.2025, 18:06:02 - INFO - db.service -> collection obtained successfully: | stay
+6.9.2025, 18:06:02 - INFO - db.service -> using existing connection
