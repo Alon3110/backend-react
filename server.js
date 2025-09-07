@@ -24,24 +24,26 @@ app.use(cookieParser())
 app.use(express.json())
 app.use(attachLoggedinUser)
 
-const corsOptions = {
-    origin: [   'http://127.0.0.1:3030',
-                'http://localhost:3030',
-                'http://127.0.0.1:5173',
-                'http://localhost:5173',
-                'http://127.0.0.1:5174',
-                'http://localhost:5174',
-                'http://127.0.0.1:5178',
-                'http://localhost:5178'
-            ],
-    credentials: true
-}
-app.use(cors(corsOptions))
-app.options('*', cors(corsOptions))
-
-if (process.env.NODE_ENV === 'production') {
+if (process.env.NODE_ENV !== 'production') {
+    const corsOptions = {
+        origin: ['http://127.0.0.1:3030',
+            'http://localhost:3030',
+            'http://127.0.0.1:5173',
+            'http://localhost:5173',
+            'http://127.0.0.1:5174',
+            'http://localhost:5174',
+            'http://127.0.0.1:5178',
+            'http://localhost:5178'
+        ],
+        credentials: true
+    }
+    app.use(cors(corsOptions))
+    app.options('*', cors(corsOptions))
+} else {
     app.use(express.static(path.resolve('public')))
 }
+
+
 app.all('*all', setupAsyncLocalStorage)
 
 app.use('/api/auth', authRoutes)
