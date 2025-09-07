@@ -54,16 +54,16 @@ app.use('/api/order', orderRoutes)
 app.use("/api/workflows", workflowsRouter)
 
 
-setupSocketAPI(server)
+// setupSocketAPI(server)
 
 app.get('*', (req, res) => {
-    res.sendFile(path.resolve('public/index.html'))
+    res.sendFile(path.resolve('public', 'index.html'))
 })
 
 import { logger } from './services/logger.service.js'
 const port = process.env.PORT || 3030
 
-server.listen(port, () => {
+app.listen(port, () => {
     logger.info('Server is running on port: ' + port)
 })
 
