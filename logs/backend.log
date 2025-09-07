@@ -254,3 +254,921 @@
 6.9.2025, 20:39:51 - INFO - db.service -> getting collection: | order
 6.9.2025, 20:39:51 - INFO - db.service -> collection obtained successfully: | order
 6.9.2025, 20:39:51 - INFO - db.service -> using existing connection
+7.9.2025, 8:00:16 - INFO - Server is running on port: 3030
+7.9.2025, 8:00:31 - INFO - attachLoggedinUser -> cookies: | {}
+7.9.2025, 8:00:31 - INFO - attachLoggedinUser -> cookies: | {}
+7.9.2025, 8:00:31 - INFO - db.service -> getting collection: | stay
+7.9.2025, 8:00:31 - INFO - db.service -> connecting to: | mongodb+srv://bar:1234@cluster0.ebdiizq.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0 | database: | tester_db
+7.9.2025, 8:00:31 - INFO - /api/stay | GET | {} | {}
+7.9.2025, 8:00:32 - INFO - db.service -> connected successfully
+7.9.2025, 8:00:32 - INFO - db.service -> collection obtained successfully: | stay
+7.9.2025, 8:00:49 - INFO - attachLoggedinUser -> cookies: | {}
+7.9.2025, 8:00:49 - INFO - attachLoggedinUser -> cookies: | {}
+7.9.2025, 8:00:49 - INFO - /api/stay | GET | {} | {}
+7.9.2025, 8:00:49 - INFO - db.service -> getting collection: | stay
+7.9.2025, 8:00:49 - INFO - db.service -> using existing connection
+7.9.2025, 8:00:49 - INFO - db.service -> collection obtained successfully: | stay
+7.9.2025, 8:00:57 - INFO - attachLoggedinUser -> cookies: | {}
+7.9.2025, 8:00:57 - INFO - attachLoggedinUser -> cookies: | {}
+7.9.2025, 8:00:57 - DEBUG - auth.service - login with username: Alon Ben Ari
+7.9.2025, 8:00:57 - INFO - db.service -> getting collection: | user
+7.9.2025, 8:00:57 - INFO - db.service -> collection obtained successfully: | user
+7.9.2025, 8:00:57 - INFO - db.service -> using existing connection
+7.9.2025, 8:00:57 - INFO - User login:  | {"_id":"68b84574dbf14012587e7d1b","username":"Alon Ben Ari","fullname":"Alon Ben Ari","imgUrl":"https://ca.slack-edge.com/T08T1AM7L02-U08T35Z7745-79b18d468cce-512","isAdmin":null}
+7.9.2025, 8:00:57 - INFO - attachLoggedinUser -> cookies: | {}
+7.9.2025, 8:00:57 - INFO - attachLoggedinUser -> cookies: | {"loginToken":"a00aa4c8ea5bccf9fcbd273e5b7479f4ecce2b554cd3894063d1a52dfa65034f4e8169679e59ed5791115d048baff200736760d47223789b27f8cd0f3aadb08ec9476b566287b2bc4c42dc961ca725ca3b8880c5b5b43a166be3b049fa94df0905b6470779a5a30ffa973ad15c5e8a41ae6ea7619ba0d4a1c0f9e69143fb654de1d6452c8f28ec52f2c673f5695cb69a872babe685c852d20218cb464405e4f5c6ef8985ccae3e5baf5c6227ec2efdf12ec6fc83730dc709"}
+7.9.2025, 8:00:58 - INFO - attachLoggedinUser -> user from token: | {"_id":"68b84574dbf14012587e7d1b","fullname":"Alon Ben Ari","isAdmin":null,"email":null}
+7.9.2025, 8:00:58 - INFO - /api/stay | GET | {} | {}
+7.9.2025, 8:00:58 - INFO - db.service -> getting collection: | stay
+7.9.2025, 8:00:58 - INFO - db.service -> using existing connection
+7.9.2025, 8:00:58 - INFO - db.service -> collection obtained successfully: | stay
+7.9.2025, 8:01:00 - INFO - attachLoggedinUser -> cookies: | {}
+7.9.2025, 8:01:00 - INFO - attachLoggedinUser -> cookies: | {"loginToken":"a00aa4c8ea5bccf9fcbd273e5b7479f4ecce2b554cd3894063d1a52dfa65034f4e8169679e59ed5791115d048baff200736760d47223789b27f8cd0f3aadb08ec9476b566287b2bc4c42dc961ca725ca3b8880c5b5b43a166be3b049fa94df0905b6470779a5a30ffa973ad15c5e8a41ae6ea7619ba0d4a1c0f9e69143fb654de1d6452c8f28ec52f2c673f5695cb69a872babe685c852d20218cb464405e4f5c6ef8985ccae3e5baf5c6227ec2efdf12ec6fc83730dc709"}
+7.9.2025, 8:01:00 - INFO - attachLoggedinUser -> user from token: | {"_id":"68b84574dbf14012587e7d1b","fullname":"Alon Ben Ari","isAdmin":null,"email":null}
+7.9.2025, 8:01:00 - INFO - db.service -> collection obtained successfully: | order
+7.9.2025, 8:01:00 - INFO - getOrders -> req.query: | {"hostId":"68b84574dbf14012587e7d1b","userId":"","guestId":"","status":""}
+7.9.2025, 8:01:00 - INFO - db.service -> getting collection: | order
+7.9.2025, 8:01:00 - INFO - db.service -> using existing connection
+7.9.2025, 8:01:16 - INFO - attachLoggedinUser -> cookies: | {}
+7.9.2025, 8:01:16 - INFO - attachLoggedinUser -> cookies: | {}
+7.9.2025, 8:01:16 - DEBUG - auth.service - login with username: Ohad Fefer
+7.9.2025, 8:01:16 - INFO - db.service -> collection obtained successfully: | user
+7.9.2025, 8:01:16 - INFO - db.service -> using existing connection
+7.9.2025, 8:01:16 - INFO - db.service -> getting collection: | user
+7.9.2025, 8:01:17 - INFO - User login:  | {"_id":"68bbdca8691e8bee0d064169","username":"Ohad Fefer","fullname":"Ohad Fefer","imgUrl":"https://ca.slack-edge.com/T08T1AM7L02-U08T3626FNZ-2e93d1449198-512","isAdmin":false,"email":"ohadfefer16@gmail.com"}
+7.9.2025, 8:01:17 - INFO - attachLoggedinUser -> cookies: | {}
+7.9.2025, 8:01:17 - INFO - attachLoggedinUser -> cookies: | {"loginToken":"1687d72d66201a57a44e7057e9bdfd5b0070e641d4311a7e1701e431c46fe63f4b5c9760c2b3bfd81d561fd218d5064d22dfb423b5d9de11a3539e231014eda6afc2fab338426373ac26998cef79778e793df0202d29acf7f670b43f5ea5b2c85c36d91fb13ad0feb3847b3412c8207de9f041a0b686088c1d2eb93053b5b392b633a4ceba07006fef5428677b38c5c59ccf253924798b82bab895a0e81a9a76809a3ac0f5415f4fbbf72e07b49951b58cdcc1ae923be5eb361af74416276d6701a829bf91bd62dc8bf9"}
+7.9.2025, 8:01:17 - INFO - /api/stay | GET | {} | {}
+7.9.2025, 8:01:17 - INFO - attachLoggedinUser -> user from token: | {"_id":"68bbdca8691e8bee0d064169","fullname":"Ohad Fefer","isAdmin":false,"email":"ohadfefer16@gmail.com"}
+7.9.2025, 8:01:17 - INFO - db.service -> getting collection: | stay
+7.9.2025, 8:01:17 - INFO - db.service -> using existing connection
+7.9.2025, 8:01:17 - INFO - db.service -> collection obtained successfully: | stay
+7.9.2025, 8:01:29 - INFO - attachLoggedinUser -> cookies: | {}
+7.9.2025, 8:01:29 - INFO - attachLoggedinUser -> user from token: | {"_id":"68bbdca8691e8bee0d064169","fullname":"Ohad Fefer","isAdmin":false,"email":"ohadfefer16@gmail.com"}
+7.9.2025, 8:01:29 - INFO - attachLoggedinUser -> cookies: | {"loginToken":"1687d72d66201a57a44e7057e9bdfd5b0070e641d4311a7e1701e431c46fe63f4b5c9760c2b3bfd81d561fd218d5064d22dfb423b5d9de11a3539e231014eda6afc2fab338426373ac26998cef79778e793df0202d29acf7f670b43f5ea5b2c85c36d91fb13ad0feb3847b3412c8207de9f041a0b686088c1d2eb93053b5b392b633a4ceba07006fef5428677b38c5c59ccf253924798b82bab895a0e81a9a76809a3ac0f5415f4fbbf72e07b49951b58cdcc1ae923be5eb361af74416276d6701a829bf91bd62dc8bf9"}
+7.9.2025, 8:01:29 - INFO - /api/stay | GET | {} | {}
+7.9.2025, 8:01:29 - INFO - db.service -> getting collection: | stay
+7.9.2025, 8:01:29 - INFO - db.service -> collection obtained successfully: | stay
+7.9.2025, 8:01:29 - INFO - db.service -> using existing connection
+7.9.2025, 8:01:42 - INFO - attachLoggedinUser -> cookies: | {"loginToken":"1687d72d66201a57a44e7057e9bdfd5b0070e641d4311a7e1701e431c46fe63f4b5c9760c2b3bfd81d561fd218d5064d22dfb423b5d9de11a3539e231014eda6afc2fab338426373ac26998cef79778e793df0202d29acf7f670b43f5ea5b2c85c36d91fb13ad0feb3847b3412c8207de9f041a0b686088c1d2eb93053b5b392b633a4ceba07006fef5428677b38c5c59ccf253924798b82bab895a0e81a9a76809a3ac0f5415f4fbbf72e07b49951b58cdcc1ae923be5eb361af74416276d6701a829bf91bd62dc8bf9"}
+7.9.2025, 8:01:42 - INFO - attachLoggedinUser -> user from token: | {"_id":"68bbdca8691e8bee0d064169","fullname":"Ohad Fefer","isAdmin":false,"email":"ohadfefer16@gmail.com"}
+7.9.2025, 8:01:42 - INFO - db.service -> using existing connection
+7.9.2025, 8:01:42 - INFO - /api/stay | GET | {} | {"id":"6738ca4cae769d402b653c7c"}
+7.9.2025, 8:01:42 - INFO - db.service -> collection obtained successfully: | stay
+7.9.2025, 8:01:42 - INFO - db.service -> getting collection: | stay
+7.9.2025, 8:02:25 - INFO - attachLoggedinUser -> cookies: | {"loginToken":"1687d72d66201a57a44e7057e9bdfd5b0070e641d4311a7e1701e431c46fe63f4b5c9760c2b3bfd81d561fd218d5064d22dfb423b5d9de11a3539e231014eda6afc2fab338426373ac26998cef79778e793df0202d29acf7f670b43f5ea5b2c85c36d91fb13ad0feb3847b3412c8207de9f041a0b686088c1d2eb93053b5b392b633a4ceba07006fef5428677b38c5c59ccf253924798b82bab895a0e81a9a76809a3ac0f5415f4fbbf72e07b49951b58cdcc1ae923be5eb361af74416276d6701a829bf91bd62dc8bf9"}
+7.9.2025, 8:02:25 - INFO - attachLoggedinUser -> user from token: | {"_id":"68bbdca8691e8bee0d064169","fullname":"Ohad Fefer","isAdmin":false,"email":"ohadfefer16@gmail.com"}
+7.9.2025, 8:02:25 - INFO - db.service -> using existing connection
+7.9.2025, 8:02:25 - INFO - /api/stay | GET | {} | {"id":"6738ca4cae769d402b653c7c"}
+7.9.2025, 8:02:25 - INFO - db.service -> getting collection: | stay
+7.9.2025, 8:02:25 - INFO - db.service -> collection obtained successfully: | stay
+7.9.2025, 8:02:27 - INFO - attachLoggedinUser -> cookies: | {}
+7.9.2025, 8:02:27 - INFO - attachLoggedinUser -> cookies: | {"loginToken":"1687d72d66201a57a44e7057e9bdfd5b0070e641d4311a7e1701e431c46fe63f4b5c9760c2b3bfd81d561fd218d5064d22dfb423b5d9de11a3539e231014eda6afc2fab338426373ac26998cef79778e793df0202d29acf7f670b43f5ea5b2c85c36d91fb13ad0feb3847b3412c8207de9f041a0b686088c1d2eb93053b5b392b633a4ceba07006fef5428677b38c5c59ccf253924798b82bab895a0e81a9a76809a3ac0f5415f4fbbf72e07b49951b58cdcc1ae923be5eb361af74416276d6701a829bf91bd62dc8bf9"}
+7.9.2025, 8:02:28 - INFO - db.service -> using existing connection
+7.9.2025, 8:02:28 - INFO - attachLoggedinUser -> user from token: | {"_id":"68bbdca8691e8bee0d064169","fullname":"Ohad Fefer","isAdmin":false,"email":"ohadfefer16@gmail.com"}
+7.9.2025, 8:02:28 - INFO - db.service -> collection obtained successfully: | order
+7.9.2025, 8:02:28 - INFO - requireAuth -> authenticated user: | {"_id":"68bbdca8691e8bee0d064169","fullname":"Ohad Fefer","isAdmin":false,"email":"ohadfefer16@gmail.com"}
+7.9.2025, 8:02:28 - INFO - db.service -> getting collection: | order
+7.9.2025, 8:02:28 - INFO - attachLoggedinUser -> cookies: | {"loginToken":"1687d72d66201a57a44e7057e9bdfd5b0070e641d4311a7e1701e431c46fe63f4b5c9760c2b3bfd81d561fd218d5064d22dfb423b5d9de11a3539e231014eda6afc2fab338426373ac26998cef79778e793df0202d29acf7f670b43f5ea5b2c85c36d91fb13ad0feb3847b3412c8207de9f041a0b686088c1d2eb93053b5b392b633a4ceba07006fef5428677b38c5c59ccf253924798b82bab895a0e81a9a76809a3ac0f5415f4fbbf72e07b49951b58cdcc1ae923be5eb361af74416276d6701a829bf91bd62dc8bf9"}
+7.9.2025, 8:02:28 - INFO - db.service -> getting collection: | order
+7.9.2025, 8:02:28 - INFO - attachLoggedinUser -> user from token: | {"_id":"68bbdca8691e8bee0d064169","fullname":"Ohad Fefer","isAdmin":false,"email":"ohadfefer16@gmail.com"}
+7.9.2025, 8:02:28 - INFO - db.service -> collection obtained successfully: | order
+7.9.2025, 8:02:28 - INFO - db.service -> using existing connection
+7.9.2025, 8:02:29 - INFO - attachLoggedinUser -> cookies: | {}
+7.9.2025, 8:02:29 - INFO - attachLoggedinUser -> cookies: | {"loginToken":"1687d72d66201a57a44e7057e9bdfd5b0070e641d4311a7e1701e431c46fe63f4b5c9760c2b3bfd81d561fd218d5064d22dfb423b5d9de11a3539e231014eda6afc2fab338426373ac26998cef79778e793df0202d29acf7f670b43f5ea5b2c85c36d91fb13ad0feb3847b3412c8207de9f041a0b686088c1d2eb93053b5b392b633a4ceba07006fef5428677b38c5c59ccf253924798b82bab895a0e81a9a76809a3ac0f5415f4fbbf72e07b49951b58cdcc1ae923be5eb361af74416276d6701a829bf91bd62dc8bf9"}
+7.9.2025, 8:02:30 - INFO - attachLoggedinUser -> user from token: | {"_id":"68bbdca8691e8bee0d064169","fullname":"Ohad Fefer","isAdmin":false,"email":"ohadfefer16@gmail.com"}
+7.9.2025, 8:02:30 - INFO - getOrders -> req.query: | {"hostId":"","userId":"68bbdca8691e8bee0d064169","guestId":"","status":""}
+7.9.2025, 8:02:30 - INFO - db.service -> using existing connection
+7.9.2025, 8:02:30 - INFO - db.service -> getting collection: | order
+7.9.2025, 8:02:30 - INFO - db.service -> collection obtained successfully: | order
+7.9.2025, 8:02:32 - INFO - attachLoggedinUser -> cookies: | {}
+7.9.2025, 8:02:32 - INFO - attachLoggedinUser -> cookies: | {"loginToken":"a00aa4c8ea5bccf9fcbd273e5b7479f4ecce2b554cd3894063d1a52dfa65034f4e8169679e59ed5791115d048baff200736760d47223789b27f8cd0f3aadb08ec9476b566287b2bc4c42dc961ca725ca3b8880c5b5b43a166be3b049fa94df0905b6470779a5a30ffa973ad15c5e8a41ae6ea7619ba0d4a1c0f9e69143fb654de1d6452c8f28ec52f2c673f5695cb69a872babe685c852d20218cb464405e4f5c6ef8985ccae3e5baf5c6227ec2efdf12ec6fc83730dc709"}
+7.9.2025, 8:02:33 - INFO - db.service -> getting collection: | order
+7.9.2025, 8:02:33 - INFO - attachLoggedinUser -> user from token: | {"_id":"68b84574dbf14012587e7d1b","fullname":"Alon Ben Ari","isAdmin":null,"email":null}
+7.9.2025, 8:02:33 - INFO - db.service -> collection obtained successfully: | order
+7.9.2025, 8:02:33 - INFO - getOrders -> req.query: | {"hostId":"68b84574dbf14012587e7d1b","userId":"","guestId":"","status":""}
+7.9.2025, 8:02:33 - INFO - db.service -> using existing connection
+7.9.2025, 8:02:40 - INFO - attachLoggedinUser -> user from token: | {"_id":"68b84574dbf14012587e7d1b","fullname":"Alon Ben Ari","isAdmin":null,"email":null}
+7.9.2025, 8:02:40 - INFO - attachLoggedinUser -> cookies: | {"loginToken":"a00aa4c8ea5bccf9fcbd273e5b7479f4ecce2b554cd3894063d1a52dfa65034f4e8169679e59ed5791115d048baff200736760d47223789b27f8cd0f3aadb08ec9476b566287b2bc4c42dc961ca725ca3b8880c5b5b43a166be3b049fa94df0905b6470779a5a30ffa973ad15c5e8a41ae6ea7619ba0d4a1c0f9e69143fb654de1d6452c8f28ec52f2c673f5695cb69a872babe685c852d20218cb464405e4f5c6ef8985ccae3e5baf5c6227ec2efdf12ec6fc83730dc709"}
+7.9.2025, 8:02:40 - INFO - db.service -> getting collection: | order
+7.9.2025, 8:02:40 - INFO - db.service -> collection obtained successfully: | order
+7.9.2025, 8:02:40 - INFO - db.service -> using existing connection
+7.9.2025, 8:02:40 - INFO - attachLoggedinUser -> cookies: | {}
+7.9.2025, 8:02:40 - INFO - attachLoggedinUser -> cookies: | {"loginToken":"a00aa4c8ea5bccf9fcbd273e5b7479f4ecce2b554cd3894063d1a52dfa65034f4e8169679e59ed5791115d048baff200736760d47223789b27f8cd0f3aadb08ec9476b566287b2bc4c42dc961ca725ca3b8880c5b5b43a166be3b049fa94df0905b6470779a5a30ffa973ad15c5e8a41ae6ea7619ba0d4a1c0f9e69143fb654de1d6452c8f28ec52f2c673f5695cb69a872babe685c852d20218cb464405e4f5c6ef8985ccae3e5baf5c6227ec2efdf12ec6fc83730dc709"}
+7.9.2025, 8:02:40 - INFO - requireAuth -> authenticated user: | {"_id":"68b84574dbf14012587e7d1b","fullname":"Alon Ben Ari","isAdmin":null,"email":null}
+7.9.2025, 8:02:40 - INFO - db.service -> using existing connection
+7.9.2025, 8:02:40 - INFO - db.service -> collection obtained successfully: | order
+7.9.2025, 8:02:40 - INFO - attachLoggedinUser -> user from token: | {"_id":"68b84574dbf14012587e7d1b","fullname":"Alon Ben Ari","isAdmin":null,"email":null}
+7.9.2025, 8:02:40 - INFO - db.service -> getting collection: | order
+7.9.2025, 8:02:40 - INFO - attachLoggedinUser -> cookies: | {}
+7.9.2025, 8:02:40 - INFO - attachLoggedinUser -> cookies: | {"loginToken":"a00aa4c8ea5bccf9fcbd273e5b7479f4ecce2b554cd3894063d1a52dfa65034f4e8169679e59ed5791115d048baff200736760d47223789b27f8cd0f3aadb08ec9476b566287b2bc4c42dc961ca725ca3b8880c5b5b43a166be3b049fa94df0905b6470779a5a30ffa973ad15c5e8a41ae6ea7619ba0d4a1c0f9e69143fb654de1d6452c8f28ec52f2c673f5695cb69a872babe685c852d20218cb464405e4f5c6ef8985ccae3e5baf5c6227ec2efdf12ec6fc83730dc709"}
+7.9.2025, 8:02:40 - INFO - db.service -> getting collection: | order
+7.9.2025, 8:02:40 - INFO - getOrders -> req.query: | {"hostId":"68b84574dbf14012587e7d1b","userId":"","guestId":"","status":""}
+7.9.2025, 8:02:40 - INFO - db.service -> using existing connection
+7.9.2025, 8:02:40 - INFO - db.service -> collection obtained successfully: | order
+7.9.2025, 8:02:40 - INFO - attachLoggedinUser -> user from token: | {"_id":"68b84574dbf14012587e7d1b","fullname":"Alon Ben Ari","isAdmin":null,"email":null}
+7.9.2025, 8:02:45 - INFO - attachLoggedinUser -> cookies: | {}
+7.9.2025, 8:02:45 - INFO - attachLoggedinUser -> cookies: | {"loginToken":"1687d72d66201a57a44e7057e9bdfd5b0070e641d4311a7e1701e431c46fe63f4b5c9760c2b3bfd81d561fd218d5064d22dfb423b5d9de11a3539e231014eda6afc2fab338426373ac26998cef79778e793df0202d29acf7f670b43f5ea5b2c85c36d91fb13ad0feb3847b3412c8207de9f041a0b686088c1d2eb93053b5b392b633a4ceba07006fef5428677b38c5c59ccf253924798b82bab895a0e81a9a76809a3ac0f5415f4fbbf72e07b49951b58cdcc1ae923be5eb361af74416276d6701a829bf91bd62dc8bf9"}
+7.9.2025, 8:02:45 - INFO - attachLoggedinUser -> user from token: | {"_id":"68bbdca8691e8bee0d064169","fullname":"Ohad Fefer","isAdmin":false,"email":"ohadfefer16@gmail.com"}
+7.9.2025, 8:02:45 - INFO - db.service -> using existing connection
+7.9.2025, 8:02:45 - INFO - db.service -> collection obtained successfully: | order
+7.9.2025, 8:02:45 - INFO - getOrders -> req.query: | {"hostId":"","userId":"68bbdca8691e8bee0d064169","guestId":"","status":""}
+7.9.2025, 8:02:45 - INFO - db.service -> getting collection: | order
+7.9.2025, 8:03:20 - INFO - attachLoggedinUser -> cookies: | {}
+7.9.2025, 8:03:20 - INFO - attachLoggedinUser -> cookies: | {"loginToken":"1687d72d66201a57a44e7057e9bdfd5b0070e641d4311a7e1701e431c46fe63f4b5c9760c2b3bfd81d561fd218d5064d22dfb423b5d9de11a3539e231014eda6afc2fab338426373ac26998cef79778e793df0202d29acf7f670b43f5ea5b2c85c36d91fb13ad0feb3847b3412c8207de9f041a0b686088c1d2eb93053b5b392b633a4ceba07006fef5428677b38c5c59ccf253924798b82bab895a0e81a9a76809a3ac0f5415f4fbbf72e07b49951b58cdcc1ae923be5eb361af74416276d6701a829bf91bd62dc8bf9"}
+7.9.2025, 8:03:20 - INFO - /api/stay | GET | {} | {}
+7.9.2025, 8:03:20 - INFO - attachLoggedinUser -> user from token: | {"_id":"68bbdca8691e8bee0d064169","fullname":"Ohad Fefer","isAdmin":false,"email":"ohadfefer16@gmail.com"}
+7.9.2025, 8:03:21 - INFO - db.service -> getting collection: | stay
+7.9.2025, 8:03:21 - INFO - db.service -> collection obtained successfully: | stay
+7.9.2025, 8:03:21 - INFO - db.service -> using existing connection
+7.9.2025, 8:03:22 - INFO - attachLoggedinUser -> cookies: | {"loginToken":"1687d72d66201a57a44e7057e9bdfd5b0070e641d4311a7e1701e431c46fe63f4b5c9760c2b3bfd81d561fd218d5064d22dfb423b5d9de11a3539e231014eda6afc2fab338426373ac26998cef79778e793df0202d29acf7f670b43f5ea5b2c85c36d91fb13ad0feb3847b3412c8207de9f041a0b686088c1d2eb93053b5b392b633a4ceba07006fef5428677b38c5c59ccf253924798b82bab895a0e81a9a76809a3ac0f5415f4fbbf72e07b49951b58cdcc1ae923be5eb361af74416276d6701a829bf91bd62dc8bf9"}
+7.9.2025, 8:03:22 - INFO - attachLoggedinUser -> user from token: | {"_id":"68bbdca8691e8bee0d064169","fullname":"Ohad Fefer","isAdmin":false,"email":"ohadfefer16@gmail.com"}
+7.9.2025, 8:03:46 - INFO - attachLoggedinUser -> cookies: | {}
+7.9.2025, 8:03:46 - INFO - attachLoggedinUser -> cookies: | {"loginToken":"a00aa4c8ea5bccf9fcbd273e5b7479f4ecce2b554cd3894063d1a52dfa65034f4e8169679e59ed5791115d048baff200736760d47223789b27f8cd0f3aadb08ec9476b566287b2bc4c42dc961ca725ca3b8880c5b5b43a166be3b049fa94df0905b6470779a5a30ffa973ad15c5e8a41ae6ea7619ba0d4a1c0f9e69143fb654de1d6452c8f28ec52f2c673f5695cb69a872babe685c852d20218cb464405e4f5c6ef8985ccae3e5baf5c6227ec2efdf12ec6fc83730dc709"}
+7.9.2025, 8:03:46 - INFO - attachLoggedinUser -> user from token: | {"_id":"68b84574dbf14012587e7d1b","fullname":"Alon Ben Ari","isAdmin":null,"email":null}
+7.9.2025, 8:03:46 - INFO - getOrders -> req.query: | {"hostId":"68b84574dbf14012587e7d1b","userId":"","guestId":"","status":""}
+7.9.2025, 8:03:46 - INFO - db.service -> collection obtained successfully: | order
+7.9.2025, 8:03:46 - INFO - db.service -> using existing connection
+7.9.2025, 8:03:46 - INFO - db.service -> getting collection: | order
+7.9.2025, 8:33:57 - INFO - attachLoggedinUser -> cookies: | {}
+7.9.2025, 8:33:57 - INFO - attachLoggedinUser -> cookies: | {}
+7.9.2025, 8:33:57 - DEBUG - auth.service - login with username: Sarah Elizabeth
+7.9.2025, 8:33:57 - INFO - db.service -> collection obtained successfully: | user
+7.9.2025, 8:33:57 - INFO - db.service -> getting collection: | user
+7.9.2025, 8:33:57 - INFO - db.service -> using existing connection
+7.9.2025, 8:33:57 - INFO - User login:  | {"_id":"68b98d013ce285bfed886a78","username":"Sarah Elizabeth","fullname":"Sarah Elizabeth","imgUrl":"https://res.cloudinary.com/vanilla-test-images/image/upload/v1756990702/omnbs3cgw3zsx8i5f3ja.avif","isAdmin":false,"email":"a@gamil.com"}
+7.9.2025, 8:33:58 - INFO - attachLoggedinUser -> cookies: | {}
+7.9.2025, 8:33:58 - INFO - attachLoggedinUser -> cookies: | {"loginToken":"3199a3de1ff928c99637c2ce4daea3286304060eb040ce80eb5052720bdb349e338de073bb1d14c65533287f82125cf94c4481e1b892678c8326ab4c58835dfbd28b67800eb1c5d0fa99f10cbd815f8a7917c9e886a7fd82a71b352af1873469eff47964fb3fb73532e997026ab35bf3e010a7631ae53fdb961744c7c698f83583702c902205048b63e681b4650c2bac425eeb276b7efeccd7e97a48a4ce30d1eb9a46aabee7bac0335e0b87c1e4124a4ba635838a867cccca0f6dfef9481dfca9330c4a22"}
+7.9.2025, 8:33:58 - INFO - attachLoggedinUser -> user from token: | {"_id":"68b98d013ce285bfed886a78","fullname":"Sarah Elizabeth","isAdmin":false,"email":"a@gamil.com"}
+7.9.2025, 8:33:58 - INFO - /api/stay | GET | {} | {}
+7.9.2025, 8:33:58 - INFO - db.service -> getting collection: | stay
+7.9.2025, 8:33:58 - INFO - db.service -> using existing connection
+7.9.2025, 8:33:58 - INFO - db.service -> collection obtained successfully: | stay
+7.9.2025, 8:34:16 - INFO - attachLoggedinUser -> cookies: | {}
+7.9.2025, 8:34:16 - INFO - attachLoggedinUser -> cookies: | {"loginToken":"3199a3de1ff928c99637c2ce4daea3286304060eb040ce80eb5052720bdb349e338de073bb1d14c65533287f82125cf94c4481e1b892678c8326ab4c58835dfbd28b67800eb1c5d0fa99f10cbd815f8a7917c9e886a7fd82a71b352af1873469eff47964fb3fb73532e997026ab35bf3e010a7631ae53fdb961744c7c698f83583702c902205048b63e681b4650c2bac425eeb276b7efeccd7e97a48a4ce30d1eb9a46aabee7bac0335e0b87c1e4124a4ba635838a867cccca0f6dfef9481dfca9330c4a22"}
+7.9.2025, 8:34:17 - INFO - /api/stay | GET | {} | {}
+7.9.2025, 8:34:17 - INFO - db.service -> getting collection: | stay
+7.9.2025, 8:34:17 - INFO - attachLoggedinUser -> user from token: | {"_id":"68b98d013ce285bfed886a78","fullname":"Sarah Elizabeth","isAdmin":false,"email":"a@gamil.com"}
+7.9.2025, 8:34:17 - INFO - db.service -> using existing connection
+7.9.2025, 8:34:17 - INFO - db.service -> collection obtained successfully: | stay
+7.9.2025, 8:34:24 - INFO - attachLoggedinUser -> cookies: | {"loginToken":"3199a3de1ff928c99637c2ce4daea3286304060eb040ce80eb5052720bdb349e338de073bb1d14c65533287f82125cf94c4481e1b892678c8326ab4c58835dfbd28b67800eb1c5d0fa99f10cbd815f8a7917c9e886a7fd82a71b352af1873469eff47964fb3fb73532e997026ab35bf3e010a7631ae53fdb961744c7c698f83583702c902205048b63e681b4650c2bac425eeb276b7efeccd7e97a48a4ce30d1eb9a46aabee7bac0335e0b87c1e4124a4ba635838a867cccca0f6dfef9481dfca9330c4a22"}
+7.9.2025, 8:34:24 - INFO - attachLoggedinUser -> user from token: | {"_id":"68b98d013ce285bfed886a78","fullname":"Sarah Elizabeth","isAdmin":false,"email":"a@gamil.com"}
+7.9.2025, 8:34:24 - INFO - /api/stay | GET | {} | {"id":"6738ca4cae769d402b653c75"}
+7.9.2025, 8:34:24 - INFO - db.service -> collection obtained successfully: | stay
+7.9.2025, 8:34:24 - INFO - db.service -> using existing connection
+7.9.2025, 8:34:24 - INFO - db.service -> getting collection: | stay
+7.9.2025, 8:34:36 - INFO - attachLoggedinUser -> cookies: | {"loginToken":"3199a3de1ff928c99637c2ce4daea3286304060eb040ce80eb5052720bdb349e338de073bb1d14c65533287f82125cf94c4481e1b892678c8326ab4c58835dfbd28b67800eb1c5d0fa99f10cbd815f8a7917c9e886a7fd82a71b352af1873469eff47964fb3fb73532e997026ab35bf3e010a7631ae53fdb961744c7c698f83583702c902205048b63e681b4650c2bac425eeb276b7efeccd7e97a48a4ce30d1eb9a46aabee7bac0335e0b87c1e4124a4ba635838a867cccca0f6dfef9481dfca9330c4a22"}
+7.9.2025, 8:34:36 - INFO - attachLoggedinUser -> user from token: | {"_id":"68b98d013ce285bfed886a78","fullname":"Sarah Elizabeth","isAdmin":false,"email":"a@gamil.com"}
+7.9.2025, 8:34:36 - INFO - db.service -> getting collection: | stay
+7.9.2025, 8:34:36 - INFO - db.service -> using existing connection
+7.9.2025, 8:34:36 - INFO - /api/stay | GET | {} | {"id":"6738ca4cae769d402b653c75"}
+7.9.2025, 8:34:36 - INFO - db.service -> collection obtained successfully: | stay
+7.9.2025, 8:34:39 - INFO - attachLoggedinUser -> cookies: | {}
+7.9.2025, 8:34:39 - INFO - attachLoggedinUser -> cookies: | {"loginToken":"3199a3de1ff928c99637c2ce4daea3286304060eb040ce80eb5052720bdb349e338de073bb1d14c65533287f82125cf94c4481e1b892678c8326ab4c58835dfbd28b67800eb1c5d0fa99f10cbd815f8a7917c9e886a7fd82a71b352af1873469eff47964fb3fb73532e997026ab35bf3e010a7631ae53fdb961744c7c698f83583702c902205048b63e681b4650c2bac425eeb276b7efeccd7e97a48a4ce30d1eb9a46aabee7bac0335e0b87c1e4124a4ba635838a867cccca0f6dfef9481dfca9330c4a22"}
+7.9.2025, 8:34:39 - INFO - attachLoggedinUser -> user from token: | {"_id":"68b98d013ce285bfed886a78","fullname":"Sarah Elizabeth","isAdmin":false,"email":"a@gamil.com"}
+7.9.2025, 8:34:39 - INFO - requireAuth -> authenticated user: | {"_id":"68b98d013ce285bfed886a78","fullname":"Sarah Elizabeth","isAdmin":false,"email":"a@gamil.com"}
+7.9.2025, 8:34:39 - INFO - db.service -> getting collection: | order
+7.9.2025, 8:34:39 - INFO - db.service -> using existing connection
+7.9.2025, 8:34:39 - INFO - db.service -> collection obtained successfully: | order
+7.9.2025, 8:34:39 - INFO - attachLoggedinUser -> cookies: | {"loginToken":"3199a3de1ff928c99637c2ce4daea3286304060eb040ce80eb5052720bdb349e338de073bb1d14c65533287f82125cf94c4481e1b892678c8326ab4c58835dfbd28b67800eb1c5d0fa99f10cbd815f8a7917c9e886a7fd82a71b352af1873469eff47964fb3fb73532e997026ab35bf3e010a7631ae53fdb961744c7c698f83583702c902205048b63e681b4650c2bac425eeb276b7efeccd7e97a48a4ce30d1eb9a46aabee7bac0335e0b87c1e4124a4ba635838a867cccca0f6dfef9481dfca9330c4a22"}
+7.9.2025, 8:34:39 - INFO - attachLoggedinUser -> user from token: | {"_id":"68b98d013ce285bfed886a78","fullname":"Sarah Elizabeth","isAdmin":false,"email":"a@gamil.com"}
+7.9.2025, 8:34:39 - INFO - db.service -> collection obtained successfully: | order
+7.9.2025, 8:34:39 - INFO - db.service -> getting collection: | order
+7.9.2025, 8:34:39 - INFO - db.service -> using existing connection
+7.9.2025, 8:34:40 - INFO - attachLoggedinUser -> cookies: | {}
+7.9.2025, 8:34:40 - INFO - attachLoggedinUser -> cookies: | {"loginToken":"3199a3de1ff928c99637c2ce4daea3286304060eb040ce80eb5052720bdb349e338de073bb1d14c65533287f82125cf94c4481e1b892678c8326ab4c58835dfbd28b67800eb1c5d0fa99f10cbd815f8a7917c9e886a7fd82a71b352af1873469eff47964fb3fb73532e997026ab35bf3e010a7631ae53fdb961744c7c698f83583702c902205048b63e681b4650c2bac425eeb276b7efeccd7e97a48a4ce30d1eb9a46aabee7bac0335e0b87c1e4124a4ba635838a867cccca0f6dfef9481dfca9330c4a22"}
+7.9.2025, 8:34:40 - INFO - attachLoggedinUser -> user from token: | {"_id":"68b98d013ce285bfed886a78","fullname":"Sarah Elizabeth","isAdmin":false,"email":"a@gamil.com"}
+7.9.2025, 8:34:40 - INFO - db.service -> using existing connection
+7.9.2025, 8:34:40 - INFO - getOrders -> req.query: | {"hostId":"","userId":"68b98d013ce285bfed886a78","guestId":"","status":""}
+7.9.2025, 8:34:40 - INFO - db.service -> getting collection: | order
+7.9.2025, 8:34:40 - INFO - db.service -> collection obtained successfully: | order
+7.9.2025, 8:34:44 - INFO - attachLoggedinUser -> cookies: | {}
+7.9.2025, 8:34:44 - INFO - attachLoggedinUser -> cookies: | {"loginToken":"a00aa4c8ea5bccf9fcbd273e5b7479f4ecce2b554cd3894063d1a52dfa65034f4e8169679e59ed5791115d048baff200736760d47223789b27f8cd0f3aadb08ec9476b566287b2bc4c42dc961ca725ca3b8880c5b5b43a166be3b049fa94df0905b6470779a5a30ffa973ad15c5e8a41ae6ea7619ba0d4a1c0f9e69143fb654de1d6452c8f28ec52f2c673f5695cb69a872babe685c852d20218cb464405e4f5c6ef8985ccae3e5baf5c6227ec2efdf12ec6fc83730dc709"}
+7.9.2025, 8:34:44 - INFO - attachLoggedinUser -> user from token: | {"_id":"68b84574dbf14012587e7d1b","fullname":"Alon Ben Ari","isAdmin":null,"email":null}
+7.9.2025, 8:34:44 - INFO - db.service -> getting collection: | order
+7.9.2025, 8:34:44 - INFO - getOrders -> req.query: | {"hostId":"68b84574dbf14012587e7d1b","userId":"","guestId":"","status":""}
+7.9.2025, 8:34:44 - INFO - db.service -> using existing connection
+7.9.2025, 8:34:44 - INFO - db.service -> collection obtained successfully: | order
+7.9.2025, 8:34:48 - INFO - attachLoggedinUser -> cookies: | {}
+7.9.2025, 8:34:48 - INFO - attachLoggedinUser -> cookies: | {"loginToken":"3199a3de1ff928c99637c2ce4daea3286304060eb040ce80eb5052720bdb349e338de073bb1d14c65533287f82125cf94c4481e1b892678c8326ab4c58835dfbd28b67800eb1c5d0fa99f10cbd815f8a7917c9e886a7fd82a71b352af1873469eff47964fb3fb73532e997026ab35bf3e010a7631ae53fdb961744c7c698f83583702c902205048b63e681b4650c2bac425eeb276b7efeccd7e97a48a4ce30d1eb9a46aabee7bac0335e0b87c1e4124a4ba635838a867cccca0f6dfef9481dfca9330c4a22"}
+7.9.2025, 8:34:48 - INFO - attachLoggedinUser -> user from token: | {"_id":"68b98d013ce285bfed886a78","fullname":"Sarah Elizabeth","isAdmin":false,"email":"a@gamil.com"}
+7.9.2025, 8:34:48 - INFO - db.service -> getting collection: | stay
+7.9.2025, 8:34:48 - INFO - /api/stay | GET | {} | {}
+7.9.2025, 8:34:48 - INFO - db.service -> using existing connection
+7.9.2025, 8:34:48 - INFO - db.service -> collection obtained successfully: | stay
+7.9.2025, 8:34:50 - INFO - attachLoggedinUser -> cookies: | {"loginToken":"3199a3de1ff928c99637c2ce4daea3286304060eb040ce80eb5052720bdb349e338de073bb1d14c65533287f82125cf94c4481e1b892678c8326ab4c58835dfbd28b67800eb1c5d0fa99f10cbd815f8a7917c9e886a7fd82a71b352af1873469eff47964fb3fb73532e997026ab35bf3e010a7631ae53fdb961744c7c698f83583702c902205048b63e681b4650c2bac425eeb276b7efeccd7e97a48a4ce30d1eb9a46aabee7bac0335e0b87c1e4124a4ba635838a867cccca0f6dfef9481dfca9330c4a22"}
+7.9.2025, 8:34:50 - INFO - attachLoggedinUser -> user from token: | {"_id":"68b98d013ce285bfed886a78","fullname":"Sarah Elizabeth","isAdmin":false,"email":"a@gamil.com"}
+7.9.2025, 8:35:17 - INFO - attachLoggedinUser -> cookies: | {}
+7.9.2025, 8:35:17 - INFO - attachLoggedinUser -> cookies: | {}
+7.9.2025, 8:35:17 - DEBUG - auth.service - login with username: Emily Grace
+7.9.2025, 8:35:17 - INFO - db.service -> collection obtained successfully: | user
+7.9.2025, 8:35:17 - INFO - db.service -> using existing connection
+7.9.2025, 8:35:17 - INFO - db.service -> getting collection: | user
+7.9.2025, 8:35:18 - INFO - User login:  | {"_id":"68b992793ce285bfed886a7a","username":"Emily Grace","fullname":"Emily Grace","imgUrl":"https://res.cloudinary.com/vanilla-test-images/image/upload/v1756992096/e9ocu2khagxmgrk6xwyg.avif","isAdmin":false,"email":"a@gamil.com"}
+7.9.2025, 8:35:18 - INFO - attachLoggedinUser -> cookies: | {}
+7.9.2025, 8:35:18 - INFO - attachLoggedinUser -> cookies: | {"loginToken":"2b50fc43a0fe0856a511bc885079d6139c79d646d963254d0f5fbd9b4761d61049149c632057ecacf99f28bc49775a642ed5976ef9c47b4dcee67b5b5e48a2209b6e982419800200068683477996dc010cf7aa14a4454071e54b592c6ea2b2665436805034d012a1afb56401c17da198190909c9b2714e1cbc84193b436e0a6cff1046750efe1f3d86caa8650d8c491497de3def6477fe6ad9f259ebb300bff85ba4f4159a2c1f7c169837c53f47ed02b961572959b296e0d3b6d51998c8df7766"}
+7.9.2025, 8:35:18 - INFO - db.service -> getting collection: | stay
+7.9.2025, 8:35:18 - INFO - attachLoggedinUser -> user from token: | {"_id":"68b992793ce285bfed886a7a","fullname":"Emily Grace","isAdmin":false,"email":"a@gamil.com"}
+7.9.2025, 8:35:18 - INFO - /api/stay | GET | {} | {}
+7.9.2025, 8:35:18 - INFO - db.service -> using existing connection
+7.9.2025, 8:35:18 - INFO - db.service -> collection obtained successfully: | stay
+7.9.2025, 8:35:27 - INFO - attachLoggedinUser -> cookies: | {}
+7.9.2025, 8:35:27 - INFO - attachLoggedinUser -> cookies: | {"loginToken":"2b50fc43a0fe0856a511bc885079d6139c79d646d963254d0f5fbd9b4761d61049149c632057ecacf99f28bc49775a642ed5976ef9c47b4dcee67b5b5e48a2209b6e982419800200068683477996dc010cf7aa14a4454071e54b592c6ea2b2665436805034d012a1afb56401c17da198190909c9b2714e1cbc84193b436e0a6cff1046750efe1f3d86caa8650d8c491497de3def6477fe6ad9f259ebb300bff85ba4f4159a2c1f7c169837c53f47ed02b961572959b296e0d3b6d51998c8df7766"}
+7.9.2025, 8:35:27 - INFO - attachLoggedinUser -> user from token: | {"_id":"68b992793ce285bfed886a7a","fullname":"Emily Grace","isAdmin":false,"email":"a@gamil.com"}
+7.9.2025, 8:35:27 - INFO - db.service -> using existing connection
+7.9.2025, 8:35:27 - INFO - db.service -> getting collection: | stay
+7.9.2025, 8:35:27 - INFO - /api/stay | GET | {} | {}
+7.9.2025, 8:35:27 - INFO - db.service -> collection obtained successfully: | stay
+7.9.2025, 8:35:35 - INFO - attachLoggedinUser -> cookies: | {}
+7.9.2025, 8:35:35 - INFO - attachLoggedinUser -> cookies: | {"loginToken":"2b50fc43a0fe0856a511bc885079d6139c79d646d963254d0f5fbd9b4761d61049149c632057ecacf99f28bc49775a642ed5976ef9c47b4dcee67b5b5e48a2209b6e982419800200068683477996dc010cf7aa14a4454071e54b592c6ea2b2665436805034d012a1afb56401c17da198190909c9b2714e1cbc84193b436e0a6cff1046750efe1f3d86caa8650d8c491497de3def6477fe6ad9f259ebb300bff85ba4f4159a2c1f7c169837c53f47ed02b961572959b296e0d3b6d51998c8df7766"}
+7.9.2025, 8:35:35 - INFO - attachLoggedinUser -> user from token: | {"_id":"68b992793ce285bfed886a7a","fullname":"Emily Grace","isAdmin":false,"email":"a@gamil.com"}
+7.9.2025, 8:35:35 - INFO - db.service -> getting collection: | stay
+7.9.2025, 8:35:35 - INFO - /api/stay | GET | {} | {}
+7.9.2025, 8:35:35 - INFO - db.service -> using existing connection
+7.9.2025, 8:35:35 - INFO - db.service -> collection obtained successfully: | stay
+7.9.2025, 8:35:44 - INFO - attachLoggedinUser -> cookies: | {"loginToken":"2b50fc43a0fe0856a511bc885079d6139c79d646d963254d0f5fbd9b4761d61049149c632057ecacf99f28bc49775a642ed5976ef9c47b4dcee67b5b5e48a2209b6e982419800200068683477996dc010cf7aa14a4454071e54b592c6ea2b2665436805034d012a1afb56401c17da198190909c9b2714e1cbc84193b436e0a6cff1046750efe1f3d86caa8650d8c491497de3def6477fe6ad9f259ebb300bff85ba4f4159a2c1f7c169837c53f47ed02b961572959b296e0d3b6d51998c8df7766"}
+7.9.2025, 8:35:44 - INFO - /api/stay | GET | {} | {"id":"6738ca4cae769d402b653c7e"}
+7.9.2025, 8:35:44 - INFO - attachLoggedinUser -> user from token: | {"_id":"68b992793ce285bfed886a7a","fullname":"Emily Grace","isAdmin":false,"email":"a@gamil.com"}
+7.9.2025, 8:35:44 - INFO - db.service -> collection obtained successfully: | stay
+7.9.2025, 8:35:44 - INFO - db.service -> using existing connection
+7.9.2025, 8:35:44 - INFO - db.service -> getting collection: | stay
+7.9.2025, 8:36:39 - INFO - attachLoggedinUser -> cookies: | {"loginToken":"2b50fc43a0fe0856a511bc885079d6139c79d646d963254d0f5fbd9b4761d61049149c632057ecacf99f28bc49775a642ed5976ef9c47b4dcee67b5b5e48a2209b6e982419800200068683477996dc010cf7aa14a4454071e54b592c6ea2b2665436805034d012a1afb56401c17da198190909c9b2714e1cbc84193b436e0a6cff1046750efe1f3d86caa8650d8c491497de3def6477fe6ad9f259ebb300bff85ba4f4159a2c1f7c169837c53f47ed02b961572959b296e0d3b6d51998c8df7766"}
+7.9.2025, 8:36:39 - INFO - attachLoggedinUser -> user from token: | {"_id":"68b992793ce285bfed886a7a","fullname":"Emily Grace","isAdmin":false,"email":"a@gamil.com"}
+7.9.2025, 8:36:39 - INFO - /api/stay | GET | {} | {"id":"6738ca4cae769d402b653c7e"}
+7.9.2025, 8:36:39 - INFO - db.service -> using existing connection
+7.9.2025, 8:36:39 - INFO - db.service -> getting collection: | stay
+7.9.2025, 8:36:39 - INFO - db.service -> collection obtained successfully: | stay
+7.9.2025, 8:36:41 - INFO - attachLoggedinUser -> cookies: | {}
+7.9.2025, 8:36:41 - INFO - attachLoggedinUser -> cookies: | {"loginToken":"2b50fc43a0fe0856a511bc885079d6139c79d646d963254d0f5fbd9b4761d61049149c632057ecacf99f28bc49775a642ed5976ef9c47b4dcee67b5b5e48a2209b6e982419800200068683477996dc010cf7aa14a4454071e54b592c6ea2b2665436805034d012a1afb56401c17da198190909c9b2714e1cbc84193b436e0a6cff1046750efe1f3d86caa8650d8c491497de3def6477fe6ad9f259ebb300bff85ba4f4159a2c1f7c169837c53f47ed02b961572959b296e0d3b6d51998c8df7766"}
+7.9.2025, 8:36:41 - INFO - attachLoggedinUser -> user from token: | {"_id":"68b992793ce285bfed886a7a","fullname":"Emily Grace","isAdmin":false,"email":"a@gamil.com"}
+7.9.2025, 8:36:41 - INFO - db.service -> using existing connection
+7.9.2025, 8:36:41 - INFO - db.service -> getting collection: | order
+7.9.2025, 8:36:41 - INFO - requireAuth -> authenticated user: | {"_id":"68b992793ce285bfed886a7a","fullname":"Emily Grace","isAdmin":false,"email":"a@gamil.com"}
+7.9.2025, 8:36:41 - INFO - db.service -> collection obtained successfully: | order
+7.9.2025, 8:36:41 - INFO - attachLoggedinUser -> cookies: | {"loginToken":"2b50fc43a0fe0856a511bc885079d6139c79d646d963254d0f5fbd9b4761d61049149c632057ecacf99f28bc49775a642ed5976ef9c47b4dcee67b5b5e48a2209b6e982419800200068683477996dc010cf7aa14a4454071e54b592c6ea2b2665436805034d012a1afb56401c17da198190909c9b2714e1cbc84193b436e0a6cff1046750efe1f3d86caa8650d8c491497de3def6477fe6ad9f259ebb300bff85ba4f4159a2c1f7c169837c53f47ed02b961572959b296e0d3b6d51998c8df7766"}
+7.9.2025, 8:36:41 - INFO - db.service -> getting collection: | order
+7.9.2025, 8:36:41 - INFO - attachLoggedinUser -> user from token: | {"_id":"68b992793ce285bfed886a7a","fullname":"Emily Grace","isAdmin":false,"email":"a@gamil.com"}
+7.9.2025, 8:36:41 - INFO - db.service -> collection obtained successfully: | order
+7.9.2025, 8:36:41 - INFO - db.service -> using existing connection
+7.9.2025, 8:36:42 - INFO - attachLoggedinUser -> cookies: | {}
+7.9.2025, 8:36:42 - INFO - attachLoggedinUser -> cookies: | {"loginToken":"2b50fc43a0fe0856a511bc885079d6139c79d646d963254d0f5fbd9b4761d61049149c632057ecacf99f28bc49775a642ed5976ef9c47b4dcee67b5b5e48a2209b6e982419800200068683477996dc010cf7aa14a4454071e54b592c6ea2b2665436805034d012a1afb56401c17da198190909c9b2714e1cbc84193b436e0a6cff1046750efe1f3d86caa8650d8c491497de3def6477fe6ad9f259ebb300bff85ba4f4159a2c1f7c169837c53f47ed02b961572959b296e0d3b6d51998c8df7766"}
+7.9.2025, 8:36:42 - INFO - attachLoggedinUser -> user from token: | {"_id":"68b992793ce285bfed886a7a","fullname":"Emily Grace","isAdmin":false,"email":"a@gamil.com"}
+7.9.2025, 8:36:42 - INFO - getOrders -> req.query: | {"hostId":"","userId":"68b992793ce285bfed886a7a","guestId":"","status":""}
+7.9.2025, 8:36:42 - INFO - db.service -> collection obtained successfully: | order
+7.9.2025, 8:36:42 - INFO - db.service -> using existing connection
+7.9.2025, 8:36:42 - INFO - db.service -> getting collection: | order
+7.9.2025, 8:36:45 - INFO - attachLoggedinUser -> cookies: | {}
+7.9.2025, 8:36:45 - INFO - attachLoggedinUser -> cookies: | {"loginToken":"a00aa4c8ea5bccf9fcbd273e5b7479f4ecce2b554cd3894063d1a52dfa65034f4e8169679e59ed5791115d048baff200736760d47223789b27f8cd0f3aadb08ec9476b566287b2bc4c42dc961ca725ca3b8880c5b5b43a166be3b049fa94df0905b6470779a5a30ffa973ad15c5e8a41ae6ea7619ba0d4a1c0f9e69143fb654de1d6452c8f28ec52f2c673f5695cb69a872babe685c852d20218cb464405e4f5c6ef8985ccae3e5baf5c6227ec2efdf12ec6fc83730dc709"}
+7.9.2025, 8:36:45 - INFO - getOrders -> req.query: | {"hostId":"68b84574dbf14012587e7d1b","userId":"","guestId":"","status":""}
+7.9.2025, 8:36:45 - INFO - attachLoggedinUser -> user from token: | {"_id":"68b84574dbf14012587e7d1b","fullname":"Alon Ben Ari","isAdmin":null,"email":null}
+7.9.2025, 8:36:45 - INFO - db.service -> using existing connection
+7.9.2025, 8:36:45 - INFO - db.service -> getting collection: | order
+7.9.2025, 8:36:45 - INFO - db.service -> collection obtained successfully: | order
+7.9.2025, 8:36:49 - INFO - attachLoggedinUser -> cookies: | {}
+7.9.2025, 8:36:49 - INFO - attachLoggedinUser -> cookies: | {"loginToken":"2b50fc43a0fe0856a511bc885079d6139c79d646d963254d0f5fbd9b4761d61049149c632057ecacf99f28bc49775a642ed5976ef9c47b4dcee67b5b5e48a2209b6e982419800200068683477996dc010cf7aa14a4454071e54b592c6ea2b2665436805034d012a1afb56401c17da198190909c9b2714e1cbc84193b436e0a6cff1046750efe1f3d86caa8650d8c491497de3def6477fe6ad9f259ebb300bff85ba4f4159a2c1f7c169837c53f47ed02b961572959b296e0d3b6d51998c8df7766"}
+7.9.2025, 8:36:49 - INFO - attachLoggedinUser -> user from token: | {"_id":"68b992793ce285bfed886a7a","fullname":"Emily Grace","isAdmin":false,"email":"a@gamil.com"}
+7.9.2025, 8:36:49 - INFO - /api/stay | GET | {} | {}
+7.9.2025, 8:36:49 - INFO - db.service -> getting collection: | stay
+7.9.2025, 8:36:49 - INFO - db.service -> using existing connection
+7.9.2025, 8:36:49 - INFO - db.service -> collection obtained successfully: | stay
+7.9.2025, 8:36:52 - INFO - attachLoggedinUser -> cookies: | {}
+7.9.2025, 8:36:52 - INFO - attachLoggedinUser -> cookies: | {"loginToken":"2b50fc43a0fe0856a511bc885079d6139c79d646d963254d0f5fbd9b4761d61049149c632057ecacf99f28bc49775a642ed5976ef9c47b4dcee67b5b5e48a2209b6e982419800200068683477996dc010cf7aa14a4454071e54b592c6ea2b2665436805034d012a1afb56401c17da198190909c9b2714e1cbc84193b436e0a6cff1046750efe1f3d86caa8650d8c491497de3def6477fe6ad9f259ebb300bff85ba4f4159a2c1f7c169837c53f47ed02b961572959b296e0d3b6d51998c8df7766"}
+7.9.2025, 8:36:52 - INFO - attachLoggedinUser -> user from token: | {"_id":"68b992793ce285bfed886a7a","fullname":"Emily Grace","isAdmin":false,"email":"a@gamil.com"}
+7.9.2025, 8:36:52 - INFO - db.service -> using existing connection
+7.9.2025, 8:36:52 - INFO - db.service -> getting collection: | stay
+7.9.2025, 8:36:52 - INFO - db.service -> collection obtained successfully: | stay
+7.9.2025, 8:36:52 - INFO - /api/stay | GET | {} | {}
+7.9.2025, 8:36:53 - INFO - attachLoggedinUser -> cookies: | {"loginToken":"2b50fc43a0fe0856a511bc885079d6139c79d646d963254d0f5fbd9b4761d61049149c632057ecacf99f28bc49775a642ed5976ef9c47b4dcee67b5b5e48a2209b6e982419800200068683477996dc010cf7aa14a4454071e54b592c6ea2b2665436805034d012a1afb56401c17da198190909c9b2714e1cbc84193b436e0a6cff1046750efe1f3d86caa8650d8c491497de3def6477fe6ad9f259ebb300bff85ba4f4159a2c1f7c169837c53f47ed02b961572959b296e0d3b6d51998c8df7766"}
+7.9.2025, 8:36:53 - INFO - attachLoggedinUser -> user from token: | {"_id":"68b992793ce285bfed886a7a","fullname":"Emily Grace","isAdmin":false,"email":"a@gamil.com"}
+7.9.2025, 8:36:55 - INFO - attachLoggedinUser -> cookies: | {}
+7.9.2025, 8:36:55 - INFO - /api/stay | GET | {} | {}
+7.9.2025, 8:36:55 - INFO - db.service -> getting collection: | stay
+7.9.2025, 8:36:55 - INFO - db.service -> using existing connection
+7.9.2025, 8:36:55 - INFO - db.service -> collection obtained successfully: | stay
+7.9.2025, 8:37:09 - INFO - attachLoggedinUser -> cookies: | {}
+7.9.2025, 8:37:09 - DEBUG - auth.service - login with username: James Michael
+7.9.2025, 8:37:09 - INFO - db.service -> using existing connection
+7.9.2025, 8:37:09 - INFO - db.service -> collection obtained successfully: | user
+7.9.2025, 8:37:09 - INFO - db.service -> getting collection: | user
+7.9.2025, 8:37:09 - INFO - attachLoggedinUser -> cookies: | {}
+7.9.2025, 8:37:09 - INFO - User login:  | {"_id":"68b993c53ce285bfed886a7d","username":"James Michael","fullname":"James Michael","imgUrl":"https://res.cloudinary.com/vanilla-test-images/image/upload/v1756992441/z0oix091ipytvvhapwur.avif","isAdmin":false,"email":"a@gamil.com"}
+7.9.2025, 8:37:09 - INFO - attachLoggedinUser -> cookies: | {}
+7.9.2025, 8:37:09 - INFO - attachLoggedinUser -> cookies: | {"loginToken":"a94b1bc0e75c6cce518373727649a97a85052a326249eb5ad634ae5e1c84a02d6c1790aeec5dc23a7edf9eb177d684efd1e63f77f9b624430d6776c50c1be3cfa8fbddd924894fc933689f53795d763a3190e1c0295aabf523b66fdfa1279f06397ddc4260f7624469b274f0a5a6526284ea0c078ff56505f3981b2b0aa107c4441992a2d7e1733b707fe28961223108548c888c5b60a656faf3de2cd2f35d508852659010c9e8eafbaa402c930c8770fe9d7e80d8e6f8bed7686147902b399c2cc45b"}
+7.9.2025, 8:37:09 - INFO - attachLoggedinUser -> user from token: | {"_id":"68b993c53ce285bfed886a7d","fullname":"James Michael","isAdmin":false,"email":"a@gamil.com"}
+7.9.2025, 8:37:09 - INFO - /api/stay | GET | {} | {}
+7.9.2025, 8:37:09 - INFO - db.service -> getting collection: | stay
+7.9.2025, 8:37:09 - INFO - db.service -> using existing connection
+7.9.2025, 8:37:09 - INFO - db.service -> collection obtained successfully: | stay
+7.9.2025, 8:37:24 - INFO - attachLoggedinUser -> cookies: | {}
+7.9.2025, 8:37:24 - INFO - attachLoggedinUser -> cookies: | {"loginToken":"a94b1bc0e75c6cce518373727649a97a85052a326249eb5ad634ae5e1c84a02d6c1790aeec5dc23a7edf9eb177d684efd1e63f77f9b624430d6776c50c1be3cfa8fbddd924894fc933689f53795d763a3190e1c0295aabf523b66fdfa1279f06397ddc4260f7624469b274f0a5a6526284ea0c078ff56505f3981b2b0aa107c4441992a2d7e1733b707fe28961223108548c888c5b60a656faf3de2cd2f35d508852659010c9e8eafbaa402c930c8770fe9d7e80d8e6f8bed7686147902b399c2cc45b"}
+7.9.2025, 8:37:24 - INFO - attachLoggedinUser -> user from token: | {"_id":"68b993c53ce285bfed886a7d","fullname":"James Michael","isAdmin":false,"email":"a@gamil.com"}
+7.9.2025, 8:37:24 - INFO - db.service -> getting collection: | stay
+7.9.2025, 8:37:24 - INFO - db.service -> collection obtained successfully: | stay
+7.9.2025, 8:37:24 - INFO - db.service -> using existing connection
+7.9.2025, 8:37:24 - INFO - /api/stay | GET | {} | {}
+7.9.2025, 8:37:28 - INFO - attachLoggedinUser -> cookies: | {"loginToken":"a94b1bc0e75c6cce518373727649a97a85052a326249eb5ad634ae5e1c84a02d6c1790aeec5dc23a7edf9eb177d684efd1e63f77f9b624430d6776c50c1be3cfa8fbddd924894fc933689f53795d763a3190e1c0295aabf523b66fdfa1279f06397ddc4260f7624469b274f0a5a6526284ea0c078ff56505f3981b2b0aa107c4441992a2d7e1733b707fe28961223108548c888c5b60a656faf3de2cd2f35d508852659010c9e8eafbaa402c930c8770fe9d7e80d8e6f8bed7686147902b399c2cc45b"}
+7.9.2025, 8:37:28 - INFO - attachLoggedinUser -> user from token: | {"_id":"68b993c53ce285bfed886a7d","fullname":"James Michael","isAdmin":false,"email":"a@gamil.com"}
+7.9.2025, 8:37:28 - INFO - /api/stay | GET | {} | {"id":"6738ca4cae769d402b653c7b"}
+7.9.2025, 8:37:28 - INFO - db.service -> getting collection: | stay
+7.9.2025, 8:37:28 - INFO - db.service -> using existing connection
+7.9.2025, 8:37:28 - INFO - db.service -> collection obtained successfully: | stay
+7.9.2025, 8:37:39 - INFO - attachLoggedinUser -> cookies: | {}
+7.9.2025, 8:37:39 - INFO - attachLoggedinUser -> cookies: | {"loginToken":"a94b1bc0e75c6cce518373727649a97a85052a326249eb5ad634ae5e1c84a02d6c1790aeec5dc23a7edf9eb177d684efd1e63f77f9b624430d6776c50c1be3cfa8fbddd924894fc933689f53795d763a3190e1c0295aabf523b66fdfa1279f06397ddc4260f7624469b274f0a5a6526284ea0c078ff56505f3981b2b0aa107c4441992a2d7e1733b707fe28961223108548c888c5b60a656faf3de2cd2f35d508852659010c9e8eafbaa402c930c8770fe9d7e80d8e6f8bed7686147902b399c2cc45b"}
+7.9.2025, 8:37:40 - INFO - attachLoggedinUser -> user from token: | {"_id":"68b993c53ce285bfed886a7d","fullname":"James Michael","isAdmin":false,"email":"a@gamil.com"}
+7.9.2025, 8:37:40 - INFO - /api/stay | GET | {} | {}
+7.9.2025, 8:37:40 - INFO - db.service -> getting collection: | stay
+7.9.2025, 8:37:40 - INFO - db.service -> using existing connection
+7.9.2025, 8:37:40 - INFO - db.service -> collection obtained successfully: | stay
+7.9.2025, 8:37:42 - INFO - attachLoggedinUser -> cookies: | {"loginToken":"a94b1bc0e75c6cce518373727649a97a85052a326249eb5ad634ae5e1c84a02d6c1790aeec5dc23a7edf9eb177d684efd1e63f77f9b624430d6776c50c1be3cfa8fbddd924894fc933689f53795d763a3190e1c0295aabf523b66fdfa1279f06397ddc4260f7624469b274f0a5a6526284ea0c078ff56505f3981b2b0aa107c4441992a2d7e1733b707fe28961223108548c888c5b60a656faf3de2cd2f35d508852659010c9e8eafbaa402c930c8770fe9d7e80d8e6f8bed7686147902b399c2cc45b"}
+7.9.2025, 8:37:42 - INFO - attachLoggedinUser -> user from token: | {"_id":"68b993c53ce285bfed886a7d","fullname":"James Michael","isAdmin":false,"email":"a@gamil.com"}
+7.9.2025, 8:37:42 - INFO - db.service -> using existing connection
+7.9.2025, 8:37:42 - INFO - db.service -> collection obtained successfully: | stay
+7.9.2025, 8:37:42 - INFO - /api/stay | GET | {} | {"id":"6738ca4cae769d402b653c76"}
+7.9.2025, 8:37:42 - INFO - db.service -> getting collection: | stay
+7.9.2025, 8:37:44 - INFO - attachLoggedinUser -> user from token: | {"_id":"68b993c53ce285bfed886a7d","fullname":"James Michael","isAdmin":false,"email":"a@gamil.com"}
+7.9.2025, 8:37:44 - INFO - attachLoggedinUser -> cookies: | {"loginToken":"a94b1bc0e75c6cce518373727649a97a85052a326249eb5ad634ae5e1c84a02d6c1790aeec5dc23a7edf9eb177d684efd1e63f77f9b624430d6776c50c1be3cfa8fbddd924894fc933689f53795d763a3190e1c0295aabf523b66fdfa1279f06397ddc4260f7624469b274f0a5a6526284ea0c078ff56505f3981b2b0aa107c4441992a2d7e1733b707fe28961223108548c888c5b60a656faf3de2cd2f35d508852659010c9e8eafbaa402c930c8770fe9d7e80d8e6f8bed7686147902b399c2cc45b"}
+7.9.2025, 8:37:44 - INFO - db.service -> getting collection: | stay
+7.9.2025, 8:37:44 - INFO - /api/stay | GET | {} | {"id":"6738ca4cae769d402b653c76"}
+7.9.2025, 8:37:44 - INFO - db.service -> using existing connection
+7.9.2025, 8:37:44 - INFO - db.service -> collection obtained successfully: | stay
+7.9.2025, 8:37:45 - INFO - attachLoggedinUser -> cookies: | {}
+7.9.2025, 8:37:45 - INFO - attachLoggedinUser -> cookies: | {"loginToken":"a94b1bc0e75c6cce518373727649a97a85052a326249eb5ad634ae5e1c84a02d6c1790aeec5dc23a7edf9eb177d684efd1e63f77f9b624430d6776c50c1be3cfa8fbddd924894fc933689f53795d763a3190e1c0295aabf523b66fdfa1279f06397ddc4260f7624469b274f0a5a6526284ea0c078ff56505f3981b2b0aa107c4441992a2d7e1733b707fe28961223108548c888c5b60a656faf3de2cd2f35d508852659010c9e8eafbaa402c930c8770fe9d7e80d8e6f8bed7686147902b399c2cc45b"}
+7.9.2025, 8:37:45 - INFO - attachLoggedinUser -> user from token: | {"_id":"68b993c53ce285bfed886a7d","fullname":"James Michael","isAdmin":false,"email":"a@gamil.com"}
+7.9.2025, 8:37:46 - INFO - requireAuth -> authenticated user: | {"_id":"68b993c53ce285bfed886a7d","fullname":"James Michael","isAdmin":false,"email":"a@gamil.com"}
+7.9.2025, 8:37:46 - INFO - db.service -> collection obtained successfully: | order
+7.9.2025, 8:37:46 - INFO - db.service -> getting collection: | order
+7.9.2025, 8:37:46 - INFO - db.service -> using existing connection
+7.9.2025, 8:37:46 - INFO - attachLoggedinUser -> cookies: | {"loginToken":"a94b1bc0e75c6cce518373727649a97a85052a326249eb5ad634ae5e1c84a02d6c1790aeec5dc23a7edf9eb177d684efd1e63f77f9b624430d6776c50c1be3cfa8fbddd924894fc933689f53795d763a3190e1c0295aabf523b66fdfa1279f06397ddc4260f7624469b274f0a5a6526284ea0c078ff56505f3981b2b0aa107c4441992a2d7e1733b707fe28961223108548c888c5b60a656faf3de2cd2f35d508852659010c9e8eafbaa402c930c8770fe9d7e80d8e6f8bed7686147902b399c2cc45b"}
+7.9.2025, 8:37:46 - INFO - attachLoggedinUser -> user from token: | {"_id":"68b993c53ce285bfed886a7d","fullname":"James Michael","isAdmin":false,"email":"a@gamil.com"}
+7.9.2025, 8:37:46 - INFO - db.service -> getting collection: | order
+7.9.2025, 8:37:46 - INFO - db.service -> using existing connection
+7.9.2025, 8:37:46 - INFO - db.service -> collection obtained successfully: | order
+7.9.2025, 8:37:47 - INFO - attachLoggedinUser -> cookies: | {}
+7.9.2025, 8:37:47 - INFO - attachLoggedinUser -> cookies: | {"loginToken":"a94b1bc0e75c6cce518373727649a97a85052a326249eb5ad634ae5e1c84a02d6c1790aeec5dc23a7edf9eb177d684efd1e63f77f9b624430d6776c50c1be3cfa8fbddd924894fc933689f53795d763a3190e1c0295aabf523b66fdfa1279f06397ddc4260f7624469b274f0a5a6526284ea0c078ff56505f3981b2b0aa107c4441992a2d7e1733b707fe28961223108548c888c5b60a656faf3de2cd2f35d508852659010c9e8eafbaa402c930c8770fe9d7e80d8e6f8bed7686147902b399c2cc45b"}
+7.9.2025, 8:37:47 - INFO - attachLoggedinUser -> user from token: | {"_id":"68b993c53ce285bfed886a7d","fullname":"James Michael","isAdmin":false,"email":"a@gamil.com"}
+7.9.2025, 8:37:47 - INFO - getOrders -> req.query: | {"hostId":"","userId":"68b993c53ce285bfed886a7d","guestId":"","status":""}
+7.9.2025, 8:37:47 - INFO - db.service -> getting collection: | order
+7.9.2025, 8:37:47 - INFO - db.service -> using existing connection
+7.9.2025, 8:37:47 - INFO - db.service -> collection obtained successfully: | order
+7.9.2025, 8:37:49 - INFO - attachLoggedinUser -> cookies: | {}
+7.9.2025, 8:37:49 - INFO - attachLoggedinUser -> cookies: | {"loginToken":"a00aa4c8ea5bccf9fcbd273e5b7479f4ecce2b554cd3894063d1a52dfa65034f4e8169679e59ed5791115d048baff200736760d47223789b27f8cd0f3aadb08ec9476b566287b2bc4c42dc961ca725ca3b8880c5b5b43a166be3b049fa94df0905b6470779a5a30ffa973ad15c5e8a41ae6ea7619ba0d4a1c0f9e69143fb654de1d6452c8f28ec52f2c673f5695cb69a872babe685c852d20218cb464405e4f5c6ef8985ccae3e5baf5c6227ec2efdf12ec6fc83730dc709"}
+7.9.2025, 8:37:49 - INFO - attachLoggedinUser -> user from token: | {"_id":"68b84574dbf14012587e7d1b","fullname":"Alon Ben Ari","isAdmin":null,"email":null}
+7.9.2025, 8:37:49 - INFO - getOrders -> req.query: | {"hostId":"68b84574dbf14012587e7d1b","userId":"","guestId":"","status":""}
+7.9.2025, 8:37:49 - INFO - db.service -> using existing connection
+7.9.2025, 8:37:49 - INFO - db.service -> collection obtained successfully: | order
+7.9.2025, 8:37:49 - INFO - db.service -> getting collection: | order
+7.9.2025, 8:38:02 - INFO - attachLoggedinUser -> cookies: | {}
+7.9.2025, 8:38:02 - INFO - attachLoggedinUser -> cookies: | {"loginToken":"a94b1bc0e75c6cce518373727649a97a85052a326249eb5ad634ae5e1c84a02d6c1790aeec5dc23a7edf9eb177d684efd1e63f77f9b624430d6776c50c1be3cfa8fbddd924894fc933689f53795d763a3190e1c0295aabf523b66fdfa1279f06397ddc4260f7624469b274f0a5a6526284ea0c078ff56505f3981b2b0aa107c4441992a2d7e1733b707fe28961223108548c888c5b60a656faf3de2cd2f35d508852659010c9e8eafbaa402c930c8770fe9d7e80d8e6f8bed7686147902b399c2cc45b"}
+7.9.2025, 8:38:03 - INFO - attachLoggedinUser -> user from token: | {"_id":"68b993c53ce285bfed886a7d","fullname":"James Michael","isAdmin":false,"email":"a@gamil.com"}
+7.9.2025, 8:38:03 - INFO - /api/stay | GET | {} | {}
+7.9.2025, 8:38:03 - INFO - db.service -> getting collection: | stay
+7.9.2025, 8:38:03 - INFO - db.service -> using existing connection
+7.9.2025, 8:38:03 - INFO - db.service -> collection obtained successfully: | stay
+7.9.2025, 8:38:04 - INFO - attachLoggedinUser -> cookies: | {"loginToken":"a94b1bc0e75c6cce518373727649a97a85052a326249eb5ad634ae5e1c84a02d6c1790aeec5dc23a7edf9eb177d684efd1e63f77f9b624430d6776c50c1be3cfa8fbddd924894fc933689f53795d763a3190e1c0295aabf523b66fdfa1279f06397ddc4260f7624469b274f0a5a6526284ea0c078ff56505f3981b2b0aa107c4441992a2d7e1733b707fe28961223108548c888c5b60a656faf3de2cd2f35d508852659010c9e8eafbaa402c930c8770fe9d7e80d8e6f8bed7686147902b399c2cc45b"}
+7.9.2025, 8:38:04 - INFO - attachLoggedinUser -> user from token: | {"_id":"68b993c53ce285bfed886a7d","fullname":"James Michael","isAdmin":false,"email":"a@gamil.com"}
+7.9.2025, 8:38:06 - INFO - attachLoggedinUser -> cookies: | {}
+7.9.2025, 8:38:06 - INFO - attachLoggedinUser -> cookies: | {}
+7.9.2025, 8:38:06 - INFO - /api/stay | GET | {} | {}
+7.9.2025, 8:38:06 - INFO - db.service -> getting collection: | stay
+7.9.2025, 8:38:06 - INFO - db.service -> using existing connection
+7.9.2025, 8:38:06 - INFO - db.service -> collection obtained successfully: | stay
+7.9.2025, 8:38:21 - INFO - attachLoggedinUser -> cookies: | {}
+7.9.2025, 8:38:21 - INFO - attachLoggedinUser -> cookies: | {}
+7.9.2025, 8:38:21 - DEBUG - auth.service - login with username: Olivia Rose
+7.9.2025, 8:38:21 - INFO - db.service -> collection obtained successfully: | user
+7.9.2025, 8:38:21 - INFO - db.service -> getting collection: | user
+7.9.2025, 8:38:21 - INFO - db.service -> using existing connection
+7.9.2025, 8:38:22 - INFO - User login:  | {"_id":"68b994063ce285bfed886a7f","username":"Olivia Rose","fullname":"Olivia Rose","imgUrl":"https://res.cloudinary.com/vanilla-test-images/image/upload/v1756992508/fanusu0q81nrp2ofegv8.avif","isAdmin":false,"email":"a@gamil.com"}
+7.9.2025, 8:38:22 - INFO - attachLoggedinUser -> cookies: | {}
+7.9.2025, 8:38:22 - INFO - attachLoggedinUser -> user from token: | {"_id":"68b994063ce285bfed886a7f","fullname":"Olivia Rose","isAdmin":false,"email":"a@gamil.com"}
+7.9.2025, 8:38:22 - INFO - attachLoggedinUser -> cookies: | {"loginToken":"b9cfc40dca777b03cff0ecae3ff36f061eb2e3c611e973887ad6a73d277f3a052d43971535b78b5331e6e2b3145fd82579f2edecc9bb2a58c37cbb29ac13a73c8d37a52c95a0bd44b453f2ac71f7f775985393b268789b04e3cc9804a7b4f4e8a3fb4dc46cd28d7f69a52919e76ee08d4130d9866a8705fcc77561cb60f147aab639cfd4408c33f2e8bf8a70fe0119969c258b3d81fc837c3550f3124c1d13f16ae356082c820e1c793975fdec1068df22b08cf61d240d48ad2482f18d43dca69c"}
+7.9.2025, 8:38:22 - INFO - /api/stay | GET | {} | {}
+7.9.2025, 8:38:22 - INFO - db.service -> getting collection: | stay
+7.9.2025, 8:38:22 - INFO - db.service -> using existing connection
+7.9.2025, 8:38:22 - INFO - db.service -> collection obtained successfully: | stay
+7.9.2025, 8:38:36 - INFO - attachLoggedinUser -> cookies: | {}
+7.9.2025, 8:38:36 - INFO - attachLoggedinUser -> cookies: | {"loginToken":"b9cfc40dca777b03cff0ecae3ff36f061eb2e3c611e973887ad6a73d277f3a052d43971535b78b5331e6e2b3145fd82579f2edecc9bb2a58c37cbb29ac13a73c8d37a52c95a0bd44b453f2ac71f7f775985393b268789b04e3cc9804a7b4f4e8a3fb4dc46cd28d7f69a52919e76ee08d4130d9866a8705fcc77561cb60f147aab639cfd4408c33f2e8bf8a70fe0119969c258b3d81fc837c3550f3124c1d13f16ae356082c820e1c793975fdec1068df22b08cf61d240d48ad2482f18d43dca69c"}
+7.9.2025, 8:38:36 - INFO - attachLoggedinUser -> user from token: | {"_id":"68b994063ce285bfed886a7f","fullname":"Olivia Rose","isAdmin":false,"email":"a@gamil.com"}
+7.9.2025, 8:38:36 - INFO - db.service -> using existing connection
+7.9.2025, 8:38:36 - INFO - db.service -> collection obtained successfully: | stay
+7.9.2025, 8:38:36 - INFO - /api/stay | GET | {} | {}
+7.9.2025, 8:38:36 - INFO - db.service -> getting collection: | stay
+7.9.2025, 8:38:46 - INFO - attachLoggedinUser -> cookies: | {"loginToken":"b9cfc40dca777b03cff0ecae3ff36f061eb2e3c611e973887ad6a73d277f3a052d43971535b78b5331e6e2b3145fd82579f2edecc9bb2a58c37cbb29ac13a73c8d37a52c95a0bd44b453f2ac71f7f775985393b268789b04e3cc9804a7b4f4e8a3fb4dc46cd28d7f69a52919e76ee08d4130d9866a8705fcc77561cb60f147aab639cfd4408c33f2e8bf8a70fe0119969c258b3d81fc837c3550f3124c1d13f16ae356082c820e1c793975fdec1068df22b08cf61d240d48ad2482f18d43dca69c"}
+7.9.2025, 8:38:46 - INFO - attachLoggedinUser -> user from token: | {"_id":"68b994063ce285bfed886a7f","fullname":"Olivia Rose","isAdmin":false,"email":"a@gamil.com"}
+7.9.2025, 8:38:46 - INFO - db.service -> using existing connection
+7.9.2025, 8:38:46 - INFO - /api/stay | GET | {} | {"id":"6738ca4cae769d402b653c8a"}
+7.9.2025, 8:38:46 - INFO - db.service -> collection obtained successfully: | stay
+7.9.2025, 8:38:46 - INFO - db.service -> getting collection: | stay
+7.9.2025, 8:38:48 - INFO - attachLoggedinUser -> cookies: | {"loginToken":"b9cfc40dca777b03cff0ecae3ff36f061eb2e3c611e973887ad6a73d277f3a052d43971535b78b5331e6e2b3145fd82579f2edecc9bb2a58c37cbb29ac13a73c8d37a52c95a0bd44b453f2ac71f7f775985393b268789b04e3cc9804a7b4f4e8a3fb4dc46cd28d7f69a52919e76ee08d4130d9866a8705fcc77561cb60f147aab639cfd4408c33f2e8bf8a70fe0119969c258b3d81fc837c3550f3124c1d13f16ae356082c820e1c793975fdec1068df22b08cf61d240d48ad2482f18d43dca69c"}
+7.9.2025, 8:38:48 - INFO - /api/stay | GET | {} | {"id":"6738ca4cae769d402b653c8a"}
+7.9.2025, 8:38:48 - INFO - db.service -> using existing connection
+7.9.2025, 8:38:48 - INFO - attachLoggedinUser -> user from token: | {"_id":"68b994063ce285bfed886a7f","fullname":"Olivia Rose","isAdmin":false,"email":"a@gamil.com"}
+7.9.2025, 8:38:48 - INFO - db.service -> getting collection: | stay
+7.9.2025, 8:38:48 - INFO - db.service -> collection obtained successfully: | stay
+7.9.2025, 8:38:50 - INFO - attachLoggedinUser -> cookies: | {}
+7.9.2025, 8:38:50 - INFO - attachLoggedinUser -> cookies: | {"loginToken":"b9cfc40dca777b03cff0ecae3ff36f061eb2e3c611e973887ad6a73d277f3a052d43971535b78b5331e6e2b3145fd82579f2edecc9bb2a58c37cbb29ac13a73c8d37a52c95a0bd44b453f2ac71f7f775985393b268789b04e3cc9804a7b4f4e8a3fb4dc46cd28d7f69a52919e76ee08d4130d9866a8705fcc77561cb60f147aab639cfd4408c33f2e8bf8a70fe0119969c258b3d81fc837c3550f3124c1d13f16ae356082c820e1c793975fdec1068df22b08cf61d240d48ad2482f18d43dca69c"}
+7.9.2025, 8:38:50 - INFO - db.service -> getting collection: | order
+7.9.2025, 8:38:50 - INFO - db.service -> using existing connection
+7.9.2025, 8:38:50 - INFO - attachLoggedinUser -> user from token: | {"_id":"68b994063ce285bfed886a7f","fullname":"Olivia Rose","isAdmin":false,"email":"a@gamil.com"}
+7.9.2025, 8:38:50 - INFO - db.service -> collection obtained successfully: | order
+7.9.2025, 8:38:50 - INFO - requireAuth -> authenticated user: | {"_id":"68b994063ce285bfed886a7f","fullname":"Olivia Rose","isAdmin":false,"email":"a@gamil.com"}
+7.9.2025, 8:38:50 - INFO - attachLoggedinUser -> cookies: | {"loginToken":"b9cfc40dca777b03cff0ecae3ff36f061eb2e3c611e973887ad6a73d277f3a052d43971535b78b5331e6e2b3145fd82579f2edecc9bb2a58c37cbb29ac13a73c8d37a52c95a0bd44b453f2ac71f7f775985393b268789b04e3cc9804a7b4f4e8a3fb4dc46cd28d7f69a52919e76ee08d4130d9866a8705fcc77561cb60f147aab639cfd4408c33f2e8bf8a70fe0119969c258b3d81fc837c3550f3124c1d13f16ae356082c820e1c793975fdec1068df22b08cf61d240d48ad2482f18d43dca69c"}
+7.9.2025, 8:38:50 - INFO - attachLoggedinUser -> user from token: | {"_id":"68b994063ce285bfed886a7f","fullname":"Olivia Rose","isAdmin":false,"email":"a@gamil.com"}
+7.9.2025, 8:38:50 - INFO - db.service -> getting collection: | order
+7.9.2025, 8:38:50 - INFO - db.service -> using existing connection
+7.9.2025, 8:38:50 - INFO - db.service -> collection obtained successfully: | order
+7.9.2025, 8:38:51 - INFO - attachLoggedinUser -> cookies: | {}
+7.9.2025, 8:38:51 - INFO - attachLoggedinUser -> cookies: | {"loginToken":"b9cfc40dca777b03cff0ecae3ff36f061eb2e3c611e973887ad6a73d277f3a052d43971535b78b5331e6e2b3145fd82579f2edecc9bb2a58c37cbb29ac13a73c8d37a52c95a0bd44b453f2ac71f7f775985393b268789b04e3cc9804a7b4f4e8a3fb4dc46cd28d7f69a52919e76ee08d4130d9866a8705fcc77561cb60f147aab639cfd4408c33f2e8bf8a70fe0119969c258b3d81fc837c3550f3124c1d13f16ae356082c820e1c793975fdec1068df22b08cf61d240d48ad2482f18d43dca69c"}
+7.9.2025, 8:38:51 - INFO - getOrders -> req.query: | {"hostId":"","userId":"68b994063ce285bfed886a7f","guestId":"","status":""}
+7.9.2025, 8:38:51 - INFO - attachLoggedinUser -> user from token: | {"_id":"68b994063ce285bfed886a7f","fullname":"Olivia Rose","isAdmin":false,"email":"a@gamil.com"}
+7.9.2025, 8:38:51 - INFO - db.service -> collection obtained successfully: | order
+7.9.2025, 8:38:51 - INFO - db.service -> using existing connection
+7.9.2025, 8:38:51 - INFO - db.service -> getting collection: | order
+7.9.2025, 8:38:54 - INFO - attachLoggedinUser -> cookies: | {}
+7.9.2025, 8:38:54 - INFO - attachLoggedinUser -> cookies: | {"loginToken":"a00aa4c8ea5bccf9fcbd273e5b7479f4ecce2b554cd3894063d1a52dfa65034f4e8169679e59ed5791115d048baff200736760d47223789b27f8cd0f3aadb08ec9476b566287b2bc4c42dc961ca725ca3b8880c5b5b43a166be3b049fa94df0905b6470779a5a30ffa973ad15c5e8a41ae6ea7619ba0d4a1c0f9e69143fb654de1d6452c8f28ec52f2c673f5695cb69a872babe685c852d20218cb464405e4f5c6ef8985ccae3e5baf5c6227ec2efdf12ec6fc83730dc709"}
+7.9.2025, 8:38:54 - INFO - attachLoggedinUser -> user from token: | {"_id":"68b84574dbf14012587e7d1b","fullname":"Alon Ben Ari","isAdmin":null,"email":null}
+7.9.2025, 8:38:54 - INFO - db.service -> using existing connection
+7.9.2025, 8:38:54 - INFO - db.service -> getting collection: | order
+7.9.2025, 8:38:54 - INFO - db.service -> collection obtained successfully: | order
+7.9.2025, 8:38:54 - INFO - getOrders -> req.query: | {"hostId":"68b84574dbf14012587e7d1b","userId":"","guestId":"","status":""}
+7.9.2025, 8:39:28 - INFO - attachLoggedinUser -> cookies: | {}
+7.9.2025, 8:39:28 - INFO - attachLoggedinUser -> cookies: | {"loginToken":"b9cfc40dca777b03cff0ecae3ff36f061eb2e3c611e973887ad6a73d277f3a052d43971535b78b5331e6e2b3145fd82579f2edecc9bb2a58c37cbb29ac13a73c8d37a52c95a0bd44b453f2ac71f7f775985393b268789b04e3cc9804a7b4f4e8a3fb4dc46cd28d7f69a52919e76ee08d4130d9866a8705fcc77561cb60f147aab639cfd4408c33f2e8bf8a70fe0119969c258b3d81fc837c3550f3124c1d13f16ae356082c820e1c793975fdec1068df22b08cf61d240d48ad2482f18d43dca69c"}
+7.9.2025, 8:39:28 - INFO - attachLoggedinUser -> user from token: | {"_id":"68b994063ce285bfed886a7f","fullname":"Olivia Rose","isAdmin":false,"email":"a@gamil.com"}
+7.9.2025, 8:39:28 - INFO - /api/stay | GET | {} | {}
+7.9.2025, 8:39:28 - INFO - db.service -> getting collection: | stay
+7.9.2025, 8:39:28 - INFO - db.service -> using existing connection
+7.9.2025, 8:39:28 - INFO - db.service -> collection obtained successfully: | stay
+7.9.2025, 8:39:30 - INFO - attachLoggedinUser -> cookies: | {"loginToken":"b9cfc40dca777b03cff0ecae3ff36f061eb2e3c611e973887ad6a73d277f3a052d43971535b78b5331e6e2b3145fd82579f2edecc9bb2a58c37cbb29ac13a73c8d37a52c95a0bd44b453f2ac71f7f775985393b268789b04e3cc9804a7b4f4e8a3fb4dc46cd28d7f69a52919e76ee08d4130d9866a8705fcc77561cb60f147aab639cfd4408c33f2e8bf8a70fe0119969c258b3d81fc837c3550f3124c1d13f16ae356082c820e1c793975fdec1068df22b08cf61d240d48ad2482f18d43dca69c"}
+7.9.2025, 8:39:30 - INFO - attachLoggedinUser -> user from token: | {"_id":"68b994063ce285bfed886a7f","fullname":"Olivia Rose","isAdmin":false,"email":"a@gamil.com"}
+7.9.2025, 8:39:32 - INFO - attachLoggedinUser -> cookies: | {}
+7.9.2025, 8:39:32 - INFO - attachLoggedinUser -> cookies: | {}
+7.9.2025, 8:39:32 - INFO - db.service -> getting collection: | stay
+7.9.2025, 8:39:32 - INFO - /api/stay | GET | {} | {}
+7.9.2025, 8:39:32 - INFO - db.service -> using existing connection
+7.9.2025, 8:39:32 - INFO - db.service -> collection obtained successfully: | stay
+7.9.2025, 8:39:41 - INFO - attachLoggedinUser -> cookies: | {}
+7.9.2025, 8:39:41 - DEBUG - auth.service - login with username: David Andrew
+7.9.2025, 8:39:41 - INFO - db.service -> collection obtained successfully: | user
+7.9.2025, 8:39:41 - INFO - db.service -> getting collection: | user
+7.9.2025, 8:39:41 - INFO - attachLoggedinUser -> cookies: | {}
+7.9.2025, 8:39:41 - INFO - db.service -> using existing connection
+7.9.2025, 8:39:41 - INFO - User login:  | {"_id":"68b994673ce285bfed886a81","username":"David Andrew","fullname":"David Andrew","imgUrl":"https://res.cloudinary.com/vanilla-test-images/image/upload/v1756992602/exoz4b9x3gl5mobsitzd.avif","isAdmin":false,"email":"a@gamil.com"}
+7.9.2025, 8:39:41 - INFO - attachLoggedinUser -> cookies: | {}
+7.9.2025, 8:39:41 - INFO - attachLoggedinUser -> cookies: | {"loginToken":"f17df4f271e0e917252f34e89bd5664a3ffd1f5f15933d6f44befbe509b05ebc4d4bf01ee4213aa2d83fd6a45866398a872eb57a072930ad1aa1aad06f8788a8669fd8f47444daebc59ca1659df675a81e57a7d56ae5472f82c4f9e3351ffb2da5569b8819cfd4a3e32ed4e773da8cb778e8b3d47ba23c7f462cde3c4cfee0f306e49dd3c5d05fbe0bf4b9cfeb86e8e97f534393137e7ec019b7b22fb49713c7a83d8c87f51004627d0ecc7b6a500a6d6d14b7e379c5ec76bad7642649c247bcb547"}
+7.9.2025, 8:39:41 - INFO - db.service -> getting collection: | stay
+7.9.2025, 8:39:41 - INFO - attachLoggedinUser -> user from token: | {"_id":"68b994673ce285bfed886a81","fullname":"David Andrew","isAdmin":false,"email":"a@gamil.com"}
+7.9.2025, 8:39:41 - INFO - /api/stay | GET | {} | {}
+7.9.2025, 8:39:41 - INFO - db.service -> using existing connection
+7.9.2025, 8:39:41 - INFO - db.service -> collection obtained successfully: | stay
+7.9.2025, 8:40:05 - INFO - attachLoggedinUser -> cookies: | {}
+7.9.2025, 8:40:05 - INFO - attachLoggedinUser -> cookies: | {"loginToken":"f17df4f271e0e917252f34e89bd5664a3ffd1f5f15933d6f44befbe509b05ebc4d4bf01ee4213aa2d83fd6a45866398a872eb57a072930ad1aa1aad06f8788a8669fd8f47444daebc59ca1659df675a81e57a7d56ae5472f82c4f9e3351ffb2da5569b8819cfd4a3e32ed4e773da8cb778e8b3d47ba23c7f462cde3c4cfee0f306e49dd3c5d05fbe0bf4b9cfeb86e8e97f534393137e7ec019b7b22fb49713c7a83d8c87f51004627d0ecc7b6a500a6d6d14b7e379c5ec76bad7642649c247bcb547"}
+7.9.2025, 8:40:05 - INFO - attachLoggedinUser -> user from token: | {"_id":"68b994673ce285bfed886a81","fullname":"David Andrew","isAdmin":false,"email":"a@gamil.com"}
+7.9.2025, 8:40:05 - INFO - /api/stay | GET | {} | {}
+7.9.2025, 8:40:05 - INFO - db.service -> getting collection: | stay
+7.9.2025, 8:40:05 - INFO - db.service -> using existing connection
+7.9.2025, 8:40:05 - INFO - db.service -> collection obtained successfully: | stay
+7.9.2025, 8:40:12 - INFO - attachLoggedinUser -> cookies: | {"loginToken":"f17df4f271e0e917252f34e89bd5664a3ffd1f5f15933d6f44befbe509b05ebc4d4bf01ee4213aa2d83fd6a45866398a872eb57a072930ad1aa1aad06f8788a8669fd8f47444daebc59ca1659df675a81e57a7d56ae5472f82c4f9e3351ffb2da5569b8819cfd4a3e32ed4e773da8cb778e8b3d47ba23c7f462cde3c4cfee0f306e49dd3c5d05fbe0bf4b9cfeb86e8e97f534393137e7ec019b7b22fb49713c7a83d8c87f51004627d0ecc7b6a500a6d6d14b7e379c5ec76bad7642649c247bcb547"}
+7.9.2025, 8:40:12 - INFO - attachLoggedinUser -> user from token: | {"_id":"68b994673ce285bfed886a81","fullname":"David Andrew","isAdmin":false,"email":"a@gamil.com"}
+7.9.2025, 8:40:12 - INFO - /api/stay | GET | {} | {"id":"6738ca4cae769d402b653c7d"}
+7.9.2025, 8:40:12 - INFO - db.service -> using existing connection
+7.9.2025, 8:40:12 - INFO - db.service -> getting collection: | stay
+7.9.2025, 8:40:12 - INFO - db.service -> collection obtained successfully: | stay
+7.9.2025, 8:40:14 - INFO - attachLoggedinUser -> cookies: | {}
+7.9.2025, 8:40:14 - INFO - attachLoggedinUser -> cookies: | {"loginToken":"f17df4f271e0e917252f34e89bd5664a3ffd1f5f15933d6f44befbe509b05ebc4d4bf01ee4213aa2d83fd6a45866398a872eb57a072930ad1aa1aad06f8788a8669fd8f47444daebc59ca1659df675a81e57a7d56ae5472f82c4f9e3351ffb2da5569b8819cfd4a3e32ed4e773da8cb778e8b3d47ba23c7f462cde3c4cfee0f306e49dd3c5d05fbe0bf4b9cfeb86e8e97f534393137e7ec019b7b22fb49713c7a83d8c87f51004627d0ecc7b6a500a6d6d14b7e379c5ec76bad7642649c247bcb547"}
+7.9.2025, 8:40:14 - INFO - attachLoggedinUser -> user from token: | {"_id":"68b994673ce285bfed886a81","fullname":"David Andrew","isAdmin":false,"email":"a@gamil.com"}
+7.9.2025, 8:40:14 - INFO - /api/stay | GET | {} | {}
+7.9.2025, 8:40:14 - INFO - db.service -> getting collection: | stay
+7.9.2025, 8:40:14 - INFO - db.service -> using existing connection
+7.9.2025, 8:40:14 - INFO - db.service -> collection obtained successfully: | stay
+7.9.2025, 8:40:22 - INFO - attachLoggedinUser -> cookies: | {"loginToken":"f17df4f271e0e917252f34e89bd5664a3ffd1f5f15933d6f44befbe509b05ebc4d4bf01ee4213aa2d83fd6a45866398a872eb57a072930ad1aa1aad06f8788a8669fd8f47444daebc59ca1659df675a81e57a7d56ae5472f82c4f9e3351ffb2da5569b8819cfd4a3e32ed4e773da8cb778e8b3d47ba23c7f462cde3c4cfee0f306e49dd3c5d05fbe0bf4b9cfeb86e8e97f534393137e7ec019b7b22fb49713c7a83d8c87f51004627d0ecc7b6a500a6d6d14b7e379c5ec76bad7642649c247bcb547"}
+7.9.2025, 8:40:22 - INFO - /api/stay | GET | {} | {"id":"6738ca4cae769d402b653c89"}
+7.9.2025, 8:40:22 - INFO - db.service -> using existing connection
+7.9.2025, 8:40:22 - INFO - db.service -> collection obtained successfully: | stay
+7.9.2025, 8:40:22 - INFO - db.service -> getting collection: | stay
+7.9.2025, 8:40:22 - INFO - attachLoggedinUser -> user from token: | {"_id":"68b994673ce285bfed886a81","fullname":"David Andrew","isAdmin":false,"email":"a@gamil.com"}
+7.9.2025, 8:40:24 - INFO - attachLoggedinUser -> cookies: | {"loginToken":"f17df4f271e0e917252f34e89bd5664a3ffd1f5f15933d6f44befbe509b05ebc4d4bf01ee4213aa2d83fd6a45866398a872eb57a072930ad1aa1aad06f8788a8669fd8f47444daebc59ca1659df675a81e57a7d56ae5472f82c4f9e3351ffb2da5569b8819cfd4a3e32ed4e773da8cb778e8b3d47ba23c7f462cde3c4cfee0f306e49dd3c5d05fbe0bf4b9cfeb86e8e97f534393137e7ec019b7b22fb49713c7a83d8c87f51004627d0ecc7b6a500a6d6d14b7e379c5ec76bad7642649c247bcb547"}
+7.9.2025, 8:40:24 - INFO - /api/stay | GET | {} | {"id":"6738ca4cae769d402b653c89"}
+7.9.2025, 8:40:24 - INFO - attachLoggedinUser -> user from token: | {"_id":"68b994673ce285bfed886a81","fullname":"David Andrew","isAdmin":false,"email":"a@gamil.com"}
+7.9.2025, 8:40:24 - INFO - db.service -> getting collection: | stay
+7.9.2025, 8:40:24 - INFO - db.service -> using existing connection
+7.9.2025, 8:40:24 - INFO - db.service -> collection obtained successfully: | stay
+7.9.2025, 8:40:28 - INFO - attachLoggedinUser -> cookies: | {}
+7.9.2025, 8:40:28 - INFO - attachLoggedinUser -> cookies: | {"loginToken":"f17df4f271e0e917252f34e89bd5664a3ffd1f5f15933d6f44befbe509b05ebc4d4bf01ee4213aa2d83fd6a45866398a872eb57a072930ad1aa1aad06f8788a8669fd8f47444daebc59ca1659df675a81e57a7d56ae5472f82c4f9e3351ffb2da5569b8819cfd4a3e32ed4e773da8cb778e8b3d47ba23c7f462cde3c4cfee0f306e49dd3c5d05fbe0bf4b9cfeb86e8e97f534393137e7ec019b7b22fb49713c7a83d8c87f51004627d0ecc7b6a500a6d6d14b7e379c5ec76bad7642649c247bcb547"}
+7.9.2025, 8:40:28 - INFO - db.service -> getting collection: | order
+7.9.2025, 8:40:28 - INFO - requireAuth -> authenticated user: | {"_id":"68b994673ce285bfed886a81","fullname":"David Andrew","isAdmin":false,"email":"a@gamil.com"}
+7.9.2025, 8:40:28 - INFO - attachLoggedinUser -> user from token: | {"_id":"68b994673ce285bfed886a81","fullname":"David Andrew","isAdmin":false,"email":"a@gamil.com"}
+7.9.2025, 8:40:28 - INFO - db.service -> collection obtained successfully: | order
+7.9.2025, 8:40:28 - INFO - db.service -> using existing connection
+7.9.2025, 8:40:28 - INFO - attachLoggedinUser -> cookies: | {"loginToken":"f17df4f271e0e917252f34e89bd5664a3ffd1f5f15933d6f44befbe509b05ebc4d4bf01ee4213aa2d83fd6a45866398a872eb57a072930ad1aa1aad06f8788a8669fd8f47444daebc59ca1659df675a81e57a7d56ae5472f82c4f9e3351ffb2da5569b8819cfd4a3e32ed4e773da8cb778e8b3d47ba23c7f462cde3c4cfee0f306e49dd3c5d05fbe0bf4b9cfeb86e8e97f534393137e7ec019b7b22fb49713c7a83d8c87f51004627d0ecc7b6a500a6d6d14b7e379c5ec76bad7642649c247bcb547"}
+7.9.2025, 8:40:29 - INFO - db.service -> getting collection: | order
+7.9.2025, 8:40:29 - INFO - db.service -> collection obtained successfully: | order
+7.9.2025, 8:40:29 - INFO - db.service -> using existing connection
+7.9.2025, 8:40:29 - INFO - attachLoggedinUser -> user from token: | {"_id":"68b994673ce285bfed886a81","fullname":"David Andrew","isAdmin":false,"email":"a@gamil.com"}
+7.9.2025, 8:40:30 - INFO - attachLoggedinUser -> cookies: | {}
+7.9.2025, 8:40:30 - INFO - attachLoggedinUser -> cookies: | {"loginToken":"f17df4f271e0e917252f34e89bd5664a3ffd1f5f15933d6f44befbe509b05ebc4d4bf01ee4213aa2d83fd6a45866398a872eb57a072930ad1aa1aad06f8788a8669fd8f47444daebc59ca1659df675a81e57a7d56ae5472f82c4f9e3351ffb2da5569b8819cfd4a3e32ed4e773da8cb778e8b3d47ba23c7f462cde3c4cfee0f306e49dd3c5d05fbe0bf4b9cfeb86e8e97f534393137e7ec019b7b22fb49713c7a83d8c87f51004627d0ecc7b6a500a6d6d14b7e379c5ec76bad7642649c247bcb547"}
+7.9.2025, 8:40:30 - INFO - db.service -> getting collection: | order
+7.9.2025, 8:40:30 - INFO - getOrders -> req.query: | {"hostId":"","userId":"68b994673ce285bfed886a81","guestId":"","status":""}
+7.9.2025, 8:40:30 - INFO - attachLoggedinUser -> user from token: | {"_id":"68b994673ce285bfed886a81","fullname":"David Andrew","isAdmin":false,"email":"a@gamil.com"}
+7.9.2025, 8:40:30 - INFO - db.service -> collection obtained successfully: | order
+7.9.2025, 8:40:30 - INFO - db.service -> using existing connection
+7.9.2025, 8:40:32 - INFO - attachLoggedinUser -> cookies: | {}
+7.9.2025, 8:40:32 - INFO - attachLoggedinUser -> cookies: | {"loginToken":"a00aa4c8ea5bccf9fcbd273e5b7479f4ecce2b554cd3894063d1a52dfa65034f4e8169679e59ed5791115d048baff200736760d47223789b27f8cd0f3aadb08ec9476b566287b2bc4c42dc961ca725ca3b8880c5b5b43a166be3b049fa94df0905b6470779a5a30ffa973ad15c5e8a41ae6ea7619ba0d4a1c0f9e69143fb654de1d6452c8f28ec52f2c673f5695cb69a872babe685c852d20218cb464405e4f5c6ef8985ccae3e5baf5c6227ec2efdf12ec6fc83730dc709"}
+7.9.2025, 8:40:33 - INFO - attachLoggedinUser -> user from token: | {"_id":"68b84574dbf14012587e7d1b","fullname":"Alon Ben Ari","isAdmin":null,"email":null}
+7.9.2025, 8:40:33 - INFO - db.service -> using existing connection
+7.9.2025, 8:40:33 - INFO - getOrders -> req.query: | {"hostId":"68b84574dbf14012587e7d1b","userId":"","guestId":"","status":""}
+7.9.2025, 8:40:33 - INFO - db.service -> getting collection: | order
+7.9.2025, 8:40:33 - INFO - db.service -> collection obtained successfully: | order
+7.9.2025, 8:41:26 - INFO - attachLoggedinUser -> cookies: | {}
+7.9.2025, 8:41:26 - INFO - attachLoggedinUser -> cookies: | {"loginToken":"f17df4f271e0e917252f34e89bd5664a3ffd1f5f15933d6f44befbe509b05ebc4d4bf01ee4213aa2d83fd6a45866398a872eb57a072930ad1aa1aad06f8788a8669fd8f47444daebc59ca1659df675a81e57a7d56ae5472f82c4f9e3351ffb2da5569b8819cfd4a3e32ed4e773da8cb778e8b3d47ba23c7f462cde3c4cfee0f306e49dd3c5d05fbe0bf4b9cfeb86e8e97f534393137e7ec019b7b22fb49713c7a83d8c87f51004627d0ecc7b6a500a6d6d14b7e379c5ec76bad7642649c247bcb547"}
+7.9.2025, 8:41:27 - INFO - attachLoggedinUser -> user from token: | {"_id":"68b994673ce285bfed886a81","fullname":"David Andrew","isAdmin":false,"email":"a@gamil.com"}
+7.9.2025, 8:41:27 - INFO - /api/stay | GET | {} | {}
+7.9.2025, 8:41:27 - INFO - db.service -> getting collection: | stay
+7.9.2025, 8:41:27 - INFO - db.service -> using existing connection
+7.9.2025, 8:41:27 - INFO - db.service -> collection obtained successfully: | stay
+7.9.2025, 8:41:30 - INFO - attachLoggedinUser -> user from token: | {"_id":"68b994673ce285bfed886a81","fullname":"David Andrew","isAdmin":false,"email":"a@gamil.com"}
+7.9.2025, 8:41:29 - INFO - attachLoggedinUser -> cookies: | {"loginToken":"f17df4f271e0e917252f34e89bd5664a3ffd1f5f15933d6f44befbe509b05ebc4d4bf01ee4213aa2d83fd6a45866398a872eb57a072930ad1aa1aad06f8788a8669fd8f47444daebc59ca1659df675a81e57a7d56ae5472f82c4f9e3351ffb2da5569b8819cfd4a3e32ed4e773da8cb778e8b3d47ba23c7f462cde3c4cfee0f306e49dd3c5d05fbe0bf4b9cfeb86e8e97f534393137e7ec019b7b22fb49713c7a83d8c87f51004627d0ecc7b6a500a6d6d14b7e379c5ec76bad7642649c247bcb547"}
+7.9.2025, 8:41:31 - INFO - attachLoggedinUser -> cookies: | {}
+7.9.2025, 8:41:31 - INFO - attachLoggedinUser -> cookies: | {}
+7.9.2025, 8:41:31 - INFO - db.service -> getting collection: | stay
+7.9.2025, 8:41:31 - INFO - db.service -> collection obtained successfully: | stay
+7.9.2025, 8:41:31 - INFO - db.service -> using existing connection
+7.9.2025, 8:41:31 - INFO - /api/stay | GET | {} | {}
+7.9.2025, 8:42:12 - INFO - attachLoggedinUser -> cookies: | {"loginToken":"a00aa4c8ea5bccf9fcbd273e5b7479f4ecce2b554cd3894063d1a52dfa65034f4e8169679e59ed5791115d048baff200736760d47223789b27f8cd0f3aadb08ec9476b566287b2bc4c42dc961ca725ca3b8880c5b5b43a166be3b049fa94df0905b6470779a5a30ffa973ad15c5e8a41ae6ea7619ba0d4a1c0f9e69143fb654de1d6452c8f28ec52f2c673f5695cb69a872babe685c852d20218cb464405e4f5c6ef8985ccae3e5baf5c6227ec2efdf12ec6fc83730dc709"}
+7.9.2025, 8:42:12 - INFO - attachLoggedinUser -> user from token: | {"_id":"68b84574dbf14012587e7d1b","fullname":"Alon Ben Ari","isAdmin":null,"email":null}
+7.9.2025, 8:42:12 - INFO - db.service -> getting collection: | order
+7.9.2025, 8:42:12 - INFO - db.service -> using existing connection
+7.9.2025, 8:42:12 - INFO - db.service -> collection obtained successfully: | order
+7.9.2025, 8:42:12 - INFO - attachLoggedinUser -> cookies: | {}
+7.9.2025, 8:42:12 - INFO - attachLoggedinUser -> cookies: | {"loginToken":"a00aa4c8ea5bccf9fcbd273e5b7479f4ecce2b554cd3894063d1a52dfa65034f4e8169679e59ed5791115d048baff200736760d47223789b27f8cd0f3aadb08ec9476b566287b2bc4c42dc961ca725ca3b8880c5b5b43a166be3b049fa94df0905b6470779a5a30ffa973ad15c5e8a41ae6ea7619ba0d4a1c0f9e69143fb654de1d6452c8f28ec52f2c673f5695cb69a872babe685c852d20218cb464405e4f5c6ef8985ccae3e5baf5c6227ec2efdf12ec6fc83730dc709"}
+7.9.2025, 8:42:13 - INFO - attachLoggedinUser -> user from token: | {"_id":"68b84574dbf14012587e7d1b","fullname":"Alon Ben Ari","isAdmin":null,"email":null}
+7.9.2025, 8:42:13 - INFO - requireAuth -> authenticated user: | {"_id":"68b84574dbf14012587e7d1b","fullname":"Alon Ben Ari","isAdmin":null,"email":null}
+7.9.2025, 8:42:13 - INFO - db.service -> using existing connection
+7.9.2025, 8:42:13 - INFO - db.service -> collection obtained successfully: | order
+7.9.2025, 8:42:13 - INFO - db.service -> getting collection: | order
+7.9.2025, 8:42:13 - INFO - attachLoggedinUser -> cookies: | {}
+7.9.2025, 8:42:13 - INFO - attachLoggedinUser -> cookies: | {"loginToken":"a00aa4c8ea5bccf9fcbd273e5b7479f4ecce2b554cd3894063d1a52dfa65034f4e8169679e59ed5791115d048baff200736760d47223789b27f8cd0f3aadb08ec9476b566287b2bc4c42dc961ca725ca3b8880c5b5b43a166be3b049fa94df0905b6470779a5a30ffa973ad15c5e8a41ae6ea7619ba0d4a1c0f9e69143fb654de1d6452c8f28ec52f2c673f5695cb69a872babe685c852d20218cb464405e4f5c6ef8985ccae3e5baf5c6227ec2efdf12ec6fc83730dc709"}
+7.9.2025, 8:42:13 - INFO - getOrders -> req.query: | {"hostId":"68b84574dbf14012587e7d1b","userId":"","guestId":"","status":""}
+7.9.2025, 8:42:13 - INFO - attachLoggedinUser -> user from token: | {"_id":"68b84574dbf14012587e7d1b","fullname":"Alon Ben Ari","isAdmin":null,"email":null}
+7.9.2025, 8:42:13 - INFO - db.service -> using existing connection
+7.9.2025, 8:42:13 - INFO - db.service -> getting collection: | order
+7.9.2025, 8:42:13 - INFO - db.service -> collection obtained successfully: | order
+7.9.2025, 8:42:27 - INFO - attachLoggedinUser -> user from token: | {"_id":"68b84574dbf14012587e7d1b","fullname":"Alon Ben Ari","isAdmin":null,"email":null}
+7.9.2025, 8:42:27 - INFO - attachLoggedinUser -> cookies: | {"loginToken":"a00aa4c8ea5bccf9fcbd273e5b7479f4ecce2b554cd3894063d1a52dfa65034f4e8169679e59ed5791115d048baff200736760d47223789b27f8cd0f3aadb08ec9476b566287b2bc4c42dc961ca725ca3b8880c5b5b43a166be3b049fa94df0905b6470779a5a30ffa973ad15c5e8a41ae6ea7619ba0d4a1c0f9e69143fb654de1d6452c8f28ec52f2c673f5695cb69a872babe685c852d20218cb464405e4f5c6ef8985ccae3e5baf5c6227ec2efdf12ec6fc83730dc709"}
+7.9.2025, 8:42:27 - INFO - db.service -> using existing connection
+7.9.2025, 8:42:27 - INFO - db.service -> collection obtained successfully: | order
+7.9.2025, 8:42:27 - INFO - db.service -> getting collection: | order
+7.9.2025, 8:42:27 - INFO - attachLoggedinUser -> cookies: | {}
+7.9.2025, 8:42:27 - INFO - attachLoggedinUser -> user from token: | {"_id":"68b84574dbf14012587e7d1b","fullname":"Alon Ben Ari","isAdmin":null,"email":null}
+7.9.2025, 8:42:27 - INFO - attachLoggedinUser -> cookies: | {"loginToken":"a00aa4c8ea5bccf9fcbd273e5b7479f4ecce2b554cd3894063d1a52dfa65034f4e8169679e59ed5791115d048baff200736760d47223789b27f8cd0f3aadb08ec9476b566287b2bc4c42dc961ca725ca3b8880c5b5b43a166be3b049fa94df0905b6470779a5a30ffa973ad15c5e8a41ae6ea7619ba0d4a1c0f9e69143fb654de1d6452c8f28ec52f2c673f5695cb69a872babe685c852d20218cb464405e4f5c6ef8985ccae3e5baf5c6227ec2efdf12ec6fc83730dc709"}
+7.9.2025, 8:42:27 - INFO - requireAuth -> authenticated user: | {"_id":"68b84574dbf14012587e7d1b","fullname":"Alon Ben Ari","isAdmin":null,"email":null}
+7.9.2025, 8:42:27 - INFO - db.service -> getting collection: | order
+7.9.2025, 8:42:27 - INFO - db.service -> using existing connection
+7.9.2025, 8:42:27 - INFO - db.service -> collection obtained successfully: | order
+7.9.2025, 8:42:27 - INFO - attachLoggedinUser -> cookies: | {}
+7.9.2025, 8:42:27 - INFO - attachLoggedinUser -> cookies: | {"loginToken":"a00aa4c8ea5bccf9fcbd273e5b7479f4ecce2b554cd3894063d1a52dfa65034f4e8169679e59ed5791115d048baff200736760d47223789b27f8cd0f3aadb08ec9476b566287b2bc4c42dc961ca725ca3b8880c5b5b43a166be3b049fa94df0905b6470779a5a30ffa973ad15c5e8a41ae6ea7619ba0d4a1c0f9e69143fb654de1d6452c8f28ec52f2c673f5695cb69a872babe685c852d20218cb464405e4f5c6ef8985ccae3e5baf5c6227ec2efdf12ec6fc83730dc709"}
+7.9.2025, 8:42:28 - INFO - attachLoggedinUser -> user from token: | {"_id":"68b84574dbf14012587e7d1b","fullname":"Alon Ben Ari","isAdmin":null,"email":null}
+7.9.2025, 8:42:28 - INFO - getOrders -> req.query: | {"hostId":"68b84574dbf14012587e7d1b","userId":"","guestId":"","status":""}
+7.9.2025, 8:42:28 - INFO - db.service -> getting collection: | order
+7.9.2025, 8:42:28 - INFO - db.service -> using existing connection
+7.9.2025, 8:42:28 - INFO - db.service -> collection obtained successfully: | order
+7.9.2025, 8:42:34 - INFO - attachLoggedinUser -> cookies: | {"loginToken":"a00aa4c8ea5bccf9fcbd273e5b7479f4ecce2b554cd3894063d1a52dfa65034f4e8169679e59ed5791115d048baff200736760d47223789b27f8cd0f3aadb08ec9476b566287b2bc4c42dc961ca725ca3b8880c5b5b43a166be3b049fa94df0905b6470779a5a30ffa973ad15c5e8a41ae6ea7619ba0d4a1c0f9e69143fb654de1d6452c8f28ec52f2c673f5695cb69a872babe685c852d20218cb464405e4f5c6ef8985ccae3e5baf5c6227ec2efdf12ec6fc83730dc709"}
+7.9.2025, 8:42:34 - INFO - attachLoggedinUser -> user from token: | {"_id":"68b84574dbf14012587e7d1b","fullname":"Alon Ben Ari","isAdmin":null,"email":null}
+7.9.2025, 8:42:34 - INFO - db.service -> using existing connection
+7.9.2025, 8:42:34 - INFO - db.service -> getting collection: | order
+7.9.2025, 8:42:34 - INFO - db.service -> collection obtained successfully: | order
+7.9.2025, 8:42:34 - INFO - attachLoggedinUser -> cookies: | {}
+7.9.2025, 8:42:34 - INFO - attachLoggedinUser -> user from token: | {"_id":"68b84574dbf14012587e7d1b","fullname":"Alon Ben Ari","isAdmin":null,"email":null}
+7.9.2025, 8:42:34 - INFO - attachLoggedinUser -> cookies: | {"loginToken":"a00aa4c8ea5bccf9fcbd273e5b7479f4ecce2b554cd3894063d1a52dfa65034f4e8169679e59ed5791115d048baff200736760d47223789b27f8cd0f3aadb08ec9476b566287b2bc4c42dc961ca725ca3b8880c5b5b43a166be3b049fa94df0905b6470779a5a30ffa973ad15c5e8a41ae6ea7619ba0d4a1c0f9e69143fb654de1d6452c8f28ec52f2c673f5695cb69a872babe685c852d20218cb464405e4f5c6ef8985ccae3e5baf5c6227ec2efdf12ec6fc83730dc709"}
+7.9.2025, 8:42:34 - INFO - db.service -> getting collection: | order
+7.9.2025, 8:42:34 - INFO - requireAuth -> authenticated user: | {"_id":"68b84574dbf14012587e7d1b","fullname":"Alon Ben Ari","isAdmin":null,"email":null}
+7.9.2025, 8:42:34 - INFO - db.service -> collection obtained successfully: | order
+7.9.2025, 8:42:34 - INFO - db.service -> using existing connection
+7.9.2025, 8:42:34 - INFO - attachLoggedinUser -> cookies: | {}
+7.9.2025, 8:42:34 - INFO - attachLoggedinUser -> cookies: | {"loginToken":"a00aa4c8ea5bccf9fcbd273e5b7479f4ecce2b554cd3894063d1a52dfa65034f4e8169679e59ed5791115d048baff200736760d47223789b27f8cd0f3aadb08ec9476b566287b2bc4c42dc961ca725ca3b8880c5b5b43a166be3b049fa94df0905b6470779a5a30ffa973ad15c5e8a41ae6ea7619ba0d4a1c0f9e69143fb654de1d6452c8f28ec52f2c673f5695cb69a872babe685c852d20218cb464405e4f5c6ef8985ccae3e5baf5c6227ec2efdf12ec6fc83730dc709"}
+7.9.2025, 8:42:35 - INFO - attachLoggedinUser -> user from token: | {"_id":"68b84574dbf14012587e7d1b","fullname":"Alon Ben Ari","isAdmin":null,"email":null}
+7.9.2025, 8:42:35 - INFO - db.service -> getting collection: | order
+7.9.2025, 8:42:35 - INFO - getOrders -> req.query: | {"hostId":"68b84574dbf14012587e7d1b","userId":"","guestId":"","status":""}
+7.9.2025, 8:42:35 - INFO - db.service -> collection obtained successfully: | order
+7.9.2025, 8:42:35 - INFO - db.service -> using existing connection
+7.9.2025, 8:43:06 - INFO - attachLoggedinUser -> cookies: | {"loginToken":"a00aa4c8ea5bccf9fcbd273e5b7479f4ecce2b554cd3894063d1a52dfa65034f4e8169679e59ed5791115d048baff200736760d47223789b27f8cd0f3aadb08ec9476b566287b2bc4c42dc961ca725ca3b8880c5b5b43a166be3b049fa94df0905b6470779a5a30ffa973ad15c5e8a41ae6ea7619ba0d4a1c0f9e69143fb654de1d6452c8f28ec52f2c673f5695cb69a872babe685c852d20218cb464405e4f5c6ef8985ccae3e5baf5c6227ec2efdf12ec6fc83730dc709"}
+7.9.2025, 8:43:06 - INFO - attachLoggedinUser -> user from token: | {"_id":"68b84574dbf14012587e7d1b","fullname":"Alon Ben Ari","isAdmin":null,"email":null}
+7.9.2025, 8:43:06 - INFO - db.service -> getting collection: | order
+7.9.2025, 8:43:06 - INFO - db.service -> collection obtained successfully: | order
+7.9.2025, 8:43:06 - INFO - db.service -> using existing connection
+7.9.2025, 8:43:06 - INFO - attachLoggedinUser -> cookies: | {}
+7.9.2025, 8:43:06 - INFO - attachLoggedinUser -> user from token: | {"_id":"68b84574dbf14012587e7d1b","fullname":"Alon Ben Ari","isAdmin":null,"email":null}
+7.9.2025, 8:43:06 - INFO - attachLoggedinUser -> cookies: | {"loginToken":"a00aa4c8ea5bccf9fcbd273e5b7479f4ecce2b554cd3894063d1a52dfa65034f4e8169679e59ed5791115d048baff200736760d47223789b27f8cd0f3aadb08ec9476b566287b2bc4c42dc961ca725ca3b8880c5b5b43a166be3b049fa94df0905b6470779a5a30ffa973ad15c5e8a41ae6ea7619ba0d4a1c0f9e69143fb654de1d6452c8f28ec52f2c673f5695cb69a872babe685c852d20218cb464405e4f5c6ef8985ccae3e5baf5c6227ec2efdf12ec6fc83730dc709"}
+7.9.2025, 8:43:06 - INFO - db.service -> using existing connection
+7.9.2025, 8:43:06 - INFO - db.service -> getting collection: | order
+7.9.2025, 8:43:06 - INFO - requireAuth -> authenticated user: | {"_id":"68b84574dbf14012587e7d1b","fullname":"Alon Ben Ari","isAdmin":null,"email":null}
+7.9.2025, 8:43:06 - INFO - db.service -> collection obtained successfully: | order
+7.9.2025, 8:43:06 - INFO - attachLoggedinUser -> cookies: | {}
+7.9.2025, 8:43:06 - INFO - attachLoggedinUser -> cookies: | {"loginToken":"a00aa4c8ea5bccf9fcbd273e5b7479f4ecce2b554cd3894063d1a52dfa65034f4e8169679e59ed5791115d048baff200736760d47223789b27f8cd0f3aadb08ec9476b566287b2bc4c42dc961ca725ca3b8880c5b5b43a166be3b049fa94df0905b6470779a5a30ffa973ad15c5e8a41ae6ea7619ba0d4a1c0f9e69143fb654de1d6452c8f28ec52f2c673f5695cb69a872babe685c852d20218cb464405e4f5c6ef8985ccae3e5baf5c6227ec2efdf12ec6fc83730dc709"}
+7.9.2025, 8:43:07 - INFO - attachLoggedinUser -> user from token: | {"_id":"68b84574dbf14012587e7d1b","fullname":"Alon Ben Ari","isAdmin":null,"email":null}
+7.9.2025, 8:43:07 - INFO - getOrders -> req.query: | {"hostId":"68b84574dbf14012587e7d1b","userId":"","guestId":"","status":""}
+7.9.2025, 8:43:07 - INFO - db.service -> getting collection: | order
+7.9.2025, 8:43:07 - INFO - db.service -> using existing connection
+7.9.2025, 8:43:07 - INFO - db.service -> collection obtained successfully: | order
+7.9.2025, 8:43:40 - INFO - attachLoggedinUser -> cookies: | {}
+7.9.2025, 8:43:40 - INFO - attachLoggedinUser -> cookies: | {}
+7.9.2025, 8:43:40 - INFO - db.service -> getting collection: | stay
+7.9.2025, 8:43:40 - INFO - db.service -> collection obtained successfully: | stay
+7.9.2025, 8:43:40 - INFO - /api/stay | GET | {} | {}
+7.9.2025, 8:43:40 - INFO - db.service -> using existing connection
+7.9.2025, 8:46:35 - INFO - attachLoggedinUser -> cookies: | {}
+7.9.2025, 8:46:35 - INFO - attachLoggedinUser -> cookies: | {}
+7.9.2025, 8:46:35 - INFO - db.service -> getting collection: | stay
+7.9.2025, 8:46:35 - INFO - db.service -> collection obtained successfully: | stay
+7.9.2025, 8:46:35 - INFO - /api/stay | GET | {} | {}
+7.9.2025, 8:46:35 - INFO - db.service -> using existing connection
+7.9.2025, 8:46:51 - INFO - attachLoggedinUser -> cookies: | {}
+7.9.2025, 8:46:51 - INFO - attachLoggedinUser -> cookies: | {}
+7.9.2025, 8:46:51 - DEBUG - auth.service - login with username: Ohad Fefer
+7.9.2025, 8:46:51 - INFO - db.service -> collection obtained successfully: | user
+7.9.2025, 8:46:51 - INFO - db.service -> using existing connection
+7.9.2025, 8:46:51 - INFO - db.service -> getting collection: | user
+7.9.2025, 8:46:51 - INFO - User login:  | {"_id":"68bbdca8691e8bee0d064169","username":"Ohad Fefer","fullname":"Ohad Fefer","imgUrl":"https://ca.slack-edge.com/T08T1AM7L02-U08T3626FNZ-2e93d1449198-512","isAdmin":false,"email":"ohadfefer16@gmail.com"}
+7.9.2025, 8:46:51 - INFO - attachLoggedinUser -> cookies: | {}
+7.9.2025, 8:46:51 - INFO - attachLoggedinUser -> cookies: | {"loginToken":"8fcab9f77935e0b2b4c4281b3127b9ff5cb6fc326e128291c3c4c7a958ca4969a40311d16c5903c746aae70152707fd18110a5a09f9f52b87483bfed4b192c164d8cc129e02755ad21e912e0bde1e826f6df2c78839fcc68dce39868b2879b4503d845ded8b3749e6812068814bda8f486c4e6bb8c4d40547ddb6507df5972c4fab64d91b25a58b5de1d5c8685fad7238125696e20c9eb01b274a88b7efb1c833c3b12c2d27d8d1ae66353b0c6eeb1952deb601ce1b89ca9ee3e87e969478be6fe3b6e478fb7e6cdd351"}
+7.9.2025, 8:46:52 - INFO - attachLoggedinUser -> user from token: | {"_id":"68bbdca8691e8bee0d064169","fullname":"Ohad Fefer","isAdmin":false,"email":"ohadfefer16@gmail.com"}
+7.9.2025, 8:46:52 - INFO - /api/stay | GET | {} | {}
+7.9.2025, 8:46:52 - INFO - db.service -> getting collection: | stay
+7.9.2025, 8:46:52 - INFO - db.service -> using existing connection
+7.9.2025, 8:46:52 - INFO - db.service -> collection obtained successfully: | stay
+7.9.2025, 8:46:57 - INFO - attachLoggedinUser -> cookies: | {}
+7.9.2025, 8:46:57 - INFO - attachLoggedinUser -> cookies: | {"loginToken":"8fcab9f77935e0b2b4c4281b3127b9ff5cb6fc326e128291c3c4c7a958ca4969a40311d16c5903c746aae70152707fd18110a5a09f9f52b87483bfed4b192c164d8cc129e02755ad21e912e0bde1e826f6df2c78839fcc68dce39868b2879b4503d845ded8b3749e6812068814bda8f486c4e6bb8c4d40547ddb6507df5972c4fab64d91b25a58b5de1d5c8685fad7238125696e20c9eb01b274a88b7efb1c833c3b12c2d27d8d1ae66353b0c6eeb1952deb601ce1b89ca9ee3e87e969478be6fe3b6e478fb7e6cdd351"}
+7.9.2025, 8:46:57 - INFO - db.service -> getting collection: | order
+7.9.2025, 8:46:57 - INFO - db.service -> using existing connection
+7.9.2025, 8:46:57 - INFO - attachLoggedinUser -> user from token: | {"_id":"68bbdca8691e8bee0d064169","fullname":"Ohad Fefer","isAdmin":false,"email":"ohadfefer16@gmail.com"}
+7.9.2025, 8:46:57 - INFO - db.service -> collection obtained successfully: | order
+7.9.2025, 8:46:57 - INFO - getOrders -> req.query: | {"hostId":"","userId":"68bbdca8691e8bee0d064169","guestId":"","status":""}
+7.9.2025, 8:47:52 - INFO - attachLoggedinUser -> cookies: | {}
+7.9.2025, 8:47:52 - INFO - attachLoggedinUser -> cookies: | {"loginToken":"8fcab9f77935e0b2b4c4281b3127b9ff5cb6fc326e128291c3c4c7a958ca4969a40311d16c5903c746aae70152707fd18110a5a09f9f52b87483bfed4b192c164d8cc129e02755ad21e912e0bde1e826f6df2c78839fcc68dce39868b2879b4503d845ded8b3749e6812068814bda8f486c4e6bb8c4d40547ddb6507df5972c4fab64d91b25a58b5de1d5c8685fad7238125696e20c9eb01b274a88b7efb1c833c3b12c2d27d8d1ae66353b0c6eeb1952deb601ce1b89ca9ee3e87e969478be6fe3b6e478fb7e6cdd351"}
+7.9.2025, 8:47:52 - INFO - db.service -> getting collection: | user
+7.9.2025, 8:47:52 - DEBUG - auth.service - login with username: Ohad Fefer
+7.9.2025, 8:47:52 - INFO - db.service -> using existing connection
+7.9.2025, 8:47:52 - INFO - db.service -> collection obtained successfully: | user
+7.9.2025, 8:47:52 - INFO - attachLoggedinUser -> user from token: | {"_id":"68bbdca8691e8bee0d064169","fullname":"Ohad Fefer","isAdmin":false,"email":"ohadfefer16@gmail.com"}
+7.9.2025, 8:47:52 - INFO - User login:  | {"_id":"68bbdca8691e8bee0d064169","username":"Ohad Fefer","fullname":"Ohad Fefer","imgUrl":"https://ca.slack-edge.com/T08T1AM7L02-U08T3626FNZ-2e93d1449198-512","isAdmin":false,"email":"ohadfefer16@gmail.com"}
+7.9.2025, 8:47:52 - INFO - attachLoggedinUser -> cookies: | {}
+7.9.2025, 8:47:52 - INFO - attachLoggedinUser -> cookies: | {"loginToken":"3afcc97d49e91e62df871927e256021c8f5d4ccdd41974b84a1d6959409bc5dc54208ae1ea4594a25b49715cce912c33f0b7da706191ba5c85a1a003b5b94d849934faefd5003da893fbc0bfe00bba9ee9ba002af53d79d4e529989a6c21d23058579a1ee02a0f923a2128a7dbb7c76e1921f133c1a4b433e869e3781b054306db0280398df020fa786bb2e33c8be30983c837f5c5421f7c9e5a77d7e53f925b8cd514db2c5ec878ce9801bf7fb42fa614a50bdc41330675038a9c24a79ebed5f42afe0f1af5e9274176"}
+7.9.2025, 8:47:52 - INFO - attachLoggedinUser -> user from token: | {"_id":"68bbdca8691e8bee0d064169","fullname":"Ohad Fefer","isAdmin":false,"email":"ohadfefer16@gmail.com"}
+7.9.2025, 8:47:52 - INFO - /api/stay | GET | {} | {}
+7.9.2025, 8:47:52 - INFO - db.service -> getting collection: | stay
+7.9.2025, 8:47:52 - INFO - db.service -> using existing connection
+7.9.2025, 8:47:52 - INFO - db.service -> collection obtained successfully: | stay
+7.9.2025, 9:14:11 - INFO - attachLoggedinUser -> cookies: | {"loginToken":"3afcc97d49e91e62df871927e256021c8f5d4ccdd41974b84a1d6959409bc5dc54208ae1ea4594a25b49715cce912c33f0b7da706191ba5c85a1a003b5b94d849934faefd5003da893fbc0bfe00bba9ee9ba002af53d79d4e529989a6c21d23058579a1ee02a0f923a2128a7dbb7c76e1921f133c1a4b433e869e3781b054306db0280398df020fa786bb2e33c8be30983c837f5c5421f7c9e5a77d7e53f925b8cd514db2c5ec878ce9801bf7fb42fa614a50bdc41330675038a9c24a79ebed5f42afe0f1af5e9274176"}
+7.9.2025, 9:14:11 - INFO - attachLoggedinUser -> user from token: | {"_id":"68bbdca8691e8bee0d064169","fullname":"Ohad Fefer","isAdmin":false,"email":"ohadfefer16@gmail.com"}
+7.9.2025, 9:14:11 - INFO - /api/stay | GET | {} | {"id":"6738ca4cae769d402b653d12"}
+7.9.2025, 9:14:11 - INFO - db.service -> getting collection: | stay
+7.9.2025, 9:14:11 - INFO - db.service -> using existing connection
+7.9.2025, 9:14:12 - INFO - db.service -> collection obtained successfully: | stay
+7.9.2025, 9:14:18 - INFO - attachLoggedinUser -> cookies: | {}
+7.9.2025, 9:14:19 - INFO - attachLoggedinUser -> cookies: | {"loginToken":"3afcc97d49e91e62df871927e256021c8f5d4ccdd41974b84a1d6959409bc5dc54208ae1ea4594a25b49715cce912c33f0b7da706191ba5c85a1a003b5b94d849934faefd5003da893fbc0bfe00bba9ee9ba002af53d79d4e529989a6c21d23058579a1ee02a0f923a2128a7dbb7c76e1921f133c1a4b433e869e3781b054306db0280398df020fa786bb2e33c8be30983c837f5c5421f7c9e5a77d7e53f925b8cd514db2c5ec878ce9801bf7fb42fa614a50bdc41330675038a9c24a79ebed5f42afe0f1af5e9274176"}
+7.9.2025, 9:14:19 - INFO - attachLoggedinUser -> user from token: | {"_id":"68bbdca8691e8bee0d064169","fullname":"Ohad Fefer","isAdmin":false,"email":"ohadfefer16@gmail.com"}
+7.9.2025, 9:14:19 - INFO - /api/stay | GET | {} | {}
+7.9.2025, 9:14:20 - INFO - db.service -> getting collection: | stay
+7.9.2025, 9:14:20 - INFO - db.service -> using existing connection
+7.9.2025, 9:14:20 - INFO - db.service -> collection obtained successfully: | stay
+7.9.2025, 9:14:26 - INFO - attachLoggedinUser -> cookies: | {}
+7.9.2025, 9:14:26 - INFO - attachLoggedinUser -> cookies: | {"loginToken":"3afcc97d49e91e62df871927e256021c8f5d4ccdd41974b84a1d6959409bc5dc54208ae1ea4594a25b49715cce912c33f0b7da706191ba5c85a1a003b5b94d849934faefd5003da893fbc0bfe00bba9ee9ba002af53d79d4e529989a6c21d23058579a1ee02a0f923a2128a7dbb7c76e1921f133c1a4b433e869e3781b054306db0280398df020fa786bb2e33c8be30983c837f5c5421f7c9e5a77d7e53f925b8cd514db2c5ec878ce9801bf7fb42fa614a50bdc41330675038a9c24a79ebed5f42afe0f1af5e9274176"}
+7.9.2025, 9:14:26 - INFO - attachLoggedinUser -> user from token: | {"_id":"68bbdca8691e8bee0d064169","fullname":"Ohad Fefer","isAdmin":false,"email":"ohadfefer16@gmail.com"}
+7.9.2025, 9:14:26 - INFO - /api/stay | GET | {} | {}
+7.9.2025, 9:14:26 - INFO - db.service -> getting collection: | stay
+7.9.2025, 9:14:26 - INFO - db.service -> using existing connection
+7.9.2025, 9:14:26 - INFO - db.service -> collection obtained successfully: | stay
+7.9.2025, 9:14:28 - INFO - attachLoggedinUser -> cookies: | {}
+7.9.2025, 9:14:28 - INFO - attachLoggedinUser -> cookies: | {"loginToken":"3afcc97d49e91e62df871927e256021c8f5d4ccdd41974b84a1d6959409bc5dc54208ae1ea4594a25b49715cce912c33f0b7da706191ba5c85a1a003b5b94d849934faefd5003da893fbc0bfe00bba9ee9ba002af53d79d4e529989a6c21d23058579a1ee02a0f923a2128a7dbb7c76e1921f133c1a4b433e869e3781b054306db0280398df020fa786bb2e33c8be30983c837f5c5421f7c9e5a77d7e53f925b8cd514db2c5ec878ce9801bf7fb42fa614a50bdc41330675038a9c24a79ebed5f42afe0f1af5e9274176"}
+7.9.2025, 9:14:29 - INFO - db.service -> using existing connection
+7.9.2025, 9:14:29 - INFO - db.service -> collection obtained successfully: | order
+7.9.2025, 9:14:29 - INFO - attachLoggedinUser -> user from token: | {"_id":"68bbdca8691e8bee0d064169","fullname":"Ohad Fefer","isAdmin":false,"email":"ohadfefer16@gmail.com"}
+7.9.2025, 9:14:29 - INFO - getOrders -> req.query: | {"hostId":"","userId":"68bbdca8691e8bee0d064169","guestId":"","status":""}
+7.9.2025, 9:14:29 - INFO - db.service -> getting collection: | order
+7.9.2025, 9:14:30 - INFO - attachLoggedinUser -> cookies: | {}
+7.9.2025, 9:14:30 - INFO - attachLoggedinUser -> cookies: | {"loginToken":"a00aa4c8ea5bccf9fcbd273e5b7479f4ecce2b554cd3894063d1a52dfa65034f4e8169679e59ed5791115d048baff200736760d47223789b27f8cd0f3aadb08ec9476b566287b2bc4c42dc961ca725ca3b8880c5b5b43a166be3b049fa94df0905b6470779a5a30ffa973ad15c5e8a41ae6ea7619ba0d4a1c0f9e69143fb654de1d6452c8f28ec52f2c673f5695cb69a872babe685c852d20218cb464405e4f5c6ef8985ccae3e5baf5c6227ec2efdf12ec6fc83730dc709"}
+7.9.2025, 9:14:30 - INFO - attachLoggedinUser -> user from token: | {"_id":"68b84574dbf14012587e7d1b","fullname":"Alon Ben Ari","isAdmin":null,"email":null}
+7.9.2025, 9:14:30 - INFO - getOrders -> req.query: | {"hostId":"68b84574dbf14012587e7d1b","userId":"","guestId":"","status":""}
+7.9.2025, 9:14:30 - INFO - db.service -> getting collection: | order
+7.9.2025, 9:14:30 - INFO - db.service -> using existing connection
+7.9.2025, 9:14:30 - INFO - db.service -> collection obtained successfully: | order
+7.9.2025, 9:15:23 - INFO - attachLoggedinUser -> cookies: | {}
+7.9.2025, 9:15:24 - INFO - attachLoggedinUser -> user from token: | {"_id":"68bbdca8691e8bee0d064169","fullname":"Ohad Fefer","isAdmin":false,"email":"ohadfefer16@gmail.com"}
+7.9.2025, 9:15:23 - INFO - attachLoggedinUser -> cookies: | {"loginToken":"3afcc97d49e91e62df871927e256021c8f5d4ccdd41974b84a1d6959409bc5dc54208ae1ea4594a25b49715cce912c33f0b7da706191ba5c85a1a003b5b94d849934faefd5003da893fbc0bfe00bba9ee9ba002af53d79d4e529989a6c21d23058579a1ee02a0f923a2128a7dbb7c76e1921f133c1a4b433e869e3781b054306db0280398df020fa786bb2e33c8be30983c837f5c5421f7c9e5a77d7e53f925b8cd514db2c5ec878ce9801bf7fb42fa614a50bdc41330675038a9c24a79ebed5f42afe0f1af5e9274176"}
+7.9.2025, 9:15:24 - INFO - /api/stay | GET | {} | {}
+7.9.2025, 9:15:24 - INFO - db.service -> getting collection: | stay
+7.9.2025, 9:15:24 - INFO - db.service -> using existing connection
+7.9.2025, 9:15:24 - INFO - db.service -> collection obtained successfully: | stay
+7.9.2025, 9:15:38 - INFO - attachLoggedinUser -> cookies: | {}
+7.9.2025, 9:15:38 - INFO - attachLoggedinUser -> cookies: | {"loginToken":"3afcc97d49e91e62df871927e256021c8f5d4ccdd41974b84a1d6959409bc5dc54208ae1ea4594a25b49715cce912c33f0b7da706191ba5c85a1a003b5b94d849934faefd5003da893fbc0bfe00bba9ee9ba002af53d79d4e529989a6c21d23058579a1ee02a0f923a2128a7dbb7c76e1921f133c1a4b433e869e3781b054306db0280398df020fa786bb2e33c8be30983c837f5c5421f7c9e5a77d7e53f925b8cd514db2c5ec878ce9801bf7fb42fa614a50bdc41330675038a9c24a79ebed5f42afe0f1af5e9274176"}
+7.9.2025, 9:15:39 - INFO - attachLoggedinUser -> user from token: | {"_id":"68bbdca8691e8bee0d064169","fullname":"Ohad Fefer","isAdmin":false,"email":"ohadfefer16@gmail.com"}
+7.9.2025, 9:15:39 - INFO - /api/stay | GET | {} | {}
+7.9.2025, 9:15:39 - INFO - db.service -> getting collection: | stay
+7.9.2025, 9:15:39 - INFO - db.service -> using existing connection
+7.9.2025, 9:15:39 - INFO - db.service -> collection obtained successfully: | stay
+7.9.2025, 9:16:10 - INFO - attachLoggedinUser -> user from token: | {"_id":"68bbdca8691e8bee0d064169","fullname":"Ohad Fefer","isAdmin":false,"email":"ohadfefer16@gmail.com"}
+7.9.2025, 9:16:10 - INFO - attachLoggedinUser -> cookies: | {"loginToken":"3afcc97d49e91e62df871927e256021c8f5d4ccdd41974b84a1d6959409bc5dc54208ae1ea4594a25b49715cce912c33f0b7da706191ba5c85a1a003b5b94d849934faefd5003da893fbc0bfe00bba9ee9ba002af53d79d4e529989a6c21d23058579a1ee02a0f923a2128a7dbb7c76e1921f133c1a4b433e869e3781b054306db0280398df020fa786bb2e33c8be30983c837f5c5421f7c9e5a77d7e53f925b8cd514db2c5ec878ce9801bf7fb42fa614a50bdc41330675038a9c24a79ebed5f42afe0f1af5e9274176"}
+7.9.2025, 9:16:10 - INFO - /api/stay | GET | {} | {"id":"6738ca4cae769d402b653c7c"}
+7.9.2025, 9:16:10 - INFO - db.service -> getting collection: | stay
+7.9.2025, 9:16:10 - INFO - db.service -> using existing connection
+7.9.2025, 9:16:10 - INFO - db.service -> collection obtained successfully: | stay
+7.9.2025, 9:16:27 - INFO - attachLoggedinUser -> cookies: | {"loginToken":"3afcc97d49e91e62df871927e256021c8f5d4ccdd41974b84a1d6959409bc5dc54208ae1ea4594a25b49715cce912c33f0b7da706191ba5c85a1a003b5b94d849934faefd5003da893fbc0bfe00bba9ee9ba002af53d79d4e529989a6c21d23058579a1ee02a0f923a2128a7dbb7c76e1921f133c1a4b433e869e3781b054306db0280398df020fa786bb2e33c8be30983c837f5c5421f7c9e5a77d7e53f925b8cd514db2c5ec878ce9801bf7fb42fa614a50bdc41330675038a9c24a79ebed5f42afe0f1af5e9274176"}
+7.9.2025, 9:16:28 - INFO - attachLoggedinUser -> user from token: | {"_id":"68bbdca8691e8bee0d064169","fullname":"Ohad Fefer","isAdmin":false,"email":"ohadfefer16@gmail.com"}
+7.9.2025, 9:16:28 - INFO - /api/stay | GET | {} | {"id":"6738ca4cae769d402b653c7c"}
+7.9.2025, 9:16:28 - INFO - db.service -> getting collection: | stay
+7.9.2025, 9:16:28 - INFO - db.service -> using existing connection
+7.9.2025, 9:16:28 - INFO - db.service -> collection obtained successfully: | stay
+7.9.2025, 9:16:43 - INFO - attachLoggedinUser -> cookies: | {"loginToken":"3afcc97d49e91e62df871927e256021c8f5d4ccdd41974b84a1d6959409bc5dc54208ae1ea4594a25b49715cce912c33f0b7da706191ba5c85a1a003b5b94d849934faefd5003da893fbc0bfe00bba9ee9ba002af53d79d4e529989a6c21d23058579a1ee02a0f923a2128a7dbb7c76e1921f133c1a4b433e869e3781b054306db0280398df020fa786bb2e33c8be30983c837f5c5421f7c9e5a77d7e53f925b8cd514db2c5ec878ce9801bf7fb42fa614a50bdc41330675038a9c24a79ebed5f42afe0f1af5e9274176"}
+7.9.2025, 9:16:43 - INFO - attachLoggedinUser -> user from token: | {"_id":"68bbdca8691e8bee0d064169","fullname":"Ohad Fefer","isAdmin":false,"email":"ohadfefer16@gmail.com"}
+7.9.2025, 9:16:43 - INFO - /api/stay | GET | {} | {"id":"6738ca4cae769d402b653c7c"}
+7.9.2025, 9:16:43 - INFO - db.service -> getting collection: | stay
+7.9.2025, 9:16:43 - INFO - db.service -> collection obtained successfully: | stay
+7.9.2025, 9:16:43 - INFO - db.service -> using existing connection
+7.9.2025, 9:17:59 - INFO - attachLoggedinUser -> cookies: | {"loginToken":"3afcc97d49e91e62df871927e256021c8f5d4ccdd41974b84a1d6959409bc5dc54208ae1ea4594a25b49715cce912c33f0b7da706191ba5c85a1a003b5b94d849934faefd5003da893fbc0bfe00bba9ee9ba002af53d79d4e529989a6c21d23058579a1ee02a0f923a2128a7dbb7c76e1921f133c1a4b433e869e3781b054306db0280398df020fa786bb2e33c8be30983c837f5c5421f7c9e5a77d7e53f925b8cd514db2c5ec878ce9801bf7fb42fa614a50bdc41330675038a9c24a79ebed5f42afe0f1af5e9274176"}
+7.9.2025, 9:18:00 - INFO - attachLoggedinUser -> user from token: | {"_id":"68bbdca8691e8bee0d064169","fullname":"Ohad Fefer","isAdmin":false,"email":"ohadfefer16@gmail.com"}
+7.9.2025, 9:18:00 - INFO - /api/stay | GET | {} | {"id":"6738ca4cae769d402b653c7c"}
+7.9.2025, 9:18:00 - INFO - db.service -> collection obtained successfully: | stay
+7.9.2025, 9:18:00 - INFO - db.service -> using existing connection
+7.9.2025, 9:18:00 - INFO - db.service -> getting collection: | stay
+7.9.2025, 9:18:02 - INFO - attachLoggedinUser -> cookies: | {}
+7.9.2025, 9:18:02 - INFO - attachLoggedinUser -> cookies: | {"loginToken":"3afcc97d49e91e62df871927e256021c8f5d4ccdd41974b84a1d6959409bc5dc54208ae1ea4594a25b49715cce912c33f0b7da706191ba5c85a1a003b5b94d849934faefd5003da893fbc0bfe00bba9ee9ba002af53d79d4e529989a6c21d23058579a1ee02a0f923a2128a7dbb7c76e1921f133c1a4b433e869e3781b054306db0280398df020fa786bb2e33c8be30983c837f5c5421f7c9e5a77d7e53f925b8cd514db2c5ec878ce9801bf7fb42fa614a50bdc41330675038a9c24a79ebed5f42afe0f1af5e9274176"}
+7.9.2025, 9:18:02 - INFO - attachLoggedinUser -> user from token: | {"_id":"68bbdca8691e8bee0d064169","fullname":"Ohad Fefer","isAdmin":false,"email":"ohadfefer16@gmail.com"}
+7.9.2025, 9:18:02 - INFO - requireAuth -> authenticated user: | {"_id":"68bbdca8691e8bee0d064169","fullname":"Ohad Fefer","isAdmin":false,"email":"ohadfefer16@gmail.com"}
+7.9.2025, 9:18:02 - INFO - db.service -> using existing connection
+7.9.2025, 9:18:02 - INFO - db.service -> collection obtained successfully: | order
+7.9.2025, 9:18:02 - INFO - db.service -> getting collection: | order
+7.9.2025, 9:18:03 - INFO - attachLoggedinUser -> cookies: | {"loginToken":"3afcc97d49e91e62df871927e256021c8f5d4ccdd41974b84a1d6959409bc5dc54208ae1ea4594a25b49715cce912c33f0b7da706191ba5c85a1a003b5b94d849934faefd5003da893fbc0bfe00bba9ee9ba002af53d79d4e529989a6c21d23058579a1ee02a0f923a2128a7dbb7c76e1921f133c1a4b433e869e3781b054306db0280398df020fa786bb2e33c8be30983c837f5c5421f7c9e5a77d7e53f925b8cd514db2c5ec878ce9801bf7fb42fa614a50bdc41330675038a9c24a79ebed5f42afe0f1af5e9274176"}
+7.9.2025, 9:18:03 - INFO - db.service -> getting collection: | order
+7.9.2025, 9:18:03 - INFO - attachLoggedinUser -> user from token: | {"_id":"68bbdca8691e8bee0d064169","fullname":"Ohad Fefer","isAdmin":false,"email":"ohadfefer16@gmail.com"}
+7.9.2025, 9:18:03 - INFO - db.service -> collection obtained successfully: | order
+7.9.2025, 9:18:03 - INFO - db.service -> using existing connection
+7.9.2025, 9:18:04 - INFO - attachLoggedinUser -> cookies: | {}
+7.9.2025, 9:18:04 - INFO - attachLoggedinUser -> cookies: | {"loginToken":"3afcc97d49e91e62df871927e256021c8f5d4ccdd41974b84a1d6959409bc5dc54208ae1ea4594a25b49715cce912c33f0b7da706191ba5c85a1a003b5b94d849934faefd5003da893fbc0bfe00bba9ee9ba002af53d79d4e529989a6c21d23058579a1ee02a0f923a2128a7dbb7c76e1921f133c1a4b433e869e3781b054306db0280398df020fa786bb2e33c8be30983c837f5c5421f7c9e5a77d7e53f925b8cd514db2c5ec878ce9801bf7fb42fa614a50bdc41330675038a9c24a79ebed5f42afe0f1af5e9274176"}
+7.9.2025, 9:18:04 - INFO - getOrders -> req.query: | {"hostId":"","userId":"68bbdca8691e8bee0d064169","guestId":"","status":""}
+7.9.2025, 9:18:04 - INFO - db.service -> getting collection: | order
+7.9.2025, 9:18:04 - INFO - attachLoggedinUser -> user from token: | {"_id":"68bbdca8691e8bee0d064169","fullname":"Ohad Fefer","isAdmin":false,"email":"ohadfefer16@gmail.com"}
+7.9.2025, 9:18:04 - INFO - db.service -> using existing connection
+7.9.2025, 9:18:04 - INFO - db.service -> collection obtained successfully: | order
+7.9.2025, 9:19:48 - INFO - attachLoggedinUser -> cookies: | {}
+7.9.2025, 9:19:48 - INFO - attachLoggedinUser -> cookies: | {"loginToken":"3afcc97d49e91e62df871927e256021c8f5d4ccdd41974b84a1d6959409bc5dc54208ae1ea4594a25b49715cce912c33f0b7da706191ba5c85a1a003b5b94d849934faefd5003da893fbc0bfe00bba9ee9ba002af53d79d4e529989a6c21d23058579a1ee02a0f923a2128a7dbb7c76e1921f133c1a4b433e869e3781b054306db0280398df020fa786bb2e33c8be30983c837f5c5421f7c9e5a77d7e53f925b8cd514db2c5ec878ce9801bf7fb42fa614a50bdc41330675038a9c24a79ebed5f42afe0f1af5e9274176"}
+7.9.2025, 9:19:48 - INFO - getOrders -> req.query: | {"hostId":"","userId":"68bbdca8691e8bee0d064169","guestId":"","status":""}
+7.9.2025, 9:19:48 - INFO - attachLoggedinUser -> user from token: | {"_id":"68bbdca8691e8bee0d064169","fullname":"Ohad Fefer","isAdmin":false,"email":"ohadfefer16@gmail.com"}
+7.9.2025, 9:19:48 - INFO - db.service -> getting collection: | order
+7.9.2025, 9:19:48 - INFO - db.service -> using existing connection
+7.9.2025, 9:19:48 - INFO - db.service -> collection obtained successfully: | order
+7.9.2025, 9:19:50 - INFO - attachLoggedinUser -> cookies: | {}
+7.9.2025, 9:19:50 - INFO - attachLoggedinUser -> cookies: | {"loginToken":"a00aa4c8ea5bccf9fcbd273e5b7479f4ecce2b554cd3894063d1a52dfa65034f4e8169679e59ed5791115d048baff200736760d47223789b27f8cd0f3aadb08ec9476b566287b2bc4c42dc961ca725ca3b8880c5b5b43a166be3b049fa94df0905b6470779a5a30ffa973ad15c5e8a41ae6ea7619ba0d4a1c0f9e69143fb654de1d6452c8f28ec52f2c673f5695cb69a872babe685c852d20218cb464405e4f5c6ef8985ccae3e5baf5c6227ec2efdf12ec6fc83730dc709"}
+7.9.2025, 9:19:51 - INFO - attachLoggedinUser -> user from token: | {"_id":"68b84574dbf14012587e7d1b","fullname":"Alon Ben Ari","isAdmin":null,"email":null}
+7.9.2025, 9:19:51 - INFO - db.service -> using existing connection
+7.9.2025, 9:19:51 - INFO - db.service -> collection obtained successfully: | order
+7.9.2025, 9:19:51 - INFO - getOrders -> req.query: | {"hostId":"68b84574dbf14012587e7d1b","userId":"","guestId":"","status":""}
+7.9.2025, 9:19:51 - INFO - db.service -> getting collection: | order
+7.9.2025, 9:20:48 - INFO - attachLoggedinUser -> cookies: | {"loginToken":"a00aa4c8ea5bccf9fcbd273e5b7479f4ecce2b554cd3894063d1a52dfa65034f4e8169679e59ed5791115d048baff200736760d47223789b27f8cd0f3aadb08ec9476b566287b2bc4c42dc961ca725ca3b8880c5b5b43a166be3b049fa94df0905b6470779a5a30ffa973ad15c5e8a41ae6ea7619ba0d4a1c0f9e69143fb654de1d6452c8f28ec52f2c673f5695cb69a872babe685c852d20218cb464405e4f5c6ef8985ccae3e5baf5c6227ec2efdf12ec6fc83730dc709"}
+7.9.2025, 9:20:49 - INFO - attachLoggedinUser -> user from token: | {"_id":"68b84574dbf14012587e7d1b","fullname":"Alon Ben Ari","isAdmin":null,"email":null}
+7.9.2025, 9:20:49 - INFO - db.service -> getting collection: | order
+7.9.2025, 9:20:49 - INFO - db.service -> using existing connection
+7.9.2025, 9:20:49 - INFO - db.service -> collection obtained successfully: | order
+7.9.2025, 9:20:49 - INFO - attachLoggedinUser -> cookies: | {}
+7.9.2025, 9:20:49 - INFO - attachLoggedinUser -> cookies: | {"loginToken":"a00aa4c8ea5bccf9fcbd273e5b7479f4ecce2b554cd3894063d1a52dfa65034f4e8169679e59ed5791115d048baff200736760d47223789b27f8cd0f3aadb08ec9476b566287b2bc4c42dc961ca725ca3b8880c5b5b43a166be3b049fa94df0905b6470779a5a30ffa973ad15c5e8a41ae6ea7619ba0d4a1c0f9e69143fb654de1d6452c8f28ec52f2c673f5695cb69a872babe685c852d20218cb464405e4f5c6ef8985ccae3e5baf5c6227ec2efdf12ec6fc83730dc709"}
+7.9.2025, 9:20:49 - INFO - getOrders -> req.query: | {"hostId":"68b84574dbf14012587e7d1b","userId":"","guestId":"","status":""}
+7.9.2025, 9:20:49 - INFO - attachLoggedinUser -> user from token: | {"_id":"68b84574dbf14012587e7d1b","fullname":"Alon Ben Ari","isAdmin":null,"email":null}
+7.9.2025, 9:20:49 - INFO - db.service -> using existing connection
+7.9.2025, 9:20:49 - INFO - db.service -> collection obtained successfully: | order
+7.9.2025, 9:20:49 - INFO - db.service -> getting collection: | order
+7.9.2025, 9:20:52 - INFO - attachLoggedinUser -> cookies: | {"loginToken":"a00aa4c8ea5bccf9fcbd273e5b7479f4ecce2b554cd3894063d1a52dfa65034f4e8169679e59ed5791115d048baff200736760d47223789b27f8cd0f3aadb08ec9476b566287b2bc4c42dc961ca725ca3b8880c5b5b43a166be3b049fa94df0905b6470779a5a30ffa973ad15c5e8a41ae6ea7619ba0d4a1c0f9e69143fb654de1d6452c8f28ec52f2c673f5695cb69a872babe685c852d20218cb464405e4f5c6ef8985ccae3e5baf5c6227ec2efdf12ec6fc83730dc709"}
+7.9.2025, 9:20:52 - INFO - attachLoggedinUser -> user from token: | {"_id":"68b84574dbf14012587e7d1b","fullname":"Alon Ben Ari","isAdmin":null,"email":null}
+7.9.2025, 9:20:52 - INFO - db.service -> getting collection: | order
+7.9.2025, 9:20:52 - INFO - db.service -> using existing connection
+7.9.2025, 9:20:52 - INFO - db.service -> collection obtained successfully: | order
+7.9.2025, 9:20:52 - INFO - attachLoggedinUser -> cookies: | {}
+7.9.2025, 9:20:52 - INFO - attachLoggedinUser -> cookies: | {"loginToken":"a00aa4c8ea5bccf9fcbd273e5b7479f4ecce2b554cd3894063d1a52dfa65034f4e8169679e59ed5791115d048baff200736760d47223789b27f8cd0f3aadb08ec9476b566287b2bc4c42dc961ca725ca3b8880c5b5b43a166be3b049fa94df0905b6470779a5a30ffa973ad15c5e8a41ae6ea7619ba0d4a1c0f9e69143fb654de1d6452c8f28ec52f2c673f5695cb69a872babe685c852d20218cb464405e4f5c6ef8985ccae3e5baf5c6227ec2efdf12ec6fc83730dc709"}
+7.9.2025, 9:20:52 - INFO - attachLoggedinUser -> user from token: | {"_id":"68b84574dbf14012587e7d1b","fullname":"Alon Ben Ari","isAdmin":null,"email":null}
+7.9.2025, 9:20:53 - INFO - db.service -> getting collection: | order
+7.9.2025, 9:20:53 - INFO - requireAuth -> authenticated user: | {"_id":"68b84574dbf14012587e7d1b","fullname":"Alon Ben Ari","isAdmin":null,"email":null}
+7.9.2025, 9:20:53 - INFO - db.service -> using existing connection
+7.9.2025, 9:20:53 - INFO - db.service -> collection obtained successfully: | order
+7.9.2025, 9:20:54 - INFO - attachLoggedinUser -> cookies: | {"loginToken":"a00aa4c8ea5bccf9fcbd273e5b7479f4ecce2b554cd3894063d1a52dfa65034f4e8169679e59ed5791115d048baff200736760d47223789b27f8cd0f3aadb08ec9476b566287b2bc4c42dc961ca725ca3b8880c5b5b43a166be3b049fa94df0905b6470779a5a30ffa973ad15c5e8a41ae6ea7619ba0d4a1c0f9e69143fb654de1d6452c8f28ec52f2c673f5695cb69a872babe685c852d20218cb464405e4f5c6ef8985ccae3e5baf5c6227ec2efdf12ec6fc83730dc709"}
+7.9.2025, 9:20:54 - INFO - attachLoggedinUser -> user from token: | {"_id":"68b84574dbf14012587e7d1b","fullname":"Alon Ben Ari","isAdmin":null,"email":null}
+7.9.2025, 9:20:54 - INFO - db.service -> using existing connection
+7.9.2025, 9:20:54 - INFO - getOrders -> req.query: | {"hostId":"68b84574dbf14012587e7d1b","userId":"","guestId":"","status":""}
+7.9.2025, 9:20:54 - INFO - db.service -> getting collection: | order
+7.9.2025, 9:20:54 - INFO - db.service -> collection obtained successfully: | order
+7.9.2025, 9:20:57 - INFO - attachLoggedinUser -> cookies: | {}
+7.9.2025, 9:20:57 - INFO - attachLoggedinUser -> user from token: | {"_id":"68bbdca8691e8bee0d064169","fullname":"Ohad Fefer","isAdmin":false,"email":"ohadfefer16@gmail.com"}
+7.9.2025, 9:20:57 - INFO - attachLoggedinUser -> cookies: | {"loginToken":"3afcc97d49e91e62df871927e256021c8f5d4ccdd41974b84a1d6959409bc5dc54208ae1ea4594a25b49715cce912c33f0b7da706191ba5c85a1a003b5b94d849934faefd5003da893fbc0bfe00bba9ee9ba002af53d79d4e529989a6c21d23058579a1ee02a0f923a2128a7dbb7c76e1921f133c1a4b433e869e3781b054306db0280398df020fa786bb2e33c8be30983c837f5c5421f7c9e5a77d7e53f925b8cd514db2c5ec878ce9801bf7fb42fa614a50bdc41330675038a9c24a79ebed5f42afe0f1af5e9274176"}
+7.9.2025, 9:20:57 - INFO - getOrders -> req.query: | {"hostId":"","userId":"68bbdca8691e8bee0d064169","guestId":"","status":""}
+7.9.2025, 9:20:57 - INFO - db.service -> getting collection: | order
+7.9.2025, 9:20:57 - INFO - db.service -> collection obtained successfully: | order
+7.9.2025, 9:20:57 - INFO - db.service -> using existing connection
+7.9.2025, 9:21:51 - INFO - attachLoggedinUser -> cookies: | {}
+7.9.2025, 9:21:51 - INFO - attachLoggedinUser -> cookies: | {"loginToken":"3afcc97d49e91e62df871927e256021c8f5d4ccdd41974b84a1d6959409bc5dc54208ae1ea4594a25b49715cce912c33f0b7da706191ba5c85a1a003b5b94d849934faefd5003da893fbc0bfe00bba9ee9ba002af53d79d4e529989a6c21d23058579a1ee02a0f923a2128a7dbb7c76e1921f133c1a4b433e869e3781b054306db0280398df020fa786bb2e33c8be30983c837f5c5421f7c9e5a77d7e53f925b8cd514db2c5ec878ce9801bf7fb42fa614a50bdc41330675038a9c24a79ebed5f42afe0f1af5e9274176"}
+7.9.2025, 9:21:51 - INFO - attachLoggedinUser -> user from token: | {"_id":"68bbdca8691e8bee0d064169","fullname":"Ohad Fefer","isAdmin":false,"email":"ohadfefer16@gmail.com"}
+7.9.2025, 9:21:51 - INFO - /api/stay | GET | {} | {}
+7.9.2025, 9:21:51 - INFO - db.service -> getting collection: | stay
+7.9.2025, 9:21:51 - INFO - db.service -> using existing connection
+7.9.2025, 9:21:51 - INFO - db.service -> collection obtained successfully: | stay
+7.9.2025, 9:21:53 - INFO - attachLoggedinUser -> cookies: | {}
+7.9.2025, 9:21:53 - INFO - attachLoggedinUser -> cookies: | {"loginToken":"3afcc97d49e91e62df871927e256021c8f5d4ccdd41974b84a1d6959409bc5dc54208ae1ea4594a25b49715cce912c33f0b7da706191ba5c85a1a003b5b94d849934faefd5003da893fbc0bfe00bba9ee9ba002af53d79d4e529989a6c21d23058579a1ee02a0f923a2128a7dbb7c76e1921f133c1a4b433e869e3781b054306db0280398df020fa786bb2e33c8be30983c837f5c5421f7c9e5a77d7e53f925b8cd514db2c5ec878ce9801bf7fb42fa614a50bdc41330675038a9c24a79ebed5f42afe0f1af5e9274176"}
+7.9.2025, 9:21:54 - INFO - attachLoggedinUser -> user from token: | {"_id":"68bbdca8691e8bee0d064169","fullname":"Ohad Fefer","isAdmin":false,"email":"ohadfefer16@gmail.com"}
+7.9.2025, 9:21:54 - INFO - /api/stay | GET | {} | {}
+7.9.2025, 9:21:54 - INFO - db.service -> getting collection: | stay
+7.9.2025, 9:21:54 - INFO - db.service -> using existing connection
+7.9.2025, 9:21:54 - INFO - db.service -> collection obtained successfully: | stay
+7.9.2025, 9:22:02 - INFO - attachLoggedinUser -> cookies: | {}
+7.9.2025, 9:22:02 - INFO - attachLoggedinUser -> cookies: | {"loginToken":"3afcc97d49e91e62df871927e256021c8f5d4ccdd41974b84a1d6959409bc5dc54208ae1ea4594a25b49715cce912c33f0b7da706191ba5c85a1a003b5b94d849934faefd5003da893fbc0bfe00bba9ee9ba002af53d79d4e529989a6c21d23058579a1ee02a0f923a2128a7dbb7c76e1921f133c1a4b433e869e3781b054306db0280398df020fa786bb2e33c8be30983c837f5c5421f7c9e5a77d7e53f925b8cd514db2c5ec878ce9801bf7fb42fa614a50bdc41330675038a9c24a79ebed5f42afe0f1af5e9274176"}
+7.9.2025, 9:22:03 - INFO - attachLoggedinUser -> user from token: | {"_id":"68bbdca8691e8bee0d064169","fullname":"Ohad Fefer","isAdmin":false,"email":"ohadfefer16@gmail.com"}
+7.9.2025, 9:22:03 - INFO - /api/stay | GET | {} | {}
+7.9.2025, 9:22:03 - INFO - db.service -> getting collection: | stay
+7.9.2025, 9:22:03 - INFO - db.service -> using existing connection
+7.9.2025, 9:22:03 - INFO - db.service -> collection obtained successfully: | stay
+7.9.2025, 9:22:06 - INFO - attachLoggedinUser -> cookies: | {"loginToken":"3afcc97d49e91e62df871927e256021c8f5d4ccdd41974b84a1d6959409bc5dc54208ae1ea4594a25b49715cce912c33f0b7da706191ba5c85a1a003b5b94d849934faefd5003da893fbc0bfe00bba9ee9ba002af53d79d4e529989a6c21d23058579a1ee02a0f923a2128a7dbb7c76e1921f133c1a4b433e869e3781b054306db0280398df020fa786bb2e33c8be30983c837f5c5421f7c9e5a77d7e53f925b8cd514db2c5ec878ce9801bf7fb42fa614a50bdc41330675038a9c24a79ebed5f42afe0f1af5e9274176"}
+7.9.2025, 9:22:07 - INFO - /api/stay | GET | {} | {"id":"6738ca4cae769d402b653c7c"}
+7.9.2025, 9:22:07 - INFO - attachLoggedinUser -> user from token: | {"_id":"68bbdca8691e8bee0d064169","fullname":"Ohad Fefer","isAdmin":false,"email":"ohadfefer16@gmail.com"}
+7.9.2025, 9:22:07 - INFO - db.service -> getting collection: | stay
+7.9.2025, 9:22:07 - INFO - db.service -> collection obtained successfully: | stay
+7.9.2025, 9:22:07 - INFO - db.service -> using existing connection
+7.9.2025, 9:22:16 - INFO - attachLoggedinUser -> cookies: | {"loginToken":"3afcc97d49e91e62df871927e256021c8f5d4ccdd41974b84a1d6959409bc5dc54208ae1ea4594a25b49715cce912c33f0b7da706191ba5c85a1a003b5b94d849934faefd5003da893fbc0bfe00bba9ee9ba002af53d79d4e529989a6c21d23058579a1ee02a0f923a2128a7dbb7c76e1921f133c1a4b433e869e3781b054306db0280398df020fa786bb2e33c8be30983c837f5c5421f7c9e5a77d7e53f925b8cd514db2c5ec878ce9801bf7fb42fa614a50bdc41330675038a9c24a79ebed5f42afe0f1af5e9274176"}
+7.9.2025, 9:22:17 - INFO - attachLoggedinUser -> user from token: | {"_id":"68bbdca8691e8bee0d064169","fullname":"Ohad Fefer","isAdmin":false,"email":"ohadfefer16@gmail.com"}
+7.9.2025, 9:22:17 - INFO - /api/stay | GET | {} | {"id":"6738ca4cae769d402b653c7c"}
+7.9.2025, 9:22:17 - INFO - db.service -> getting collection: | stay
+7.9.2025, 9:22:17 - INFO - db.service -> using existing connection
+7.9.2025, 9:22:17 - INFO - db.service -> collection obtained successfully: | stay
+7.9.2025, 9:22:21 - INFO - attachLoggedinUser -> cookies: | {}
+7.9.2025, 9:22:21 - INFO - attachLoggedinUser -> cookies: | {"loginToken":"3afcc97d49e91e62df871927e256021c8f5d4ccdd41974b84a1d6959409bc5dc54208ae1ea4594a25b49715cce912c33f0b7da706191ba5c85a1a003b5b94d849934faefd5003da893fbc0bfe00bba9ee9ba002af53d79d4e529989a6c21d23058579a1ee02a0f923a2128a7dbb7c76e1921f133c1a4b433e869e3781b054306db0280398df020fa786bb2e33c8be30983c837f5c5421f7c9e5a77d7e53f925b8cd514db2c5ec878ce9801bf7fb42fa614a50bdc41330675038a9c24a79ebed5f42afe0f1af5e9274176"}
+7.9.2025, 9:22:22 - INFO - db.service -> getting collection: | order
+7.9.2025, 9:22:22 - INFO - requireAuth -> authenticated user: | {"_id":"68bbdca8691e8bee0d064169","fullname":"Ohad Fefer","isAdmin":false,"email":"ohadfefer16@gmail.com"}
+7.9.2025, 9:22:22 - INFO - db.service -> using existing connection
+7.9.2025, 9:22:22 - INFO - attachLoggedinUser -> user from token: | {"_id":"68bbdca8691e8bee0d064169","fullname":"Ohad Fefer","isAdmin":false,"email":"ohadfefer16@gmail.com"}
+7.9.2025, 9:22:22 - INFO - db.service -> collection obtained successfully: | order
+7.9.2025, 9:22:22 - INFO - attachLoggedinUser -> cookies: | {"loginToken":"3afcc97d49e91e62df871927e256021c8f5d4ccdd41974b84a1d6959409bc5dc54208ae1ea4594a25b49715cce912c33f0b7da706191ba5c85a1a003b5b94d849934faefd5003da893fbc0bfe00bba9ee9ba002af53d79d4e529989a6c21d23058579a1ee02a0f923a2128a7dbb7c76e1921f133c1a4b433e869e3781b054306db0280398df020fa786bb2e33c8be30983c837f5c5421f7c9e5a77d7e53f925b8cd514db2c5ec878ce9801bf7fb42fa614a50bdc41330675038a9c24a79ebed5f42afe0f1af5e9274176"}
+7.9.2025, 9:22:22 - INFO - attachLoggedinUser -> user from token: | {"_id":"68bbdca8691e8bee0d064169","fullname":"Ohad Fefer","isAdmin":false,"email":"ohadfefer16@gmail.com"}
+7.9.2025, 9:22:22 - INFO - db.service -> collection obtained successfully: | order
+7.9.2025, 9:22:22 - INFO - db.service -> getting collection: | order
+7.9.2025, 9:22:22 - INFO - db.service -> using existing connection
+7.9.2025, 9:22:23 - INFO - attachLoggedinUser -> cookies: | {}
+7.9.2025, 9:22:23 - INFO - attachLoggedinUser -> cookies: | {"loginToken":"3afcc97d49e91e62df871927e256021c8f5d4ccdd41974b84a1d6959409bc5dc54208ae1ea4594a25b49715cce912c33f0b7da706191ba5c85a1a003b5b94d849934faefd5003da893fbc0bfe00bba9ee9ba002af53d79d4e529989a6c21d23058579a1ee02a0f923a2128a7dbb7c76e1921f133c1a4b433e869e3781b054306db0280398df020fa786bb2e33c8be30983c837f5c5421f7c9e5a77d7e53f925b8cd514db2c5ec878ce9801bf7fb42fa614a50bdc41330675038a9c24a79ebed5f42afe0f1af5e9274176"}
+7.9.2025, 9:22:23 - INFO - db.service -> getting collection: | order
+7.9.2025, 9:22:23 - INFO - attachLoggedinUser -> user from token: | {"_id":"68bbdca8691e8bee0d064169","fullname":"Ohad Fefer","isAdmin":false,"email":"ohadfefer16@gmail.com"}
+7.9.2025, 9:22:23 - INFO - getOrders -> req.query: | {"hostId":"","userId":"68bbdca8691e8bee0d064169","guestId":"","status":""}
+7.9.2025, 9:22:23 - INFO - db.service -> collection obtained successfully: | order
+7.9.2025, 9:22:23 - INFO - db.service -> using existing connection
+7.9.2025, 9:22:30 - INFO - attachLoggedinUser -> cookies: | {}
+7.9.2025, 9:22:30 - INFO - attachLoggedinUser -> cookies: | {"loginToken":"3afcc97d49e91e62df871927e256021c8f5d4ccdd41974b84a1d6959409bc5dc54208ae1ea4594a25b49715cce912c33f0b7da706191ba5c85a1a003b5b94d849934faefd5003da893fbc0bfe00bba9ee9ba002af53d79d4e529989a6c21d23058579a1ee02a0f923a2128a7dbb7c76e1921f133c1a4b433e869e3781b054306db0280398df020fa786bb2e33c8be30983c837f5c5421f7c9e5a77d7e53f925b8cd514db2c5ec878ce9801bf7fb42fa614a50bdc41330675038a9c24a79ebed5f42afe0f1af5e9274176"}
+7.9.2025, 9:22:30 - INFO - db.service -> getting collection: | order
+7.9.2025, 9:22:30 - INFO - getOrders -> req.query: | {"hostId":"","userId":"68bbdca8691e8bee0d064169","guestId":"","status":""}
+7.9.2025, 9:22:30 - INFO - attachLoggedinUser -> user from token: | {"_id":"68bbdca8691e8bee0d064169","fullname":"Ohad Fefer","isAdmin":false,"email":"ohadfefer16@gmail.com"}
+7.9.2025, 9:22:30 - INFO - db.service -> collection obtained successfully: | order
+7.9.2025, 9:22:30 - INFO - db.service -> using existing connection
+7.9.2025, 9:22:31 - INFO - attachLoggedinUser -> cookies: | {}
+7.9.2025, 9:22:31 - INFO - attachLoggedinUser -> cookies: | {"loginToken":"a00aa4c8ea5bccf9fcbd273e5b7479f4ecce2b554cd3894063d1a52dfa65034f4e8169679e59ed5791115d048baff200736760d47223789b27f8cd0f3aadb08ec9476b566287b2bc4c42dc961ca725ca3b8880c5b5b43a166be3b049fa94df0905b6470779a5a30ffa973ad15c5e8a41ae6ea7619ba0d4a1c0f9e69143fb654de1d6452c8f28ec52f2c673f5695cb69a872babe685c852d20218cb464405e4f5c6ef8985ccae3e5baf5c6227ec2efdf12ec6fc83730dc709"}
+7.9.2025, 9:22:31 - INFO - attachLoggedinUser -> user from token: | {"_id":"68b84574dbf14012587e7d1b","fullname":"Alon Ben Ari","isAdmin":null,"email":null}
+7.9.2025, 9:22:31 - INFO - getOrders -> req.query: | {"hostId":"68b84574dbf14012587e7d1b","userId":"","guestId":"","status":""}
+7.9.2025, 9:22:31 - INFO - db.service -> using existing connection
+7.9.2025, 9:22:31 - INFO - db.service -> collection obtained successfully: | order
+7.9.2025, 9:22:31 - INFO - db.service -> getting collection: | order
+7.9.2025, 9:22:42 - INFO - attachLoggedinUser -> cookies: | {"loginToken":"a00aa4c8ea5bccf9fcbd273e5b7479f4ecce2b554cd3894063d1a52dfa65034f4e8169679e59ed5791115d048baff200736760d47223789b27f8cd0f3aadb08ec9476b566287b2bc4c42dc961ca725ca3b8880c5b5b43a166be3b049fa94df0905b6470779a5a30ffa973ad15c5e8a41ae6ea7619ba0d4a1c0f9e69143fb654de1d6452c8f28ec52f2c673f5695cb69a872babe685c852d20218cb464405e4f5c6ef8985ccae3e5baf5c6227ec2efdf12ec6fc83730dc709"}
+7.9.2025, 9:22:42 - INFO - attachLoggedinUser -> user from token: | {"_id":"68b84574dbf14012587e7d1b","fullname":"Alon Ben Ari","isAdmin":null,"email":null}
+7.9.2025, 9:22:42 - INFO - db.service -> getting collection: | order
+7.9.2025, 9:22:42 - INFO - db.service -> using existing connection
+7.9.2025, 9:22:42 - INFO - db.service -> collection obtained successfully: | order
+7.9.2025, 9:22:43 - INFO - attachLoggedinUser -> cookies: | {}
+7.9.2025, 9:22:43 - INFO - attachLoggedinUser -> cookies: | {"loginToken":"a00aa4c8ea5bccf9fcbd273e5b7479f4ecce2b554cd3894063d1a52dfa65034f4e8169679e59ed5791115d048baff200736760d47223789b27f8cd0f3aadb08ec9476b566287b2bc4c42dc961ca725ca3b8880c5b5b43a166be3b049fa94df0905b6470779a5a30ffa973ad15c5e8a41ae6ea7619ba0d4a1c0f9e69143fb654de1d6452c8f28ec52f2c673f5695cb69a872babe685c852d20218cb464405e4f5c6ef8985ccae3e5baf5c6227ec2efdf12ec6fc83730dc709"}
+7.9.2025, 9:22:43 - INFO - attachLoggedinUser -> user from token: | {"_id":"68b84574dbf14012587e7d1b","fullname":"Alon Ben Ari","isAdmin":null,"email":null}
+7.9.2025, 9:22:43 - INFO - requireAuth -> authenticated user: | {"_id":"68b84574dbf14012587e7d1b","fullname":"Alon Ben Ari","isAdmin":null,"email":null}
+7.9.2025, 9:22:43 - INFO - db.service -> getting collection: | order
+7.9.2025, 9:22:43 - INFO - db.service -> using existing connection
+7.9.2025, 9:22:43 - INFO - db.service -> collection obtained successfully: | order
+7.9.2025, 9:22:43 - INFO - attachLoggedinUser -> cookies: | {}
+7.9.2025, 9:22:44 - INFO - attachLoggedinUser -> cookies: | {"loginToken":"a00aa4c8ea5bccf9fcbd273e5b7479f4ecce2b554cd3894063d1a52dfa65034f4e8169679e59ed5791115d048baff200736760d47223789b27f8cd0f3aadb08ec9476b566287b2bc4c42dc961ca725ca3b8880c5b5b43a166be3b049fa94df0905b6470779a5a30ffa973ad15c5e8a41ae6ea7619ba0d4a1c0f9e69143fb654de1d6452c8f28ec52f2c673f5695cb69a872babe685c852d20218cb464405e4f5c6ef8985ccae3e5baf5c6227ec2efdf12ec6fc83730dc709"}
+7.9.2025, 9:22:44 - INFO - attachLoggedinUser -> user from token: | {"_id":"68b84574dbf14012587e7d1b","fullname":"Alon Ben Ari","isAdmin":null,"email":null}
+7.9.2025, 9:22:44 - INFO - getOrders -> req.query: | {"hostId":"68b84574dbf14012587e7d1b","userId":"","guestId":"","status":""}
+7.9.2025, 9:22:44 - INFO - db.service -> getting collection: | order
+7.9.2025, 9:22:44 - INFO - db.service -> using existing connection
+7.9.2025, 9:22:44 - INFO - db.service -> collection obtained successfully: | order
+7.9.2025, 9:22:47 - INFO - attachLoggedinUser -> cookies: | {}
+7.9.2025, 9:22:47 - INFO - attachLoggedinUser -> cookies: | {"loginToken":"3afcc97d49e91e62df871927e256021c8f5d4ccdd41974b84a1d6959409bc5dc54208ae1ea4594a25b49715cce912c33f0b7da706191ba5c85a1a003b5b94d849934faefd5003da893fbc0bfe00bba9ee9ba002af53d79d4e529989a6c21d23058579a1ee02a0f923a2128a7dbb7c76e1921f133c1a4b433e869e3781b054306db0280398df020fa786bb2e33c8be30983c837f5c5421f7c9e5a77d7e53f925b8cd514db2c5ec878ce9801bf7fb42fa614a50bdc41330675038a9c24a79ebed5f42afe0f1af5e9274176"}
+7.9.2025, 9:22:47 - INFO - db.service -> getting collection: | order
+7.9.2025, 9:22:47 - INFO - attachLoggedinUser -> user from token: | {"_id":"68bbdca8691e8bee0d064169","fullname":"Ohad Fefer","isAdmin":false,"email":"ohadfefer16@gmail.com"}
+7.9.2025, 9:22:47 - INFO - db.service -> using existing connection
+7.9.2025, 9:22:47 - INFO - db.service -> collection obtained successfully: | order
+7.9.2025, 9:22:47 - INFO - getOrders -> req.query: | {"hostId":"","userId":"68bbdca8691e8bee0d064169","guestId":"","status":""}
+7.9.2025, 9:27:38 - INFO - attachLoggedinUser -> cookies: | {}
+7.9.2025, 9:27:38 - INFO - attachLoggedinUser -> cookies: | {"loginToken":"3afcc97d49e91e62df871927e256021c8f5d4ccdd41974b84a1d6959409bc5dc54208ae1ea4594a25b49715cce912c33f0b7da706191ba5c85a1a003b5b94d849934faefd5003da893fbc0bfe00bba9ee9ba002af53d79d4e529989a6c21d23058579a1ee02a0f923a2128a7dbb7c76e1921f133c1a4b433e869e3781b054306db0280398df020fa786bb2e33c8be30983c837f5c5421f7c9e5a77d7e53f925b8cd514db2c5ec878ce9801bf7fb42fa614a50bdc41330675038a9c24a79ebed5f42afe0f1af5e9274176"}
+7.9.2025, 9:27:39 - INFO - attachLoggedinUser -> user from token: | {"_id":"68bbdca8691e8bee0d064169","fullname":"Ohad Fefer","isAdmin":false,"email":"ohadfefer16@gmail.com"}
+7.9.2025, 9:27:39 - INFO - getOrders -> req.query: | {"hostId":"","userId":"68bbdca8691e8bee0d064169","guestId":"","status":""}
+7.9.2025, 9:27:39 - INFO - db.service -> getting collection: | order
+7.9.2025, 9:27:39 - INFO - db.service -> using existing connection
+7.9.2025, 9:27:39 - INFO - db.service -> collection obtained successfully: | order
+7.9.2025, 9:29:46 - INFO - attachLoggedinUser -> cookies: | {}
+7.9.2025, 9:29:46 - INFO - attachLoggedinUser -> cookies: | {"loginToken":"3afcc97d49e91e62df871927e256021c8f5d4ccdd41974b84a1d6959409bc5dc54208ae1ea4594a25b49715cce912c33f0b7da706191ba5c85a1a003b5b94d849934faefd5003da893fbc0bfe00bba9ee9ba002af53d79d4e529989a6c21d23058579a1ee02a0f923a2128a7dbb7c76e1921f133c1a4b433e869e3781b054306db0280398df020fa786bb2e33c8be30983c837f5c5421f7c9e5a77d7e53f925b8cd514db2c5ec878ce9801bf7fb42fa614a50bdc41330675038a9c24a79ebed5f42afe0f1af5e9274176"}
+7.9.2025, 9:29:46 - INFO - attachLoggedinUser -> user from token: | {"_id":"68bbdca8691e8bee0d064169","fullname":"Ohad Fefer","isAdmin":false,"email":"ohadfefer16@gmail.com"}
+7.9.2025, 9:29:46 - INFO - getOrders -> req.query: | {"hostId":"","userId":"68bbdca8691e8bee0d064169","guestId":"","status":""}
+7.9.2025, 9:29:46 - INFO - db.service -> getting collection: | order
+7.9.2025, 9:29:46 - INFO - db.service -> using existing connection
+7.9.2025, 9:29:46 - INFO - db.service -> collection obtained successfully: | order
+7.9.2025, 9:30:11 - INFO - attachLoggedinUser -> cookies: | {}
+7.9.2025, 9:30:11 - INFO - attachLoggedinUser -> cookies: | {"loginToken":"3afcc97d49e91e62df871927e256021c8f5d4ccdd41974b84a1d6959409bc5dc54208ae1ea4594a25b49715cce912c33f0b7da706191ba5c85a1a003b5b94d849934faefd5003da893fbc0bfe00bba9ee9ba002af53d79d4e529989a6c21d23058579a1ee02a0f923a2128a7dbb7c76e1921f133c1a4b433e869e3781b054306db0280398df020fa786bb2e33c8be30983c837f5c5421f7c9e5a77d7e53f925b8cd514db2c5ec878ce9801bf7fb42fa614a50bdc41330675038a9c24a79ebed5f42afe0f1af5e9274176"}
+7.9.2025, 9:30:11 - INFO - attachLoggedinUser -> user from token: | {"_id":"68bbdca8691e8bee0d064169","fullname":"Ohad Fefer","isAdmin":false,"email":"ohadfefer16@gmail.com"}
+7.9.2025, 9:30:11 - INFO - getOrders -> req.query: | {"hostId":"","userId":"68bbdca8691e8bee0d064169","guestId":"","status":""}
+7.9.2025, 9:30:11 - INFO - db.service -> getting collection: | order
+7.9.2025, 9:30:11 - INFO - db.service -> using existing connection
+7.9.2025, 9:30:11 - INFO - db.service -> collection obtained successfully: | order
