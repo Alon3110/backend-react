@@ -56,7 +56,7 @@ app.use("/api/workflows", workflowsRouter)
 
 setupSocketAPI(server)
 
-app.get('/*all', (req, res) => {
+app.get('*', (req, res) => {
     res.sendFile(path.resolve('public/index.html'))
 })
 
