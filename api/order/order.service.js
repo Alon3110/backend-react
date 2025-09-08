@@ -177,7 +177,7 @@ async function update(order) {
 
         const collection = await dbService.getCollection(COLLECTION_NAME)
         const savedOrder = await collection.updateOne({ _id: ObjectId.createFromHexString(order._id) },
-            { $set: { status: order.status } })
+            { $set: { status: "approved" } })
         return savedOrder
     } catch (err) {
         logger.error(`ERROR: cannot update order ${order._id}`)
