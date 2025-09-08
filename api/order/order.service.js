@@ -171,6 +171,7 @@ async function update(order) {
         // if (typeof orderToSave.userId === 'string' && isHex24(orderToSave.userId)) orderToSave.userId = new ObjectId(orderToSave.userId) // EDIT
         // if (typeof orderToSave.stayId === 'string' && isHex24(orderToSave.stayId)) orderToSave.stayId = new ObjectId(orderToSave.stayId) // EDIT
         // if (typeof orderToSave.hostId === 'string' && isHex24(orderToSave.hostId)) orderToSave.hostId = new ObjectId(orderToSave.hostId) // EDIT
+        console.log('order status!!!!!!!!!!!!!!', order.status)
 
         const collection = await dbService.getCollection(COLLECTION_NAME)
         const savedOrder = await collection.updateOne({ _id: ObjectId.createFromHexString(order._id) },
